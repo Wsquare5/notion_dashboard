@@ -191,10 +191,10 @@
       "match_type": "exact"
     },
     "AERO": {
-      "cmc_id": 17706,
-      "cmc_slug": "aerovek-aviation",
+      "cmc_id": 29270,
+      "cmc_slug": "aero",
       "cmc_symbol": "AERO",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "AEUR": {
       "cmc_id": 28596,
@@ -623,10 +623,10 @@
       "match_type": "exact"
     },
     "BID": {
-      "cmc_id": 7200,
-      "cmc_slug": "bidao",
+      "cmc_id": 35430,
+      "cmc_slug": "bid",
       "cmc_symbol": "BID",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "BIFI": {
       "cmc_id": 2994,
@@ -701,10 +701,10 @@
       "match_type": "exact"
     },
     "BR": {
-      "cmc_id": 11395,
-      "cmc_slug": "bohr",
+      "cmc_id": 36063,
+      "cmc_slug": "br",
       "cmc_symbol": "BR",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "BRETT": {
       "cmc_id": 28891,
@@ -983,10 +983,10 @@
       "match_type": "exact"
     },
     "DEGEN": {
-      "cmc_id": 25514,
-      "cmc_slug": "degenstogether",
+      "cmc_id": 30096,
+      "cmc_slug": "degen",
       "cmc_symbol": "DEGEN",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "DEGO": {
       "cmc_id": 7087,
@@ -1025,10 +1025,10 @@
       "match_type": "exact"
     },
     "DMC": {
-      "cmc_id": 8610,
-      "cmc_slug": "decentralized-mining-exchange",
+      "cmc_id": 36920,
+      "cmc_slug": "dmc",
       "cmc_symbol": "DMC",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "DODO": {
       "cmc_id": 7224,
@@ -1415,10 +1415,10 @@
       "match_type": "exact"
     },
     "GOAT": {
-      "cmc_id": 9069,
-      "cmc_slug": "goatcoin",
+      "cmc_id": 33440,
+      "cmc_slug": "goat",
       "cmc_symbol": "GOAT",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "GPS": {
       "cmc_id": 35268,
@@ -1973,10 +1973,10 @@
       "match_type": "exact"
     },
     "MET": {
-      "cmc_id": 2873,
-      "cmc_slug": "metronome",
+      "cmc_id": 38353,
+      "cmc_slug": "met",
       "cmc_symbol": "MET",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "METIS": {
       "cmc_id": 9640,
@@ -1991,10 +1991,10 @@
       "match_type": "exact"
     },
     "MILK": {
-      "cmc_id": 11838,
-      "cmc_slug": "milkshakeswap-finance",
+      "cmc_id": 20874,
+      "cmc_slug": "milk",
       "cmc_symbol": "Milk",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "MINA": {
       "cmc_id": 8646,
@@ -3365,10 +3365,10 @@
       "match_type": "exact"
     },
     "XCN": {
-      "cmc_id": 501,
-      "cmc_slug": "cryptonite",
+      "cmc_id": 18679,
+      "cmc_slug": "xcn",
       "cmc_symbol": "XCN",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "XEC": {
       "cmc_id": 10791,
