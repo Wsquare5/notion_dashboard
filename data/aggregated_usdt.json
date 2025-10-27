@@ -1,0 +1,4706 @@
+[
+  {
+    "base": "BTC",
+    "spot_price": 106754.18,
+    "perp_price": 106846.8,
+    "openInterest": 82279.215,
+    "market_cap": 2130327867861,
+    "fdv": 2130332569583
+  },
+  {
+    "base": "ETH",
+    "spot_price": 3865.47,
+    "perp_price": 3870.0,
+    "openInterest": 1474911.448,
+    "market_cap": 467019749634,
+    "fdv": 467019749634
+  },
+  {
+    "base": "BNB",
+    "spot_price": 1097.12,
+    "perp_price": 1103.87,
+    "openInterest": 555353.63,
+    "market_cap": 153185133191,
+    "fdv": 153185129669
+  },
+  {
+    "base": "NEO",
+    "spot_price": 5.029,
+    "perp_price": 5.051,
+    "openInterest": 1163799.08,
+    "market_cap": 355074684,
+    "fdv": 503437805
+  },
+  {
+    "base": "LTC",
+    "spot_price": 90.53,
+    "perp_price": 90.68,
+    "openInterest": 1003275.942,
+    "market_cap": 6923786567,
+    "fdv": 6923976270
+  },
+  {
+    "base": "QTUM",
+    "spot_price": 1.918,
+    "perp_price": 1.925,
+    "openInterest": 2154080.0,
+    "market_cap": 203232413,
+    "fdv": 207011249
+  },
+  {
+    "base": "ADA",
+    "spot_price": 0.6274,
+    "perp_price": 0.629,
+    "openInterest": 143260534.0,
+    "market_cap": 22958772852,
+    "fdv": 28259177987
+  },
+  {
+    "base": "XRP",
+    "spot_price": 2.3416,
+    "perp_price": 2.3473,
+    "openInterest": 184869595.2,
+    "market_cap": 140467547082,
+    "fdv": 234175135544
+  },
+  {
+    "base": "TUSD",
+    "spot_price": 0.9969,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 493964582,
+    "fdv": 493964582
+  },
+  {
+    "base": "IOTA",
+    "spot_price": 0.1391,
+    "perp_price": 0.1393,
+    "openInterest": 38012894.4,
+    "market_cap": 570302899,
+    "fdv": 658152032
+  },
+  {
+    "base": "XLM",
+    "spot_price": 0.3127,
+    "perp_price": 0.31341,
+    "openInterest": 118817220.0,
+    "market_cap": 10009847224,
+    "fdv": 15640449714
+  },
+  {
+    "base": "ONT",
+    "spot_price": 0.0941,
+    "perp_price": 0.0945,
+    "openInterest": 20267351.7,
+    "market_cap": 86720225,
+    "fdv": 94377596
+  },
+  {
+    "base": "TRX",
+    "spot_price": 0.3124,
+    "perp_price": 0.31226,
+    "openInterest": 410517212.0,
+    "market_cap": 29586188967,
+    "fdv": 29586432058
+  },
+  {
+    "base": "ETC",
+    "spot_price": 15.46,
+    "perp_price": 15.491,
+    "openInterest": 1802855.61,
+    "market_cap": 2381945968,
+    "fdv": 2381953331
+  },
+  {
+    "base": "ICX",
+    "spot_price": 0.0867,
+    "perp_price": 0.0869,
+    "openInterest": 22715251.0,
+    "market_cap": 93659722,
+    "fdv": 94990123
+  },
+  {
+    "base": "VET",
+    "spot_price": 0.01715,
+    "perp_price": 0.01721,
+    "openInterest": 378189890.0,
+    "market_cap": 1476522407,
+    "fdv": 1476522407
+  },
+  {
+    "base": "USDC",
+    "spot_price": 0.9995,
+    "perp_price": 0.998967,
+    "openInterest": 7042803.0,
+    "market_cap": 75968664216,
+    "fdv": 75969542808
+  },
+  {
+    "base": "LINK",
+    "spot_price": 16.65,
+    "perp_price": 16.666,
+    "openInterest": 6073124.15,
+    "market_cap": 11613601638,
+    "fdv": 16665856540
+  },
+  {
+    "base": "ONG",
+    "spot_price": 0.1165,
+    "perp_price": 0.11677,
+    "openInterest": 6258010.0,
+    "market_cap": 49898220,
+    "fdv": 116629898
+  },
+  {
+    "base": "HOT",
+    "spot_price": 0.000713,
+    "perp_price": 0.000701,
+    "openInterest": 3843330585.0,
+    "market_cap": 126560115,
+    "fdv": 126560115
+  },
+  {
+    "base": "ZIL",
+    "spot_price": 0.0079,
+    "perp_price": 0.00792,
+    "openInterest": 336526738.0,
+    "market_cap": 154635259,
+    "fdv": 160020765
+  },
+  {
+    "base": "ZRX",
+    "spot_price": 0.1979,
+    "perp_price": 0.1987,
+    "openInterest": 14735324.1,
+    "market_cap": 168205006,
+    "fdv": 198262244
+  },
+  {
+    "base": "FET",
+    "spot_price": 0.2604,
+    "perp_price": 0.2615,
+    "openInterest": 104264355.0,
+    "market_cap": 679065493,
+    "fdv": 707619216
+  },
+  {
+    "base": "BAT",
+    "spot_price": 0.2037,
+    "perp_price": 0.2021,
+    "openInterest": 43411777.3,
+    "market_cap": 302981281,
+    "fdv": 303853126
+  },
+  {
+    "base": "ZEC",
+    "spot_price": 215.56,
+    "perp_price": 216.0,
+    "openInterest": 348938.449,
+    "market_cap": 3518828981,
+    "fdv": 3519063883
+  },
+  {
+    "base": "IOST",
+    "spot_price": 0.002386,
+    "perp_price": 0.002389,
+    "openInterest": 756693991.0,
+    "market_cap": 68714904,
+    "fdv": 68714904
+  },
+  {
+    "base": "CELR",
+    "spot_price": 0.005564,
+    "perp_price": 0.00558,
+    "openInterest": 212484332.0,
+    "market_cap": 31466717,
+    "fdv": 55738142
+  },
+  {
+    "base": "DASH",
+    "spot_price": 45.72,
+    "perp_price": 45.69,
+    "openInterest": 246293.735,
+    "market_cap": 570166382,
+    "fdv": 570185844
+  },
+  {
+    "base": "THETA",
+    "spot_price": 0.543,
+    "perp_price": 0.544,
+    "openInterest": 10623465.6,
+    "market_cap": 544098939,
+    "fdv": 544098939
+  },
+  {
+    "base": "ENJ",
+    "spot_price": 0.04515,
+    "perp_price": 0.04538,
+    "openInterest": 48330993.0,
+    "market_cap": 85633612,
+    "fdv": 87511824
+  },
+  {
+    "base": "ATOM",
+    "spot_price": 3.171,
+    "perp_price": 3.181,
+    "openInterest": 7351012.28,
+    "market_cap": 1504768310,
+    "fdv": 1504785429
+  },
+  {
+    "base": "TFUEL",
+    "spot_price": 0.02605,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 184783848,
+    "fdv": 184785190
+  },
+  {
+    "base": "ONE",
+    "spot_price": 0.00665,
+    "perp_price": 0.00669,
+    "openInterest": 391226492.0,
+    "market_cap": 98106736,
+    "fdv": 98121206
+  },
+  {
+    "base": "ALGO",
+    "spot_price": 0.1777,
+    "perp_price": 0.1784,
+    "openInterest": 65209343.6,
+    "market_cap": 1570147019,
+    "fdv": 1570166724
+  },
+  {
+    "base": "DOGE",
+    "spot_price": 0.18622,
+    "perp_price": 0.18705,
+    "openInterest": 1472560252.0,
+    "market_cap": 28233797437,
+    "fdv": 28235164456
+  },
+  {
+    "base": "DUSK",
+    "spot_price": 0.0486,
+    "perp_price": 0.04876,
+    "openInterest": 26958420.0,
+    "market_cap": 24311497,
+    "fdv": 24311497
+  },
+  {
+    "base": "ANKR",
+    "spot_price": 0.01018,
+    "perp_price": 0.0102,
+    "openInterest": 173058255.0,
+    "market_cap": 101950879,
+    "fdv": 101950879
+  },
+  {
+    "base": "WIN",
+    "spot_price": 3.938e-05,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 39142695,
+    "fdv": 39351393
+  },
+  {
+    "base": "COS",
+    "spot_price": 0.002122,
+    "perp_price": 0.002125,
+    "openInterest": 551720741.0,
+    "market_cap": 10988610,
+    "fdv": 21016772
+  },
+  {
+    "base": "MTL",
+    "spot_price": 0.484,
+    "perp_price": 0.4845,
+    "openInterest": 2243544.0,
+    "market_cap": 42517405,
+    "fdv": 42517405
+  },
+  {
+    "base": "DENT",
+    "spot_price": 0.000444,
+    "perp_price": 0.000446,
+    "openInterest": 3719808036.0,
+    "market_cap": 42559356,
+    "fdv": 44492576
+  },
+  {
+    "base": "WAN",
+    "spot_price": 0.0682,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 13564383,
+    "fdv": 14336339
+  },
+  {
+    "base": "FUN",
+    "spot_price": 0.004177,
+    "perp_price": 0.004183,
+    "openInterest": 483938965.0,
+    "market_cap": 44571227,
+    "fdv": 46257520
+  },
+  {
+    "base": "CVC",
+    "spot_price": 0.0612,
+    "perp_price": 0.06144,
+    "openInterest": 13553825.0,
+    "market_cap": 49189902,
+    "fdv": 61334042
+  },
+  {
+    "base": "CHZ",
+    "spot_price": 0.03283,
+    "perp_price": 0.0329,
+    "openInterest": 177523785.0,
+    "market_cap": 330190766,
+    "fdv": 330190766
+  },
+  {
+    "base": "BAND",
+    "spot_price": 0.528,
+    "perp_price": 0.5292,
+    "openInterest": 3816322.0,
+    "market_cap": 88176197,
+    "fdv": 88232685
+  },
+  {
+    "base": "XTZ",
+    "spot_price": 0.5819,
+    "perp_price": 0.583,
+    "openInterest": 12221870.1,
+    "market_cap": 619361575,
+    "fdv": 631058817
+  },
+  {
+    "base": "RVN",
+    "spot_price": 0.00955,
+    "perp_price": 0.00958,
+    "openInterest": 235370317.0,
+    "market_cap": 150312283,
+    "fdv": 150315513
+  },
+  {
+    "base": "HBAR",
+    "spot_price": 0.16391,
+    "perp_price": 0.16443,
+    "openInterest": 171498338.0,
+    "market_cap": 6964567405,
+    "fdv": 8211920342
+  },
+  {
+    "base": "NKN",
+    "spot_price": 0.02,
+    "perp_price": 0.02016,
+    "openInterest": 55650354.0,
+    "market_cap": 15953025,
+    "fdv": 15956286
+  },
+  {
+    "base": "STX",
+    "spot_price": 0.4253,
+    "perp_price": 0.4261,
+    "openInterest": 11107060.0,
+    "market_cap": 768967536,
+    "fdv": 768967536
+  },
+  {
+    "base": "KAVA",
+    "spot_price": 0.145,
+    "perp_price": 0.145,
+    "openInterest": 57457403.5,
+    "market_cap": 157298944,
+    "fdv": 157298944
+  },
+  {
+    "base": "ARPA",
+    "spot_price": 0.02058,
+    "perp_price": 0.02063,
+    "openInterest": 120757422.0,
+    "market_cap": 20232995,
+    "fdv": 41200405
+  },
+  {
+    "base": "IOTX",
+    "spot_price": 0.01244,
+    "perp_price": 0.01248,
+    "openInterest": 250942337.0,
+    "market_cap": 117680195,
+    "fdv": 117680195
+  },
+  {
+    "base": "RLC",
+    "spot_price": 0.868,
+    "perp_price": 0.8682,
+    "openInterest": 1887832.9,
+    "market_cap": 62878125,
+    "fdv": 75575999
+  },
+  {
+    "base": "BCH",
+    "spot_price": 473.6,
+    "perp_price": 474.6,
+    "openInterest": 260372.642,
+    "market_cap": 9454209311,
+    "fdv": 9454249314
+  },
+  {
+    "base": "FTT",
+    "spot_price": 0.794,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": null,
+    "fdv": 261227956
+  },
+  {
+    "base": "EUR",
+    "spot_price": 1.1636,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "OGN",
+    "spot_price": 0.048,
+    "perp_price": 0.0481,
+    "openInterest": 29087027.0,
+    "market_cap": 31298790,
+    "fdv": 67740022
+  },
+  {
+    "base": "LSK",
+    "spot_price": 0.217,
+    "perp_price": 0.2181,
+    "openInterest": 5774463.0,
+    "market_cap": 44184174,
+    "fdv": 86992132
+  },
+  {
+    "base": "BNT",
+    "spot_price": 0.5811,
+    "perp_price": 0.581,
+    "openInterest": 2409166.0,
+    "market_cap": 64342400,
+    "fdv": 64342400
+  },
+  {
+    "base": "MBL",
+    "spot_price": 0.001503,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 28391742,
+    "fdv": 45157320
+  },
+  {
+    "base": "COTI",
+    "spot_price": 0.03356,
+    "perp_price": 0.03363,
+    "openInterest": 64625690.0,
+    "market_cap": 81276168,
+    "fdv": 81288033
+  },
+  {
+    "base": "DATA",
+    "spot_price": 0.00907,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 6957402,
+    "fdv": 9074400
+  },
+  {
+    "base": "SOL",
+    "spot_price": 185.31,
+    "perp_price": 186.36,
+    "openInterest": 7288900.39,
+    "market_cap": 101426622695,
+    "fdv": 113516094414
+  },
+  {
+    "base": "CTSI",
+    "spot_price": 0.0539,
+    "perp_price": 0.0542,
+    "openInterest": 46458604.0,
+    "market_cap": 47761034,
+    "fdv": 54019591
+  },
+  {
+    "base": "HIVE",
+    "spot_price": 0.138,
+    "perp_price": 0.13816,
+    "openInterest": 9840190.0,
+    "market_cap": 67997877,
+    "fdv": null
+  },
+  {
+    "base": "CHR",
+    "spot_price": 0.0687,
+    "perp_price": 0.0688,
+    "openInterest": 23656642.0,
+    "market_cap": 58246516,
+    "fdv": 58246516
+  },
+  {
+    "base": "ARDR",
+    "spot_price": 0.06761,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 67597909,
+    "fdv": 67597909
+  },
+  {
+    "base": "MDT",
+    "spot_price": 0.01762,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 10701457,
+    "fdv": 17649857
+  },
+  {
+    "base": "KNC",
+    "spot_price": 0.2678,
+    "perp_price": 0.2685,
+    "openInterest": 6631478.0,
+    "market_cap": 45607874,
+    "fdv": 64474635
+  },
+  {
+    "base": "LRC",
+    "spot_price": 0.0688,
+    "perp_price": 0.06894,
+    "openInterest": 31702530.0,
+    "market_cap": 85786663,
+    "fdv": 94591349
+  },
+  {
+    "base": "COMP",
+    "spot_price": 33.8,
+    "perp_price": 33.87,
+    "openInterest": 323254.561,
+    "market_cap": 328769396,
+    "fdv": 338163094
+  },
+  {
+    "base": "SC",
+    "spot_price": 0.002031,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 113503346,
+    "fdv": 125111024
+  },
+  {
+    "base": "ZEN",
+    "spot_price": 11.53,
+    "perp_price": 11.551,
+    "openInterest": 849002.4,
+    "market_cap": 201821855,
+    "fdv": 242309636
+  },
+  {
+    "base": "SNX",
+    "spot_price": 1.381,
+    "perp_price": 1.392,
+    "openInterest": 13079829.8,
+    "market_cap": 475238212,
+    "fdv": 475824373
+  },
+  {
+    "base": "VTHO",
+    "spot_price": 0.001179,
+    "perp_price": 0.001184,
+    "openInterest": 1019856331.0,
+    "market_cap": 112250510,
+    "fdv": 112275397
+  },
+  {
+    "base": "DGB",
+    "spot_price": 0.00647,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 116318994,
+    "fdv": 116348742
+  },
+  {
+    "base": "SXP",
+    "spot_price": 0.1228,
+    "perp_price": 0.1231,
+    "openInterest": 14438241.8,
+    "market_cap": 81037671,
+    "fdv": 81045490
+  },
+  {
+    "base": "DCR",
+    "spot_price": 16.21,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 276926537,
+    "fdv": 276939256
+  },
+  {
+    "base": "STORJ",
+    "spot_price": 0.1721,
+    "perp_price": 0.1724,
+    "openInterest": 8812928.0,
+    "market_cap": 24775641,
+    "fdv": 73230649
+  },
+  {
+    "base": "MANA",
+    "spot_price": 0.2288,
+    "perp_price": 0.2295,
+    "openInterest": 26702027.0,
+    "market_cap": 439781766,
+    "fdv": 502574628
+  },
+  {
+    "base": "YFI",
+    "spot_price": 4691.0,
+    "perp_price": 4700.0,
+    "openInterest": 941.358,
+    "market_cap": 159004819,
+    "fdv": 172090193
+  },
+  {
+    "base": "JST",
+    "spot_price": 0.03115,
+    "perp_price": 0.031134,
+    "openInterest": 68674833.0,
+    "market_cap": 308457782,
+    "fdv": 308457782
+  },
+  {
+    "base": "CRV",
+    "spot_price": 0.5185,
+    "perp_price": 0.519,
+    "openInterest": 42121095.2,
+    "market_cap": 732485818,
+    "fdv": 1199646276
+  },
+  {
+    "base": "SAND",
+    "spot_price": 0.2026,
+    "perp_price": 0.20313,
+    "openInterest": 37188318.0,
+    "market_cap": 495161859,
+    "fdv": 607347649
+  },
+  {
+    "base": "NMR",
+    "spot_price": 13.27,
+    "perp_price": 13.231,
+    "openInterest": 780866.8,
+    "market_cap": 106479621,
+    "fdv": 141755523
+  },
+  {
+    "base": "DOT",
+    "spot_price": 2.917,
+    "perp_price": 2.926,
+    "openInterest": 18472386.0,
+    "market_cap": 4442757664,
+    "fdv": 4442757664
+  },
+  {
+    "base": "LUNA",
+    "spot_price": 0.0998,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 68657177,
+    "fdv": 107681133
+  },
+  {
+    "base": "RSR",
+    "spot_price": 0.006165,
+    "perp_price": 0.006178,
+    "openInterest": 793425684.0,
+    "market_cap": 373598947,
+    "fdv": 616423394
+  },
+  {
+    "base": "PAXG",
+    "spot_price": 4238.5,
+    "perp_price": 4236.0,
+    "openInterest": 24095.62,
+    "market_cap": 1359188420,
+    "fdv": 1359188420
+  },
+  {
+    "base": "TRB",
+    "spot_price": 24.01,
+    "perp_price": 24.086,
+    "openInterest": 242288.2,
+    "market_cap": 65400242,
+    "fdv": 67108532
+  },
+  {
+    "base": "SUSHI",
+    "spot_price": 0.5116,
+    "perp_price": 0.5129,
+    "openInterest": 9192111.0,
+    "market_cap": 98600256,
+    "fdv": 146339171
+  },
+  {
+    "base": "KSM",
+    "spot_price": 10.48,
+    "perp_price": 10.521,
+    "openInterest": 289353.7,
+    "market_cap": 29266161,
+    "fdv": 142062375
+  },
+  {
+    "base": "EGLD",
+    "spot_price": 9.6,
+    "perp_price": 9.625,
+    "openInterest": 433506.7,
+    "market_cap": 275942743,
+    "fdv": 275942743
+  },
+  {
+    "base": "DIA",
+    "spot_price": 0.3999,
+    "perp_price": 0.4013,
+    "openInterest": 3966001.0,
+    "market_cap": 47858393,
+    "fdv": 67509903
+  },
+  {
+    "base": "RUNE",
+    "spot_price": 0.841,
+    "perp_price": 0.843,
+    "openInterest": 6076879.0,
+    "market_cap": 295814375,
+    "fdv": 358179749
+  },
+  {
+    "base": "FIO",
+    "spot_price": 0.01192,
+    "perp_price": 0.01195,
+    "openInterest": 209799289.0,
+    "market_cap": 9800063,
+    "fdv": 11910519
+  },
+  {
+    "base": "UMA",
+    "spot_price": 1.029,
+    "perp_price": 1.03,
+    "openInterest": 2908449.0,
+    "market_cap": 90756421,
+    "fdv": 130218896
+  },
+  {
+    "base": "BEL",
+    "spot_price": 0.2834,
+    "perp_price": 0.287,
+    "openInterest": 20057690.0,
+    "market_cap": 22692323,
+    "fdv": 28365404
+  },
+  {
+    "base": "UNI",
+    "spot_price": 6.112,
+    "perp_price": 6.119,
+    "openInterest": 13613248.0,
+    "market_cap": 3671994168,
+    "fdv": 6115066899
+  },
+  {
+    "base": "OXT",
+    "spot_price": 0.0405,
+    "perp_price": 0.04055,
+    "openInterest": 34543655.0,
+    "market_cap": 23974812,
+    "fdv": 40529161
+  },
+  {
+    "base": "SUN",
+    "spot_price": 0.02279,
+    "perp_price": 0.022777,
+    "openInterest": 168679482.0,
+    "market_cap": 437042096,
+    "fdv": 453680299
+  },
+  {
+    "base": "AVAX",
+    "spot_price": 20.08,
+    "perp_price": 20.123,
+    "openInterest": 5311656.0,
+    "market_cap": 8569169636,
+    "fdv": 9239014172
+  },
+  {
+    "base": "FLM",
+    "spot_price": 0.0209,
+    "perp_price": 0.0209,
+    "openInterest": 101953428.0,
+    "market_cap": 11698177,
+    "fdv": 11698177
+  },
+  {
+    "base": "UTK",
+    "spot_price": 0.01947,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 38945,
+    "fdv": 38945
+  },
+  {
+    "base": "XVS",
+    "spot_price": 5.01,
+    "perp_price": 5.027,
+    "openInterest": 328826.9,
+    "market_cap": 84078252,
+    "fdv": 149337767
+  },
+  {
+    "base": "AAVE",
+    "spot_price": 207.71,
+    "perp_price": 208.05,
+    "openInterest": 270823.4,
+    "market_cap": 3171253239,
+    "fdv": 3325904935
+  },
+  {
+    "base": "NEAR",
+    "spot_price": 2.142,
+    "perp_price": 2.15,
+    "openInterest": 30116091.0,
+    "market_cap": 2680397530,
+    "fdv": 2737869538
+  },
+  {
+    "base": "FIL",
+    "spot_price": 1.475,
+    "perp_price": 1.48,
+    "openInterest": 19280188.9,
+    "market_cap": 1034546179,
+    "fdv": 2895381709
+  },
+  {
+    "base": "INJ",
+    "spot_price": 8.37,
+    "perp_price": 8.387,
+    "openInterest": 2663106.5,
+    "market_cap": 819352404,
+    "fdv": 838407560
+  },
+  {
+    "base": "AUDIO",
+    "spot_price": 0.042,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 57390777,
+    "fdv": 57390777
+  },
+  {
+    "base": "CTK",
+    "spot_price": 0.377,
+    "perp_price": 0.3769,
+    "openInterest": 4164150.0,
+    "market_cap": 56333269,
+    "fdv": 57120511
+  },
+  {
+    "base": "AXS",
+    "spot_price": 1.556,
+    "perp_price": 1.559,
+    "openInterest": 3359828.0,
+    "market_cap": 259713816,
+    "fdv": 420884856
+  },
+  {
+    "base": "STRAX",
+    "spot_price": 0.03164,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 66388146,
+    "fdv": 68763647
+  },
+  {
+    "base": "ROSE",
+    "spot_price": 0.01784,
+    "perp_price": 0.01793,
+    "openInterest": 171871269.0,
+    "market_cap": 132653008,
+    "fdv": 178927299
+  },
+  {
+    "base": "AVA",
+    "spot_price": 0.3721,
+    "perp_price": 0.374,
+    "openInterest": 2663636.2,
+    "market_cap": 26071393,
+    "fdv": 26071393
+  },
+  {
+    "base": "SKL",
+    "spot_price": 0.01952,
+    "perp_price": 0.01957,
+    "openInterest": 241866918.0,
+    "market_cap": 118023105,
+    "fdv": 118926352
+  },
+  {
+    "base": "GRT",
+    "spot_price": 0.0627,
+    "perp_price": 0.06287,
+    "openInterest": 74288992.0,
+    "market_cap": 663497162,
+    "fdv": 679043563
+  },
+  {
+    "base": "JUV",
+    "spot_price": 0.905,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 10756538,
+    "fdv": 18106766
+  },
+  {
+    "base": "PSG",
+    "spot_price": 1.249,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 14433521,
+    "fdv": 24877974
+  },
+  {
+    "base": "1INCH",
+    "spot_price": 0.1724,
+    "perp_price": 0.1728,
+    "openInterest": 21759262.0,
+    "market_cap": 241369331,
+    "fdv": 258871856
+  },
+  {
+    "base": "OG",
+    "spot_price": 18.228,
+    "perp_price": 18.277,
+    "openInterest": 698028.0,
+    "market_cap": 79575574,
+    "fdv": 91152152
+  },
+  {
+    "base": "ATM",
+    "spot_price": 1.251,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 9124620,
+    "fdv": 12500153
+  },
+  {
+    "base": "ASR",
+    "spot_price": 1.562,
+    "perp_price": 1.564,
+    "openInterest": 1179734.5,
+    "market_cap": 12447684,
+    "fdv": 15671071
+  },
+  {
+    "base": "CELO",
+    "spot_price": 0.2544,
+    "perp_price": 0.255,
+    "openInterest": 18414030.5,
+    "market_cap": 149090316,
+    "fdv": 255247655
+  },
+  {
+    "base": "RIF",
+    "spot_price": 0.0467,
+    "perp_price": 0.04672,
+    "openInterest": 32387638.0,
+    "market_cap": 46704797,
+    "fdv": 46704797
+  },
+  {
+    "base": "TRU",
+    "spot_price": 0.0182,
+    "perp_price": 0.01835,
+    "openInterest": 87849100.0,
+    "market_cap": 24469330,
+    "fdv": 24742675
+  },
+  {
+    "base": "CKB",
+    "spot_price": 0.00322,
+    "perp_price": 0.003231,
+    "openInterest": 652818805.0,
+    "market_cap": 153230265,
+    "fdv": 155651965
+  },
+  {
+    "base": "TWT",
+    "spot_price": 1.3106,
+    "perp_price": 1.3238,
+    "openInterest": 7155764.0,
+    "market_cap": 550456925,
+    "fdv": 1321149784
+  },
+  {
+    "base": "SFP",
+    "spot_price": 0.3773,
+    "perp_price": 0.3787,
+    "openInterest": 10551055.0,
+    "market_cap": 188927996,
+    "fdv": 188927996
+  },
+  {
+    "base": "DODO",
+    "spot_price": 0.0331,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 33206600,
+    "fdv": 33206600
+  },
+  {
+    "base": "CAKE",
+    "spot_price": 2.855,
+    "perp_price": 2.8995,
+    "openInterest": 9205450.0,
+    "market_cap": 984008336,
+    "fdv": 1026575328
+  },
+  {
+    "base": "ACM",
+    "spot_price": 0.681,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 7098659,
+    "fdv": 13570750
+  },
+  {
+    "base": "FIS",
+    "spot_price": 0.0709,
+    "perp_price": 0.07199,
+    "openInterest": 31993051.0,
+    "market_cap": 11000546,
+    "fdv": 11000546
+  },
+  {
+    "base": "OM",
+    "spot_price": 0.1222,
+    "perp_price": 0.12259,
+    "openInterest": 189252967.9,
+    "market_cap": 133545520,
+    "fdv": 209016516
+  },
+  {
+    "base": "POND",
+    "spot_price": 0.00609,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 50132725,
+    "fdv": 61119625
+  },
+  {
+    "base": "DEGO",
+    "spot_price": 1.521,
+    "perp_price": 1.5081,
+    "openInterest": 9187089.2,
+    "market_cap": 32016902,
+    "fdv": 32016902
+  },
+  {
+    "base": "ALICE",
+    "spot_price": 0.3951,
+    "perp_price": 0.396,
+    "openInterest": 9978104.6,
+    "market_cap": 36440479,
+    "fdv": 39573371
+  },
+  {
+    "base": "PERP",
+    "spot_price": 0.2175,
+    "perp_price": 0.2193,
+    "openInterest": 6586247.9,
+    "market_cap": 15882888,
+    "fdv": 32811427
+  },
+  {
+    "base": "SUPER",
+    "spot_price": 0.3915,
+    "perp_price": 0.3914,
+    "openInterest": 13239071.0,
+    "market_cap": 246316829,
+    "fdv": 391965511
+  },
+  {
+    "base": "CFX",
+    "spot_price": 0.11,
+    "perp_price": 0.11055,
+    "openInterest": 93444632.0,
+    "market_cap": 567312748,
+    "fdv": 630482357
+  },
+  {
+    "base": "TKO",
+    "spot_price": 0.1361,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 10225305,
+    "fdv": 68168699
+  },
+  {
+    "base": "PUNDIX",
+    "spot_price": 0.3439,
+    "perp_price": 0.3357,
+    "openInterest": 6699514.0,
+    "market_cap": 88024410,
+    "fdv": 88024410
+  },
+  {
+    "base": "TLM",
+    "spot_price": 0.00355,
+    "perp_price": 0.00356,
+    "openInterest": 276550367.0,
+    "market_cap": 21705280,
+    "fdv": 24252635
+  },
+  {
+    "base": "BAR",
+    "spot_price": 0.819,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 12769556,
+    "fdv": 32794154
+  },
+  {
+    "base": "FORTH",
+    "spot_price": 2.147,
+    "perp_price": 2.148,
+    "openInterest": 412687.4,
+    "market_cap": 24724052,
+    "fdv": 32879078
+  },
+  {
+    "base": "SLP",
+    "spot_price": 0.001261,
+    "perp_price": 0.001266,
+    "openInterest": 444862143.0,
+    "market_cap": 45564363,
+    "fdv": 45564363
+  },
+  {
+    "base": "SHIB",
+    "spot_price": 9.84e-06,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 5806905288,
+    "fdv": 5809421369
+  },
+  {
+    "base": "ICP",
+    "spot_price": 3.038,
+    "perp_price": 3.05,
+    "openInterest": 4496109.0,
+    "market_cap": 1641302573,
+    "fdv": 1641302573
+  },
+  {
+    "base": "AR",
+    "spot_price": 3.94,
+    "perp_price": 3.96,
+    "openInterest": 1225905.3,
+    "market_cap": 258589060,
+    "fdv": 258589060
+  },
+  {
+    "base": "MASK",
+    "spot_price": 0.86,
+    "perp_price": 0.863,
+    "openInterest": 3985592.0,
+    "market_cap": 86190338,
+    "fdv": 86190338
+  },
+  {
+    "base": "LPT",
+    "spot_price": 4.921,
+    "perp_price": 4.939,
+    "openInterest": 1111351.3,
+    "market_cap": 224696608,
+    "fdv": 224696608
+  },
+  {
+    "base": "XVG",
+    "spot_price": 0.00575,
+    "perp_price": 0.00577,
+    "openInterest": 535476286.0,
+    "market_cap": 95191535,
+    "fdv": 95381946
+  },
+  {
+    "base": "ATA",
+    "spot_price": 0.0299,
+    "perp_price": 0.0298,
+    "openInterest": 59182537.0,
+    "market_cap": 17572800,
+    "fdv": 29896289
+  },
+  {
+    "base": "GTC",
+    "spot_price": 0.215,
+    "perp_price": 0.217,
+    "openInterest": 11362288.8,
+    "market_cap": 20896653,
+    "fdv": 21680460
+  },
+  {
+    "base": "PHA",
+    "spot_price": 0.0601,
+    "perp_price": 0.06044,
+    "openInterest": 24015473.0,
+    "market_cap": 49100604,
+    "fdv": 60274317
+  },
+  {
+    "base": "MLN",
+    "spot_price": 5.38,
+    "perp_price": 5.433,
+    "openInterest": 200204.53,
+    "market_cap": 16114005,
+    "fdv": 16114005
+  },
+  {
+    "base": "DEXE",
+    "spot_price": 6.629,
+    "perp_price": 6.628,
+    "openInterest": 824462.75,
+    "market_cap": 378035576,
+    "fdv": 638874963
+  },
+  {
+    "base": "C98",
+    "spot_price": 0.0373,
+    "perp_price": 0.0376,
+    "openInterest": 49507812.0,
+    "market_cap": 37357341,
+    "fdv": 37357381
+  },
+  {
+    "base": "QNT",
+    "spot_price": 83.89,
+    "perp_price": 84.11,
+    "openInterest": 47760.2,
+    "market_cap": 1221079200,
+    "fdv": 1226814848
+  },
+  {
+    "base": "FLOW",
+    "spot_price": 0.27,
+    "perp_price": 0.271,
+    "openInterest": 16557302.9,
+    "market_cap": 437690700,
+    "fdv": 437690700
+  },
+  {
+    "base": "MINA",
+    "spot_price": 0.1088,
+    "perp_price": 0.1092,
+    "openInterest": 26399562.0,
+    "market_cap": 137269584,
+    "fdv": 137269584
+  },
+  {
+    "base": "RAY",
+    "spot_price": 1.767,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 474988245,
+    "fdv": 983102471
+  },
+  {
+    "base": "FARM",
+    "spot_price": 21.85,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 14699358,
+    "fdv": 15098157
+  },
+  {
+    "base": "QUICK",
+    "spot_price": 0.01819,
+    "perp_price": 0.01828,
+    "openInterest": 44109525.0,
+    "market_cap": 13773900,
+    "fdv": 18711179
+  },
+  {
+    "base": "MBOX",
+    "spot_price": 0.0498,
+    "perp_price": 0.05002,
+    "openInterest": 16667182.0,
+    "market_cap": 24973533,
+    "fdv": 27469276
+  },
+  {
+    "base": "REQ",
+    "spot_price": 0.1279,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 95029111,
+    "fdv": 127602968
+  },
+  {
+    "base": "GHST",
+    "spot_price": 0.306,
+    "perp_price": 0.307,
+    "openInterest": 3997241.0,
+    "market_cap": 15659324,
+    "fdv": 16146199
+  },
+  {
+    "base": "WAXP",
+    "spot_price": 0.01376,
+    "perp_price": 0.01382,
+    "openInterest": 112028841.0,
+    "market_cap": 48310117,
+    "fdv": 51980200
+  },
+  {
+    "base": "GNO",
+    "spot_price": 123.95,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 327644251,
+    "fdv": 372380986
+  },
+  {
+    "base": "XEC",
+    "spot_price": 1.419e-05,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 282777585,
+    "fdv": 282780732
+  },
+  {
+    "base": "DYDX",
+    "spot_price": 0.3281,
+    "perp_price": 0.33,
+    "openInterest": 23127832.8,
+    "market_cap": 259802769,
+    "fdv": 315013251
+  },
+  {
+    "base": "IDEX",
+    "spot_price": 0.01937,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 18964130,
+    "fdv": 19370772
+  },
+  {
+    "base": "USDP",
+    "spot_price": 0.9995,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 63233159,
+    "fdv": 63233159
+  },
+  {
+    "base": "GALA",
+    "spot_price": 0.01069,
+    "perp_price": 0.01074,
+    "openInterest": 921143102.0,
+    "market_cap": 495827630,
+    "fdv": 495827630
+  },
+  {
+    "base": "ILV",
+    "spot_price": 11.08,
+    "perp_price": 11.116,
+    "openInterest": 134432.5,
+    "market_cap": 105214670,
+    "fdv": 106490049
+  },
+  {
+    "base": "YGG",
+    "spot_price": 0.1456,
+    "perp_price": 0.1463,
+    "openInterest": 50969456.0,
+    "market_cap": 91218611,
+    "fdv": 145617240
+  },
+  {
+    "base": "SYS",
+    "spot_price": 0.02969,
+    "perp_price": 0.02979,
+    "openInterest": 37217553.0,
+    "market_cap": 25026821,
+    "fdv": 25027738
+  },
+  {
+    "base": "DF",
+    "spot_price": 0.01951,
+    "perp_price": 0.0196,
+    "openInterest": 64834079.0,
+    "market_cap": 19537746,
+    "fdv": 19537746
+  },
+  {
+    "base": "FIDA",
+    "spot_price": 0.0588,
+    "perp_price": 0.05913,
+    "openInterest": 21305786.0,
+    "market_cap": 58469797,
+    "fdv": 59006090
+  },
+  {
+    "base": "AGLD",
+    "spot_price": 0.408,
+    "perp_price": 0.4095,
+    "openInterest": 5554287.0,
+    "market_cap": 35694731,
+    "fdv": 37899873
+  },
+  {
+    "base": "RAD",
+    "spot_price": 0.512,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 25545063,
+    "fdv": 51264612
+  },
+  {
+    "base": "RARE",
+    "spot_price": 0.0359,
+    "perp_price": 0.03602,
+    "openInterest": 53747063.0,
+    "market_cap": 29448103,
+    "fdv": 35931836
+  },
+  {
+    "base": "LAZIO",
+    "spot_price": 0.887,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 10751284,
+    "fdv": 35474243
+  },
+  {
+    "base": "CHESS",
+    "spot_price": 0.0475,
+    "perp_price": 0.04751,
+    "openInterest": 35436410.0,
+    "market_cap": 9755889,
+    "fdv": 14238789
+  },
+  {
+    "base": "ADX",
+    "spot_price": 0.0964,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 36117123,
+    "fdv": 36378036
+  },
+  {
+    "base": "AUCTION",
+    "spot_price": 6.01,
+    "perp_price": 6.017,
+    "openInterest": 429575.23,
+    "market_cap": 42635417,
+    "fdv": 45946460
+  },
+  {
+    "base": "MOVR",
+    "spot_price": 3.895,
+    "perp_price": 3.904,
+    "openInterest": 442708.81,
+    "market_cap": 39158459,
+    "fdv": 47327704
+  },
+  {
+    "base": "CITY",
+    "spot_price": 0.773,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 9059159,
+    "fdv": 15298672
+  },
+  {
+    "base": "ENS",
+    "spot_price": 15.17,
+    "perp_price": 15.234,
+    "openInterest": 577043.8,
+    "market_cap": 503468236,
+    "fdv": 1518044187
+  },
+  {
+    "base": "QI",
+    "spot_price": 0.00549,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 39509848,
+    "fdv": 39509848
+  },
+  {
+    "base": "PORTO",
+    "spot_price": 1.019,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 11554252,
+    "fdv": 40798169
+  },
+  {
+    "base": "POWR",
+    "spot_price": 0.1176,
+    "perp_price": 0.1178,
+    "openInterest": 8712624.0,
+    "market_cap": 62222871,
+    "fdv": 117396404
+  },
+  {
+    "base": "JASMY",
+    "spot_price": 0.00991,
+    "perp_price": 0.009939,
+    "openInterest": 258691846.0,
+    "market_cap": 480900069,
+    "fdv": 496592389
+  },
+  {
+    "base": "AMP",
+    "spot_price": 0.002489,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 210293848,
+    "fdv": 248836348
+  },
+  {
+    "base": "PYR",
+    "spot_price": 0.705,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 16908397,
+    "fdv": 35376621
+  },
+  {
+    "base": "ALCX",
+    "spot_price": 7.39,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 18498527,
+    "fdv": 22852755
+  },
+  {
+    "base": "SANTOS",
+    "spot_price": 1.373,
+    "perp_price": 1.378,
+    "openInterest": 878820.5,
+    "market_cap": 18466392,
+    "fdv": 41358550
+  },
+  {
+    "base": "BICO",
+    "spot_price": 0.0649,
+    "perp_price": 0.06505,
+    "openInterest": 23099129.0,
+    "market_cap": 64232343,
+    "fdv": 64926656
+  },
+  {
+    "base": "FLUX",
+    "spot_price": 0.1239,
+    "perp_price": 0.1244,
+    "openInterest": 9254245.0,
+    "market_cap": 48801518,
+    "fdv": 48803875
+  },
+  {
+    "base": "FXS",
+    "spot_price": 1.339,
+    "perp_price": 1.3447,
+    "openInterest": 1866936.3,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "VOXEL",
+    "spot_price": 0.0392,
+    "perp_price": 0.03985,
+    "openInterest": 64743168.0,
+    "market_cap": 9598283,
+    "fdv": 11836947
+  },
+  {
+    "base": "HIGH",
+    "spot_price": 0.312,
+    "perp_price": 0.3139,
+    "openInterest": 5132754.8,
+    "market_cap": null,
+    "fdv": 28945
+  },
+  {
+    "base": "CVX",
+    "spot_price": 2.308,
+    "perp_price": 2.32,
+    "openInterest": 625942.7,
+    "market_cap": 189816364,
+    "fdv": 231344938
+  },
+  {
+    "base": "PEOPLE",
+    "spot_price": 0.01227,
+    "perp_price": 0.01233,
+    "openInterest": 437865771.0,
+    "market_cap": 62190756,
+    "fdv": 62190756
+  },
+  {
+    "base": "SPELL",
+    "spot_price": 0.0003486,
+    "perp_price": 0.00035,
+    "openInterest": 4617795677.0,
+    "market_cap": 59507240,
+    "fdv": 68654694
+  },
+  {
+    "base": "JOE",
+    "spot_price": 0.1145,
+    "perp_price": 0.11509,
+    "openInterest": 12395842.0,
+    "market_cap": 46163013,
+    "fdv": 57243466
+  },
+  {
+    "base": "ACH",
+    "spot_price": 0.01309,
+    "perp_price": 0.013135,
+    "openInterest": 192229926.0,
+    "market_cap": 64867932,
+    "fdv": 131213562
+  },
+  {
+    "base": "IMX",
+    "spot_price": 0.498,
+    "perp_price": 0.4991,
+    "openInterest": 18294306.0,
+    "market_cap": 965299016,
+    "fdv": 995185383
+  },
+  {
+    "base": "GLMR",
+    "spot_price": 0.0412,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 41993950,
+    "fdv": 49306431
+  },
+  {
+    "base": "SCRT",
+    "spot_price": 0.1666,
+    "perp_price": 0.1674,
+    "openInterest": 6127143.0,
+    "market_cap": 53936942,
+    "fdv": 56449269
+  },
+  {
+    "base": "API3",
+    "spot_price": 0.652,
+    "perp_price": 0.6538,
+    "openInterest": 11623316.3,
+    "market_cap": 85746199,
+    "fdv": 100328875
+  },
+  {
+    "base": "BTTC",
+    "spot_price": 5e-07,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "ACA",
+    "spot_price": 0.0185,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 21644190,
+    "fdv": 29683461
+  },
+  {
+    "base": "XNO",
+    "spot_price": 0.676,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 90726657,
+    "fdv": 90726657
+  },
+  {
+    "base": "WOO",
+    "spot_price": 0.0421,
+    "perp_price": 0.04221,
+    "openInterest": 45086576.0,
+    "market_cap": 80528667,
+    "fdv": 93209858
+  },
+  {
+    "base": "ALPINE",
+    "spot_price": 0.883,
+    "perp_price": 0.8874,
+    "openInterest": 3250953.8,
+    "market_cap": 10054161,
+    "fdv": 35401974
+  },
+  {
+    "base": "T",
+    "spot_price": 0.01195,
+    "perp_price": 0.01197,
+    "openInterest": 108031160.0,
+    "market_cap": 129096154,
+    "fdv": 133536753
+  },
+  {
+    "base": "ASTR",
+    "spot_price": 0.01782,
+    "perp_price": 0.017866,
+    "openInterest": 138874980.0,
+    "market_cap": 146311615,
+    "fdv": 152386117
+  },
+  {
+    "base": "GMT",
+    "spot_price": 0.02702,
+    "perp_price": 0.02708,
+    "openInterest": 107124258.0,
+    "market_cap": 84159573,
+    "fdv": 137241447
+  },
+  {
+    "base": "KDA",
+    "spot_price": 0.2232,
+    "perp_price": 0.2245,
+    "openInterest": 4335186.0,
+    "market_cap": 74912488,
+    "fdv": 74922100
+  },
+  {
+    "base": "APE",
+    "spot_price": 0.3852,
+    "perp_price": 0.3868,
+    "openInterest": 21466956.0,
+    "market_cap": 350156795,
+    "fdv": 385353109
+  },
+  {
+    "base": "BIFI",
+    "spot_price": 142.4,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 11338124,
+    "fdv": 11338124
+  },
+  {
+    "base": "STEEM",
+    "spot_price": 0.0921,
+    "perp_price": 0.09223,
+    "openInterest": 9385435.0,
+    "market_cap": 48763921,
+    "fdv": 48768618
+  },
+  {
+    "base": "NEXO",
+    "spot_price": 1.161,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 1164609631,
+    "fdv": 1164609631
+  },
+  {
+    "base": "REI",
+    "spot_price": 0.01203,
+    "perp_price": 0.01208,
+    "openInterest": 92122102.0,
+    "market_cap": 26489720,
+    "fdv": 26489720
+  },
+  {
+    "base": "LDO",
+    "spot_price": 0.8662,
+    "perp_price": 0.8686,
+    "openInterest": 24700109.0,
+    "market_cap": 777800261,
+    "fdv": 868285235
+  },
+  {
+    "base": "OP",
+    "spot_price": 0.4211,
+    "perp_price": 0.4225,
+    "openInterest": 45850499.4,
+    "market_cap": 749174635,
+    "fdv": 1809073621
+  },
+  {
+    "base": "STG",
+    "spot_price": 0.1589,
+    "perp_price": 0.1593,
+    "openInterest": 19625550.0,
+    "market_cap": 154579253,
+    "fdv": 159119779
+  },
+  {
+    "base": "LUNC",
+    "spot_price": 4.15e-05,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 228785782,
+    "fdv": 269756735
+  },
+  {
+    "base": "GMX",
+    "spot_price": 10.29,
+    "perp_price": 10.285,
+    "openInterest": 219251.97,
+    "market_cap": 106319880,
+    "fdv": 106319880
+  },
+  {
+    "base": "POLYX",
+    "spot_price": 0.0848,
+    "perp_price": 0.08486,
+    "openInterest": 13090860.0,
+    "market_cap": 102627231,
+    "fdv": 102627231
+  },
+  {
+    "base": "APT",
+    "spot_price": 3.142,
+    "perp_price": 3.147,
+    "openInterest": 23927315.1,
+    "market_cap": 2256558365,
+    "fdv": 3712594911
+  },
+  {
+    "base": "OSMO",
+    "spot_price": 0.1205,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 90268048,
+    "fdv": 119980863
+  },
+  {
+    "base": "HFT",
+    "spot_price": 0.0521,
+    "perp_price": 0.05244,
+    "openInterest": 29660279.0,
+    "market_cap": 31838497,
+    "fdv": 52174082
+  },
+  {
+    "base": "PHB",
+    "spot_price": 0.524,
+    "perp_price": 0.5221,
+    "openInterest": 10138923.0,
+    "market_cap": 31193959,
+    "fdv": 31193959
+  },
+  {
+    "base": "HOOK",
+    "spot_price": 0.0687,
+    "perp_price": 0.06898,
+    "openInterest": 23477619.1,
+    "market_cap": 20266232,
+    "fdv": 34349546
+  },
+  {
+    "base": "MAGIC",
+    "spot_price": 0.1455,
+    "perp_price": 0.1444,
+    "openInterest": 52465206.7,
+    "market_cap": 46009924,
+    "fdv": 50558004
+  },
+  {
+    "base": "RPL",
+    "spot_price": 3.36,
+    "perp_price": 3.381,
+    "openInterest": 316528.6,
+    "market_cap": 73263435,
+    "fdv": 73263435
+  },
+  {
+    "base": "GNS",
+    "spot_price": 1.361,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 38125535,
+    "fdv": 38125652
+  },
+  {
+    "base": "SYN",
+    "spot_price": 0.0793,
+    "perp_price": 0.0797,
+    "openInterest": 20031765.0,
+    "market_cap": 17385122,
+    "fdv": 19840003
+  },
+  {
+    "base": "SSV",
+    "spot_price": 5.244,
+    "perp_price": 5.244,
+    "openInterest": 451803.74,
+    "market_cap": 37164304,
+    "fdv": 74379111
+  },
+  {
+    "base": "LQTY",
+    "spot_price": 0.509,
+    "perp_price": 0.5105,
+    "openInterest": 4427808.0,
+    "market_cap": 49930135,
+    "fdv": 51004671
+  },
+  {
+    "base": "USTC",
+    "spot_price": 0.00815,
+    "perp_price": 0.008162,
+    "openInterest": 223882551.0,
+    "market_cap": 45681129,
+    "fdv": 49783210
+  },
+  {
+    "base": "GAS",
+    "spot_price": 2.565,
+    "perp_price": 2.57,
+    "openInterest": 685439.2,
+    "market_cap": 167125508,
+    "fdv": 167125508
+  },
+  {
+    "base": "GLM",
+    "spot_price": 0.1763,
+    "perp_price": 0.17689,
+    "openInterest": 11437639.0,
+    "market_cap": 176512017,
+    "fdv": 176512017
+  },
+  {
+    "base": "PROM",
+    "spot_price": 9.794,
+    "perp_price": 9.825,
+    "openInterest": 808903.4,
+    "market_cap": 179094302,
+    "fdv": 188907689
+  },
+  {
+    "base": "QKC",
+    "spot_price": 0.005293,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 37989087,
+    "fdv": 52972949
+  },
+  {
+    "base": "ID",
+    "spot_price": 0.1083,
+    "perp_price": 0.10859,
+    "openInterest": 18491062.0,
+    "market_cap": 46660229,
+    "fdv": 216402534
+  },
+  {
+    "base": "ARB",
+    "spot_price": 0.3057,
+    "perp_price": 0.3068,
+    "openInterest": 109028272.1,
+    "market_cap": 1685316254,
+    "fdv": 3058821222
+  },
+  {
+    "base": "RDNT",
+    "spot_price": 0.01956,
+    "perp_price": 0.01964,
+    "openInterest": 123728105.0,
+    "market_cap": 25301639,
+    "fdv": 29373286
+  },
+  {
+    "base": "WBTC",
+    "spot_price": 106859.07,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 13571519383,
+    "fdv": 13571519383
+  },
+  {
+    "base": "EDU",
+    "spot_price": 0.1868,
+    "perp_price": 0.1875,
+    "openInterest": 23477899.0,
+    "market_cap": 110759695,
+    "fdv": 186717095
+  },
+  {
+    "base": "SUI",
+    "spot_price": 2.4316,
+    "perp_price": 2.4396,
+    "openInterest": 51725114.3,
+    "market_cap": 8817529071,
+    "fdv": 24319233972
+  },
+  {
+    "base": "PEPE",
+    "spot_price": 6.72e-06,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 2829211872,
+    "fdv": 2829211872
+  },
+  {
+    "base": "FLOKI",
+    "spot_price": 6.523e-05,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 630229645,
+    "fdv": 652494157
+  },
+  {
+    "base": "MAV",
+    "spot_price": 0.03949,
+    "perp_price": 0.0396,
+    "openInterest": 64657287.0,
+    "market_cap": 29832845,
+    "fdv": 79132728
+  },
+  {
+    "base": "PENDLE",
+    "spot_price": 3.214,
+    "perp_price": 3.2281,
+    "openInterest": 5886121.0,
+    "market_cap": 545752256,
+    "fdv": 907011029
+  },
+  {
+    "base": "ARKM",
+    "spot_price": 0.355,
+    "perp_price": 0.3581,
+    "openInterest": 14866220.0,
+    "market_cap": 183430988,
+    "fdv": 356658771
+  },
+  {
+    "base": "WBETH",
+    "spot_price": 4168.6,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 13615876664,
+    "fdv": 13615876664
+  },
+  {
+    "base": "WLD",
+    "spot_price": 0.879,
+    "perp_price": 0.8804,
+    "openInterest": 46265527.0,
+    "market_cap": 1952493795,
+    "fdv": 8798574656
+  },
+  {
+    "base": "FDUSD",
+    "spot_price": 0.9973,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 1009013297,
+    "fdv": 1009013297
+  },
+  {
+    "base": "SEI",
+    "spot_price": 0.1918,
+    "perp_price": 0.1926,
+    "openInterest": 134184820.0,
+    "market_cap": 1199281888,
+    "fdv": 1919192211
+  },
+  {
+    "base": "CYBER",
+    "spot_price": 1.08,
+    "perp_price": 1.08,
+    "openInterest": 3586864.9,
+    "market_cap": 53587708,
+    "fdv": 108038935
+  },
+  {
+    "base": "ARK",
+    "spot_price": 0.3197,
+    "perp_price": 0.3203,
+    "openInterest": 5635506.0,
+    "market_cap": 295873420,
+    "fdv": 295873420
+  },
+  {
+    "base": "IQ",
+    "spot_price": 0.002387,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 55986188,
+    "fdv": 55986188
+  },
+  {
+    "base": "NTRN",
+    "spot_price": 0.0505,
+    "perp_price": 0.05072,
+    "openInterest": 26395734.0,
+    "market_cap": 30840175,
+    "fdv": 50487797
+  },
+  {
+    "base": "TIA",
+    "spot_price": 1.003,
+    "perp_price": 1.0058,
+    "openInterest": 32818621.0,
+    "market_cap": 821763460,
+    "fdv": 1153390673
+  },
+  {
+    "base": "MEME",
+    "spot_price": 0.001669,
+    "perp_price": 0.001677,
+    "openInterest": 2843417374.0,
+    "market_cap": 95790716,
+    "fdv": 115438029
+  },
+  {
+    "base": "ORDI",
+    "spot_price": 5.002,
+    "perp_price": 5.02,
+    "openInterest": 1717277.6,
+    "market_cap": 105046501,
+    "fdv": 105046501
+  },
+  {
+    "base": "BEAMX",
+    "spot_price": 0.005156,
+    "perp_price": 0.005172,
+    "openInterest": 770474087.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "PIVX",
+    "spot_price": 0.1862,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 18001127,
+    "fdv": 18001234
+  },
+  {
+    "base": "VIC",
+    "spot_price": 0.1509,
+    "perp_price": 0.1514,
+    "openInterest": 8572527.0,
+    "market_cap": 18546355,
+    "fdv": 31680138
+  },
+  {
+    "base": "BLUR",
+    "spot_price": 0.05118,
+    "perp_price": 0.05132,
+    "openInterest": 43818372.0,
+    "market_cap": 131172725,
+    "fdv": 153647153
+  },
+  {
+    "base": "VANRY",
+    "spot_price": 0.0169,
+    "perp_price": 0.01704,
+    "openInterest": 74134950.0,
+    "market_cap": 33221140,
+    "fdv": 34649681
+  },
+  {
+    "base": "AEUR",
+    "spot_price": 1.0448,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "JTO",
+    "spot_price": 1.12,
+    "perp_price": 1.1296,
+    "openInterest": 8446150.0,
+    "market_cap": 440548323,
+    "fdv": 1129064851
+  },
+  {
+    "base": "1000SATS",
+    "spot_price": 2.395e-05,
+    "perp_price": 2.41e-05,
+    "openInterest": 150310035011.0,
+    "market_cap": null,
+    "fdv": 50434095
+  },
+  {
+    "base": "BONK",
+    "spot_price": 1.419e-05,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 1099999068,
+    "fdv": 1250261909
+  },
+  {
+    "base": "ACE",
+    "spot_price": 0.301,
+    "perp_price": 0.3022,
+    "openInterest": 4610902.53,
+    "market_cap": 23601083,
+    "fdv": 44238766
+  },
+  {
+    "base": "NFP",
+    "spot_price": 0.0437,
+    "perp_price": 0.044,
+    "openInterest": 30063395.0,
+    "market_cap": 22131425,
+    "fdv": 43915070
+  },
+  {
+    "base": "AI",
+    "spot_price": 0.0778,
+    "perp_price": 0.07798,
+    "openInterest": 21444377.0,
+    "market_cap": 10127147,
+    "fdv": 77901134
+  },
+  {
+    "base": "XAI",
+    "spot_price": 0.0273,
+    "perp_price": 0.02748,
+    "openInterest": 89803955.0,
+    "market_cap": 35136538,
+    "fdv": 55438096
+  },
+  {
+    "base": "MANTA",
+    "spot_price": 0.1131,
+    "perp_price": 0.1136,
+    "openInterest": 16718534.8,
+    "market_cap": 51204644,
+    "fdv": 113521131
+  },
+  {
+    "base": "ALT",
+    "spot_price": 0.01905,
+    "perp_price": 0.01914,
+    "openInterest": 213645243.0,
+    "market_cap": 85490519,
+    "fdv": 190929157
+  },
+  {
+    "base": "JUP",
+    "spot_price": 0.3409,
+    "perp_price": 0.3422,
+    "openInterest": 65409540.0,
+    "market_cap": 1081968478,
+    "fdv": 2392477364
+  },
+  {
+    "base": "PYTH",
+    "spot_price": 0.1091,
+    "perp_price": 0.10941,
+    "openInterest": 79030995.0,
+    "market_cap": 627823362,
+    "fdv": 1091869931
+  },
+  {
+    "base": "RONIN",
+    "spot_price": 0.3734,
+    "perp_price": 0.3736,
+    "openInterest": 4082546.6,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "DYM",
+    "spot_price": 0.1158,
+    "perp_price": 0.1162,
+    "openInterest": 15728089.7,
+    "market_cap": 44822210,
+    "fdv": 116125885
+  },
+  {
+    "base": "PIXEL",
+    "spot_price": 0.0176,
+    "perp_price": 0.01768,
+    "openInterest": 89472936.0,
+    "market_cap": 13580984,
+    "fdv": 88069069
+  },
+  {
+    "base": "STRK",
+    "spot_price": 0.1104,
+    "perp_price": 0.1107,
+    "openInterest": 107060241.0,
+    "market_cap": 477252930,
+    "fdv": 1105116597
+  },
+  {
+    "base": "PORTAL",
+    "spot_price": 0.0263,
+    "perp_price": 0.02635,
+    "openInterest": 63116051.5,
+    "market_cap": 15544828,
+    "fdv": 26316851
+  },
+  {
+    "base": "AXL",
+    "spot_price": 0.1935,
+    "perp_price": 0.1922,
+    "openInterest": 14754009.1,
+    "market_cap": 205075715,
+    "fdv": 237114747
+  },
+  {
+    "base": "WIF",
+    "spot_price": 0.511,
+    "perp_price": 0.5145,
+    "openInterest": 49626576.0,
+    "market_cap": 512469941,
+    "fdv": 512469941
+  },
+  {
+    "base": "METIS",
+    "spot_price": 9.23,
+    "perp_price": 9.27,
+    "openInterest": 243221.68,
+    "market_cap": 60925370,
+    "fdv": 92411499
+  },
+  {
+    "base": "AEVO",
+    "spot_price": 0.0634,
+    "perp_price": 0.06387,
+    "openInterest": 46453759.8,
+    "market_cap": 58137040,
+    "fdv": 63557792
+  },
+  {
+    "base": "BOME",
+    "spot_price": 0.00106,
+    "perp_price": 0.001071,
+    "openInterest": 5008917627.0,
+    "market_cap": 73490198,
+    "fdv": 73490198
+  },
+  {
+    "base": "ETHFI",
+    "spot_price": 1.073,
+    "perp_price": 1.0797,
+    "openInterest": 23311839.1,
+    "market_cap": 604840656,
+    "fdv": 1074553938
+  },
+  {
+    "base": "ENA",
+    "spot_price": 0.4559,
+    "perp_price": 0.4606,
+    "openInterest": 402104923.0,
+    "market_cap": 3266330978,
+    "fdv": 6846457946
+  },
+  {
+    "base": "W",
+    "spot_price": 0.0733,
+    "perp_price": 0.07374,
+    "openInterest": 162198010.7,
+    "market_cap": 353990043,
+    "fdv": 734818807
+  },
+  {
+    "base": "TNSR",
+    "spot_price": 0.0636,
+    "perp_price": 0.0638,
+    "openInterest": 29159593.8,
+    "market_cap": 21360068,
+    "fdv": 63836239
+  },
+  {
+    "base": "SAGA",
+    "spot_price": 0.1198,
+    "perp_price": 0.1205,
+    "openInterest": 21843573.3,
+    "market_cap": 36792077,
+    "fdv": 129429451
+  },
+  {
+    "base": "TAO",
+    "spot_price": 397.6,
+    "perp_price": 398.99,
+    "openInterest": 124366.265,
+    "market_cap": 3817253530,
+    "fdv": 8352425037
+  },
+  {
+    "base": "REZ",
+    "spot_price": 0.01191,
+    "perp_price": 0.01193,
+    "openInterest": 347628947.0,
+    "market_cap": 31379148,
+    "fdv": 119240905
+  },
+  {
+    "base": "BB",
+    "spot_price": 0.1231,
+    "perp_price": 0.12369,
+    "openInterest": 57497557.0,
+    "market_cap": 50642265,
+    "fdv": 259703924
+  },
+  {
+    "base": "NOT",
+    "spot_price": 0.000845,
+    "perp_price": 0.00085,
+    "openInterest": 5150455127.0,
+    "market_cap": 84132919,
+    "fdv": 86691004
+  },
+  {
+    "base": "IO",
+    "spot_price": 0.317,
+    "perp_price": 0.3185,
+    "openInterest": 14150597.2,
+    "market_cap": 70238596,
+    "fdv": 254660928
+  },
+  {
+    "base": "ZK",
+    "spot_price": 0.03616,
+    "perp_price": 0.03638,
+    "openInterest": 176435470.0,
+    "market_cap": 262370380,
+    "fdv": 761885157
+  },
+  {
+    "base": "LISTA",
+    "spot_price": 0.3114,
+    "perp_price": 0.314,
+    "openInterest": 25876563.0,
+    "market_cap": 78015310,
+    "fdv": 248383926
+  },
+  {
+    "base": "ZRO",
+    "spot_price": 1.715,
+    "perp_price": 1.7207,
+    "openInterest": 6102892.6,
+    "market_cap": 190893149,
+    "fdv": 1717393136
+  },
+  {
+    "base": "G",
+    "spot_price": 0.00749,
+    "perp_price": 0.0075,
+    "openInterest": 160482828.0,
+    "market_cap": 54203148,
+    "fdv": 89930147
+  },
+  {
+    "base": "BANANA",
+    "spot_price": 12.31,
+    "perp_price": 12.353,
+    "openInterest": 105056.1,
+    "market_cap": 49501302,
+    "fdv": 104179233
+  },
+  {
+    "base": "RENDER",
+    "spot_price": 2.466,
+    "perp_price": 2.477,
+    "openInterest": 4303022.7,
+    "market_cap": 1281521645,
+    "fdv": 1317996853
+  },
+  {
+    "base": "TON",
+    "spot_price": 2.119,
+    "perp_price": 2.1263,
+    "openInterest": 10964713.6,
+    "market_cap": 5341925197,
+    "fdv": 10903079921
+  },
+  {
+    "base": "DOGS",
+    "spot_price": 6.97e-05,
+    "perp_price": 7.02e-05,
+    "openInterest": 34839211430.0,
+    "market_cap": 36077698,
+    "fdv": 38399098
+  },
+  {
+    "base": "EURI",
+    "spot_price": 1.163,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "POL",
+    "spot_price": 0.1886,
+    "perp_price": 0.18912,
+    "openInterest": 92368530.0,
+    "market_cap": 1984674084,
+    "fdv": 1984674084
+  },
+  {
+    "base": "NEIRO",
+    "spot_price": 0.00017903,
+    "perp_price": 0.00018,
+    "openInterest": 38026730376.0,
+    "market_cap": 75464870,
+    "fdv": 75464870
+  },
+  {
+    "base": "TURBO",
+    "spot_price": 0.002483,
+    "perp_price": 0.0024947,
+    "openInterest": 1355828844.0,
+    "market_cap": 171368053,
+    "fdv": 171368053
+  },
+  {
+    "base": "1MBABYDOGE",
+    "spot_price": 0.0010137,
+    "perp_price": 0.0010227,
+    "openInterest": 2460593320.0,
+    "market_cap": null,
+    "fdv": 429036995340928
+  },
+  {
+    "base": "CATI",
+    "spot_price": 0.0659,
+    "perp_price": 0.06625,
+    "openInterest": 33614957.0,
+    "market_cap": 13628121,
+    "fdv": 66155926
+  },
+  {
+    "base": "HMSTR",
+    "spot_price": 0.000408,
+    "perp_price": 0.0004105,
+    "openInterest": 3762891267.0,
+    "market_cap": 26285090,
+    "fdv": 40831209
+  },
+  {
+    "base": "EIGEN",
+    "spot_price": 1.16,
+    "perp_price": 1.1645,
+    "openInterest": 19391774.4,
+    "market_cap": 449796451,
+    "fdv": 2038875847
+  },
+  {
+    "base": "SCR",
+    "spot_price": 0.17,
+    "perp_price": 0.1711,
+    "openInterest": 17468782.0,
+    "market_cap": 32377304,
+    "fdv": 170406866
+  },
+  {
+    "base": "BNSOL",
+    "spot_price": 199.7,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 1713814959,
+    "fdv": 1713814959
+  },
+  {
+    "base": "LUMIA",
+    "spot_price": 0.151,
+    "perp_price": 0.1516,
+    "openInterest": 9092781.1,
+    "market_cap": 11417637,
+    "fdv": 36219115
+  },
+  {
+    "base": "KAIA",
+    "spot_price": 0.103,
+    "perp_price": 0.1033,
+    "openInterest": 31181715.0,
+    "market_cap": 604675543,
+    "fdv": 604675563
+  },
+  {
+    "base": "COW",
+    "spot_price": 0.2272,
+    "perp_price": 0.2281,
+    "openInterest": 12121405.0,
+    "market_cap": 119637323,
+    "fdv": 227540040
+  },
+  {
+    "base": "CETUS",
+    "spot_price": 0.0466,
+    "perp_price": 0.04675,
+    "openInterest": 34636496.0,
+    "market_cap": 40001314,
+    "fdv": 46564161
+  },
+  {
+    "base": "PNUT",
+    "spot_price": 0.1339,
+    "perp_price": 0.13467,
+    "openInterest": 79530758.0,
+    "market_cap": 134033095,
+    "fdv": 134033095
+  },
+  {
+    "base": "ACT",
+    "spot_price": 0.022,
+    "perp_price": 0.02212,
+    "openInterest": 77154286.0,
+    "market_cap": 31050459,
+    "fdv": 40509666
+  },
+  {
+    "base": "USUAL",
+    "spot_price": 0.0313,
+    "perp_price": 0.03152,
+    "openInterest": 106905308.0,
+    "market_cap": 32906181,
+    "fdv": 45856854
+  },
+  {
+    "base": "THE",
+    "spot_price": 0.2615,
+    "perp_price": 0.2638,
+    "openInterest": 9646524.9,
+    "market_cap": 30600758,
+    "fdv": 69765234
+  },
+  {
+    "base": "ACX",
+    "spot_price": 0.0821,
+    "perp_price": 0.0823,
+    "openInterest": 24168569.2,
+    "market_cap": 50353418,
+    "fdv": 82040157
+  },
+  {
+    "base": "ORCA",
+    "spot_price": 1.39,
+    "perp_price": 1.393,
+    "openInterest": 1627509.8,
+    "market_cap": 83530078,
+    "fdv": 104139220
+  },
+  {
+    "base": "MOVE",
+    "spot_price": 0.0753,
+    "perp_price": 0.0755,
+    "openInterest": 83738163.0,
+    "market_cap": 207036437,
+    "fdv": 752859771
+  },
+  {
+    "base": "ME",
+    "spot_price": 0.425,
+    "perp_price": 0.4267,
+    "openInterest": 10899932.3,
+    "market_cap": 71284898,
+    "fdv": 426507519
+  },
+  {
+    "base": "VELODROME",
+    "spot_price": 0.0323,
+    "perp_price": 0.03253,
+    "openInterest": 33302069.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "VANA",
+    "spot_price": 2.598,
+    "perp_price": 2.605,
+    "openInterest": 726571.26,
+    "market_cap": 79982890,
+    "fdv": 311621650
+  },
+  {
+    "base": "1000CAT",
+    "spot_price": 0.00553,
+    "perp_price": 0.005565,
+    "openInterest": 247699302.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "PENGU",
+    "spot_price": 0.02122,
+    "perp_price": 0.021328,
+    "openInterest": 1516804088.0,
+    "market_cap": 1336768683,
+    "fdv": 1696639230
+  },
+  {
+    "base": "BIO",
+    "spot_price": 0.0816,
+    "perp_price": 0.08178,
+    "openInterest": 132280723.0,
+    "market_cap": 144514751,
+    "fdv": 271106128
+  },
+  {
+    "base": "D",
+    "spot_price": 0.02392,
+    "perp_price": 0.02404,
+    "openInterest": 34784760.0,
+    "market_cap": 15410547,
+    "fdv": 19169954
+  },
+  {
+    "base": "AIXBT",
+    "spot_price": 0.0577,
+    "perp_price": 0.05813,
+    "openInterest": 64248856.0,
+    "market_cap": 57478929,
+    "fdv": 57812917
+  },
+  {
+    "base": "CGPT",
+    "spot_price": 0.0561,
+    "perp_price": 0.05628,
+    "openInterest": 18665216.0,
+    "market_cap": 48549335,
+    "fdv": 55947151
+  },
+  {
+    "base": "COOKIE",
+    "spot_price": 0.0846,
+    "perp_price": 0.085,
+    "openInterest": 32576364.0,
+    "market_cap": 52858374,
+    "fdv": 84746441
+  },
+  {
+    "base": "S",
+    "spot_price": 0.1702,
+    "perp_price": 0.171,
+    "openInterest": 60480098.0,
+    "market_cap": 645328298,
+    "fdv": 662502007
+  },
+  {
+    "base": "SOLV",
+    "spot_price": 0.01703,
+    "perp_price": 0.01704,
+    "openInterest": 290333961.0,
+    "market_cap": 25280210,
+    "fdv": 143230654
+  },
+  {
+    "base": "TRUMP",
+    "spot_price": 5.835,
+    "perp_price": 5.844,
+    "openInterest": 7575208.55,
+    "market_cap": 1169006035,
+    "fdv": 5845030961
+  },
+  {
+    "base": "ANIME",
+    "spot_price": 0.00946,
+    "perp_price": 0.00947,
+    "openInterest": 156591565.0,
+    "market_cap": 52453729,
+    "fdv": 94705674
+  },
+  {
+    "base": "BERA",
+    "spot_price": 1.8,
+    "perp_price": 1.804,
+    "openInterest": 10231986.0,
+    "market_cap": 232106763,
+    "fdv": 919986984
+  },
+  {
+    "base": "1000CHEEMS",
+    "spot_price": 0.001458,
+    "perp_price": 0.0014609,
+    "openInterest": 12186130662.0,
+    "market_cap": null,
+    "fdv": 321067717515
+  },
+  {
+    "base": "TST",
+    "spot_price": 0.02165,
+    "perp_price": 0.02172,
+    "openInterest": 248285414.0,
+    "market_cap": 20476263,
+    "fdv": 20476263
+  },
+  {
+    "base": "LAYER",
+    "spot_price": 0.2797,
+    "perp_price": 0.281,
+    "openInterest": 12413312.6,
+    "market_cap": 58740110,
+    "fdv": 279714811
+  },
+  {
+    "base": "HEI",
+    "spot_price": 0.23,
+    "perp_price": 0.23,
+    "openInterest": 9865197.6,
+    "market_cap": 18366874,
+    "fdv": 23013914
+  },
+  {
+    "base": "KAITO",
+    "spot_price": 1.0435,
+    "perp_price": 1.0472,
+    "openInterest": 10597362.8,
+    "market_cap": 252146052,
+    "fdv": 1044563620
+  },
+  {
+    "base": "SHELL",
+    "spot_price": 0.0919,
+    "perp_price": 0.0914,
+    "openInterest": 22663501.0,
+    "market_cap": 24809924,
+    "fdv": 91888607
+  },
+  {
+    "base": "RED",
+    "spot_price": 0.3541,
+    "perp_price": 0.3556,
+    "openInterest": 6966075.0,
+    "market_cap": 99595960,
+    "fdv": 355699856
+  },
+  {
+    "base": "GPS",
+    "spot_price": 0.00866,
+    "perp_price": 0.00871,
+    "openInterest": 189117003.0,
+    "market_cap": 27344904,
+    "fdv": 86671643
+  },
+  {
+    "base": "EPIC",
+    "spot_price": 0.916,
+    "perp_price": 0.9205,
+    "openInterest": 1901086.6,
+    "market_cap": 27507412,
+    "fdv": 27507412
+  },
+  {
+    "base": "BMT",
+    "spot_price": 0.0394,
+    "perp_price": 0.03965,
+    "openInterest": 37387320.0,
+    "market_cap": 10117514,
+    "fdv": 39493630
+  },
+  {
+    "base": "FORM",
+    "spot_price": 0.862,
+    "perp_price": 0.8683,
+    "openInterest": 28026715.6,
+    "market_cap": 330101516,
+    "fdv": 494720953
+  },
+  {
+    "base": "XUSD",
+    "spot_price": 0.9996,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 268968261,
+    "fdv": 268968261
+  },
+  {
+    "base": "NIL",
+    "spot_price": 0.2688,
+    "perp_price": 0.2694,
+    "openInterest": 25050318.5,
+    "market_cap": 70110247,
+    "fdv": 269377650
+  },
+  {
+    "base": "PARTI",
+    "spot_price": 0.0837,
+    "perp_price": 0.0841,
+    "openInterest": 33383731.0,
+    "market_cap": 19554976,
+    "fdv": 83926936
+  },
+  {
+    "base": "MUBARAK",
+    "spot_price": 0.02486,
+    "perp_price": 0.02503,
+    "openInterest": 106548789.0,
+    "market_cap": 24930914,
+    "fdv": 24930914
+  },
+  {
+    "base": "TUT",
+    "spot_price": 0.02567,
+    "perp_price": 0.02576,
+    "openInterest": 196433687.0,
+    "market_cap": 21497566,
+    "fdv": 21497566
+  },
+  {
+    "base": "BROCCOLI714",
+    "spot_price": 0.02465,
+    "perp_price": 0.0248,
+    "openInterest": 157525177.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "BANANAS31",
+    "spot_price": 0.003377,
+    "perp_price": 0.003444,
+    "openInterest": 671914919.0,
+    "market_cap": 33982932,
+    "fdv": 33982932
+  },
+  {
+    "base": "GUN",
+    "spot_price": 0.0197,
+    "perp_price": 0.01981,
+    "openInterest": 66887642.0,
+    "market_cap": 23805165,
+    "fdv": 197635240
+  },
+  {
+    "base": "BABY",
+    "spot_price": 0.03268,
+    "perp_price": 0.03274,
+    "openInterest": 85772622.0,
+    "market_cap": 92459111,
+    "fdv": 341598546
+  },
+  {
+    "base": "ONDO",
+    "spot_price": 0.7118,
+    "perp_price": 0.7141,
+    "openInterest": 38138231.0,
+    "market_cap": 2255114941,
+    "fdv": 7138455783
+  },
+  {
+    "base": "BIGTIME",
+    "spot_price": 0.03209,
+    "perp_price": 0.0322,
+    "openInterest": 63368102.0,
+    "market_cap": 61254269,
+    "fdv": 160498960
+  },
+  {
+    "base": "VIRTUAL",
+    "spot_price": 0.7578,
+    "perp_price": 0.7597,
+    "openInterest": 17139279.7,
+    "market_cap": 497425398,
+    "fdv": 758622582
+  },
+  {
+    "base": "KERNEL",
+    "spot_price": 0.1829,
+    "perp_price": 0.1842,
+    "openInterest": 23599575.0,
+    "market_cap": 43373796,
+    "fdv": 183197879
+  },
+  {
+    "base": "WCT",
+    "spot_price": 0.1592,
+    "perp_price": 0.1603,
+    "openInterest": 17864826.0,
+    "market_cap": 29742273,
+    "fdv": 159732808
+  },
+  {
+    "base": "HYPER",
+    "spot_price": 0.2011,
+    "perp_price": 0.2031,
+    "openInterest": 11361731.0,
+    "market_cap": 40096063,
+    "fdv": 162468948
+  },
+  {
+    "base": "INIT",
+    "spot_price": 0.1744,
+    "perp_price": 0.1752,
+    "openInterest": 14762530.0,
+    "market_cap": 29215907,
+    "fdv": 174729372
+  },
+  {
+    "base": "SIGN",
+    "spot_price": 0.03996,
+    "perp_price": 0.04008,
+    "openInterest": 80471915.0,
+    "market_cap": 53997293,
+    "fdv": 399979950
+  },
+  {
+    "base": "STO",
+    "spot_price": 0.1597,
+    "perp_price": 0.15995,
+    "openInterest": 40618227.0,
+    "market_cap": 36012258,
+    "fdv": 159817715
+  },
+  {
+    "base": "SYRUP",
+    "spot_price": 0.3757,
+    "perp_price": 0.37927,
+    "openInterest": 15494878.0,
+    "market_cap": 421612171,
+    "fdv": 458779523
+  },
+  {
+    "base": "KMNO",
+    "spot_price": 0.06705,
+    "perp_price": 0.06705,
+    "openInterest": 72049102.0,
+    "market_cap": 204384964,
+    "fdv": 674352383
+  },
+  {
+    "base": "SXT",
+    "spot_price": 0.0587,
+    "perp_price": 0.0586,
+    "openInterest": 26226217.0,
+    "market_cap": null,
+    "fdv": 293654183
+  },
+  {
+    "base": "NXPC",
+    "spot_price": 0.3352,
+    "perp_price": 0.3364,
+    "openInterest": 6291148.0,
+    "market_cap": null,
+    "fdv": 335664715
+  },
+  {
+    "base": "AWE",
+    "spot_price": 0.07561,
+    "perp_price": 0.07583,
+    "openInterest": 37783414.0,
+    "market_cap": 146773312,
+    "fdv": 146773312
+  },
+  {
+    "base": "HAEDAL",
+    "spot_price": 0.0953,
+    "perp_price": 0.09583,
+    "openInterest": 17737322.0,
+    "market_cap": 18620112,
+    "fdv": 95487754
+  },
+  {
+    "base": "USD1",
+    "spot_price": 0.9997,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 2730806809,
+    "fdv": 2730806809
+  },
+  {
+    "base": "HUMA",
+    "spot_price": 0.02792,
+    "perp_price": 0.028058,
+    "openInterest": 140926813.0,
+    "market_cap": 48517290,
+    "fdv": 279907442
+  },
+  {
+    "base": "A",
+    "spot_price": 0.2849,
+    "perp_price": 0.2857,
+    "openInterest": 19495127.0,
+    "market_cap": 455786783,
+    "fdv": 599044259
+  },
+  {
+    "base": "SOPH",
+    "spot_price": 0.02203,
+    "perp_price": 0.022158,
+    "openInterest": 174508714.0,
+    "market_cap": 44170431,
+    "fdv": 220852155
+  },
+  {
+    "base": "RESOLV",
+    "spot_price": 0.0581,
+    "perp_price": 0.05859,
+    "openInterest": 42938345.0,
+    "market_cap": 19198946,
+    "fdv": 58323044
+  },
+  {
+    "base": "HOME",
+    "spot_price": 0.02888,
+    "perp_price": 0.028927,
+    "openInterest": 255953391.0,
+    "market_cap": 79746613,
+    "fdv": 289038915
+  },
+  {
+    "base": "SPK",
+    "spot_price": 0.036177,
+    "perp_price": 0.03637,
+    "openInterest": 120902521.0,
+    "market_cap": 66440596,
+    "fdv": 362663877
+  },
+  {
+    "base": "NEWT",
+    "spot_price": 0.1429,
+    "perp_price": 0.1438,
+    "openInterest": 14164809.0,
+    "market_cap": 30817238,
+    "fdv": 143335993
+  },
+  {
+    "base": "SAHARA",
+    "spot_price": 0.07417,
+    "perp_price": 0.07443,
+    "openInterest": 470052600.0,
+    "market_cap": 170232891,
+    "fdv": 742463204
+  },
+  {
+    "base": "LA",
+    "spot_price": 0.4481,
+    "perp_price": 0.4382,
+    "openInterest": 25489867.5,
+    "market_cap": 85251575,
+    "fdv": 441718006
+  },
+  {
+    "base": "ERA",
+    "spot_price": 0.3827,
+    "perp_price": 0.3844,
+    "openInterest": 9090317.0,
+    "market_cap": 66977779,
+    "fdv": 383277704
+  },
+  {
+    "base": "C",
+    "spot_price": 0.1038,
+    "perp_price": 0.10434,
+    "openInterest": 18731900.0,
+    "market_cap": 16649141,
+    "fdv": 104057133
+  },
+  {
+    "base": "TREE",
+    "spot_price": 0.1571,
+    "perp_price": 0.1582,
+    "openInterest": 16323450.0,
+    "market_cap": 24896585,
+    "fdv": 28527876
+  },
+  {
+    "base": "A2Z",
+    "spot_price": 0.004021,
+    "perp_price": 0.004001,
+    "openInterest": 744923649.0,
+    "market_cap": 24513996,
+    "fdv": 36697084
+  },
+  {
+    "base": "TOWNS",
+    "spot_price": 0.0103,
+    "perp_price": 0.0104,
+    "openInterest": 162507232.0,
+    "market_cap": 21811223,
+    "fdv": 104728940
+  },
+  {
+    "base": "PROVE",
+    "spot_price": 0.7803,
+    "perp_price": 0.7859,
+    "openInterest": 9274563.8,
+    "market_cap": 152772124,
+    "fdv": 783446791
+  },
+  {
+    "base": "BFUSD",
+    "spot_price": 0.9997,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 1700166225,
+    "fdv": 1700166225
+  },
+  {
+    "base": "PLUME",
+    "spot_price": 0.07235,
+    "perp_price": 0.07247,
+    "openInterest": 136916001.0,
+    "market_cap": 219632625,
+    "fdv": 723767709
+  },
+  {
+    "base": "DOLO",
+    "spot_price": 0.0797,
+    "perp_price": 0.08037,
+    "openInterest": 27943207.0,
+    "market_cap": 31949624,
+    "fdv": 79779519
+  },
+  {
+    "base": "MITO",
+    "spot_price": 0.11098,
+    "perp_price": 0.11124,
+    "openInterest": 14744410.0,
+    "market_cap": 22499222,
+    "fdv": 111155589
+  },
+  {
+    "base": "WLFI",
+    "spot_price": 0.1305,
+    "perp_price": 0.1307,
+    "openInterest": 565017696.0,
+    "market_cap": 3561265231,
+    "fdv": 13064912591
+  },
+  {
+    "base": "SOMI",
+    "spot_price": 0.5053,
+    "perp_price": 0.5078,
+    "openInterest": 13391196.0,
+    "market_cap": 81096235,
+    "fdv": 506218692
+  },
+  {
+    "base": "OPEN",
+    "spot_price": 0.3407,
+    "perp_price": 0.3419,
+    "openInterest": 16407965.0,
+    "market_cap": 73474838,
+    "fdv": 340950525
+  },
+  {
+    "base": "USDE",
+    "spot_price": 0.9993,
+    "perp_price": null,
+    "openInterest": null,
+    "market_cap": 12216478799,
+    "fdv": 12199181652
+  },
+  {
+    "base": "LINEA",
+    "spot_price": 0.0182,
+    "perp_price": 0.01827,
+    "openInterest": 790889279.0,
+    "market_cap": 282531134,
+    "fdv": 1314098298
+  },
+  {
+    "base": "HOLO",
+    "spot_price": 0.132,
+    "perp_price": 0.1327,
+    "openInterest": 19264841.0,
+    "market_cap": 45970916,
+    "fdv": 271027287
+  },
+  {
+    "base": "PUMP",
+    "spot_price": 0.003569,
+    "perp_price": 0.003598,
+    "openInterest": 32706702194.0,
+    "market_cap": 1265904259,
+    "fdv": 3575962885
+  },
+  {
+    "base": "AVNT",
+    "spot_price": 0.507,
+    "perp_price": 0.5107,
+    "openInterest": 33237834.0,
+    "market_cap": 130908365,
+    "fdv": 506992145
+  },
+  {
+    "base": "ZKC",
+    "spot_price": 0.2674,
+    "perp_price": 0.2637,
+    "openInterest": 40813547.0,
+    "market_cap": 53506071,
+    "fdv": 266282744
+  },
+  {
+    "base": "SKY",
+    "spot_price": 0.05926,
+    "perp_price": 0.05925,
+    "openInterest": 82001642.0,
+    "market_cap": 1384790793,
+    "fdv": 1390787149
+  },
+  {
+    "base": "BARD",
+    "spot_price": 0.6245,
+    "perp_price": 0.6279,
+    "openInterest": 28171943.0,
+    "market_cap": 140960370,
+    "fdv": 626490532
+  },
+  {
+    "base": "0G",
+    "spot_price": 1.873,
+    "perp_price": 1.8762,
+    "openInterest": 6868372.0,
+    "market_cap": 399720813,
+    "fdv": 1874865543
+  },
+  {
+    "base": "HEMI",
+    "spot_price": 0.0613,
+    "perp_price": 0.06179,
+    "openInterest": 195071842.0,
+    "market_cap": 60152228,
+    "fdv": 615368064
+  },
+  {
+    "base": "XPL",
+    "spot_price": 0.41,
+    "perp_price": 0.4128,
+    "openInterest": 268548040.0,
+    "market_cap": 739884313,
+    "fdv": 4110468404
+  },
+  {
+    "base": "MIRA",
+    "spot_price": 0.2888,
+    "perp_price": 0.2907,
+    "openInterest": 14470531.0,
+    "market_cap": 59142401,
+    "fdv": 290054724
+  },
+  {
+    "base": "FF",
+    "spot_price": 0.11948,
+    "perp_price": 0.12062,
+    "openInterest": 167916175.0,
+    "market_cap": 280238223,
+    "fdv": 1197599246
+  },
+  {
+    "base": "EDEN",
+    "spot_price": 0.148,
+    "perp_price": 0.1494,
+    "openInterest": 46109949.0,
+    "market_cap": 27259331,
+    "fdv": 148253280
+  },
+  {
+    "base": "NOM",
+    "spot_price": 0.01867,
+    "perp_price": 0.01863,
+    "openInterest": 98110697.0,
+    "market_cap": 54129258,
+    "fdv": 131647167
+  },
+  {
+    "base": "2Z",
+    "spot_price": 0.22904,
+    "perp_price": 0.23089,
+    "openInterest": 35230006.0,
+    "market_cap": 798054512,
+    "fdv": 2298929794
+  },
+  {
+    "base": "MORPHO",
+    "spot_price": 1.772,
+    "perp_price": 1.777,
+    "openInterest": 3295179.5,
+    "market_cap": 927463438,
+    "fdv": 1774574827
+  },
+  {
+    "base": "ASTER",
+    "spot_price": 1.188,
+    "perp_price": 1.2023,
+    "openInterest": 109772435.0,
+    "market_cap": 2405294078,
+    "fdv": 9536775846
+  },
+  {
+    "base": "WAL",
+    "spot_price": 0.2083,
+    "perp_price": 0.2087,
+    "openInterest": 23439442.0,
+    "market_cap": 308451057,
+    "fdv": 1042798333
+  },
+  {
+    "base": "EUL",
+    "spot_price": 7.797,
+    "perp_price": 7.78,
+    "openInterest": 696870.2,
+    "market_cap": 145357484,
+    "fdv": 211459131
+  },
+  {
+    "base": "ENSO",
+    "spot_price": 1.887,
+    "perp_price": 1.92,
+    "openInterest": 2675947.2,
+    "market_cap": 39151692,
+    "fdv": 190149065
+  },
+  {
+    "base": "YB",
+    "spot_price": 0.53,
+    "perp_price": 0.5381,
+    "openInterest": 19168628.0,
+    "market_cap": 46773575,
+    "fdv": 372723989
+  },
+  {
+    "base": "ZBT",
+    "spot_price": 0.3978,
+    "perp_price": 0.3953,
+    "openInterest": 31480450.0,
+    "market_cap": 75194797,
+    "fdv": 395762092
+  },
+  {
+    "base": "XMR",
+    "spot_price": null,
+    "perp_price": 292.32,
+    "openInterest": 37048.677,
+    "market_cap": 5399548062,
+    "fdv": 5399548062
+  },
+  {
+    "base": "1000SHIB",
+    "spot_price": null,
+    "perp_price": 0.009861,
+    "openInterest": 3048093297.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "BTCDOM",
+    "spot_price": null,
+    "perp_price": 4236.3,
+    "openInterest": 3855.608,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "1000XEC",
+    "spot_price": null,
+    "perp_price": 0.01422,
+    "openInterest": 64634102.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "1000LUNC",
+    "spot_price": null,
+    "perp_price": 0.04144,
+    "openInterest": 107232744.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "LUNA2",
+    "spot_price": null,
+    "perp_price": 0.0992,
+    "openInterest": 18254301.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "1000PEPE",
+    "spot_price": null,
+    "perp_price": 0.0067458,
+    "openInterest": 12164778120.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "1000FLOKI",
+    "spot_price": null,
+    "perp_price": 0.06548,
+    "openInterest": 145290821.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "DODOX",
+    "spot_price": null,
+    "perp_price": 0.033313,
+    "openInterest": 22943098.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "BSV",
+    "spot_price": null,
+    "perp_price": 21.91,
+    "openInterest": 115192.2,
+    "market_cap": 436950685,
+    "fdv": 436950685
+  },
+  {
+    "base": "TOKEN",
+    "spot_price": null,
+    "perp_price": 0.00847,
+    "openInterest": 184422862.0,
+    "market_cap": 24827686,
+    "fdv": 84828245
+  },
+  {
+    "base": "KAS",
+    "spot_price": null,
+    "perp_price": 0.05162,
+    "openInterest": 80274744.0,
+    "market_cap": 1382644888,
+    "fdv": 1384911864
+  },
+  {
+    "base": "1000BONK",
+    "spot_price": null,
+    "perp_price": 0.014224,
+    "openInterest": 1705407145.0,
+    "market_cap": null,
+    "fdv": 1331838724687
+  },
+  {
+    "base": "ETHW",
+    "spot_price": null,
+    "perp_price": 0.9856,
+    "openInterest": 1158638.0,
+    "market_cap": 106593342,
+    "fdv": 106593342
+  },
+  {
+    "base": "1000RATS",
+    "spot_price": null,
+    "perp_price": 0.03005,
+    "openInterest": 215611707.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "ZETA",
+    "spot_price": null,
+    "perp_price": 0.1136,
+    "openInterest": 14339882.0,
+    "market_cap": 121905761,
+    "fdv": 238787045
+  },
+  {
+    "base": "MYRO",
+    "spot_price": null,
+    "perp_price": 0.014,
+    "openInterest": 101792867.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "MEW",
+    "spot_price": null,
+    "perp_price": 0.001869,
+    "openInterest": 1675163557.0,
+    "market_cap": 166531722,
+    "fdv": 166531722
+  },
+  {
+    "base": "BRETT",
+    "spot_price": null,
+    "perp_price": 0.02652,
+    "openInterest": 86207982.0,
+    "market_cap": 263733516,
+    "fdv": 263733516
+  },
+  {
+    "base": "POPCAT",
+    "spot_price": null,
+    "perp_price": 0.1471,
+    "openInterest": 37789636.0,
+    "market_cap": 144477006,
+    "fdv": 144477006
+  },
+  {
+    "base": "GOAT",
+    "spot_price": null,
+    "perp_price": 0.05296,
+    "openInterest": 43029346.0,
+    "market_cap": 53018314,
+    "fdv": 53018314
+  },
+  {
+    "base": "MOODENG",
+    "spot_price": null,
+    "perp_price": 0.10852,
+    "openInterest": 62885077.0,
+    "market_cap": 107797685,
+    "fdv": 107797685
+  },
+  {
+    "base": "SAFE",
+    "spot_price": null,
+    "perp_price": 0.2699,
+    "openInterest": 5119142.0,
+    "market_cap": 174977172,
+    "fdv": 270378294
+  },
+  {
+    "base": "PONKE",
+    "spot_price": null,
+    "perp_price": 0.06219,
+    "openInterest": 15569804.0,
+    "market_cap": 34647687,
+    "fdv": 34651560
+  },
+  {
+    "base": "1000000MOG",
+    "spot_price": null,
+    "perp_price": 0.4384,
+    "openInterest": 4199343.1,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "GRASS",
+    "spot_price": null,
+    "perp_price": 0.4537,
+    "openInterest": 7349969.3,
+    "market_cap": 142348820,
+    "fdv": 454265855
+  },
+  {
+    "base": "DRIFT",
+    "spot_price": null,
+    "perp_price": 0.5097,
+    "openInterest": 5553411.0,
+    "market_cap": 194561880,
+    "fdv": 509578109
+  },
+  {
+    "base": "SWELL",
+    "spot_price": null,
+    "perp_price": 0.006361,
+    "openInterest": 142803529.0,
+    "market_cap": 16865128,
+    "fdv": 63623569
+  },
+  {
+    "base": "HIPPO",
+    "spot_price": null,
+    "perp_price": 0.001259,
+    "openInterest": 2406851281.0,
+    "market_cap": 12648199,
+    "fdv": 12648199
+  },
+  {
+    "base": "1000X",
+    "spot_price": null,
+    "perp_price": 0.03302,
+    "openInterest": 23627425.0,
+    "market_cap": 2438294,
+    "fdv": 2438294
+  },
+  {
+    "base": "DEGEN",
+    "spot_price": null,
+    "perp_price": 0.00197,
+    "openInterest": 455038356.0,
+    "market_cap": 72932556,
+    "fdv": 72932556
+  },
+  {
+    "base": "BAN",
+    "spot_price": null,
+    "perp_price": 0.05609,
+    "openInterest": 83739402.0,
+    "market_cap": 55888170,
+    "fdv": 55888170
+  },
+  {
+    "base": "AKT",
+    "spot_price": null,
+    "perp_price": 0.678,
+    "openInterest": 1866317.4,
+    "market_cap": 191195734,
+    "fdv": 191256368
+  },
+  {
+    "base": "SLERF",
+    "spot_price": null,
+    "perp_price": 0.28702,
+    "openInterest": 39222779.0,
+    "market_cap": 35852211,
+    "fdv": 35852211
+  },
+  {
+    "base": "1000WHY",
+    "spot_price": null,
+    "perp_price": 2.52e-05,
+    "openInterest": 69490546748.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "CHILLGUY",
+    "spot_price": null,
+    "perp_price": 0.027,
+    "openInterest": 53014999.0,
+    "market_cap": 27072232,
+    "fdv": 27072232
+  },
+  {
+    "base": "AERO",
+    "spot_price": null,
+    "perp_price": 0.7615,
+    "openInterest": 9941035.8,
+    "market_cap": 684566370,
+    "fdv": 1340887366
+  },
+  {
+    "base": "RAYSOL",
+    "spot_price": null,
+    "perp_price": 1.7768,
+    "openInterest": 2405208.3,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "KOMA",
+    "spot_price": null,
+    "perp_price": 0.02134,
+    "openInterest": 175756616.0,
+    "market_cap": 13090818,
+    "fdv": 13090818
+  },
+  {
+    "base": "SPX",
+    "spot_price": null,
+    "perp_price": 0.9647,
+    "openInterest": 10601580.0,
+    "market_cap": 897789580,
+    "fdv": 897789580
+  },
+  {
+    "base": "MOCA",
+    "spot_price": null,
+    "perp_price": 0.0535,
+    "openInterest": 105131700.0,
+    "market_cap": 211722794,
+    "fdv": 476141490
+  },
+  {
+    "base": "FARTCOIN",
+    "spot_price": null,
+    "perp_price": 0.3671,
+    "openInterest": 120331381.3,
+    "market_cap": 366884042,
+    "fdv": 366884042
+  },
+  {
+    "base": "GRIFFAIN",
+    "spot_price": null,
+    "perp_price": 0.02173,
+    "openInterest": 98993138.0,
+    "market_cap": 21810968,
+    "fdv": 21810968
+  },
+  {
+    "base": "AI16Z",
+    "spot_price": null,
+    "perp_price": 0.0574,
+    "openInterest": 85873250.7,
+    "market_cap": 63155833,
+    "fdv": 63155833
+  },
+  {
+    "base": "ZEREBRO",
+    "spot_price": null,
+    "perp_price": 0.04194,
+    "openInterest": 453616466.0,
+    "market_cap": 41758859,
+    "fdv": 41758859
+  },
+  {
+    "base": "ALCH",
+    "spot_price": null,
+    "perp_price": 0.07202,
+    "openInterest": 263675123.0,
+    "market_cap": 61179155,
+    "fdv": 71972233
+  },
+  {
+    "base": "SWARMS",
+    "spot_price": null,
+    "perp_price": 0.01447,
+    "openInterest": 284386325.0,
+    "market_cap": 14428762,
+    "fdv": 14428762
+  },
+  {
+    "base": "SONIC",
+    "spot_price": null,
+    "perp_price": 0.1246,
+    "openInterest": 27468565.2,
+    "market_cap": 45149225,
+    "fdv": 300994834
+  },
+  {
+    "base": "ARC",
+    "spot_price": null,
+    "perp_price": 0.01196,
+    "openInterest": 273776887.0,
+    "market_cap": 11958078,
+    "fdv": 11958078
+  },
+  {
+    "base": "AVAAI",
+    "spot_price": null,
+    "perp_price": 0.01312,
+    "openInterest": 173011738.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "MELANIA",
+    "spot_price": null,
+    "perp_price": 0.1054,
+    "openInterest": 26758207.31,
+    "market_cap": 83069003,
+    "fdv": 105484530
+  },
+  {
+    "base": "VINE",
+    "spot_price": null,
+    "perp_price": 0.04635,
+    "openInterest": 72785769.0,
+    "market_cap": 46440383,
+    "fdv": 46440383
+  },
+  {
+    "base": "PIPPIN",
+    "spot_price": null,
+    "perp_price": 0.01541,
+    "openInterest": 454395583.0,
+    "market_cap": 15285003,
+    "fdv": 15285003
+  },
+  {
+    "base": "VVV",
+    "spot_price": null,
+    "perp_price": 1.531,
+    "openInterest": 1649911.51,
+    "market_cap": 61099166,
+    "fdv": 116592618
+  },
+  {
+    "base": "B3",
+    "spot_price": null,
+    "perp_price": 0.002252,
+    "openInterest": 1167180703.0,
+    "market_cap": 68119669,
+    "fdv": 224835323
+  },
+  {
+    "base": "IP",
+    "spot_price": null,
+    "perp_price": 5.48,
+    "openInterest": 5365765.1,
+    "market_cap": 1766647348,
+    "fdv": 5582064125
+  },
+  {
+    "base": "BID",
+    "spot_price": null,
+    "perp_price": 0.05498,
+    "openInterest": 19747186.0,
+    "market_cap": 14847386,
+    "fdv": 54928157
+  },
+  {
+    "base": "BROCCOLIF3B",
+    "spot_price": null,
+    "perp_price": 0.01908,
+    "openInterest": 406776385.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "SIREN",
+    "spot_price": null,
+    "perp_price": 0.09277,
+    "openInterest": 12306031.0,
+    "market_cap": 67413708,
+    "fdv": 67413708
+  },
+  {
+    "base": "BR",
+    "spot_price": null,
+    "perp_price": 0.06079,
+    "openInterest": 14453481.0,
+    "market_cap": 13343027,
+    "fdv": 60650122
+  },
+  {
+    "base": "JELLYJELLY",
+    "spot_price": null,
+    "perp_price": 0.07146,
+    "openInterest": 891053587.0,
+    "market_cap": 71306077,
+    "fdv": 71306077
+  },
+  {
+    "base": "MAVIA",
+    "spot_price": null,
+    "perp_price": 0.0798,
+    "openInterest": 8796939.0,
+    "market_cap": 4114528,
+    "fdv": 19927314
+  },
+  {
+    "base": "ATH",
+    "spot_price": null,
+    "perp_price": 0.02881,
+    "openInterest": 599357781.0,
+    "market_cap": 410619730,
+    "fdv": 1211545743
+  },
+  {
+    "base": "PROMPT",
+    "spot_price": null,
+    "perp_price": 0.0885,
+    "openInterest": 16145432.0,
+    "market_cap": 19846683,
+    "fdv": 88640713
+  },
+  {
+    "base": "XCN",
+    "spot_price": null,
+    "perp_price": 0.00885,
+    "openInterest": 109003781.0,
+    "market_cap": 318983554,
+    "fdv": 431992976
+  },
+  {
+    "base": "FHE",
+    "spot_price": null,
+    "perp_price": 0.04231,
+    "openInterest": 83226173.0,
+    "market_cap": 10515675,
+    "fdv": 42231628
+  },
+  {
+    "base": "AERGO",
+    "spot_price": null,
+    "perp_price": 0.07502,
+    "openInterest": 22056029.0,
+    "market_cap": 35467564,
+    "fdv": 37531814
+  },
+  {
+    "base": "BANK",
+    "spot_price": null,
+    "perp_price": 0.19657,
+    "openInterest": 83899196.0,
+    "market_cap": 84277937,
+    "fdv": 84277937
+  },
+  {
+    "base": "EPT",
+    "spot_price": null,
+    "perp_price": 0.00363,
+    "openInterest": 745803746.0,
+    "market_cap": 8444518,
+    "fdv": 36452469
+  },
+  {
+    "base": "DEEP",
+    "spot_price": null,
+    "perp_price": 0.08212,
+    "openInterest": 20154688.0,
+    "market_cap": 205655528,
+    "fdv": 822622111
+  },
+  {
+    "base": "AIOT",
+    "spot_price": null,
+    "perp_price": 0.4886,
+    "openInterest": 3262608.0,
+    "market_cap": 54623973,
+    "fdv": 485474508
+  },
+  {
+    "base": "B2",
+    "spot_price": null,
+    "perp_price": 1.821,
+    "openInterest": 6651422.0,
+    "market_cap": 76034022,
+    "fdv": 384325630
+  },
+  {
+    "base": "MILK",
+    "spot_price": null,
+    "perp_price": 0.03763,
+    "openInterest": 29829935.0,
+    "market_cap": 9830115,
+    "fdv": 45369760
+  },
+  {
+    "base": "OBOL",
+    "spot_price": null,
+    "perp_price": 0.09749,
+    "openInterest": 19360436.0,
+    "market_cap": 12370235,
+    "fdv": 48759303
+  },
+  {
+    "base": "DOOD",
+    "spot_price": null,
+    "perp_price": 0.007509,
+    "openInterest": 578942566.0,
+    "market_cap": 58977550,
+    "fdv": 75612244
+  },
+  {
+    "base": "ZKJ",
+    "spot_price": null,
+    "perp_price": 0.0761,
+    "openInterest": 23526300.7,
+    "market_cap": 28138559,
+    "fdv": 75947528
+  },
+  {
+    "base": "SKYAI",
+    "spot_price": null,
+    "perp_price": 0.0279,
+    "openInterest": 120219250.0,
+    "market_cap": 28012953,
+    "fdv": 28012953
+  },
+  {
+    "base": "AGT",
+    "spot_price": null,
+    "perp_price": 0.004842,
+    "openInterest": 1002830714.0,
+    "market_cap": null,
+    "fdv": 23980209
+  },
+  {
+    "base": "B",
+    "spot_price": null,
+    "perp_price": 0.1748,
+    "openInterest": 36634744.0,
+    "market_cap": 175058921,
+    "fdv": 175058921
+  },
+  {
+    "base": "SOON",
+    "spot_price": null,
+    "perp_price": 0.8008,
+    "openInterest": 28148085.0,
+    "market_cap": 218157170,
+    "fdv": 786523863
+  },
+  {
+    "base": "MERL",
+    "spot_price": null,
+    "perp_price": 0.33143,
+    "openInterest": 96879590.0,
+    "market_cap": 325625872,
+    "fdv": 698511888
+  },
+  {
+    "base": "HYPE",
+    "spot_price": null,
+    "perp_price": 35.16,
+    "openInterest": 4250374.63,
+    "market_cap": 9517638926,
+    "fdv": 35144089471
+  },
+  {
+    "base": "BDXN",
+    "spot_price": null,
+    "perp_price": 0.04777,
+    "openInterest": 87052907.0,
+    "market_cap": 7701015,
+    "fdv": 48131342
+  },
+  {
+    "base": "PUFFER",
+    "spot_price": null,
+    "perp_price": 0.09332,
+    "openInterest": 11586699.0,
+    "market_cap": 28217633,
+    "fdv": 93545717
+  },
+  {
+    "base": "PORT3",
+    "spot_price": null,
+    "perp_price": 0.03262,
+    "openInterest": 110590661.0,
+    "market_cap": 16310402,
+    "fdv": 32630774
+  },
+  {
+    "base": "1000000BOB",
+    "spot_price": null,
+    "perp_price": 0.03207,
+    "openInterest": 24259008.0,
+    "market_cap": null,
+    "fdv": null
+  },
+  {
+    "base": "SKATE",
+    "spot_price": null,
+    "perp_price": 0.04526,
+    "openInterest": 57202203.0,
+    "market_cap": 9714270,
+    "fdv": 45391494
+  },
+  {
+    "base": "TAIKO",
+    "spot_price": null,
+    "perp_price": 0.2534,
+    "openInterest": 2842030.0,
+    "market_cap": 47338545,
+    "fdv": 254057738
+  },
+  {
+    "base": "SQD",
+    "spot_price": null,
+    "perp_price": 0.15061,
+    "openInterest": 10466242.0,
+    "market_cap": 128782444,
+    "fdv": 202018686
+  },
+  {
+    "base": "PUMPBTC",
+    "spot_price": null,
+    "perp_price": 0.04171,
+    "openInterest": 60093674.0,
+    "market_cap": 84531774,
+    "fdv": 84531774
+  },
+  {
+    "base": "MYX",
+    "spot_price": null,
+    "perp_price": 2.765,
+    "openInterest": 3624813.0,
+    "market_cap": 527838328,
+    "fdv": 2766898681
+  },
+  {
+    "base": "F",
+    "spot_price": null,
+    "perp_price": 0.009698,
+    "openInterest": 126882756.0,
+    "market_cap": 26503140,
+    "fdv": 97742570
+  },
+  {
+    "base": "DMC",
+    "spot_price": null,
+    "perp_price": 0.003072,
+    "openInterest": 482300334.0,
+    "market_cap": 11364711,
+    "fdv": 38264737
+  },
+  {
+    "base": "H",
+    "spot_price": null,
+    "perp_price": 0.11017,
+    "openInterest": 162597363.0,
+    "market_cap": 203387794,
+    "fdv": 1114453666
+  },
+  {
+    "base": "OL",
+    "spot_price": null,
+    "perp_price": 0.02328,
+    "openInterest": 27709651.0,
+    "market_cap": 18158667,
+    "fdv": 116359466
+  },
+  {
+    "base": "ICNT",
+    "spot_price": null,
+    "perp_price": 0.2111,
+    "openInterest": 6785618.0,
+    "market_cap": 35505345,
+    "fdv": 148629002
+  },
+  {
+    "base": "BULLA",
+    "spot_price": null,
+    "perp_price": 0.0449,
+    "openInterest": 27212068.0,
+    "market_cap": 12383930,
+    "fdv": 44228320
+  },
+  {
+    "base": "IDOL",
+    "spot_price": null,
+    "perp_price": 0.02519,
+    "openInterest": 50989147.0,
+    "market_cap": 22785996,
+    "fdv": 121202106
+  },
+  {
+    "base": "M",
+    "spot_price": null,
+    "perp_price": 1.8821,
+    "openInterest": 8083810.0,
+    "market_cap": 3195199523,
+    "fdv": 9994868088
+  },
+  {
+    "base": "TANSSI",
+    "spot_price": null,
+    "perp_price": 0.03763,
+    "openInterest": 51418855.0,
+    "market_cap": 11104308,
+    "fdv": 37958356
+  },
+  {
+    "base": "CROSS",
+    "spot_price": null,
+    "perp_price": 0.11121,
+    "openInterest": 11059635.0,
+    "market_cap": 37447434,
+    "fdv": 110058322
+  },
+  {
+    "base": "AIN",
+    "spot_price": null,
+    "perp_price": 0.13247,
+    "openInterest": 28813134.0,
+    "market_cap": 24573130,
+    "fdv": 132612681
+  },
+  {
+    "base": "VELVET",
+    "spot_price": null,
+    "perp_price": 0.22354,
+    "openInterest": 21558560.0,
+    "market_cap": 20924570,
+    "fdv": 230270866
+  },
+  {
+    "base": "TAC",
+    "spot_price": null,
+    "perp_price": 0.00471,
+    "openInterest": 234042591.0,
+    "market_cap": 9550359,
+    "fdv": 47199095
+  },
+  {
+    "base": "TA",
+    "spot_price": null,
+    "perp_price": 0.05646,
+    "openInterest": 102101760.0,
+    "market_cap": 10085514,
+    "fdv": 56030631
+  },
+  {
+    "base": "ZORA",
+    "spot_price": null,
+    "perp_price": 0.09304,
+    "openInterest": 159346975.0,
+    "market_cap": 419346475,
+    "fdv": 938135292
+  },
+  {
+    "base": "TAG",
+    "spot_price": null,
+    "perp_price": 0.0003378,
+    "openInterest": 5358992800.0,
+    "market_cap": 36737535,
+    "fdv": 136799873
+  },
+  {
+    "base": "ZRC",
+    "spot_price": null,
+    "perp_price": 0.01549,
+    "openInterest": 39128248.0,
+    "market_cap": 34104130,
+    "fdv": 155377308
+  },
+  {
+    "base": "ESPORTS",
+    "spot_price": null,
+    "perp_price": 0.20649,
+    "openInterest": 12473582.0,
+    "market_cap": 31536705,
+    "fdv": 186976513
+  },
+  {
+    "base": "PLAY",
+    "spot_price": null,
+    "perp_price": 0.02839,
+    "openInterest": 71677513.0,
+    "market_cap": 10578108,
+    "fdv": 141607875
+  },
+  {
+    "base": "NAORIS",
+    "spot_price": null,
+    "perp_price": 0.05151,
+    "openInterest": 81815189.0,
+    "market_cap": 31067404,
+    "fdv": 207371787
+  },
+  {
+    "base": "ALL",
+    "spot_price": null,
+    "perp_price": 0.8764,
+    "openInterest": 1720377.0,
+    "market_cap": 1555049,
+    "fdv": 1555049
+  },
+  {
+    "base": "IN",
+    "spot_price": null,
+    "perp_price": 0.14861,
+    "openInterest": 25018544.0,
+    "market_cap": 34149107,
+    "fdv": 149558135
+  },
+  {
+    "base": "YALA",
+    "spot_price": null,
+    "perp_price": 0.0799,
+    "openInterest": 31647763.0,
+    "market_cap": 19686098,
+    "fdv": 79907852
+  },
+  {
+    "base": "CARV",
+    "spot_price": null,
+    "perp_price": 0.1598,
+    "openInterest": 10932281.0,
+    "market_cap": 47377149,
+    "fdv": 160402641
+  },
+  {
+    "base": "AIO",
+    "spot_price": null,
+    "perp_price": 0.14935,
+    "openInterest": 16963550.0,
+    "market_cap": 34395463,
+    "fdv": 149383119
+  },
+  {
+    "base": "XNY",
+    "spot_price": null,
+    "perp_price": 0.00591,
+    "openInterest": 489160236.0,
+    "market_cap": 14785489,
+    "fdv": 59141955
+  },
+  {
+    "base": "USELESS",
+    "spot_price": null,
+    "perp_price": 0.3144,
+    "openInterest": 30442283.0,
+    "market_cap": 315989405,
+    "fdv": 315989405
+  },
+  {
+    "base": "DAM",
+    "spot_price": null,
+    "perp_price": 0.06367,
+    "openInterest": 61148180.0,
+    "market_cap": 12477831,
+    "fdv": 62391742
+  },
+  {
+    "base": "CUDIS",
+    "spot_price": null,
+    "perp_price": 0.06016,
+    "openInterest": 35321363.0,
+    "market_cap": 14925512,
+    "fdv": 60305101
+  },
+  {
+    "base": "SAPIEN",
+    "spot_price": null,
+    "perp_price": 0.12116,
+    "openInterest": 11008189.0,
+    "market_cap": 30648655,
+    "fdv": 122594620
+  },
+  {
+    "base": "BAS",
+    "spot_price": null,
+    "perp_price": 0.0778,
+    "openInterest": 179397915.0,
+    "market_cap": 200650876,
+    "fdv": 802603503
+  },
+  {
+    "base": "BTR",
+    "spot_price": null,
+    "perp_price": 0.05942,
+    "openInterest": 25595497.0,
+    "market_cap": 15532195,
+    "fdv": 59373833
+  },
+  {
+    "base": "Q",
+    "spot_price": null,
+    "perp_price": 0.02492,
+    "openInterest": 288759676.0,
+    "market_cap": 39968645,
+    "fdv": 247330724
+  },
+  {
+    "base": "ARIA",
+    "spot_price": null,
+    "perp_price": 0.14934,
+    "openInterest": 16167504.0,
+    "market_cap": 27412927,
+    "fdv": 149797414
+  },
+  {
+    "base": "TAKE",
+    "spot_price": null,
+    "perp_price": 0.31732,
+    "openInterest": 34221630.0,
+    "market_cap": 46271899,
+    "fdv": 315516701
+  },
+  {
+    "base": "PTB",
+    "spot_price": null,
+    "perp_price": 0.03372,
+    "openInterest": 111251901.0,
+    "market_cap": 70118744,
+    "fdv": 178046621
+  },
+  {
+    "base": "FLOCK",
+    "spot_price": null,
+    "perp_price": 0.1958,
+    "openInterest": 7597233.0,
+    "market_cap": 46406019,
+    "fdv": 195720170
+  },
+  {
+    "base": "XPIN",
+    "spot_price": null,
+    "perp_price": 0.0032298,
+    "openInterest": 6670829901.0,
+    "market_cap": 51537515,
+    "fdv": 333252602
+  },
+  {
+    "base": "UB",
+    "spot_price": null,
+    "perp_price": 0.038503,
+    "openInterest": 234316918.0,
+    "market_cap": 95621937,
+    "fdv": 382487747
+  },
+  {
+    "base": "TOSHI",
+    "spot_price": null,
+    "perp_price": 0.0007336,
+    "openInterest": 2489312058.0,
+    "market_cap": 308693916,
+    "fdv": 308693916
+  },
+  {
+    "base": "STBL",
+    "spot_price": null,
+    "perp_price": 0.08104,
+    "openInterest": 116367692.0,
+    "market_cap": 40635656,
+    "fdv": 812713112
+  },
+  {
+    "base": "AIA",
+    "spot_price": null,
+    "perp_price": 0.9498,
+    "openInterest": 7562520.0,
+    "market_cap": 94261455,
+    "fdv": 947351311
+  },
+  {
+    "base": "TRADOOR",
+    "spot_price": null,
+    "perp_price": 2.536,
+    "openInterest": 1284433.0,
+    "market_cap": 36610439,
+    "fdv": 153085675
+  },
+  {
+    "base": "BLESS",
+    "spot_price": null,
+    "perp_price": 0.06543,
+    "openInterest": 161667387.0,
+    "market_cap": 119562577,
+    "fdv": 649208541
+  },
+  {
+    "base": "FLUID",
+    "spot_price": null,
+    "perp_price": 4.727,
+    "openInterest": 362341.6,
+    "market_cap": 364567047,
+    "fdv": 474985548
+  },
+  {
+    "base": "COAI",
+    "spot_price": null,
+    "perp_price": 13.361,
+    "openInterest": 2736991.0,
+    "market_cap": 2740078744,
+    "fdv": 13945892542
+  },
+  {
+    "base": "HANA",
+    "spot_price": null,
+    "perp_price": 0.0539,
+    "openInterest": 166025839.0,
+    "market_cap": 12916200,
+    "fdv": 53817498
+  },
+  {
+    "base": "AKE",
+    "spot_price": null,
+    "perp_price": 0.001646,
+    "openInterest": 1497293787.0,
+    "market_cap": 37739238,
+    "fdv": 165550201
+  },
+  {
+    "base": "ORDER",
+    "spot_price": null,
+    "perp_price": 0.22591,
+    "openInterest": 11865944.0,
+    "market_cap": 73788242,
+    "fdv": 227225641
+  },
+  {
+    "base": "LIGHT",
+    "spot_price": null,
+    "perp_price": 1.2296,
+    "openInterest": 10610737.0,
+    "market_cap": 53008303,
+    "fdv": 517070438
+  },
+  {
+    "base": "XAN",
+    "spot_price": null,
+    "perp_price": 0.03536,
+    "openInterest": 183231456.0,
+    "market_cap": 88405406,
+    "fdv": 353621622
+  },
+  {
+    "base": "VFY",
+    "spot_price": null,
+    "perp_price": 0.08706,
+    "openInterest": 37922352.0,
+    "market_cap": 26560666,
+    "fdv": 86744527
+  },
+  {
+    "base": "TRUTH",
+    "spot_price": null,
+    "perp_price": 0.012547,
+    "openInterest": 229208041.0,
+    "market_cap": 26169782,
+    "fdv": 125496164
+  },
+  {
+    "base": "EVAA",
+    "spot_price": null,
+    "perp_price": 4.138,
+    "openInterest": 2533605.6,
+    "market_cap": 27026405,
+    "fdv": 204189481
+  },
+  {
+    "base": "LYN",
+    "spot_price": null,
+    "perp_price": 0.15904,
+    "openInterest": 29450324.0,
+    "market_cap": 33299386,
+    "fdv": 159327205
+  },
+  {
+    "base": "KGEN",
+    "spot_price": null,
+    "perp_price": 0.52288,
+    "openInterest": 32645623.0,
+    "market_cap": 105149616,
+    "fdv": 529246988
+  },
+  {
+    "base": "4",
+    "spot_price": null,
+    "perp_price": 0.14033,
+    "openInterest": 134457743.0,
+    "market_cap": 141693835,
+    "fdv": 141693835
+  },
+  {
+    "base": "GIGGLE",
+    "spot_price": null,
+    "perp_price": 115.29,
+    "openInterest": 139401.34,
+    "market_cap": 115382929,
+    "fdv": 115382929
+  },
+  {
+    "base": "MON",
+    "spot_price": null,
+    "perp_price": 0.06876,
+    "openInterest": 28657792.0,
+    "market_cap": 9371414,
+    "fdv": 16395338
+  },
+  {
+    "base": "MET",
+    "spot_price": null,
+    "perp_price": 0.9725,
+    "openInterest": 2619233.0,
+    "market_cap": 41226798,
+    "fdv": 215011104
+  },
+  {
+    "base": "CLO",
+    "spot_price": null,
+    "perp_price": 0.3417,
+    "openInterest": 20654963.0,
+    "market_cap": 44589197,
+    "fdv": 345384947
+  },
+  {
+    "base": "RECALL",
+    "spot_price": null,
+    "perp_price": 0.55394,
+    "openInterest": 17977786.0,
+    "market_cap": 6036119,
+    "fdv": 30019715
+  },
+  {
+    "base": "LAB",
+    "spot_price": null,
+    "perp_price": 0.25996,
+    "openInterest": 11407716.0,
+    "market_cap": 19755553,
+    "fdv": 258087000
+  },
+  {
+    "base": "RIVER",
+    "spot_price": null,
+    "perp_price": 3.534,
+    "openInterest": 385984.2,
+    "market_cap": 68991994,
+    "fdv": 351999968
+  }
+]

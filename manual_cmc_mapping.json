@@ -1,0 +1,142 @@
+{
+  "_instructions": "This file lists Binance symbols that did not match a CoinMarketCap (CMC) entry automatically. For each symbol, please fill either `cmc_id` (integer) or `cmc_slug` (string) or both. Leave null if not applicable. After you finish, I will merge these into `binance_cmc_mapping.json`.",
+  "_how_to_find": "Go to https://coinmarketcap.com/ and search the token by symbol or name, then copy the slug from the token page URL (the part after /currencies/). Example: https://coinmarketcap.com/currencies/bitcoin/ -> slug is `bitcoin`. The numeric CMC id is optional but helpful.",
+  "unmatched": {
+    "1000000BOB": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'BOB' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000000MOG": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'MOG' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000BONK": {
+      "cmc_id": 23095,
+      "cmc_slug": "bonk1",
+      "_auto_mapped_from": "BONK"
+    },
+    "1000CAT": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'CAT' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000CHEEMS": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'CHEEMS' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000FLOKI": {
+      "cmc_id": 10804,
+      "cmc_slug": "floki-inu",
+      "_auto_mapped_from": "FLOKI"
+    },
+    "1000LUNC": {
+      "cmc_id": 4172,
+      "cmc_slug": "terra-luna",
+      "_auto_mapped_from": "LUNC"
+    },
+    "1000PEPE": {
+      "cmc_id": 22454,
+      "cmc_slug": "pepepad-vip",
+      "_auto_mapped_from": "PEPE"
+    },
+    "1000RATS": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'RATS' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000SATS": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'SATS' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000SHIB": {
+      "cmc_id": 5994,
+      "cmc_slug": "shiba-inu",
+      "_auto_mapped_from": "SHIB"
+    },
+    "1000WHY": {
+      "cmc_id": null,
+      "cmc_slug": null,
+      "_note": "No base symbol 'WHY' found in local CMC mapping — please supply slug/id if available"
+    },
+    "1000XEC": {
+      "cmc_id": 10791,
+      "cmc_slug": "ecash",
+      "_auto_mapped_from": "XEC"
+    },
+    "1MBABYDOGE": {
+      "cmc_id": null,
+      "cmc_slug": null
+    },
+    "1INCH": {
+      "cmc_id": 8104,
+      "cmc_slug": "1inch"
+    },
+    "2Z": {
+      "cmc_id": 38515,
+      "cmc_slug": "doublezero"
+    },
+    "BEAMX": {
+      "cmc_id": null,
+      "cmc_slug": "beam",
+      "_note": "User said BEAMX -> beam; please confirm slug 'beam' on CoinMarketCap or provide cmc_id"
+    },
+    "BROCCOLI714": {
+      "cmc_id": 35749,
+      "cmc_slug": null,
+      "_note": "Please confirm exact slug/id; previous value looked like a bad auto-fill"
+    },
+    "BROCCOLIF3B": {
+      "cmc_id": 35753,
+      "cmc_slug": null,
+      "_note": "Please confirm exact slug/id; previous value looked like a bad auto-fill"
+    },
+    "BTCDOM": {
+      "cmc_id": null,
+      "cmc_slug": null
+    },
+    "BTTC": {
+      "cmc_id": null,
+      "cmc_slug": null
+    },
+    "DODOX": {
+      "cmc_id": 7224,
+      "cmc_slug": "dodo",
+      "_auto_mapped_from": "DODO"
+    },
+    "EUR": {
+      "cmc_id": null,
+      "cmc_slug": null
+    },
+    "FXS": {
+      "cmc_id": 6953,
+      "cmc_slug": "frax",
+      "_note": "User indicated FXS -> frax; please confirm slug/id on CoinMarketCap"
+    },
+    "LUNA2": {
+      "cmc_id": 20314,
+      "cmc_slug": "terra-luna-v2",
+      "_auto_mapped_from": "LUNA"
+    },
+    "RAYSOL": {
+      "cmc_id": null,
+      "cmc_slug": null
+    },
+    "RIVER": {
+      "cmc_id": 38417,
+      "cmc_slug": "river"
+    },
+    "RONIN": {
+      "cmc_id": 14101,
+      "cmc_slug": "ron",
+      "_note": "User requested Ronin->RON; no local RON entry found — please confirm CMC slug/id for RON"
+    },
+    "VELODROME": {
+      "cmc_id": 20435,
+      "cmc_slug": "velodrome"
+    }
+  }
+}

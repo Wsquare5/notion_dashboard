@@ -1,0 +1,126 @@
+[
+  {
+    "base": "BROCCOLI714",
+    "spot_price": 0.02444,
+    "perp_price": 0.02438,
+    "spot_24h_change": 1.833,
+    "perp_24h_change": 1.626,
+    "spot_volume_24h": 3931282.88138,
+    "perp_volume_24h": 10665051.37737,
+    "open_interest": 165644733.0,
+    "open_interest_usd": 4038418.59054,
+    "funding_rate": 5e-05,
+    "funding_cycle": 4,
+    "index_price": 0.02443059,
+    "mark_price": 0.02440335,
+    "basis": -0.0020707645619692226,
+    "index_composition": [
+      {
+        "exchange": "binance",
+        "symbol": "BROCCOLI714USDT",
+        "price": "0.02440000",
+        "weight": "0.66666667"
+      },
+      {
+        "exchange": "gateio",
+        "symbol": "BROCCOLI_USDT",
+        "price": "0.02456000",
+        "weight": "0.06666667"
+      },
+      {
+        "exchange": "mxc",
+        "symbol": "BROCCOLIUSDT",
+        "price": "0.02439000",
+        "weight": "0.10000000"
+      },
+      {
+        "exchange": "bitget",
+        "symbol": "BROCCOLIUSDT",
+        "price": "0.02440000",
+        "weight": "0.10000000"
+      },
+      {
+        "exchange": "pancakeswapV2",
+        "symbol": "BROCCOLI714-WBNB*uindex(BNBUSDT)",
+        "price": "0.02440678",
+        "weight": "0.03333333"
+      },
+      {
+        "exchange": "pancakeswapV3",
+        "symbol": "BROCCOLI714-WBNB*uindex(BNBUSDT)",
+        "price": "0.02456343",
+        "weight": "0.03333333"
+      }
+    ],
+    "index_composition_summary": "binance (67%), mxc (10%), bitget (10%), gateio (7%), pancakeswapV2 (3%), +1 more",
+    "circulating_supply": 971060584.876237,
+    "total_supply": 971060584.876237,
+    "max_supply": 1000000000.0,
+    "ath_price": 0.257985,
+    "ath_date": "2025-02-14T10:31:04.883Z",
+    "ath_market_cap": null,
+    "atl_price": 0.0105676,
+    "atl_date": "2025-10-10T21:25:13.973Z",
+    "atl_market_cap": null,
+    "market_cap_calc": 23732720.69437523,
+    "fdv_calc": 23732720.69437523,
+    "logo_url": "https://coin-images.coingecko.com/coins/images/54400/small/broccoli.jpg?1739504145",
+    "website": null,
+    "genesis_date": "2025-10-10T21:25:13.973Z",
+    "binance_listing_date": "Listed",
+    "coingecko_id": "czs-dog"
+  },
+  {
+    "base": "BROCCOLIF3B",
+    "spot_price": null,
+    "perp_price": 0.018333,
+    "spot_24h_change": null,
+    "perp_24h_change": -17.874,
+    "spot_volume_24h": null,
+    "perp_volume_24h": 33739282.878197,
+    "open_interest": 415753762.0,
+    "open_interest_usd": 7622013.718745999,
+    "funding_rate": 0.00019331,
+    "funding_cycle": 4,
+    "index_price": 0.01834813,
+    "mark_price": 0.018352,
+    "basis": -0.0008246071943027484,
+    "index_composition": [
+      {
+        "exchange": "mxc",
+        "symbol": "BROCCOLIF3BUSDT",
+        "price": "0.01830700",
+        "weight": "0.42857143"
+      },
+      {
+        "exchange": "pancakeswapV3",
+        "symbol": "BROCCOLIF3B-WBNB*uindex(BNBUSDT)",
+        "price": "0.01828965",
+        "weight": "0.42857143"
+      },
+      {
+        "exchange": "binance_future",
+        "symbol": "BROCCOLIF3BUSDT",
+        "price": "0.01832500",
+        "weight": "0.14285714"
+      }
+    ],
+    "index_composition_summary": "mxc (43%), pancakeswapV3 (43%), binance_future (14%)",
+    "circulating_supply": 1000000000.0,
+    "total_supply": 1000000000.0,
+    "max_supply": 1000000000.0,
+    "ath_price": 0.110665,
+    "ath_date": "2025-04-20T09:50:49.229Z",
+    "ath_market_cap": null,
+    "atl_price": 0.00595841,
+    "atl_date": "2025-03-27T17:51:19.810Z",
+    "atl_market_cap": null,
+    "market_cap_calc": 18333000.0,
+    "fdv_calc": 18333000.0,
+    "logo_url": "https://coin-images.coingecko.com/coins/images/54448/small/Broccoli.jpg?1742023175",
+    "website": null,
+    "genesis_date": "2025-03-27T17:51:19.810Z",
+    "binance_listing_date": null,
+    "coingecko_id": "broccoli-3"
+  }
+]

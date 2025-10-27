@@ -1,0 +1,5 @@
+requests
+pycoingecko
+notion-client
+python-dotenv
+tenacity

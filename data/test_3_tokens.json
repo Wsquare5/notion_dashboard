@@ -1,0 +1,53 @@
+[
+  {
+    "symbol": "1000000BOB",
+    "perp_price": 0.02989,
+    "perp_24h_change": -3.767,
+    "perp_24h_volume": 38462985.0,
+    "perp_high_24h": 0.03281,
+    "perp_low_24h": 0.02923,
+    "open_interest": 23947954.0,
+    "open_interest_usd": 715804.34506,
+    "funding_rate": 5e-05,
+    "next_funding_time": 1761148800000,
+    "index_price": 0.02986924,
+    "basis": 2.076000000000161e-05,
+    "basis_percentage": 0.06950294014846582,
+    "index_composition": "binance_cross2: 75.0%, binance_cross3: 25.0%",
+    "last_updated": "2025-10-22 21:13:35"
+  },
+  {
+    "symbol": "1000000MOG",
+    "perp_price": 0.447,
+    "perp_24h_change": -2.423,
+    "perp_24h_volume": 14459986.4,
+    "perp_high_24h": 0.5004,
+    "perp_low_24h": 0.4365,
+    "open_interest": 3757253.3,
+    "open_interest_usd": 1679492.2251,
+    "funding_rate": 5e-05,
+    "next_funding_time": 1761148800000,
+    "index_price": 0.4472875,
+    "basis": -0.0002874999999999961,
+    "basis_percentage": -0.06427633233658354,
+    "index_composition": "gateio: 25.0%, kucoin: 37.5%, mxc: 37.5%",
+    "last_updated": "2025-10-22 21:13:35"
+  },
+  {
+    "symbol": "1000BONK",
+    "perp_price": 0.01429,
+    "perp_24h_change": -1.955,
+    "perp_24h_volume": 9407272410.0,
+    "perp_high_24h": 0.015519,
+    "perp_low_24h": 0.013935,
+    "open_interest": 1584818339.0,
+    "open_interest_usd": 22647054.06431,
+    "funding_rate": -0.0001619,
+    "next_funding_time": 1761148800000,
+    "index_price": 0.01430997,
+    "basis": -1.9969999999999363e-05,
+    "basis_percentage": -0.13955305287152497,
+    "index_composition": "binance: 58.8%, gateio: 5.9%, kucoin: 8.8%, mxc: 8.8%, bitget: 8.8%, bybit: 8.8%",
+    "last_updated": "2025-10-22 21:13:35"
+  }
+]

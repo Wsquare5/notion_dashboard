@@ -1,0 +1,7 @@
+{
+  "notion": {
+    "api_key": "secret_YOUR_NOTION_API_KEY_HERE",
+    "trading_database_id": "YOUR_TRADING_DATABASE_ID_HERE", 
+    "basic_info_database_id": "YOUR_BASIC_INFO_DATABASE_ID_HERE"
+  }
+}

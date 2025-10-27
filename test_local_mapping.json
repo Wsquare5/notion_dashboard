@@ -1,0 +1,209 @@
+[
+  {
+    "base": "BTC",
+    "spot_price": 109979.8,
+    "perp_price": 109917.5,
+    "spot_24h_change": 1.217,
+    "perp_24h_change": 1.36,
+    "spot_volume_24h": 2183423297.1283264,
+    "perp_volume_24h": 14812624700.35,
+    "open_interest": 77465.34,
+    "open_interest_usd": 8514796509.45,
+    "funding_rate": 3.699e-05,
+    "funding_cycle": 8,
+    "index_price": 110006.82065217,
+    "mark_price": 109943.2,
+    "basis": -0.0008119555827581583,
+    "index_composition": [
+      {
+        "exchange": "binance",
+        "symbol": "BTCUSDT",
+        "price": "110006.22000000",
+        "weight": "0.43478261"
+      },
+      {
+        "exchange": "okex",
+        "symbol": "BTC-USDT",
+        "price": "110003.90000000",
+        "weight": "0.13043478"
+      },
+      {
+        "exchange": "coinbase",
+        "symbol": "BTC-USDT",
+        "price": "110036.58000000",
+        "weight": "0.13043478"
+      },
+      {
+        "exchange": "gateio",
+        "symbol": "BTC_USDT",
+        "price": "110000.00000000",
+        "weight": "0.04347826"
+      },
+      {
+        "exchange": "kucoin",
+        "symbol": "BTC-USDT",
+        "price": "110085.50000000",
+        "weight": "0.06521739"
+      },
+      {
+        "exchange": "mxc",
+        "symbol": "BTCUSDT",
+        "price": "109989.00000000",
+        "weight": "0.06521739"
+      },
+      {
+        "exchange": "bitget",
+        "symbol": "BTCUSDT",
+        "price": "110005.81000000",
+        "weight": "0.06521739"
+      },
+      {
+        "exchange": "bybit",
+        "symbol": "BTCUSDT",
+        "price": "110009.30000000",
+        "weight": "0.06521739"
+      }
+    ],
+    "index_composition_summary": "binance (43%), okex (13%), coinbase (13%), kucoin (7%), mxc (7%), +3 more",
+    "circulating_supply": 19938753.0,
+    "total_supply": 19938765.0,
+    "max_supply": 21000000.0,
+    "ath_price": 126080,
+    "ath_date": "2025-10-06T18:57:42.558Z",
+    "ath_market_cap": null,
+    "atl_price": 67.81,
+    "atl_date": "2013-07-06T00:00:00.000Z",
+    "atl_market_cap": null,
+    "market_cap_calc": 2192860067189.4001,
+    "fdv_calc": 2192861386947.0,
+    "logo_url": "https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png?1696501400",
+    "website": null,
+    "genesis_date": "2009-01-03",
+    "binance_listing_date": "Listed",
+    "coingecko_id": "bitcoin"
+  },
+  {
+    "base": "DODOX",
+    "spot_price": null,
+    "perp_price": 0.032268,
+    "spot_24h_change": null,
+    "perp_24h_change": -0.659,
+    "spot_volume_24h": null,
+    "perp_volume_24h": 1441438.360855,
+    "open_interest": 23109413.0,
+    "open_interest_usd": 745694.5386839999,
+    "funding_rate": 5e-05,
+    "funding_cycle": 4,
+    "index_price": 0.03228935,
+    "mark_price": 0.03225733,
+    "basis": -0.0006612087267164966,
+    "index_composition": [
+      {
+        "exchange": "binance",
+        "symbol": "DODOUSDT",
+        "price": "0.03230000",
+        "weight": "0.64516129"
+      },
+      {
+        "exchange": "gateio",
+        "symbol": "DODO_USDT",
+        "price": "0.03224000",
+        "weight": "0.06451613"
+      },
+      {
+        "exchange": "kucoin",
+        "symbol": "DODO-USDT",
+        "price": "0.03220000",
+        "weight": "0.09677419"
+      },
+      {
+        "exchange": "mxc",
+        "symbol": "DODOUSDT",
+        "price": "0.03233000",
+        "weight": "0.09677419"
+      },
+      {
+        "exchange": "bitget",
+        "symbol": "DODOUSDT",
+        "price": "0.03230000",
+        "weight": "0.09677419"
+      }
+    ],
+    "index_composition_summary": "binance (65%), kucoin (10%), mxc (10%), bitget (10%), gateio (6%)",
+    "circulating_supply": 1000000000.0,
+    "total_supply": 1000000000.0,
+    "max_supply": 1000000000.0,
+    "ath_price": 8.38,
+    "ath_date": "2021-02-20T09:19:28.624Z",
+    "ath_market_cap": null,
+    "atl_price": 0.02276631,
+    "atl_date": "2025-10-10T21:33:32.504Z",
+    "atl_market_cap": null,
+    "market_cap_calc": 32267999.999999996,
+    "fdv_calc": 32267999.999999996,
+    "logo_url": "https://coin-images.coingecko.com/coins/images/12651/small/dodo_logo.png?1696512458",
+    "website": null,
+    "genesis_date": "2025-10-10T21:33:32.504Z",
+    "binance_listing_date": "Listed",
+    "coingecko_id": "dodo"
+  },
+  {
+    "base": "FXS",
+    "spot_price": 1.402,
+    "perp_price": 1.4024,
+    "spot_24h_change": 0.358,
+    "perp_24h_change": 0.422,
+    "spot_volume_24h": 952329.5105,
+    "perp_volume_24h": 3361491.42367,
+    "open_interest": 1903795.9,
+    "open_interest_usd": 2669883.37016,
+    "funding_rate": 0.0001,
+    "funding_cycle": 8,
+    "index_price": 1.40265625,
+    "mark_price": 1.40279428,
+    "basis": -0.00018268909435212432,
+    "index_composition": [
+      {
+        "exchange": "binance",
+        "symbol": "FXSUSDT",
+        "price": "1.40200000",
+        "weight": "0.62500000"
+      },
+      {
+        "exchange": "okex",
+        "symbol": "FXS-USDT",
+        "price": "1.40700000",
+        "weight": "0.18750000"
+      },
+      {
+        "exchange": "kucoin",
+        "symbol": "FXS-USDT",
+        "price": "1.39700000",
+        "weight": "0.09375000"
+      },
+      {
+        "exchange": "mxc",
+        "symbol": "FXSUSDT",
+        "price": "1.40400000",
+        "weight": "0.09375000"
+      }
+    ],
+    "index_composition_summary": "binance (62%), okex (19%), kucoin (9%), mxc (9%)",
+    "circulating_supply": 292056763.944506,
+    "total_supply": 292056763.944506,
+    "max_supply": null,
+    "ath_price": 1.14,
+    "ath_date": "2021-02-07T12:55:35.766Z",
+    "ath_market_cap": null,
+    "atl_price": 0.874536,
+    "atl_date": "2023-03-11T07:50:39.316Z",
+    "atl_market_cap": null,
+    "market_cap_calc": 409463583.05019736,
+    "fdv_calc": 409463583.05019736,
+    "logo_url": "https://coin-images.coingecko.com/coins/images/13422/small/LFRAX.png?1751911193",
+    "website": null,
+    "genesis_date": "2023-03-11T07:50:39.316Z",
+    "binance_listing_date": null,
+    "coingecko_id": "frax"
+  }
+]

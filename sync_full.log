@@ -1,0 +1,622 @@
+🚀 Starting CMC to Notion sync...
+
+📊 Found 572 symbols to sync
+
+📥 Fetching data from CMC for 572 tokens...
+  Batch 1: 100 tokens
+  Batch 2: 100 tokens
+  Batch 3: 100 tokens
+  Batch 4: 100 tokens
+  Batch 5: 100 tokens
+  Batch 6: 72 tokens
+✅ Fetched data for 570 tokens
+
+📤 Syncing to Notion...
+  ✅ Updated: 0G           - 🖼️ Logo | 📅 Genesis: 2025-09-10 | 🌐 Website | 💰 Supply: 213,243,998 | 📊 MC: $371,254,099
+  ✅ Updated: 1000X        - 🖼️ Logo | 📅 Genesis: 2025-01-10 | 🌐 Website
+  ✅ Updated: 1INCH        - 🖼️ Logo | 📅 Genesis: 2020-12-25 | 🌐 Website | 💰 Supply: 1,398,862,102 | 📊 MC: $243,091,531
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81e2-add5-d27b0ab09fa5 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: 2Z - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81e2-add5-d27b0ab09fa5 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: 4            - 🖼️ Logo | 📅 Genesis: 2025-10-02 | 💰 Supply: 1,000,000,000 | 📊 MC: $138,219,430
+  ✅ Updated: A            - 🖼️ Logo | 📅 Genesis: 2025-05-28 | 🌐 Website | 💰 Supply: 1,598,987,534 | 📊 MC: $459,952,711
+  ✅ Updated: A2Z          - 🖼️ Logo | 📅 Genesis: 2022-01-11 | 🌐 Website | 💰 Supply: 7,199,534,281 | 📊 MC: $28,175,580
+  ✅ Updated: AAVE         - 🖼️ Logo | 📅 Genesis: 2020-10-02 | 🌐 Website | 💰 Supply: 15,257,905 | 📊 MC: $3,442,902,922
+  ✅ Updated: ACA          - 🖼️ Logo | 📅 Genesis: 2020-08-28 | 🌐 Website | 💰 Supply: 1,166,666,660 | 📊 MC: $21,647,820
+  ✅ Updated: ACE          - 🖼️ Logo | 📅 Genesis: 2021-05-13 | 🌐 Website | 💰 Supply: 1,400,000,000 | 📊 MC: $79,706
+  ✅ Updated: ACH          - 🖼️ Logo | 📅 Genesis: 2020-09-09 | 🌐 Website | 💰 Supply: 9,624,848,719 | 📊 MC: $125,115,615
+  ✅ Updated: ACM          - 🖼️ Logo | 📅 Genesis: 2021-02-22 | 🌐 Website | 💰 Supply: 10,669,858 | 📊 MC: $7,131,646
+  ✅ Updated: ACT          - 🖼️ Logo | 📅 Genesis: 2017-08-27 | 🌐 Website
+  ✅ Updated: ACX          - 🖼️ Logo | 📅 Genesis: 2022-11-09 | 🌐 Website | 💰 Supply: 618,362,668 | 📊 MC: $48,543,239
+  ✅ Updated: ADA          - 🖼️ Logo | 📅 Genesis: 2017-10-01 | 🌐 Website | 💰 Supply: 35,850,699,610 | 📊 MC: $23,053,167,686
+  ✅ Updated: ADX          - 🖼️ Logo | 📅 Genesis: 2017-07-01 | 🌐 Website | 💰 Supply: 147,900,000 | 📊 MC: $13,748,096
+  ✅ Updated: AERGO        - 🖼️ Logo | 📅 Genesis: 2018-12-17 | 🌐 Website | 💰 Supply: 489,999,996 | 📊 MC: $37,379,371
+  ✅ Updated: AERO         - 🖼️ Logo | 📅 Genesis: 2022-01-28 | 🌐 Website
+  ✅ Updated: AEUR         - 🖼️ Logo | 📅 Genesis: 2023-12-05 | 🌐 Website | 💰 Supply: 47,929,605 | 📊 MC: $56,823,350
+  ✅ Updated: AEVO         - 🖼️ Logo | 📅 Genesis: 2024-03-07 | 🌐 Website | 💰 Supply: 914,864,363 | 📊 MC: $57,657,858
+  ✅ Updated: AGLD         - 🖼️ Logo | 📅 Genesis: 2021-09-02 | 🌐 Website | 💰 Supply: 86,610,001 | 📊 MC: $35,935,496
+  ✅ Updated: AGT          - 🖼️ Logo | 📅 Genesis: 2024-04-14 | 🌐 Website
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8188-8321-d4dbe1099ddf (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: AI - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8188-8321-d4dbe1099ddf (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: AI16Z        - 🖼️ Logo | 📅 Genesis: 2024-11-17 | 🌐 Website | 💰 Supply: 1,099,992,478 | 📊 MC: $64,193,899
+  ✅ Updated: AIA          - 🖼️ Logo | 📅 Genesis: 2023-12-04 | 🌐 Website
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81dd-9bc2-eac5158fd2f2 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: AIN - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81dd-9bc2-eac5158fd2f2 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: AIO          - 🖼️ Logo | 📅 Genesis: 2025-07-31 | 🌐 Website | 💰 Supply: 230,250,000 | 📊 MC: $40,892,737
+  ✅ Updated: AIOT         - 🖼️ Logo | 📅 Genesis: 2025-04-23 | 🌐 Website | 💰 Supply: 92,516,666 | 📊 MC: $46,028,010
+  ✅ Updated: AIXBT        - 🖼️ Logo | 📅 Genesis: 2024-11-20 | 🌐 Website | 💰 Supply: 993,573,290 | 📊 MC: $53,890,734
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+❌ Error creating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: AKE - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: AKT          - 🖼️ Logo | 📅 Genesis: 2020-10-16 | 🌐 Website | 💰 Supply: 280,882,616 | 📊 MC: $178,549,922
+  ✅ Updated: ALCH         - 🖼️ Logo | 📅 Genesis: 2024-12-26 | 🌐 Website | 💰 Supply: 850,000,000 | 📊 MC: $57,354,786
+  ✅ Updated: ALCX         - 🖼️ Logo | 📅 Genesis: 2021-02-27 | 🌐 Website | 💰 Supply: 2,503,745 | 📊 MC: $19,475,724
+  ✅ Updated: ALGO         - 🖼️ Logo | 📅 Genesis: 2019-06-20 | 🌐 Website | 💰 Supply: 8,813,201,899 | 📊 MC: $1,600,343,394
+  ✅ Updated: ALICE        - 🖼️ Logo | 📅 Genesis: 2021-03-10 | 🌐 Website | 💰 Supply: 99,795,028 | 📊 MC: $32,225,829
+  ✅ Updated: ALL          - 🖼️ Logo | 📅 Genesis: 2021-03-18 | 🌐 Website | 💰 Supply: 3,076,011 | 📊 MC: $88,211
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: ALPINE       - 🖼️ Logo | 📅 Genesis: 2022-02-21 | 🌐 Website | 💰 Supply: 18,719,459 | 📊 MC: $15,512,628
+  ✅ Updated: ALT          - 🖼️ Logo | 📅 Genesis: 2021-07-14 | 🌐 Website | 💰 Supply: 200,000,000 | 📊 MC: $3,800,467
+  ✅ Updated: AMP          - 🖼️ Logo | 📅 Genesis: 2020-09-08 | 🌐 Website | 💰 Supply: 84,282,108,820 | 📊 MC: $209,926,931
+  ✅ Updated: ANIME        - 🖼️ Logo | 📅 Genesis: 2024-05-29 | 🌐 Website
+  ✅ Updated: ANKR         - 🖼️ Logo | 📅 Genesis: 2019-03-06 | 🌐 Website | 💰 Supply: 10,000,000,000 | 📊 MC: $101,533,925
+  ✅ Updated: APE          - 🖼️ Logo | 📅 Genesis: 2020-10-01 | 🌐 Website
+  ✅ Updated: API3         - 🖼️ Logo | 📅 Genesis: 2020-11-21 | 🌐 Website | 💰 Supply: 86,421,978 | 📊 MC: $59,531,916
+  ✅ Updated: APT          - 🖼️ Logo | 📅 Genesis: 2022-10-19 | 🌐 Website | 💰 Supply: 718,234,714 | 📊 MC: $2,302,852,243
+  ✅ Updated: AR           - 🖼️ Logo | 📅 Genesis: 2020-05-27 | 🌐 Website | 💰 Supply: 65,652,466 | 📊 MC: $258,110,902
+  ✅ Updated: ARB          - 🖼️ Logo | 📅 Genesis: 2015-05-21
+  ✅ Updated: ARC          - 🖼️ Logo | 📅 Genesis: 2021-10-23 | 🌐 Website | 💰 Supply: 922,619,290 | 📊 MC: $2,209,093
+  ✅ Updated: ARDR         - 🖼️ Logo | 📅 Genesis: 2016-07-23 | 🌐 Website | 💰 Supply: 998,466,231 | 📊 MC: $66,560,091
+  ✅ Updated: ARIA         - 🖼️ Logo | 📅 Genesis: 2024-11-21 | 🌐 Website
+  ✅ Updated: ARK          - 🖼️ Logo | 📅 Genesis: 2017-03-22 | 🌐 Website | 💰 Supply: 192,144,676 | 📊 MC: $63,257,970
+  ✅ Updated: ARKM         - 🖼️ Logo | 📅 Genesis: 2023-07-18 | 🌐 Website | 💰 Supply: 225,100,000 | 📊 MC: $79,523,278
+  ✅ Updated: ARPA         - 🖼️ Logo | 📅 Genesis: 2019-07-15 | 🌐 Website | 💰 Supply: 1,519,586,598 | 📊 MC: $29,816,793
+  ✅ Updated: ASR          - 🖼️ Logo | 📅 Genesis: 2020-02-13 | 🌐 Website | 💰 Supply: 7,964,126 | 📊 MC: $11,861,439
+  ✅ Updated: ASTER        - 🖼️ Logo | 📅 Genesis: 2025-04-25 | 🌐 Website | 💰 Supply: 2,017,700,000 | 📊 MC: $2,243,671,547
+  ✅ Updated: ASTR         - 🖼️ Logo | 📅 Genesis: 2021-10-19 | 🌐 Website | 💰 Supply: 8,195,264,294 | 📊 MC: $142,908,108
+  ✅ Updated: ATA          - 🖼️ Logo | 📅 Genesis: 2021-06-01 | 🌐 Website | 💰 Supply: 897,192,028 | 📊 MC: $26,750,949
+  ✅ Updated: ATH          - 🖼️ Logo | 📅 Genesis: 2024-06-12 | 🌐 Website | 💰 Supply: 14,234,731,752 | 📊 MC: $414,755,386
+  ✅ Updated: ATM          - 🖼️ Logo | 📅 Genesis: 2020-02-13 | 🌐 Website | 💰 Supply: 7,314,607 | 📊 MC: $8,867,502
+  ✅ Updated: ATOM         - 🖼️ Logo | 📅 Genesis: 2019-03-14 | 🌐 Website | 💰 Supply: 474,307,740 | 📊 MC: $1,494,667,294
+  ✅ Updated: AUCTION      - 🖼️ Logo | 📅 Genesis: 2021-02-26 | 🌐 Website | 💰 Supply: 6,590,310 | 📊 MC: $50,355,558
+  ✅ Updated: AUDIO        - 🖼️ Logo | 📅 Genesis: 2020-10-20 | 🌐 Website | 💰 Supply: 1,366,217,709 | 📊 MC: $55,447,132
+  ✅ Updated: AVA          - 🖼️ Logo | 📅 Genesis: 2018-05-28 | 🌐 Website | 💰 Supply: 69,949,531 | 📊 MC: $26,486,026
+  ✅ Updated: AVAAI        - 🖼️ Logo | 📅 Genesis: 2025-01-10 | 🌐 Website
+  ✅ Updated: AVAX         - 🖼️ Logo | 📅 Genesis: 2020-07-13 | 🌐 Website | 💰 Supply: 426,580,102 | 📊 MC: $8,198,312,203
+  ✅ Updated: AVNT         - 🖼️ Logo | 📅 Genesis: 2025-09-05 | 🌐 Website | 💰 Supply: 258,205,903 | 📊 MC: $179,948,934
+  ✅ Updated: AWE          - 🖼️ Logo | 📅 Genesis: 2019-06-12 | 🌐 Website | 💰 Supply: 1,942,420,283 | 📊 MC: $154,401,985
+  ✅ Updated: AXL          - 🖼️ Logo | 📅 Genesis: 2021-12-09 | 🌐 Website
+  ✅ Updated: AXS          - 🖼️ Logo | 📅 Genesis: 2020-08-31 | 🌐 Website | 💰 Supply: 166,709,634 | 📊 MC: $262,173,155
+  ✅ Updated: B            - 🖼️ Logo | 📅 Genesis: 2025-05-16 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $170,575,006
+  ✅ Updated: B2           - 🖼️ Logo | 📅 Genesis: 2025-04-28 | 🌐 Website | 💰 Supply: 46,900,245 | 📊 MC: $95,890,874
+  ✅ Updated: B3           - 🖼️ Logo | 📅 Genesis: 2025-02-10 | 🌐 Website | 💰 Supply: 30,297,828,333 | 📊 MC: $64,115,081
+  ✅ Updated: BABY         - 🖼️ Logo | 📅 Genesis: 2021-06-08 | 🌐 Website | 💰 Supply: 620,895,960 | 📊 MC: $262,236
+  ✅ Updated: BAN          - 🖼️ Logo | 📅 Genesis: 2020-01-22 | 🌐 Website | 💰 Supply: 1,605,902,929 | 📊 MC: $1,881,285
+  ✅ Updated: BANANA       - 🖼️ Logo | 📅 Genesis: 2021-02-17 | 🌐 Website | 💰 Supply: 367,899,432 | 📊 MC: $6
+  ✅ Updated: BANANAS31    - 🖼️ Logo | 📅 Genesis: 2024-11-20 | 🌐 Website | 💰 Supply: 10,000,000,000 | 📊 MC: $32,460,711
+  ✅ Updated: BAND         - 🖼️ Logo | 📅 Genesis: 2019-09-18 | 🌐 Website | 💰 Supply: 167,226,176 | 📊 MC: $91,718,304
+  ✅ Updated: BANK         - 🖼️ Logo | 📅 Genesis: 2020-12-24 | 🌐 Website
+  ✅ Updated: BAR          - 🖼️ Logo | 📅 Genesis: 2020-06-24 | 🌐 Website | 💰 Supply: 15,859,830 | 📊 MC: $12,227,768
+  ✅ Updated: BARD         - 🖼️ Logo | 📅 Genesis: 2025-09-16 | 🌐 Website | 💰 Supply: 225,000,000 | 📊 MC: $147,288,663
+  ✅ Updated: BAS          - 🖼️ Logo | 📅 Genesis: 2025-07-17 | 🌐 Website | 💰 Supply: 2,500,000,000 | 📊 MC: $38,333,841
+  ✅ Updated: BAT          - 🖼️ Logo | 📅 Genesis: 2017-06-01 | 🌐 Website | 💰 Supply: 1,495,696,057 | 📊 MC: $259,322,444
+  ✅ Updated: BB           - 🖼️ Logo | 📅 Genesis: 2021-11-26 | 🌐 Website
+  ✅ Updated: BCH          - 🖼️ Logo | 📅 Genesis: 2017-07-23 | 🌐 Website | 💰 Supply: 19,943,094 | 📊 MC: $9,631,932,348
+  ✅ Updated: BDXN         - 🖼️ Logo | 📅 Genesis: 2025-06-03 | 🌐 Website | 💰 Supply: 160,000,000 | 📊 MC: $5,755,512
+  ✅ Updated: BEL          - 🖼️ Logo | 📅 Genesis: 2020-09-07 | 🌐 Website | 💰 Supply: 80,000,000 | 📊 MC: $20,692,321
+  ✅ Updated: BERA         - 🖼️ Logo | 📅 Genesis: 2025-02-06 | 🌐 Website | 💰 Supply: 129,422,873 | 📊 MC: $259,215,550
+  ✅ Updated: BFUSD        - 🖼️ Logo | 📅 Genesis: 2025-08-18 | 🌐 Website | 💰 Supply: 1,250,000,000 | 📊 MC: $1,250,237,800
+  ✅ Updated: BICO         - 🖼️ Logo | 📅 Genesis: 2021-12-01 | 🌐 Website | 💰 Supply: 990,751,132 | 📊 MC: $64,059,496
+  ✅ Updated: BID          - 🖼️ Logo | 📅 Genesis: 2020-09-28 | 🌐 Website
+  ✅ Updated: BIFI         - 🖼️ Logo | 📅 Genesis: 2018-07-28 | 🌐 Website
+  ✅ Updated: BIGTIME      - 🖼️ Logo | 📅 Genesis: 2023-10-11 | 🌐 Website | 💰 Supply: 2,038,502,549 | 📊 MC: $66,830,061
+  ✅ Updated: BIO          - 🖼️ Logo | 📅 Genesis: 2024-11-29 | 🌐 Website
+  ✅ Updated: BLESS        - 🖼️ Logo | 📅 Genesis: 2025-09-21 | 🌐 Website | 💰 Supply: 1,841,666,376 | 📊 MC: $76,627,373
+  ✅ Updated: BLUAI        - 🖼️ Logo | 📅 Genesis: 2025-10-20 | 🌐 Website | 💰 Supply: 1,228,000,000 | 📊 MC: $27,367,366
+  ✅ Updated: BLUR         - 🖼️ Logo | 📅 Genesis: 2023-02-13 | 🌐 Website | 💰 Supply: 2,569,617,164 | 📊 MC: $131,800,619
+  ✅ Updated: BMT          - 🖼️ Logo | 📅 Genesis: 2025-01-13 | 🌐 Website | 💰 Supply: 471,281,627 | 📊 MC: $20,379,457
+  ✅ Updated: BNB          - 🖼️ Logo | 📅 Genesis: 2017-07-25 | 🌐 Website | 💰 Supply: 139,179,996 | 📊 MC: $158,046,933,222
+  ✅ Updated: BNSOL        - 🖼️ Logo | 📅 Genesis: 2024-09-12 | 🌐 Website | 💰 Supply: 8,116,266 | 📊 MC: $1,685,785,776
+  ✅ Updated: BNT          - 🖼️ Logo | 📅 Genesis: 2017-06-18 | 🌐 Website | 💰 Supply: 115,188,102 | 📊 MC: $67,588,599
+  ✅ Updated: BOME         - 🖼️ Logo | 📅 Genesis: 2024-03-14 | 🌐 Website | 💰 Supply: 68,895,332,522 | 📊 MC: $73,392,935
+  ✅ Updated: BONK         - 🖼️ Logo | 📅 Genesis: 2022-12-30 | 🌐 Website | 💰 Supply: 81,841,641,677,566 | 📊 MC: $1,181,448,809
+  ✅ Updated: BR           - 🖼️ Logo | 📅 Genesis: 2021-08-25 | 🌐 Website
+  ✅ Updated: BRETT        - 🖼️ Logo | 📅 Genesis: 2023-12-30 | 🌐 Website
+  ✅ Updated: BROCCOLI714  - 🖼️ Logo | 📅 Genesis: 2025-02-14 | 🌐 Website | 💰 Supply: 971,060,585 | 📊 MC: $24,531,533
+  ✅ Updated: BROCCOLIF3B  - 🖼️ Logo | 📅 Genesis: 2025-02-14 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $18,153,451
+  ✅ Updated: BSV          - 🖼️ Logo | 📅 Genesis: 2018-11-09 | 🌐 Website | 💰 Supply: 19,937,575 | 📊 MC: $423,905,087
+  ✅ Updated: BTC          - 🖼️ Logo | 📅 Genesis: 2010-07-13 | 🌐 Website | 💰 Supply: 19,938,953 | 📊 MC: $2,207,066,573,468
+  ✅ Updated: BTR          - 🖼️ Logo | 📅 Genesis: 2019-07-25 | 🌐 Website | 💰 Supply: 343,386,537 | 📊 MC: $10,774,011
+  ✅ Updated: BULLA        - 🖼️ Logo | 📅 Genesis: 2025-06-09 | 🌐 Website | 💰 Supply: 280,000,000 | 📊 MC: $14,651,095
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: C            - 🖼️ Logo | 📅 Genesis: 2025-05-26 | 🌐 Website
+  ✅ Updated: C98          - 🖼️ Logo | 📅 Genesis: 2021-07-15 | 🌐 Website | 💰 Supply: 999,998,945 | 📊 MC: $37,539,350
+  ✅ Updated: CAKE         - 🖼️ Logo | 📅 Genesis: 2020-09-25 | 🌐 Website | 💰 Supply: 342,143,933 | 📊 MC: $937,267,489
+  ✅ Updated: CARV         - 🖼️ Logo | 📅 Genesis: 2024-10-09 | 🌐 Website | 💰 Supply: 295,363,895 | 📊 MC: $44,156,366
+  ✅ Updated: CATI         - 🖼️ Logo | 📅 Genesis: 2024-09-13 | 🌐 Website | 💰 Supply: 371,987,567 | 📊 MC: $31,571,730
+  ✅ Updated: CELO         - 🖼️ Logo | 📅 Genesis: 2020-05-22 | 🌐 Website | 💰 Supply: 584,100,629 | 📊 MC: $143,887,416
+  ✅ Updated: CELR         - 🖼️ Logo | 📅 Genesis: 2019-03-25 | 🌐 Website | 💰 Supply: 7,803,424,107 | 📊 MC: $43,350,992
+  ✅ Updated: CETUS        - 🖼️ Logo | 📅 Genesis: 2023-05-09 | 🌐 Website | 💰 Supply: 859,057,971 | 📊 MC: $41,127,773
+  ✅ Updated: CFX          - 🖼️ Logo | 📅 Genesis: 2020-11-11 | 🌐 Website | 💰 Supply: 5,147,535,540 | 📊 MC: $562,697,880
+  ✅ Updated: CGPT         - 🖼️ Logo | 📅 Genesis: 2023-04-10 | 🌐 Website | 💰 Supply: 865,957,336 | 📊 MC: $47,638,246
+  ✅ Updated: CHESS        - 🖼️ Logo | 📅 Genesis: 2016-07-02 | 🌐 Website
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Read timed out. (read timeout=30)
+  ✅ Created: CHILLGUY     - 🖼️ Logo | 📅 Genesis: 2024-11-20 | 🌐 Website | 💰 Supply: 999,950,126 | 📊 MC: $26,075,762
+  ✅ Updated: CHR          - 🖼️ Logo | 📅 Genesis: 2019-05-28 | 🌐 Website | 💰 Supply: 847,931,914 | 📊 MC: $61,297,500
+  ✅ Updated: CHZ          - 🖼️ Logo | 📅 Genesis: 2019-07-01 | 🌐 Website | 💰 Supply: 10,059,602,155 | 📊 MC: $321,490,258
+  ✅ Updated: CITY         - 🖼️ Logo | 📅 Genesis: 2021-05-25 | 🌐 Website | 💰 Supply: 11,814,106 | 📊 MC: $8,795,185
+  ✅ Updated: CKB          - 🖼️ Logo | 📅 Genesis: 2019-11-19 | 🌐 Website | 💰 Supply: 47,510,960,237 | 📊 MC: $157,743,506
+  ✅ Updated: CLO          - 🖼️ Logo | 📅 Genesis: 2018-05-22 | 🌐 Website | 💰 Supply: 3,287,576,782 | 📊 MC: $361,784
+  ✅ Updated: COAI         - 🖼️ Logo | 📅 Genesis: 2025-01-06 | 🌐 Website
+  ✅ Updated: COMP         - 🖼️ Logo | 📅 Genesis: 2020-06-16 | 🌐 Website | 💰 Supply: 9,722,229 | 📊 MC: $368,936,742
+  ✅ Updated: COOKIE       - 🖼️ Logo | 📅 Genesis: 2024-06-14 | 🌐 Website | 💰 Supply: 623,635,497 | 📊 MC: $51,856,913
+  ✅ Updated: COS          - 🖼️ Logo | 📅 Genesis: 2019-06-20 | 🌐 Website | 💰 Supply: 5,176,458,774 | 📊 MC: $10,893,323
+  ✅ Updated: COTI         - 🖼️ Logo | 📅 Genesis: 2019-06-04 | 🌐 Website | 💰 Supply: 2,434,393,383 | 📊 MC: $82,995,358
+  ✅ Updated: COW          - 🖼️ Logo | 📅 Genesis: 2021-05-23 | 🌐 Website
+  ✅ Updated: CROSS        - 🖼️ Logo | 📅 Genesis: 2025-07-04 | 🌐 Website | 💰 Supply: 335,222,890 | 📊 MC: $41,564,965
+  ✅ Updated: CRV          - 🖼️ Logo | 📅 Genesis: 2020-08-14 | 🌐 Website | 💰 Supply: 1,405,668,029 | 📊 MC: $740,100,794
+  ✅ Updated: CTK          - 🖼️ Logo | 📅 Genesis: 2019-09-13 | 🌐 Website
+  ✅ Updated: CTSI         - 🖼️ Logo | 📅 Genesis: 2020-04-23 | 🌐 Website | 💰 Supply: 884,818,070 | 📊 MC: $46,506,269
+  ✅ Updated: CUDIS        - 🖼️ Logo | 📅 Genesis: 2025-05-02 | 🌐 Website | 💰 Supply: 247,500,000 | 📊 MC: $13,835,477
+  ✅ Updated: CVC          - 🖼️ Logo | 📅 Genesis: 2017-07-17 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $61,210,289
+  ✅ Updated: CVX          - 🖼️ Logo | 📅 Genesis: 2021-05-18 | 🌐 Website | 💰 Supply: 97,402,824 | 📊 MC: $218,355,712
+  ✅ Updated: CYBER        - 🖼️ Logo | 📅 Genesis: 2023-03-17 | 🌐 Website
+  ✅ Updated: D            - 🖼️ Logo | 📅 Genesis: 2021-08-24 | 🌐 Website | 💰 Supply: 647,874,403 | 📊 MC: $14,911,848
+  ✅ Updated: DAM          - 🖼️ Logo | 📅 Genesis: 2025-08-06 | 🌐 Website | 💰 Supply: 199,991,705 | 📊 MC: $9,659,327
+  ✅ Updated: DASH         - 🖼️ Logo | 📅 Genesis: 2014-02-14 | 🌐 Website | 💰 Supply: 12,461,335 | 📊 MC: $532,327,817
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: DATA         - 🖼️ Logo | 📅 Genesis: 2017-11-03 | 🌐 Website | 💰 Supply: 1,193,103,853 | 📊 MC: $10,056,227
+  ✅ Updated: DCR          - 🖼️ Logo | 📅 Genesis: 2016-02-10 | 🌐 Website | 💰 Supply: 17,084,099 | 📊 MC: $278,308,873
+  ✅ Updated: DEEP         - 🖼️ Logo | 📅 Genesis: 2024-10-10 | 🌐 Website | 💰 Supply: 4,230,443,949 | 📊 MC: $337,899,150
+  ✅ Updated: DEGEN        - 🖼️ Logo | 📅 Genesis: 2023-05-22 | 🌐 Website
+  ✅ Updated: DEGO         - 🖼️ Logo | 📅 Genesis: 2020-09-17 | 🌐 Website | 💰 Supply: 20,997,213 | 📊 MC: $24,130,550
+  ✅ Updated: DENT         - 🖼️ Logo | 📅 Genesis: 2017-08-12 | 🌐 Website | 💰 Supply: 100,000,000,000 | 📊 MC: $45,707,186
+  ✅ Updated: DEXE         - 🖼️ Logo | 📅 Genesis: 2020-10-07 | 🌐 Website | 💰 Supply: 83,733,647 | 📊 MC: $516,350,882
+  ✅ Updated: DF           - 🖼️ Logo | 📅 Genesis: 2020-06-22 | 🌐 Website | 💰 Supply: 999,926,147 | 📊 MC: $18,954,198
+  ✅ Updated: DGB          - 🖼️ Logo | 📅 Genesis: 2014-02-06 | 🌐 Website | 💰 Supply: 17,965,752,672 | 📊 MC: $112,567,986
+  ✅ Updated: DIA          - 🖼️ Logo | 📅 Genesis: 2020-08-04 | 🌐 Website | 💰 Supply: 119,676,104 | 📊 MC: $49,582,121
+  ✅ Updated: DMC          - 🖼️ Logo | 📅 Genesis: 2021-02-26 | 🌐 Website
+  ✅ Updated: DODO         - 🖼️ Logo | 📅 Genesis: 2020-09-29 | 🌐 Website | 💰 Supply: 725,703,404 | 📊 MC: $23,412,196
+  ✅ Updated: DODOX        - 🖼️ Logo | 📅 Genesis: 2020-09-29 | 🌐 Website | 💰 Supply: 725,703,404 | 📊 MC: $23,412,196
+  ✅ Updated: DOGE         - 🖼️ Logo | 📅 Genesis: 2013-12-15 | 🌐 Website | 💰 Supply: 151,477,556,384 | 📊 MC: $29,648,406,174
+  ✅ Updated: DOGS         - 🖼️ Logo | 📅 Genesis: 2024-03-08 | 🌐 Website
+  ✅ Updated: DOLO         - 🖼️ Logo | 📅 Genesis: 2025-03-04 | 🌐 Website | 💰 Supply: 441,621,967 | 📊 MC: $37,395,863
+  ✅ Updated: DOOD         - 🖼️ Logo | 📅 Genesis: 2025-02-14 | 🌐 Website | 💰 Supply: 7,800,000,000 | 📊 MC: $52,242,757
+  ✅ Updated: DOT          - 🖼️ Logo | 📅 Genesis: 2020-08-19 | 🌐 Website | 💰 Supply: 1,629,739,714 | 📊 MC: $4,901,009,990
+  ✅ Updated: DRIFT        - 🖼️ Logo | 📅 Genesis: 2024-05-16 | 🌐 Website | 💰 Supply: 382,314,670 | 📊 MC: $185,598,376
+  ✅ Updated: DUSK         - 🖼️ Logo | 📅 Genesis: 2019-07-11 | 🌐 Website | 💰 Supply: 485,699,999 | 📊 MC: $22,944,061
+  ✅ Updated: DYDX         - 🖼️ Logo | 📅 Genesis: 2021-08-03 | 🌐 Website | 💰 Supply: 790,379,769 | 📊 MC: $253,454,813
+  ✅ Updated: DYM          - 🖼️ Logo | 📅 Genesis: 2024-02-06 | 🌐 Website | 💰 Supply: 389,456,211 | 📊 MC: $41,930,546
+  ✅ Updated: EDEN         - 🖼️ Logo | 📅 Genesis: 2020-11-23 | 🌐 Website | 💰 Supply: 13,232,627 | 📊 MC: $170,874
+  ✅ Updated: EDU          - 🖼️ Logo | 📅 Genesis: 2023-04-21 | 🌐 Website | 💰 Supply: 593,195,257 | 📊 MC: $107,100,283
+  ✅ Updated: EGLD         - 🖼️ Logo | 📅 Genesis: 2020-09-04 | 🌐 Website | 💰 Supply: 28,720,964 | 📊 MC: $279,600,673
+  ✅ Updated: EIGEN        - 🖼️ Logo | 📅 Genesis: 2024-07-04 | 🌐 Website | 💰 Supply: 389,735,822 | 📊 MC: $418,397,003
+  ✅ Updated: ENA          - 🖼️ Logo | 📅 Genesis: 2024-03-29 | 🌐 Website | 💰 Supply: 7,156,250,000 | 📊 MC: $3,294,277,149
+  ✅ Updated: ENJ          - 🖼️ Logo | 📅 Genesis: 2017-11-01 | 🌐 Website | 💰 Supply: 1,894,555,226 | 📊 MC: $83,560,521
+  ✅ Updated: ENS          - 🖼️ Logo | 📅 Genesis: 2021-11-09 | 🌐 Website | 💰 Supply: 37,443,156 | 📊 MC: $573,181,902
+  ✅ Updated: ENSO         - 🖼️ Logo | 📅 Genesis: 2025-10-12 | 🌐 Website | 💰 Supply: 20,590,000 | 📊 MC: $32,695,417
+  ✅ Updated: EPIC         - 🖼️ Logo | 📅 Genesis: 2020-04-12 | 🌐 Website | 💰 Supply: 17,279,628 | 📊 MC: $3,002,003
+  ✅ Updated: EPT          - 🖼️ Logo | 📅 Genesis: 2025-02-10 | 🌐 Website | 💰 Supply: 3,072,196,960 | 📊 MC: $15,664,813
+  ✅ Updated: ERA          - 🖼️ Logo | 📅 Genesis: 2022-03-02 | 🌐 Website | 💰 Supply: 46,021,643 | 📊 MC: $43,547
+  ✅ Updated: ESPORTS      - 🖼️ Logo | 📅 Genesis: 2025-07-18 | 🌐 Website | 💰 Supply: 126,345,365 | 📊 MC: $26,819,222
+  ✅ Updated: ETC          - 🖼️ Logo | 📅 Genesis: 2016-07-24 | 🌐 Website | 💰 Supply: 154,032,099 | 📊 MC: $2,415,888,037
+  ✅ Updated: ETH          - 🖼️ Logo | 📅 Genesis: 2015-08-07 | 🌐 Website | 💰 Supply: 120,698,300 | 📊 MC: $469,869,382,784
+  ✅ Updated: ETHFI        - 🖼️ Logo | 📅 Genesis: 2024-03-13 | 🌐 Website | 💰 Supply: 564,111,001 | 📊 MC: $551,686,210
+  ✅ Updated: ETHW         - 🖼️ Logo | 📅 Genesis: 2022-08-08 | 🌐 Website | 💰 Supply: 107,818,999 | 📊 MC: $105,163,236
+  ✅ Updated: EUL          - 🖼️ Logo | 📅 Genesis: 2021-11-10 | 🌐 Website | 💰 Supply: 20,689,868 | 📊 MC: $151,004,272
+  ✅ Updated: EURI         - 🖼️ Logo | 📅 Genesis: 2024-08-26 | 🌐 Website | 💰 Supply: 51,618,933 | 📊 MC: $59,896,016
+  ✅ Updated: EVAA         - 🖼️ Logo | 📅 Genesis: 2025-09-12 | 🌐 Website | 💰 Supply: 6,617,972 | 📊 MC: $46,138,423
+  ✅ Updated: F            - 🖼️ Logo | 📅 Genesis: 2024-12-06 | 🌐 Website | 💰 Supply: 2,711,524,825 | 📊 MC: $55,028,004
+  ✅ Updated: FARM         - 🖼️ Logo | 📅 Genesis: 2020-09-03 | 🌐 Website | 💰 Supply: 672,183 | 📊 MC: $15,014,300
+  ✅ Updated: FARTCOIN     - 🖼️ Logo | 📅 Genesis: 2024-10-23 | 🌐 Website | 💰 Supply: 999,998,256 | 📊 MC: $367,578,908
+  ✅ Updated: FDUSD        - 🖼️ Logo | 📅 Genesis: 2023-07-26 | 🌐 Website | 💰 Supply: 1,002,780,043 | 📊 MC: $1,000,913,397
+  ✅ Updated: FET          - 🖼️ Logo | 📅 Genesis: 2019-03-02 | 🌐 Website | 💰 Supply: 2,370,765,998 | 📊 MC: $607,629,497
+  ✅ Updated: FF           - 🖼️ Logo | 📅 Genesis: 2025-09-23 | 🌐 Website | 💰 Supply: 2,340,000,000 | 📊 MC: $370,559,314
+  ✅ Updated: FHE          - 🖼️ Logo | 📅 Genesis: 2025-03-27 | 🌐 Website | 💰 Supply: 239,068,049 | 📊 MC: $8,844,875
+  ✅ Updated: FIDA         - 🖼️ Logo | 📅 Genesis: 2020-12-14 | 🌐 Website | 💰 Supply: 990,911,199 | 📊 MC: $57,431,793
+  ✅ Updated: FIL          - 🖼️ Logo | 📅 Genesis: 2017-12-13 | 🌐 Website | 💰 Supply: 700,421,251 | 📊 MC: $1,089,998,986
+  ✅ Updated: FIO          - 🖼️ Logo | 📅 Genesis: 2020-07-19 | 🌐 Website | 💰 Supply: 823,571,640 | 📊 MC: $10,772,665
+  ✅ Updated: FIS          - 🖼️ Logo | 📅 Genesis: 2020-07-21 | 🌐 Website | 💰 Supply: 121,245,007 | 📊 MC: $8,414,528
+  ✅ Updated: FLM          - 🖼️ Logo | 📅 Genesis: 2020-09-29 | 🌐 Website | 💰 Supply: 558,748,884 | 📊 MC: $11,840,158
+  ✅ Updated: FLOCK        - 🖼️ Logo | 📅 Genesis: 2025-01-01 | 🌐 Website | 💰 Supply: 236,608,746 | 📊 MC: $45,656,668
+  ✅ Updated: FLOKI        - 🖼️ Logo | 📅 Genesis: 2021-07-09 | 🌐 Website | 💰 Supply: 9,540,476,396,529 | 📊 MC: $695,349,338
+  ✅ Updated: FLOW         - 🖼️ Logo | 📅 Genesis: 2021-01-27 | 🌐 Website | 💰 Supply: 1,617,428,325 | 📊 MC: $442,579,268
+  ✅ Updated: FLUID        - 🖼️ Logo | 📅 Genesis: 2021-06-19 | 🌐 Website | 💰 Supply: 77,753,293 | 📊 MC: $349,622,703
+  ✅ Updated: FLUX         - 🖼️ Logo | 📅 Genesis: 2018-08-02 | 🌐 Website | 💰 Supply: 393,147,734 | 📊 MC: $48,513,909
+  ✅ Updated: FORM         - 🖼️ Logo | 📅 Genesis: 2023-02-22 | 🌐 Website | 💰 Supply: 381,867,255 | 📊 MC: $277,298,075
+  ✅ Updated: FORTH        - 🖼️ Logo | 📅 Genesis: 2021-04-21 | 🌐 Website | 💰 Supply: 14,343,554 | 📊 MC: $31,081,095
+  ✅ Updated: FTT          - 🖼️ Logo | 📅 Genesis: 2019-07-31 | 💰 Supply: 328,895,104 | 📊 MC: $274,128,978
+  ✅ Updated: FUN          - 🖼️ Logo | 📅 Genesis: 2017-06-27 | 🌐 Website | 💰 Supply: 10,806,201,658 | 📊 MC: $39,804,184
+  ✅ Updated: FXS          - 🖼️ Logo | 📅 Genesis: 2020-09-08 | 🌐 Website | 💰 Supply: 89,285,926 | 📊 MC: $126,010,703
+  ✅ Updated: G            - 🖼️ Logo | 📅 Genesis: 2024-07-05 | 🌐 Website | 💰 Supply: 10,175,000,000 | 📊 MC: $74,370,325
+  ✅ Updated: GALA         - 🖼️ Logo | 📅 Genesis: 2020-09-16 | 🌐 Website | 💰 Supply: 46,304,483,540 | 📊 MC: $506,689,817
+  ✅ Updated: GAS          - 🖼️ Logo | 📅 Genesis: 2017-07-06 | 🌐 Website | 💰 Supply: 64,992,331 | 📊 MC: $168,022,260
+  ✅ Updated: GHST         - 🖼️ Logo | 📅 Genesis: 2020-09-14 | 🌐 Website | 💰 Supply: 52,747,801 | 📊 MC: $15,748,564
+  ✅ Updated: GIGGLE       - 🖼️ Logo | 📅 Genesis: 2025-09-22 | 🌐 Website | 💰 Supply: 1,000,000 | 📊 MC: $109,834,587
+  ✅ Updated: GLM          - 🖼️ Logo | 📅 Genesis: 2016-11-18 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $179,727,591
+  ✅ Updated: GLMR         - 🖼️ Logo | 📅 Genesis: 2022-01-11 | 🌐 Website | 💰 Supply: 1,020,964,124 | 📊 MC: $40,361,877
+  ✅ Updated: GMT          - 🖼️ Logo | 📅 Genesis: 2022-03-09 | 🌐 Website | 💰 Supply: 3,111,400,155 | 📊 MC: $84,468,740
+  ✅ Updated: GMX          - 🖼️ Logo | 📅 Genesis: 2021-09-13 | 🌐 Website | 💰 Supply: 10,340,715 | 📊 MC: $107,233,346
+  ✅ Updated: GNO          - 🖼️ Logo | 📅 Genesis: 2017-05-01 | 🌐 Website | 💰 Supply: 2,639,214 | 📊 MC: $337,012,083
+  ✅ Updated: GNS          - 🖼️ Logo | 📅 Genesis: 2021-11-01 | 🌐 Website | 💰 Supply: 27,534,910 | 📊 MC: $38,736,859
+  ✅ Updated: GOAT         - 🖼️ Logo | 📅 Genesis: 2021-04-01 | 🌐 Website
+  ✅ Updated: GPS          - 🖼️ Logo | 📅 Genesis: 2025-01-16 | 🌐 Website | 💰 Supply: 2,977,841,361 | 📊 MC: $25,253,861
+  ✅ Updated: GRASS        - 🖼️ Logo | 📅 Genesis: 2024-07-18 | 🌐 Website
+  ✅ Updated: GRIFFAIN     - 🖼️ Logo | 📅 Genesis: 2024-12-20 | 🌐 Website | 💰 Supply: 999,881,120 | 📊 MC: $19,298,540
+  ✅ Updated: GRT          - 🖼️ Logo | 📅 Genesis: 2020-12-17 | 🌐 Website | 💰 Supply: 10,558,720,361 | 📊 MC: $674,517,576
+  ✅ Updated: GTC          - 🖼️ Logo | 📅 Genesis: 2018-01-03 | 🌐 Website
+  ✅ Updated: GUN          - 🖼️ Logo | 📅 Genesis: 2025-03-27 | 🌐 Website | 💰 Supply: 1,204,500,000 | 📊 MC: $22,613,010
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: H            - 🖼️ Logo | 📅 Genesis: 2025-06-23 | 🌐 Website | 💰 Supply: 2,119,259,306 | 📊 MC: $348,606,015
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: HAEDAL       - 🖼️ Logo | 📅 Genesis: 2025-04-29 | 🌐 Website | 💰 Supply: 238,750,000 | 📊 MC: $21,858,510
+  ✅ Updated: HANA         - 🖼️ Logo | 📅 Genesis: 2024-09-28 | 🌐 Website | 💰 Supply: 8,715,201,266 | 📊 MC: $138,998
+  ✅ Updated: HBAR         - 🖼️ Logo | 📅 Genesis: 2019-09-17 | 🌐 Website | 💰 Supply: 42,475,229,929 | 📊 MC: $7,043,016,199
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: HEI          - 🖼️ Logo | 📅 Genesis: 2025-02-12 | 🌐 Website | 💰 Supply: 84,941,048 | 📊 MC: $21,245,928
+  ✅ Updated: HEMI         - 🖼️ Logo | 📅 Genesis: 2025-08-21 | 🌐 Website | 💰 Supply: 977,500,000 | 📊 MC: $58,750,401
+  ✅ Updated: HFT          - 🖼️ Logo | 📅 Genesis: 2022-10-31 | 🌐 Website | 💰 Supply: 618,345,356 | 📊 MC: $30,735,608
+  ✅ Updated: HIGH         - 🖼️ Logo | 📅 Genesis: 2021-08-12 | 🌐 Website | 💰 Supply: 77,591,518 | 📊 MC: $23,945,411
+  ✅ Updated: HIPPO        - 🖼️ Logo | 📅 Genesis: 2024-10-01 | 🌐 Website | 💰 Supply: 10,000,000,000 | 📊 MC: $12,694,259
+  ✅ Updated: HIVE         - 🖼️ Logo | 📅 Genesis: 2020-03-26 | 🌐 Website | 💰 Supply: 494,254,177 | 📊 MC: $67,249,798
+  ✅ Updated: HMSTR        - 🖼️ Logo | 📅 Genesis: 2024-07-15 | 🌐 Website | 💰 Supply: 64,375,000,000 | 📊 MC: $26,811,887
+  ✅ Updated: HOLO         - 🖼️ Logo | 📅 Genesis: 2025-09-08 | 🌐 Website | 💰 Supply: 347,376,226 | 📊 MC: $47,596,660
+  ✅ Updated: HOME         - 🖼️ Logo | 📅 Genesis: 2023-06-14 | 🌐 Website
+  ✅ Updated: HOOK         - 🖼️ Logo | 📅 Genesis: 2022-12-01 | 🌐 Website | 💰 Supply: 263,915,398 | 📊 MC: $17,190,558
+  ✅ Updated: HOT          - 🖼️ Logo | 📅 Genesis: 2018-01-19 | 🌐 Website
+  ✅ Updated: HUMA         - 🖼️ Logo | 📅 Genesis: 2025-05-26 | 🌐 Website | 💰 Supply: 2,269,583,333 | 📊 MC: $58,398,846
+  ✅ Updated: HYPE         - 🖼️ Logo | 📅 Genesis: 2024-07-15 | 🌐 Website | 💰 Supply: 336,685,219 | 📊 MC: $13,378,729,940
+  ✅ Updated: HYPER        - 🖼️ Logo | 📅 Genesis: 2025-04-16 | 🌐 Website | 💰 Supply: 205,714,488 | 📊 MC: $39,790,720
+  ✅ Updated: ICNT         - 🖼️ Logo | 📅 Genesis: 2025-07-02 | 🌐 Website | 💰 Supply: 167,226,162 | 📊 MC: $39,092,552
+  ✅ Updated: ICP          - 🖼️ Logo | 📅 Genesis: 2021-03-23 | 🌐 Website | 💰 Supply: 539,328,632 | 📊 MC: $1,650,438,094
+  ✅ Updated: ICX          - 🖼️ Logo | 📅 Genesis: 2017-10-27 | 🌐 Website | 💰 Supply: 1,078,809,082 | 📊 MC: $96,411,009
+  ✅ Updated: ID           - 🖼️ Logo | 📅 Genesis: 2021-02-17 | 🌐 Website | 💰 Supply: 116,700,000 | 📊 MC: $1,259,260
+  ✅ Updated: IDEX         - 🖼️ Logo | 📅 Genesis: 2019-05-09 | 🌐 Website | 💰 Supply: 982,007,481 | 📊 MC: $18,814,005
+  ✅ Updated: IDOL         - 🖼️ Logo | 📅 Genesis: 2025-06-11 | 🌐 Website | 💰 Supply: 1,046,400,000 | 📊 MC: $39,314,749
+  ✅ Updated: ILV          - 🖼️ Logo | 📅 Genesis: 2021-03-08 | 🌐 Website | 💰 Supply: 6,570,579 | 📊 MC: $72,149,887
+  ✅ Updated: IMX          - 🖼️ Logo | 📅 Genesis: 2021-06-24 | 🌐 Website | 💰 Supply: 1,964,455,311 | 📊 MC: $1,011,151,361
+  ✅ Updated: IN           - 🖼️ Logo | 📅 Genesis: 2025-08-05 | 🌐 Website | 💰 Supply: 259,069,444 | 📊 MC: $36,141,742
+  ✅ Updated: INIT         - 🖼️ Logo | 📅 Genesis: 2025-04-17 | 🌐 Website | 💰 Supply: 172,922,507 | 📊 MC: $28,951,583
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:990: The handshake operation timed out')))
+  ✅ Created: INJ          - 🖼️ Logo | 📅 Genesis: 2020-09-29 | 🌐 Website | 💰 Supply: 99,970,935 | 📊 MC: $837,906,748
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: IO           - 🖼️ Logo | 📅 Genesis: 2024-06-06 | 🌐 Website | 💰 Supply: 220,649,405 | 📊 MC: $74,030,499
+  ✅ Updated: IOST         - 🖼️ Logo | 📅 Genesis: 2018-01-16 | 🌐 Website | 💰 Supply: 28,761,295,043 | 📊 MC: $68,127,463
+  ✅ Updated: IOTA         - 🖼️ Logo | 📅 Genesis: 2017-06-13 | 🌐 Website | 💰 Supply: 4,100,247,683 | 📊 MC: $593,282,579
+  ✅ Updated: IOTX         - 🖼️ Logo | 📅 Genesis: 2018-05-25 | 🌐 Website | 💰 Supply: 9,441,368,979 | 📊 MC: $109,958,656
+  ✅ Updated: IP           - 🖼️ Logo | 📅 Genesis: 2025-02-06 | 🌐 Website | 💰 Supply: 321,927,605 | 📊 MC: $1,657,897,177
+  ✅ Updated: IQ           - 🖼️ Logo | 📅 Genesis: 2018-10-03 | 🌐 Website | 💰 Supply: 23,444,092,891 | 📊 MC: $54,818,918
+  ✅ Updated: JASMY        - 🖼️ Logo | 📅 Genesis: 2021-02-11 | 🌐 Website | 💰 Supply: 49,444,999,677 | 📊 MC: $532,100,085
+  ✅ Updated: JELLYJELLY   - 🖼️ Logo | 📅 Genesis: 2025-01-30 | 🌐 Website | 💰 Supply: 999,999,099 | 📊 MC: $78,639,835
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: JOE          - 🖼️ Logo | 📅 Genesis: 2021-08-25 | 🌐 Website | 💰 Supply: 402,980,933 | 📊 MC: $45,915,945
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: JST          - 🖼️ Logo | 📅 Genesis: 2020-05-07 | 🌐 Website | 💰 Supply: 9,900,000,000 | 📊 MC: $332,780,310
+  ✅ Updated: JTO          - 🖼️ Logo | 📅 Genesis: 2023-12-07 | 🌐 Website | 💰 Supply: 392,419,599 | 📊 MC: $426,287,002
+  ✅ Updated: JUP          - 🖼️ Logo | 📅 Genesis: 2017-01-12 | 🌐 Website
+  ✅ Updated: JUV          - 🖼️ Logo | 📅 Genesis: 2020-04-22 | 🌐 Website | 💰 Supply: 12,005,097 | 📊 MC: $10,372,841
+  ✅ Updated: KAIA         - 🖼️ Logo | 📅 Genesis: 2024-10-29 | 🌐 Website | 💰 Supply: 6,150,558,009 | 📊 MC: $662,821,143
+  ✅ Updated: KAITO        - 🖼️ Logo | 📅 Genesis: 2025-02-14 | 🌐 Website | 💰 Supply: 241,388,889 | 📊 MC: $254,026,593
+  ✅ Updated: KAS          - 🖼️ Logo | 📅 Genesis: 2022-06-01 | 🌐 Website | 💰 Supply: 26,841,721,986 | 📊 MC: $1,377,784,230
+  ✅ Updated: KAVA         - 🖼️ Logo | 📅 Genesis: 2019-10-25 | 🌐 Website | 💰 Supply: 1,082,853,067 | 📊 MC: $151,908,570
+  ✅ Updated: KDA          - 🖼️ Logo | 📅 Genesis: 2020-05-31 | 🌐 Website | 💰 Supply: 335,294,433 | 📊 MC: $20,010,640
+  ✅ Updated: KERNEL       - 🖼️ Logo | 📅 Genesis: 2025-04-01 | 🌐 Website | 💰 Supply: 282,363,030 | 📊 MC: $48,569,236
+  ✅ Updated: KGEN         - 🖼️ Logo | 📅 Genesis: 2025-10-07 | 🌐 Website | 💰 Supply: 198,677,778 | 📊 MC: $46,863,187
+  ✅ Updated: KMNO         - 🖼️ Logo | 📅 Genesis: 2024-04-30 | 🌐 Website | 💰 Supply: 3,076,027,516 | 📊 MC: $180,894,731
+  ✅ Updated: KNC          - 🖼️ Logo | 📅 Genesis: 2021-04-26 | 🌐 Website | 💰 Supply: 190,511,837 | 📊 MC: $58,763,029
+  ✅ Updated: KOMA         - 🖼️ Logo | 📅 Genesis: 2024-10-11 | 🌐 Website | 💰 Supply: 522,684,292 | 📊 MC: $9,885,604
+  ✅ Updated: KSM          - 🖼️ Logo | 📅 Genesis: 2019-12-12 | 🌐 Website | 💰 Supply: 17,147,796 | 📊 MC: $183,560,101
+  ✅ Updated: LA           - 🖼️ Logo | 📅 Genesis: 2017-10-25 | 🌐 Website | 💰 Supply: 380,105,462 | 📊 MC: $2,357,481
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: LAB          - 🖼️ Logo | 📅 Genesis: 2024-05-24 | 🌐 Website
+  ✅ Updated: LAYER        - 🖼️ Logo | 📅 Genesis: 2020-08-19 | 🌐 Website | 💰 Supply: 40,000,000 | 📊 MC: $160,596
+  ✅ Updated: LAZIO        - 🖼️ Logo | 📅 Genesis: 2021-10-21 | 🌐 Website | 💰 Supply: 12,122,919 | 📊 MC: $10,411,555
+  ✅ Updated: LDO          - 🖼️ Logo | 📅 Genesis: 2020-12-15 | 🌐 Website | 💰 Supply: 895,768,803 | 📊 MC: $812,512,891
+  ✅ Updated: LIGHT        - 🖼️ Logo | 📅 Genesis: 2021-09-22 | 🌐 Website
+  ✅ Updated: LINEA        - 🖼️ Logo | 📅 Genesis: 2023-07-21 | 🌐 Website | 💰 Supply: 15,482,147,850 | 📊 MC: $239,303,134
+  ✅ Updated: LINK         - 🖼️ Logo | 📅 Genesis: 2017-09-20 | 🌐 Website | 💰 Supply: 678,099,970 | 📊 MC: $11,825,453,503
+  ✅ Updated: LISTA        - 🖼️ Logo | 📅 Genesis: 2022-08-23 | 🌐 Website | 💰 Supply: 250,061,954 | 📊 MC: $73,005,958
+  ✅ Updated: LPT          - 🖼️ Logo | 📅 Genesis: 2018-12-19 | 🌐 Website | 💰 Supply: 45,774,170 | 📊 MC: $229,318,768
+  ✅ Updated: LQTY         - 🖼️ Logo | 📅 Genesis: 2020-10-16 | 🌐 Website | 💰 Supply: 95,398,144 | 📊 MC: $49,791,500
+  ✅ Updated: LRC          - 🖼️ Logo | 📅 Genesis: 2017-08-30 | 🌐 Website | 💰 Supply: 1,367,105,325 | 📊 MC: $93,818,897
+  ✅ Updated: LSK          - 🖼️ Logo | 📅 Genesis: 2016-04-06 | 🌐 Website | 💰 Supply: 203,680,354 | 📊 MC: $43,603,311
+  ✅ Updated: LTC          - 🖼️ Logo | 📅 Genesis: 2013-04-28 | 🌐 Website | 💰 Supply: 76,441,208 | 📊 MC: $7,269,597,482
+  ✅ Updated: LUMIA        - 🖼️ Logo | 📅 Genesis: 2024-10-17 | 🌐 Website | 💰 Supply: 140,785,305 | 📊 MC: $19,670,321
+  ✅ Updated: LUNA         - 🖼️ Logo | 📅 Genesis: 2022-05-26 | 🌐 Website | 💰 Supply: 709,984,439 | 📊 MC: $70,458,377
+  ✅ Updated: LUNA2        - 🖼️ Logo | 📅 Genesis: 2022-05-26 | 🌐 Website | 💰 Supply: 709,984,439 | 📊 MC: $70,458,377
+  ✅ Updated: LUNC         - 🖼️ Logo | 📅 Genesis: 2019-07-26 | 🌐 Website | 💰 Supply: 5,496,891,645,339 | 📊 MC: $248,430,001
+  ✅ Updated: LYN          - 🖼️ Logo | 📅 Genesis: 2025-10-02 | 🌐 Website | 💰 Supply: 255,638,570 | 📊 MC: $38,425,242
+  ✅ Updated: M            - 🖼️ Logo | 📅 Genesis: 2022-06-21 | 🌐 Website
+  ✅ Updated: MAGIC        - 🖼️ Logo | 📅 Genesis: 2021-11-18 | 🌐 Website | 💰 Supply: 316,485,732 | 📊 MC: $43,897,639
+  ✅ Updated: MANA         - 🖼️ Logo | 📅 Genesis: 2017-09-17 | 🌐 Website | 💰 Supply: 1,969,729,010 | 📊 MC: $461,536,519
+  ✅ Updated: MANTA        - 🖼️ Logo | 📅 Genesis: 2024-01-18 | 🌐 Website | 💰 Supply: 451,201,677 | 📊 MC: $51,044,843
+  ✅ Updated: MASK         - 🖼️ Logo | 📅 Genesis: 2021-02-21 | 🌐 Website | 💰 Supply: 100,000,000 | 📊 MC: $85,630,102
+  ✅ Updated: MAV          - 🖼️ Logo | 📅 Genesis: 2022-02-10 | 🌐 Website | 💰 Supply: 753,995,104 | 📊 MC: $29,375,216
+  ✅ Updated: MAVIA        - 🖼️ Logo | 📅 Genesis: 2024-02-06 | 🌐 Website | 💰 Supply: 188,234,179 | 📊 MC: $14,174,534
+  ✅ Updated: MBL          - 🖼️ Logo | 📅 Genesis: 2019-06-21 | 🌐 Website | 💰 Supply: 18,861,887,214 | 📊 MC: $27,933,320
+  ✅ Updated: MBOX         - 🖼️ Logo | 📅 Genesis: 2021-04-08 | 🌐 Website | 💰 Supply: 500,322,467 | 📊 MC: $24,331,064
+  ✅ Updated: MDT          - 🖼️ Logo | 📅 Genesis: 2018-01-09 | 🌐 Website | 💰 Supply: 676,157,012 | 📊 MC: $12,111,005
+  ✅ Updated: ME           - 🖼️ Logo | 📅 Genesis: 2024-07-15 | 🌐 Website | 💰 Supply: 167,132,043 | 📊 MC: $72,172,783
+  ✅ Updated: MELANIA      - 🖼️ Logo | 📅 Genesis: 2024-03-14 | 🌐 Website
+  ✅ Updated: MEME         - 🖼️ Logo | 📅 Genesis: 2016-03-14 | 🌐 Website
+  ✅ Updated: MERL         - 🖼️ Logo | 📅 Genesis: 2024-04-17 | 🌐 Website | 💰 Supply: 978,958,758 | 📊 MC: $361,994,677
+  ✅ Updated: MET          - 🖼️ Logo | 📅 Genesis: 2018-06-26 | 🌐 Website
+  ✅ Updated: METIS        - 🖼️ Logo | 📅 Genesis: 2021-05-08 | 🌐 Website | 💰 Supply: 6,652,834 | 📊 MC: $66,180,688
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: MEW          - 🖼️ Logo | 📅 Genesis: 2024-03-26 | 🌐 Website | 💰 Supply: 88,888,888,888 | 📊 MC: $166,069,656
+  ✅ Updated: MILK         - 🖼️ Logo | 📅 Genesis: 2021-09-13 | 🌐 Website
+  ✅ Updated: MINA         - 🖼️ Logo | 📅 Genesis: 2021-03-02 | 🌐 Website | 💰 Supply: 1,258,553,222 | 📊 MC: $130,340,185
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81a8-8dbf-ed2fb41ddd48 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: MIRA - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81a8-8dbf-ed2fb41ddd48 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: MITO         - 🖼️ Logo | 📅 Genesis: 2025-08-26 | 🌐 Website | 💰 Supply: 181,273,082 | 📊 MC: $20,785,850
+  ✅ Updated: MLN          - 🖼️ Logo | 📅 Genesis: 2017-02-21 | 🌐 Website | 💰 Supply: 2,987,825 | 📊 MC: $24,427,120
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: MOCA         - 🖼️ Logo | 📅 Genesis: 2024-07-04 | 🌐 Website | 💰 Supply: 3,956,510,701 | 📊 MC: $210,437,314
+  ✅ Updated: MON          - 🖼️ Logo | 📅 Genesis: 2019-12-20 | 🌐 Website
+  ✅ Updated: MOODENG      - 🖼️ Logo | 📅 Genesis: 2024-09-19 | 🌐 Website | 💰 Supply: 408,508,097,037 | 📊 MC: $4,834,306
+  ✅ Updated: MORPHO       - 🖼️ Logo | 📅 Genesis: 2024-11-21 | 🌐 Website | 💰 Supply: 353,323,757 | 📊 MC: $687,045,656
+  ✅ Updated: MOVE         - 🖼️ Logo | 📅 Genesis: 2023-02-14 | 🌐 Website | 💰 Supply: 217,500,000 | 📊 MC: $947,481
+  ✅ Updated: MOVR         - 🖼️ Logo | 📅 Genesis: 2021-04-19 | 🌐 Website | 💰 Supply: 10,139,914 | 📊 MC: $37,955,292
+  ✅ Updated: MTL          - 🖼️ Logo | 📅 Genesis: 2017-07-09 | 🌐 Website | 💰 Supply: 87,659,735 | 📊 MC: $44,158,893
+  ✅ Updated: MUBARAK      - 🖼️ Logo | 📅 Genesis: 2025-03-16 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $24,445,529
+  ✅ Updated: MYRO         - 🖼️ Logo | 📅 Genesis: 2023-11-10 | 🌐 Website | 💰 Supply: 944,203,815 | 📊 MC: $12,966,275
+  ✅ Updated: MYX          - 🖼️ Logo | 📅 Genesis: 2025-05-05 | 🌐 Website | 💰 Supply: 206,105,424 | 📊 MC: $559,832,072
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: NAORIS       - 🖼️ Logo | 📅 Genesis: 2025-07-30 | 🌐 Website | 💰 Supply: 599,260,000 | 📊 MC: $28,981,748
+  ✅ Updated: NEAR         - 🖼️ Logo | 📅 Genesis: 2020-08-11 | 🌐 Website | 💰 Supply: 1,249,836,992 | 📊 MC: $2,754,511,666
+  ✅ Updated: NEIRO        - 🖼️ Logo | 📅 Genesis: 2024-07-29 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $3,604,453
+  ✅ Updated: NEO          - 🖼️ Logo | 📅 Genesis: 2016-09-08 | 🌐 Website | 💰 Supply: 70,538,831 | 📊 MC: $360,870,925
+  ✅ Updated: NEWT         - 🖼️ Logo | 📅 Genesis: 2025-06-19 | 🌐 Website | 💰 Supply: 215,000,000 | 📊 MC: $32,378,029
+  ✅ Updated: NEXO         - 🖼️ Logo | 📅 Genesis: 2018-05-01 | 🌐 Website | 💰 Supply: 646,145,840 | 📊 MC: $737,065,549
+  ✅ Updated: NFP          - 🖼️ Logo | 📅 Genesis: 2023-12-27 | 🌐 Website | 💰 Supply: 497,959,689 | 📊 MC: $20,584,628
+  ✅ Updated: NIL          - 🖼️ Logo | 📅 Genesis: 2025-02-11 | 🌐 Website | 💰 Supply: 260,267,500 | 📊 MC: $83,474,336
+  ✅ Updated: NKN          - 🖼️ Logo | 📅 Genesis: 2018-05-28 | 🌐 Website | 💰 Supply: 793,663,783 | 📊 MC: $15,680,922
+  ✅ Updated: NMR          - 🖼️ Logo | 📅 Genesis: 2017-06-23 | 🌐 Website | 💰 Supply: 7,639,969 | 📊 MC: $97,729,353
+  ✅ Updated: NOM          - 🖼️ Logo | 📅 Genesis: 2025-09-21 | 🌐 Website | 💰 Supply: 2,900,000,000 | 📊 MC: $60,038,518
+  ✅ Updated: NOT          - 🖼️ Logo | 📅 Genesis: 2024-05-09 | 🌐 Website | 💰 Supply: 99,433,648,793 | 📊 MC: $82,402,591
+  ✅ Updated: NTRN         - 🖼️ Logo | 📅 Genesis: 2023-06-13 | 🌐 Website | 💰 Supply: 610,955,447 | 📊 MC: $30,296,891
+  ✅ Updated: NXPC         - 🖼️ Logo | 📅 Genesis: 2025-03-17 | 🌐 Website | 💰 Supply: 216,620,716 | 📊 MC: $74,560,141
+  ✅ Updated: OBOL         - 🖼️ Logo | 📅 Genesis: 2025-05-07 | 🌐 Website | 💰 Supply: 123,200,000 | 📊 MC: $12,190,712
+  ✅ Updated: OG           - 🖼️ Logo | 📅 Genesis: 2020-03-12 | 🌐 Website | 💰 Supply: 4,379,986 | 📊 MC: $77,045,802
+  ✅ Updated: OGN          - 🖼️ Logo | 📅 Genesis: 2020-01-09 | 🌐 Website | 💰 Supply: 649,862,342 | 📊 MC: $30,649,143
+  ✅ Updated: OL           - 🖼️ Logo | 📅 Genesis: 2024-11-18 | 🌐 Website | 💰 Supply: 780,283,218 | 📊 MC: $16,703,255
+  ✅ Updated: OM           - 🖼️ Logo | 📅 Genesis: 2020-08-11 | 🌐 Website | 💰 Supply: 1,089,637,587 | 📊 MC: $128,968,319
+  ✅ Updated: ONDO         - 🖼️ Logo | 📅 Genesis: 2024-01-18 | 🌐 Website | 💰 Supply: 3,159,107,529 | 📊 MC: $2,287,947,961
+  ✅ Updated: ONE          - 🖼️ Logo | 📅 Genesis: 2017-12-30 | 🌐 Website | 💰 Supply: 8,584,171,727 | 📊 MC: $4,191,341
+  ✅ Updated: ONG          - 🖼️ Logo | 📅 Genesis: 2018-08-23 | 🌐 Website | 💰 Supply: 429,405,966 | 📊 MC: $49,479,358
+  ✅ Updated: ONT          - 🖼️ Logo | 📅 Genesis: 2018-03-08 | 🌐 Website | 💰 Supply: 918,864,523 | 📊 MC: $83,993,944
+  ✅ Updated: OP           - 🖼️ Logo | 📅 Genesis: 2022-05-31 | 🌐 Website | 💰 Supply: 1,778,634,390 | 📊 MC: $771,096,581
+  ✅ Updated: OPEN         - 🖼️ Logo | 📅 Genesis: 2025-07-22 | 🌐 Website | 💰 Supply: 215,500,000 | 📊 MC: $76,508,018
+  ✅ Updated: ORCA         - 🖼️ Logo | 📅 Genesis: 2021-08-05 | 🌐 Website | 💰 Supply: 60,157,220 | 📊 MC: $86,548,781
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-819e-9e8b-f8cad12fe217 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: ORDER - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-819e-9e8b-f8cad12fe217 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: ORDI         - 🖼️ Logo | 📅 Genesis: 2023-05-08 | 💰 Supply: 21,000,000 | 📊 MC: $108,561,716
+  ✅ Updated: OSMO         - 🖼️ Logo | 📅 Genesis: 2021-09-30 | 🌐 Website | 💰 Supply: 748,892,600 | 📊 MC: $86,682,010
+  ✅ Updated: OXT          - 🖼️ Logo | 📅 Genesis: 2019-12-16 | 🌐 Website | 💰 Supply: 997,214,634 | 📊 MC: $40,086,366
+  ✅ Updated: PARTI        - 🖼️ Logo | 📅 Genesis: 2025-03-24 | 🌐 Website | 💰 Supply: 415,774,999 | 📊 MC: $34,064,704
+  ✅ Updated: PAXG         - 🖼️ Logo | 📅 Genesis: 2019-09-26 | 🌐 Website | 💰 Supply: 331,784 | 📊 MC: $1,365,718,058
+  ✅ Updated: PENDLE       - 🖼️ Logo | 📅 Genesis: 2021-04-29 | 🌐 Website | 💰 Supply: 168,658,538 | 📊 MC: $523,165,964
+  ✅ Updated: PENGU        - 🖼️ Logo | 📅 Genesis: 2024-12-17 | 🌐 Website | 💰 Supply: 62,860,396,090 | 📊 MC: $1,289,095,162
+  ✅ Updated: PEOPLE       - 🖼️ Logo | 📅 Genesis: 2021-11-19 | 🌐 Website | 💰 Supply: 5,060,137,335 | 📊 MC: $61,925,021
+  ✅ Updated: PEPE         - 🖼️ Logo | 📅 Genesis: 2022-10-31 | 🌐 Website
+  ✅ Updated: PERP         - 🖼️ Logo | 📅 Genesis: 2020-09-08 | 🌐 Website | 💰 Supply: 66,002,157 | 📊 MC: $14,675,291
+  ✅ Updated: PHA          - 🖼️ Logo | 📅 Genesis: 2020-09-13 | 🌐 Website | 💰 Supply: 815,342,583 | 📊 MC: $48,289,725
+  ✅ Updated: PHB          - 🖼️ Logo | 📅 Genesis: 2021-11-05 | 🌐 Website | 💰 Supply: 59,451,656 | 📊 MC: $30,552,387
+  ✅ Updated: PIPPIN       - 🖼️ Logo | 📅 Genesis: 2025-01-06 | 🌐 Website | 💰 Supply: 999,996,253 | 📊 MC: $22,066,196
+  ✅ Updated: PIVX         - 🖼️ Logo | 📅 Genesis: 2016-02-13 | 🌐 Website | 💰 Supply: 97,408,997 | 📊 MC: $16,460,443
+  ✅ Updated: PIXEL        - 🖼️ Logo | 📅 Genesis: 2024-02-19 | 🌐 Website | 💰 Supply: 3,064,732,407 | 📊 MC: $52,839,658
+  ✅ Updated: PLAY         - 🖼️ Logo | 📅 Genesis: 2024-07-26 | 🌐 Website
+  ✅ Updated: PLUME        - 🖼️ Logo | 📅 Genesis: 2025-01-20 | 🌐 Website | 💰 Supply: 3,135,813,492 | 📊 MC: $222,635,262
+  ✅ Updated: PNUT         - 🖼️ Logo | 📅 Genesis: 2024-11-04 | 🌐 Website | 💰 Supply: 999,851,650 | 📊 MC: $136,161,590
+  ✅ Updated: POL          - 🖼️ Logo | 📅 Genesis: 2023-10-30 | 🌐 Website | 💰 Supply: 10,524,720,158 | 📊 MC: $2,028,346,662
+  ✅ Updated: POLYX        - 🖼️ Logo | 📅 Genesis: 2022-05-30 | 🌐 Website | 💰 Supply: 1,001,821,423 | 📊 MC: $86,419,658
+  ✅ Updated: POND         - 🖼️ Logo | 📅 Genesis: 2020-12-22 | 🌐 Website | 💰 Supply: 8,202,394,162 | 📊 MC: $47,591,841
+  ✅ Updated: PONKE        - 🖼️ Logo | 📅 Genesis: 2024-01-23 | 🌐 Website | 💰 Supply: 555,544,226 | 📊 MC: $34,439,689
+  ✅ Updated: POPCAT       - 🖼️ Logo | 📅 Genesis: 2023-12-20 | 🌐 Website | 💰 Supply: 979,973,185 | 📊 MC: $148,310,940
+  ✅ Updated: PORT3        - 🖼️ Logo | 📅 Genesis: 2024-01-15 | 🌐 Website | 💰 Supply: 499,847,222 | 📊 MC: $19,924,011
+  ✅ Updated: PORTAL       - 🖼️ Logo | 📅 Genesis: 2024-02-21 | 🌐 Website | 💰 Supply: 583,291,573 | 📊 MC: $14,348,708
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29653c63-57c7-8122-852f-ffc4f5905c62 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: PORTO - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29653c63-57c7-8122-852f-ffc4f5905c62 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: POWR         - 🖼️ Logo | 📅 Genesis: 2017-11-01 | 🌐 Website | 💰 Supply: 568,081,167 | 📊 MC: $66,975,023
+  ✅ Updated: PROM         - 🖼️ Logo | 📅 Genesis: 2019-07-17 | 🌐 Website | 💰 Supply: 18,250,000 | 📊 MC: $179,313,088
+  ✅ Updated: PROMPT       - 🖼️ Logo | 📅 Genesis: 2025-04-09 | 🌐 Website | 💰 Supply: 365,768,148 | 📊 MC: $31,416,091
+  ✅ Updated: PROVE        - 🖼️ Logo | 📅 Genesis: 2025-08-02 | 🌐 Website | 💰 Supply: 195,000,000 | 📊 MC: $184,597,203
+  ✅ Updated: PSG          - 🖼️ Logo | 📅 Genesis: 2020-06-11 | 🌐 Website | 💰 Supply: 11,639,635 | 📊 MC: $14,125,239
+  ✅ Updated: PTB          - 🖼️ Logo | 📅 Genesis: 2025-07-09 | 🌐 Website | 💰 Supply: 1,807,170,538 | 📊 MC: $56,100,810
+  ✅ Updated: PUFFER       - 🖼️ Logo | 📅 Genesis: 2024-08-05 | 🌐 Website | 💰 Supply: 175,949,105 | 📊 MC: $15,567,837
+  ✅ Updated: PUMP         - 🖼️ Logo | 📅 Genesis: 2023-11-20 | 🌐 Website
+  ✅ Updated: PUMPBTC      - 🖼️ Logo | 📅 Genesis: 2024-07-18 | 🌐 Website | 💰 Supply: 2,488 | 📊 MC: $265,801,382
+  ✅ Updated: PUNDIX       - 🖼️ Logo | 📅 Genesis: 2021-03-31 | 🌐 Website | 💰 Supply: 258,386,541 | 📊 MC: $93,565,344
+  ✅ Updated: PYR          - 🖼️ Logo | 📅 Genesis: 2021-04-19 | 🌐 Website | 💰 Supply: 44,381,544 | 📊 MC: $29,777,663
+  ✅ Updated: PYTH         - 🖼️ Logo | 📅 Genesis: 2023-11-20 | 🌐 Website | 💰 Supply: 5,749,983,055 | 📊 MC: $652,299,029
+  ✅ Updated: Q            - 🖼️ Logo | 📅 Genesis: 2025-01-16 | 🌐 Website
+  ✅ Updated: QI           - 🖼️ Logo | 📅 Genesis: 2021-02-18 | 🌐 Website
+  ✅ Updated: QKC          - 🖼️ Logo | 📅 Genesis: 2018-06-04 | 🌐 Website | 💰 Supply: 7,173,285,941 | 📊 MC: $38,365,224
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81a1-b40b-dbc9dbca3156 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: QNT - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81a1-b40b-dbc9dbca3156 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: QTUM         - 🖼️ Logo | 📅 Genesis: 2017-05-24 | 🌐 Website | 💰 Supply: 105,862,060 | 📊 MC: $208,346,716
+  ✅ Updated: QUICK        - 🖼️ Logo | 📅 Genesis: 2021-01-07 | 🌐 Website | 💰 Supply: 724,702 | 📊 MC: $13,707,182
+  ✅ Updated: RAD          - 🖼️ Logo | 📅 Genesis: 2020-09-01 | 🌐 Website | 💰 Supply: 51,575,979 | 📊 MC: $26,557,064
+  ✅ Updated: RARE         - 🖼️ Logo | 📅 Genesis: 2020-12-28 | 🌐 Website
+  ✅ Updated: RAY          - 🖼️ Logo | 📅 Genesis: 2021-02-19 | 🌐 Website | 💰 Supply: 268,149,540 | 📊 MC: $477,731,618
+  ✅ Updated: RDNT         - 🖼️ Logo | 📅 Genesis: 2022-07-21 | 🌐 Website | 💰 Supply: 1,292,073,967 | 📊 MC: $21,902,952
+  ✅ Updated: RECALL       - 🖼️ Logo | 📅 Genesis: 2025-10-13 | 🌐 Website | 💰 Supply: 201,071,820 | 📊 MC: $77,319,550
+  ✅ Updated: RED          - 🖼️ Logo | 📅 Genesis: 2022-09-05 | 🌐 Website | 💰 Supply: 288,583,431 | 📊 MC: $99,373,019
+  ✅ Updated: REI          - 🖼️ Logo | 📅 Genesis: 2022-04-27 | 🌐 Website | 💰 Supply: 950,000,000 | 📊 MC: $11,408,195
+  ✅ Updated: RENDER       - 🖼️ Logo | 📅 Genesis: 2020-06-11 | 🌐 Website | 💰 Supply: 518,584,616 | 📊 MC: $1,270,328,814
+  ✅ Updated: REQ          - 🖼️ Logo | 📅 Genesis: 2017-10-20 | 🌐 Website | 💰 Supply: 824,195,687 | 📊 MC: $103,037,868
+  ✅ Updated: RESOLV       - 🖼️ Logo | 📅 Genesis: 2025-06-04 | 🌐 Website | 💰 Supply: 309,587,891 | 📊 MC: $17,441,393
+  ✅ Updated: REZ          - 🖼️ Logo | 📅 Genesis: 2024-04-23 | 🌐 Website | 💰 Supply: 4,306,061,234 | 📊 MC: $44,399,054
+  ✅ Updated: RIF          - 🖼️ Logo | 📅 Genesis: 2019-01-16 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $47,789,499
+  ✅ Updated: RIVER        - 🖼️ Logo | 📅 Genesis: 2025-09-16 | 🌐 Website | 💰 Supply: 19,600,000 | 📊 MC: $179,039,038
+  ✅ Updated: RLC          - 🖼️ Logo | 📅 Genesis: 2017-04-20 | 🌐 Website | 💰 Supply: 86,999,785 | 📊 MC: $75,056,406
+  ✅ Updated: RONIN        - 🖼️ Logo | 📅 Genesis: 2021-11-08 | 🌐 Website | 💰 Supply: 693,121,120 | 📊 MC: $259,594,162
+  ✅ Updated: ROSE         - 🖼️ Logo | 📅 Genesis: 2020-11-12 | 🌐 Website | 💰 Supply: 7,414,454,343 | 📊 MC: $122,629,214
+  ✅ Updated: RPL          - 🖼️ Logo | 📅 Genesis: 2018-07-17 | 🌐 Website | 💰 Supply: 21,870,340 | 📊 MC: $72,385,473
+  ✅ Updated: RSR          - 🖼️ Logo | 📅 Genesis: 2019-05-24 | 🌐 Website | 💰 Supply: 60,760,670,008 | 📊 MC: $337,132,451
+  ✅ Updated: RUNE         - 🖼️ Logo | 📅 Genesis: 2019-07-23 | 🌐 Website | 💰 Supply: 351,229,534 | 📊 MC: $297,188,047
+  ✅ Updated: RVN          - 🖼️ Logo | 📅 Genesis: 2018-03-10 | 🌐 Website | 💰 Supply: 15,725,583,988 | 📊 MC: $154,458,870
+  ✅ Updated: RVV          - 🖼️ Logo | 📅 Genesis: 2025-10-17 | 🌐 Website | 💰 Supply: 1,024,995,000 | 📊 MC: $13,486,494
+  ✅ Updated: S            - 🖼️ Logo | 📅 Genesis: 2025-01-03 | 🌐 Website | 💰 Supply: 2,880,000,000 | 📊 MC: $470,640,126
+  ✅ Updated: SAFE         - 🖼️ Logo | 📅 Genesis: 2019-03-18 | 🌐 Website | 💰 Supply: 27,735,063 | 📊 MC: $1,571,201
+  ✅ Updated: SAGA         - 🖼️ Logo | 📅 Genesis: 2024-04-04 | 🌐 Website | 💰 Supply: 307,098,017 | 📊 MC: $35,072,345
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8199-916c-c1a259a6a3f4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: SAHARA - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8199-916c-c1a259a6a3f4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-817d-a95e-c34bdc1911f0 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: SAND - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-817d-a95e-c34bdc1911f0 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: SANTOS       - 🖼️ Logo | 📅 Genesis: 2021-12-01 | 🌐 Website | 💰 Supply: 13,394,854 | 📊 MC: $18,338,082
+  ✅ Updated: SAPIEN       - 🖼️ Logo | 📅 Genesis: 2025-08-18 | 🌐 Website | 💰 Supply: 250,000,000 | 📊 MC: $30,967,094
+  ✅ Updated: SC           - 🖼️ Logo | 📅 Genesis: 2015-08-26 | 🌐 Website | 💰 Supply: 56,025,636,522 | 📊 MC: $112,830,562
+  ✅ Updated: SCR          - 🖼️ Logo | 📅 Genesis: 2018-08-07 | 🌐 Website
+  ✅ Updated: SCRT         - 🖼️ Logo | 📅 Genesis: 2020-05-19 | 🌐 Website | 💰 Supply: 322,274,793 | 📊 MC: $50,121,660
+  ✅ Updated: SEI          - 🖼️ Logo | 📅 Genesis: 2023-08-14 | 🌐 Website | 💰 Supply: 6,248,888,888 | 📊 MC: $1,202,722,362
+  ✅ Updated: SFP          - 🖼️ Logo | 📅 Genesis: 2020-12-28 | 🌐 Website | 💰 Supply: 500,000,000 | 📊 MC: $191,643,119
+  ✅ Updated: SHELL        - 🖼️ Logo | 📅 Genesis: 2025-02-12 | 🌐 Website | 💰 Supply: 308,666,667 | 📊 MC: $29,669,624
+  ✅ Updated: SHIB         - 🖼️ Logo | 📅 Genesis: 2020-08-01 | 🌐 Website | 💰 Supply: 589,245,498,705,895 | 📊 MC: $5,962,333,582
+  ✅ Updated: SIGN         - 🖼️ Logo | 📅 Genesis: 2025-04-25 | 🌐 Website | 💰 Supply: 1,350,000,000 | 📊 MC: $54,095,074
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81fc-8e1e-ff7edca3c0ce (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: SIREN - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-81fc-8e1e-ff7edca3c0ce (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: SKATE        - 🖼️ Logo | 📅 Genesis: 2025-06-09 | 🌐 Website | 💰 Supply: 213,709,658 | 📊 MC: $8,558,389
+  ✅ Updated: SKL          - 🖼️ Logo | 📅 Genesis: 2020-06-12 | 🌐 Website | 💰 Supply: 6,029,852,671 | 📊 MC: $109,609,293
+  ✅ Updated: SKY          - 🖼️ Logo | 📅 Genesis: 2017-04-17 | 🌐 Website
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+❌ Error creating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: SKYAI - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: SLP          - 🖼️ Logo | 📅 Genesis: 2020-07-08 | 🌐 Website | 💰 Supply: 36,086,837,527 | 📊 MC: $43,064,158
+  ✅ Updated: SNX          - 🖼️ Logo | 📅 Genesis: 2018-03-14 | 🌐 Website | 💰 Supply: 343,466,217 | 📊 MC: $428,798,737
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: SOL          - 🖼️ Logo | 📅 Genesis: 2020-04-10 | 🌐 Website | 💰 Supply: 549,333,331 | 📊 MC: $105,823,744,272
+  ✅ Updated: SOLV         - 🖼️ Logo | 📅 Genesis: 2021-09-27 | 🌐 Website | 💰 Supply: 1,482,600,000 | 📊 MC: $26,613,322
+  ✅ Updated: SOMI         - 🖼️ Logo | 📅 Genesis: 2025-08-06 | 🌐 Website | 💰 Supply: 160,200,000 | 📊 MC: $81,909,098
+  ✅ Updated: SONIC        - 🖼️ Logo | 📅 Genesis: 2023-04-30 | 🌐 Website
+  ✅ Updated: SOON         - 🖼️ Logo | 📅 Genesis: 2025-05-23 | 🌐 Website | 💰 Supply: 312,273,340 | 📊 MC: $233,643,610
+  ✅ Updated: SOPH         - 🖼️ Logo | 📅 Genesis: 2023-07-06 | 🌐 Website
+  ✅ Updated: SPELL        - 🖼️ Logo | 📅 Genesis: 2021-08-17 | 🌐 Website | 💰 Supply: 169,964,433,320 | 📊 MC: $59,434,697
+  ✅ Updated: SPK          - 🖼️ Logo | 📅 Genesis: 2025-05-21 | 🌐 Website | 💰 Supply: 1,863,379,432 | 📊 MC: $72,995,207
+  ✅ Updated: SPX          - 🖼️ Logo | 📅 Genesis: 2023-08-17 | 🌐 Website | 💰 Supply: 930,993,090 | 📊 MC: $913,681,535
+  ✅ Updated: SQD          - 🖼️ Logo | 📅 Genesis: 2021-10-19 | 🌐 Website | 💰 Supply: 900,315,763 | 📊 MC: $127,989,379
+  ✅ Updated: SSV          - 🖼️ Logo | 📅 Genesis: 2021-10-22 | 🌐 Website | 💰 Supply: 14,080,974 | 📊 MC: $77,155,428
+  ✅ Updated: STBL         - 🖼️ Logo | 📅 Genesis: 2025-09-11 | 🌐 Website | 💰 Supply: 500,000,000 | 📊 MC: $48,616,996
+  ✅ Updated: STEEM        - 🖼️ Logo | 📅 Genesis: 2016-04-18 | 🌐 Website | 💰 Supply: 529,984,028 | 📊 MC: $47,728,447
+  ✅ Updated: STG          - 🖼️ Logo | 📅 Genesis: 2022-03-18 | 🌐 Website | 💰 Supply: 660,951,371 | 📊 MC: $103,126,619
+  ✅ Updated: STO          - 🖼️ Logo | 📅 Genesis: 2024-07-15 | 🌐 Website | 💰 Supply: 225,333,333 | 📊 MC: $42,337,583
+  ✅ Updated: STORJ        - 🖼️ Logo | 📅 Genesis: 2017-07-02 | 🌐 Website | 💰 Supply: 418,973,379 | 📊 MC: $75,465,350
+  ✅ Updated: STRAX        - 🖼️ Logo | 📅 Genesis: 2016-08-12 | 🌐 Website
+  ✅ Updated: STRK         - 🖼️ Logo | 📅 Genesis: 2021-03-22 | 🌐 Website | 💰 Supply: 5,666,578 | 📊 MC: $90,425
+  ✅ Updated: STX          - 🖼️ Logo | 📅 Genesis: 2019-10-28 | 🌐 Website | 💰 Supply: 1,806,544,404 | 📊 MC: $784,946,481
+  ✅ Updated: SUI          - 🖼️ Logo | 📅 Genesis: 2022-07-12 | 🌐 Website | 💰 Supply: 3,625,742,933 | 📊 MC: $8,764,753,734
+  ✅ Updated: SUN          - 🖼️ Logo | 📅 Genesis: 2021-06-21 | 🌐 Website | 💰 Supply: 19,173,049,507 | 📊 MC: $440,854,738
+  ✅ Updated: SUPER        - 🖼️ Logo | 📅 Genesis: 2021-01-20 | 🌐 Website | 💰 Supply: 628,412,622 | 📊 MC: $241,336,766
+  ✅ Updated: SUSHI        - 🖼️ Logo | 📅 Genesis: 2020-08-28 | 🌐 Website | 💰 Supply: 285,397,713 | 📊 MC: $151,843,706
+  ✅ Updated: SWARMS       - 🖼️ Logo | 📅 Genesis: 2025-01-02 | 🌐 Website | 💰 Supply: 999,984,830 | 📊 MC: $15,310,506
+  ✅ Updated: SWELL        - 🖼️ Logo | 📅 Genesis: 2024-11-07 | 🌐 Website | 💰 Supply: 2,653,861,138 | 📊 MC: $15,691,091
+  ✅ Updated: SXP          - 🖼️ Logo | 📅 Genesis: 2019-08-26 | 🌐 Website | 💰 Supply: 659,910,986 | 📊 MC: $78,999,318
+  ✅ Updated: SXT          - 🖼️ Logo | 📅 Genesis: 2025-05-02 | 🌐 Website | 💰 Supply: 1,400,000,000 | 📊 MC: $80,157,702
+  ✅ Updated: SYN          - 🖼️ Logo | 📅 Genesis: 2021-09-26 | 🌐 Website | 💰 Supply: 185,095,479 | 📊 MC: $14,562,071
+  ✅ Updated: SYRUP        - 🖼️ Logo | 📅 Genesis: 2024-11-06 | 🌐 Website | 💰 Supply: 1,200,509,889 | 📊 MC: $447,046,694
+  ✅ Updated: SYS          - 🖼️ Logo | 📅 Genesis: 2014-08-20 | 🌐 Website | 💰 Supply: 843,402,411 | 📊 MC: $24,286,530
+  ✅ Updated: T            - 🖼️ Logo | 📅 Genesis: 2022-01-31 | 🌐 Website | 💰 Supply: 10,784,054,376 | 📊 MC: $135,447,264
+❌ Error querying Notion: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/29453c63-57c7-8068-a2e7-c2cd793b5eb2/query (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Created: TA           - 🖼️ Logo | 📅 Genesis: 2025-07-20 | 🌐 Website | 💰 Supply: 208,124,992 | 📊 MC: $10,840,761
+  ✅ Updated: TAC          - 🖼️ Logo | 📅 Genesis: 2025-07-14 | 🌐 Website | 💰 Supply: 2,566,016,818 | 📊 MC: $12,260,921
+  ✅ Updated: TAG          - 🖼️ Logo | 📅 Genesis: 2013-11-05 | 🌐 Website
+  ✅ Updated: TAIKO        - 🖼️ Logo | 📅 Genesis: 2024-06-04 | 🌐 Website | 💰 Supply: 186,605,639 | 📊 MC: $48,247,810
+  ✅ Updated: TAKE         - 🖼️ Logo | 📅 Genesis: 2025-08-24 | 🌐 Website | 💰 Supply: 146,654,356 | 📊 MC: $44,539,404
+  ✅ Updated: TANSSI       - 🖼️ Logo | 📅 Genesis: 2025-07-09 | 🌐 Website | 💰 Supply: 295,427,649 | 📊 MC: $10,022,534
+  ✅ Updated: TAO          - 🖼️ Logo | 📅 Genesis: 2023-03-06 | 🌐 Website | 💰 Supply: 10,154,260 | 📊 MC: $3,961,843,741
+  ✅ Updated: TFUEL        - 🖼️ Logo | 📅 Genesis: 2019-03-28 | 🌐 Website | 💰 Supply: 7,109,036,451 | 📊 MC: $187,131,773
+  ✅ Updated: THE          - 🖼️ Logo | 📅 Genesis: 2023-01-06 | 🌐 Website | 💰 Supply: 116,793,882 | 📊 MC: $30,752,794
+  ✅ Updated: THETA        - 🖼️ Logo | 📅 Genesis: 2018-01-17 | 🌐 Website | 💰 Supply: 1,000,000,000 | 📊 MC: $554,082,197
+  ✅ Updated: TIA          - 🖼️ Logo | 📅 Genesis: 2023-10-31 | 🌐 Website | 💰 Supply: 825,711,608 | 📊 MC: $824,623,752
+  ✅ Updated: TKO          - 🖼️ Logo | 📅 Genesis: 2021-04-07 | 🌐 Website | 💰 Supply: 169,204,282 | 📊 MC: $22,125,796
+  ✅ Updated: TLM          - 🖼️ Logo | 📅 Genesis: 2021-04-06 | 🌐 Website | 💰 Supply: 6,111,210,262 | 📊 MC: $20,616,743
+  ✅ Updated: TNSR         - 🖼️ Logo | 📅 Genesis: 2024-04-08 | 🌐 Website | 💰 Supply: 410,486,374 | 📊 MC: $26,728,269
+  ✅ Updated: TOKEN        - 🖼️ Logo | 📅 Genesis: 2023-10-27 | 🌐 Website | 💰 Supply: 1,000,019,789 | 📊 MC: $8,031,004
+  ✅ Updated: TON          - 🖼️ Logo | 📅 Genesis: 2020-09-04 | 🌐 Website
+  ✅ Updated: TOSHI        - 🖼️ Logo | 📅 Genesis: 2023-08-04 | 🌐 Website | 💰 Supply: 420,675,720,843 | 📊 MC: $303,901,680
+  ✅ Updated: TOWNS        - 🖼️ Logo | 📅 Genesis: 2025-07-31 | 🌐 Website | 💰 Supply: 2,109,362,819 | 📊 MC: $23,980,512
+  ✅ Updated: TRADOOR      - 🖼️ Logo | 📅 Genesis: 2025-06-05 | 🌐 Website | 💰 Supply: 14,349,000 | 📊 MC: $34,639,512
+  ✅ Updated: TRB          - 🖼️ Logo | 📅 Genesis: 2019-11-19 | 🌐 Website | 💰 Supply: 2,725,284 | 📊 MC: $67,293,898
+  ✅ Updated: TREE         - 🖼️ Logo | 📅 Genesis: 2025-01-28 | 🌐 Website
+  ✅ Updated: TRU          - 🖼️ Logo | 📅 Genesis: 2020-10-05 | 🌐 Website
+  ✅ Updated: TRUMP        - 🖼️ Logo | 📅 Genesis: 2023-04-21 | 🌐 Website
+  ✅ Updated: TRUTH        - 🖼️ Logo | 📅 Genesis: 2025-08-25 | 🌐 Website | 💰 Supply: 2,085,305,300 | 📊 MC: $33,859,107
+  ✅ Updated: TRX          - 🖼️ Logo | 📅 Genesis: 2017-09-13 | 🌐 Website | 💰 Supply: 94,665,200,837 | 📊 MC: $29,598,949,332
+  ✅ Updated: TST          - 🖼️ Logo | 📅 Genesis: 2024-06-27 | 🌐 Website
+  ✅ Updated: TURBO        - 🖼️ Logo | 📅 Genesis: 2023-05-01 | 🌐 Website | 💰 Supply: 69,000,000,000 | 📊 MC: $162,346,958
+  ✅ Updated: TURTLE       - 🖼️ Logo | 📅 Genesis: 2025-10-13 | 🌐 Website | 💰 Supply: 154,700,000 | 📊 MC: $26,302,128
+  ✅ Updated: TUSD         - 🖼️ Logo | 📅 Genesis: 2018-03-06 | 🌐 Website | 💰 Supply: 494,515,083 | 📊 MC: $493,015,872
+  ✅ Updated: TUT          - 🖼️ Logo | 📅 Genesis: 2021-11-11 | 🌐 Website
+  ✅ Updated: TWT          - 🖼️ Logo | 📅 Genesis: 2020-07-30 | 🌐 Website | 💰 Supply: 429,860,515 | 📊 MC: $543,033,487
+  ✅ Updated: UB           - 🖼️ Logo | 📅 Genesis: 2025-09-10 | 🌐 Website | 💰 Supply: 2,500,000,000 | 📊 MC: $150,739,626
+  ✅ Updated: UMA          - 🖼️ Logo | 📅 Genesis: 2020-05-25 | 🌐 Website | 💰 Supply: 88,122,083 | 📊 MC: $102,868,679
+  ✅ Updated: UNI          - 🖼️ Logo | 📅 Genesis: 2020-09-17 | 🌐 Website | 💰 Supply: 630,330,528 | 📊 MC: $3,966,264,513
+  ✅ Updated: USD1         - 🖼️ Logo | 📅 Genesis: 2025-04-13 | 🌐 Website | 💰 Supply: 2,635,558,642 | 📊 MC: $2,636,276,969
+  ✅ Updated: USDC         - 🖼️ Logo | 📅 Genesis: 2018-10-08 | 🌐 Website | 💰 Supply: 76,496,088,770 | 📊 MC: $76,492,726,570
+  ✅ Updated: USDE         - 🖼️ Logo | 📅 Genesis: 2024-02-20 | 🌐 Website | 💰 Supply: 10,702,833,050 | 📊 MC: $10,697,586,287
+  ✅ Updated: USDP         - 🖼️ Logo | 📅 Genesis: 2018-09-27 | 🌐 Website | 💰 Supply: 61,764,561 | 📊 MC: $61,748,186
+  ✅ Updated: USELESS      - 🖼️ Logo | 📅 Genesis: 2025-06-16 | 🌐 Website | 💰 Supply: 999,090,795 | 📊 MC: $291,008,799
+  ✅ Updated: USTC         - 🖼️ Logo | 📅 Genesis: 2020-09-21 | 🌐 Website | 💰 Supply: 5,587,492,495 | 📊 MC: $45,376,251
+  ✅ Updated: USUAL        - 🖼️ Logo | 📅 Genesis: 2024-11-14 | 🌐 Website | 💰 Supply: 1,272,667,254 | 📊 MC: $40,125,426
+  ✅ Updated: UTK          - 🖼️ Logo | 📅 Genesis: 2017-12-29 | 🌐 Website | 💰 Supply: 704,112,145 | 📊 MC: $13,339,084
+  ✅ Updated: VANA         - 🖼️ Logo | 📅 Genesis: 2024-12-13 | 🌐 Website | 💰 Supply: 30,084,000 | 📊 MC: $77,847,279
+  ✅ Updated: VANRY        - 🖼️ Logo | 📅 Genesis: 2020-12-16 | 🌐 Website | 💰 Supply: 2,035,565,081 | 📊 MC: $32,968,475
+  ✅ Updated: VELODROME    - 🖼️ Logo | 📅 Genesis: 2022-06-02 | 🌐 Website | 💰 Supply: 915,202,511 | 📊 MC: $29,657,395
+  ✅ Updated: VELVET       - 🖼️ Logo | 📅 Genesis: 2025-07-09 | 🌐 Website | 💰 Supply: 90,978,616 | 📊 MC: $19,129,148
+  ✅ Updated: VET          - 🖼️ Logo | 📅 Genesis: 2017-08-22 | 🌐 Website | 💰 Supply: 85,985,041,177 | 📊 MC: $1,473,020,789
+  ✅ Updated: VFY          - 🖼️ Logo | 📅 Genesis: 2025-09-18 | 🌐 Website | 💰 Supply: 308,796,218 | 📊 MC: $23,964,091
+  ✅ Updated: VIC          - 🖼️ Logo | 📅 Genesis: 2018-03-08 | 🌐 Website | 💰 Supply: 123,014,662 | 📊 MC: $18,327,044
+  ✅ Updated: VINE         - 🖼️ Logo | 📅 Genesis: 2025-01-23 | 💰 Supply: 999,994,104 | 📊 MC: $46,066,808
+  ✅ Updated: VIRTUAL      - 🖼️ Logo | 📅 Genesis: 2024-02-15 | 🌐 Website | 💰 Supply: 655,785,263 | 📊 MC: $514,577,473
+  ✅ Updated: VOXEL        - 🖼️ Logo | 📅 Genesis: 2021-12-14 | 🌐 Website | 💰 Supply: 254,065,481 | 📊 MC: $9,898,997
+  ✅ Updated: VTHO         - 🖼️ Logo | 📅 Genesis: 2018-07-30 | 🌐 Website | 💰 Supply: 95,393,358,260 | 📊 MC: $115,919,880
+  ✅ Updated: VVV          - 🖼️ Logo | 📅 Genesis: 2025-01-28 | 🌐 Website | 💰 Supply: 40,318,596 | 📊 MC: $57,773,439
+❌ Error updating page: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8185-a1fe-e54c849c95fc (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ❌ Failed: W - HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/pages/29453c63-57c7-8185-a1fe-e54c849c95fc (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+  ✅ Updated: WAL          - 🖼️ Logo | 📅 Genesis: 2025-03-26 | 🌐 Website | 💰 Supply: 1,478,958,333 | 📊 MC: $365,512,359
+  ✅ Updated: WAN          - 🖼️ Logo | 📅 Genesis: 2018-03-23 | 🌐 Website | 💰 Supply: 198,696,828 | 📊 MC: $14,553,362
+  ✅ Updated: WAXP         - 🖼️ Logo | 📅 Genesis: 2017-12-21 | 🌐 Website | 💰 Supply: 4,477,565,828 | 📊 MC: $59,366,270
+  ✅ Updated: WBETH        - 🖼️ Logo | 📅 Genesis: 2023-04-27 | 🌐 Website | 💰 Supply: 3,264,280 | 📊 MC: $13,725,340,965
+  ✅ Updated: WBTC         - 🖼️ Logo | 📅 Genesis: 2019-01-30 | 🌐 Website | 💰 Supply: 127,141 | 📊 MC: $14,063,520,364
+  ✅ Updated: WCT          - 🖼️ Logo | 📅 Genesis: 2024-09-24 | 🌐 Website | 💰 Supply: 186,200,000 | 📊 MC: $30,650,739
+  ✅ Updated: WIF          - 🖼️ Logo | 📅 Genesis: 2023-12-19 | 🌐 Website | 💰 Supply: 998,839,903 | 📊 MC: $527,916,985
+  ✅ Updated: WIN          - 🖼️ Logo | 📅 Genesis: 2019-08-01 | 🌐 Website | 💰 Supply: 993,701,859,243 | 📊 MC: $40,145,775
+  ✅ Updated: WLD          - 🖼️ Logo | 📅 Genesis: 2021-10-28 | 🌐 Website | 💰 Supply: 2,242,537,894 | 📊 MC: $1,935,073,406
+  ✅ Updated: WLFI         - 🖼️ Logo | 📅 Genesis: 2024-09-15 | 🌐 Website
+  ✅ Updated: WOO          - 🖼️ Logo | 📅 Genesis: 2020-10-23 | 🌐 Website | 💰 Supply: 1,905,073,375 | 📊 MC: $77,341,516
+  ✅ Updated: XAI          - 🖼️ Logo | 📅 Genesis: 2021-09-07 | 🌐 Website | 💰 Supply: 144,299,738 | 📊 MC: $20,082,245
+  ✅ Updated: XAN          - 🖼️ Logo | 📅 Genesis: 2025-09-23 | 🌐 Website | 💰 Supply: 2,500,000,000 | 📊 MC: $101,680,500
+  ✅ Updated: XCN          - 🖼️ Logo | 📅 Genesis: 2014-08-02 | 🌐 Website
+  ✅ Updated: XEC          - 🖼️ Logo | 📅 Genesis: 2021-07-08 | 🌐 Website | 💰 Supply: 19,937,576,547,580 | 📊 MC: $288,600,202
+  ✅ Updated: XLM          - 🖼️ Logo | 📅 Genesis: 2014-08-05 | 🌐 Website | 💰 Supply: 32,019,877,099 | 📊 MC: $9,988,957,375
+  ✅ Updated: XMR          - 🖼️ Logo | 📅 Genesis: 2014-05-21 | 🌐 Website | 💰 Supply: 18,446,744 | 📊 MC: $6,010,713,055
+  ✅ Updated: XNO          - 🖼️ Logo | 📅 Genesis: 2017-03-06 | 🌐 Website | 💰 Supply: 133,248,297 | 📊 MC: $89,992,123
+  ✅ Updated: XNY          - 🖼️ Logo | 📅 Genesis: 2025-06-24 | 🌐 Website | 💰 Supply: 2,500,000,000 | 📊 MC: $14,708,333
+  ✅ Updated: XPIN         - 🖼️ Logo | 📅 Genesis: 2025-04-11 | 🌐 Website | 💰 Supply: 16,295,000,000 | 📊 MC: $137,097,648
+  ✅ Updated: XPL          - 🖼️ Logo | 📅 Genesis: 2025-09-25 | 🌐 Website | 💰 Supply: 1,800,000,000 | 📊 MC: $638,957,294
+  ✅ Updated: XRP          - 🖼️ Logo | 📅 Genesis: 2013-08-04 | 🌐 Website | 💰 Supply: 60,017,279,517 | 📊 MC: $144,388,526,709
+  ✅ Updated: XTZ          - 🖼️ Logo | 📅 Genesis: 2017-10-06 | 🌐 Website | 💰 Supply: 1,062,859,537 | 📊 MC: $633,160,108
+  ✅ Updated: XUSD         - 🖼️ Logo | 📅 Genesis: 2022-05-26 | 🌐 Website
+  ✅ Updated: XVG          - 🖼️ Logo | 📅 Genesis: 2014-10-25 | 🌐 Website | 💰 Supply: 16,521,951,236 | 📊 MC: $88,714,444
+  ✅ Updated: XVS          - 🖼️ Logo | 📅 Genesis: 2020-10-05 | 🌐 Website | 💰 Supply: 16,331,865 | 📊 MC: $79,512,323
+  ✅ Updated: YALA         - 🖼️ Logo | 📅 Genesis: 2025-02-26 | 🌐 Website | 💰 Supply: 246,360,000 | 📊 MC: $23,369,426
+  ✅ Updated: YB           - 🖼️ Logo | 📅 Genesis: 2025-10-11 | 🌐 Website | 💰 Supply: 87,916,667 | 📊 MC: $43,793,007
+  ✅ Updated: YFI          - 🖼️ Logo | 📅 Genesis: 2020-07-18 | 🌐 Website | 💰 Supply: 33,878 | 📊 MC: $161,725,934
+  ✅ Updated: YGG          - 🖼️ Logo | 📅 Genesis: 2021-06-28 | 🌐 Website | 💰 Supply: 626,353,803 | 📊 MC: $86,398,886
+  ✅ Updated: ZBT          - 🖼️ Logo | 📅 Genesis: 2025-09-17 | 🌐 Website | 💰 Supply: 220,000,000 | 📊 MC: $58,840,476
+  ✅ Updated: ZEC          - 🖼️ Logo | 📅 Genesis: 2016-10-29 | 🌐 Website | 💰 Supply: 16,277,098 | 📊 MC: $4,246,593,133
+  ✅ Updated: ZEN          - 🖼️ Logo | 📅 Genesis: 2017-06-01 | 🌐 Website | 💰 Supply: 17,567,368 | 📊 MC: $193,676,252
+  ✅ Updated: ZEREBRO      - 🖼️ Logo | 📅 Genesis: 2024-11-19 | 🌐 Website | 💰 Supply: 999,953,841 | 📊 MC: $33,129,315
+  ✅ Updated: ZETA         - 🖼️ Logo | 📅 Genesis: 2022-08-05 | 🌐 Website | 💰 Supply: 1,072,093,750 | 📊 MC: $128,047,882
+  ✅ Updated: ZIL          - 🖼️ Logo | 📅 Genesis: 2018-01-25 | 🌐 Website | 💰 Supply: 19,563,053,156 | 📊 MC: $153,935,982
+  ✅ Updated: ZK           - 🖼️ Logo | 📅 Genesis: 2024-06-16 | 🌐 Website | 💰 Supply: 8,184,458,652 | 📊 MC: $274,062,578
+  ✅ Updated: ZKC          - 🖼️ Logo | 📅 Genesis: 2025-09-11 | 🌐 Website | 💰 Supply: 200,937,056 | 📊 MC: $48,281,818
+  ✅ Updated: ZKJ          - 🖼️ Logo | 📅 Genesis: 2024-03-19 | 🌐 Website | 💰 Supply: 377,927,535 | 📊 MC: $27,598,475
+  ✅ Updated: ZORA         - 🖼️ Logo | 📅 Genesis: 2025-03-04 | 🌐 Website | 💰 Supply: 4,469,999,999 | 📊 MC: $404,201,477
+  ✅ Updated: ZRC          - 🖼️ Logo | 📅 Genesis: 2024-07-17 | 🌐 Website | 💰 Supply: 2,194,923,458 | 📊 MC: $33,781,413
+  ✅ Updated: ZRO          - 🖼️ Logo | 📅 Genesis: 2024-06-20 | 🌐 Website | 💰 Supply: 202,884,214 | 📊 MC: $348,701,892
+  ✅ Updated: ZRX          - 🖼️ Logo | 📅 Genesis: 2017-08-16 | 🌐 Website | 💰 Supply: 848,396,563 | 📊 MC: $168,304,636
+  ✅ Updated: 币安人生         - 🖼️ Logo | 📅 Genesis: 2025-10-07 | 💰 Supply: 1,000,000,000 | 📊 MC: $251,511,967
+
+✨ Sync complete!
+  Success: 559
+  Errors: 13

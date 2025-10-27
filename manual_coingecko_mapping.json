@@ -1,0 +1,133 @@
+{
+  "instructions": {
+    "zh": "请手动填写下面代币的CoinGecko ID。如果某个代币在CoinGecko上不存在，请将coingecko_id设为null",
+    "en": "Please manually fill in the CoinGecko ID for the tokens below. If a token doesn't exist on CoinGecko, set coingecko_id to null",
+    "how_to_find": "访问 https://www.coingecko.com 搜索代币名称，URL中的ID就是coingecko_id，例如：https://www.coingecko.com/en/coins/bitcoin 中的'bitcoin'就是ID"
+  },
+  "unmatched_tokens": {
+    "1000000BOB": {
+      "coingecko_id": null,
+      "notes": "疑似新代币或测试代币，可能在CoinGecko上不存在",
+      "binance_url": "https://www.binance.com/en/trade/1000000BOB_USDT"
+    },
+    "1000000MOG": {
+      "coingecko_id": null,
+      "notes": "疑似新代币，可能是MOG的1000000倍版本",
+      "binance_url": "https://www.binance.com/en/trade/1000000MOG_USDT"
+    },
+    "AVAAI": {
+      "coingecko_id": null,
+      "notes": "AI相关代币，可能很新",
+      "binance_url": "https://www.binance.com/en/trade/AVAAI_USDT"
+    },
+    "BEAMX": {
+      "coingecko_id": null,
+      "notes": "可能是Beam相关项目，搜索'beam'相关代币",
+      "suggestions": [
+        "beam-2",
+        "beam",
+        "merit-circle"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/BEAMX_USDT"
+    },
+    "BROCCOLI714": {
+      "coingecko_id": "N/A",
+      "notes": "测试代币，大概率不存在于CoinGecko",
+      "binance_url": "测试代币"
+    },
+    "BROCCOLIF3B": {
+      "coingecko_id": "N/A",
+      "notes": "测试代币，大概率不存在于CoinGecko",
+      "binance_url": "测试代币"
+    },
+    "BTCDOM": {
+      "coingecko_id": "N/A",
+      "notes": "Bitcoin Dominance指数，不是真实代币，无需CoinGecko ID",
+      "binance_url": "指数产品"
+    },
+    "BTTC": {
+      "coingecko_id": "bittorrent",
+      "notes": "BitTorrent Chain代币，搜索'bittorrent'或'btt'",
+      "suggestions": [
+        "bittorrent",
+        "bittorrent-new"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/BTTC_USDT"
+    },
+    "DODOX": {
+      "coingecko_id": null,
+      "notes": "可能是DODO的变种或新版本",
+      "suggestions": [
+        "dodo",
+        "dodo-bsc"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/DODOX_USDT"
+    },
+    "EUR": {
+      "coingecko_id": "N/A",
+      "notes": "欧元法币，不是加密货币，无需CoinGecko ID",
+      "binance_url": "法币"
+    },
+    "FXS": {
+      "coingecko_id": "frax-share",
+      "notes": "Frax Share代币，搜索'frax'",
+      "suggestions": ["frax-share", "frax"],
+      "binance_url": "https://www.binance.com/en/trade/FXS_USDT"
+    },
+    "LUNA2": {
+      "coingecko_id": "terra-luna-2",
+      "notes": "Terra Luna 2.0，搜索'terra luna'",
+      "suggestions": ["terra-luna-2", "terra-luna", "terra-luna-classic"],
+      "binance_url": "https://www.binance.com/en/trade/LUNA2_USDT"
+    },
+    "MYRO": {
+      "coingecko_id": "myro",
+      "notes": "Solana生态代币，搜索'myro'",
+      "suggestions": ["myro"],
+      "binance_url": "https://www.binance.com/en/trade/MYRO_USDT"
+    },
+    "RAYSOL": {
+      "coingecko_id": null,
+      "notes": "可能是Raydium相关的复合代币或流动性代币",
+      "suggestions": [
+        "raydium"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/RAYSOL_USDT"
+    },
+    "RONIN": {
+      "coingecko_id": "ronin",
+      "notes": "Ronin Network代币，搜索'ronin'",
+      "suggestions": [
+        "ronin",
+        "ronin-network"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/RONIN_USDT"
+    },
+    "VELODROME": {
+      "coingecko_id": "velodrome-finance",
+      "notes": "Velodrome Finance代币，搜索'velodrome'",
+      "suggestions": [
+        "velodrome-finance",
+        "velodrome"
+      ],
+      "binance_url": "https://www.binance.com/en/trade/VELODROME_USDT"
+    }
+  },
+  "common_coingecko_ids": {
+    "examples": {
+      "bitcoin": "BTC的ID",
+      "ethereum": "ETH的ID",
+      "solana": "SOL的ID",
+      "frax-share": "FXS的可能ID",
+      "bittorrent": "BTTC的可能ID",
+      "terra-luna-2": "LUNA2的可能ID"
+    },
+    "tips": [
+      "在CoinGecko上搜索代币名称",
+      "查看URL中的ID部分",
+      "注意区分不同链上的同名代币",
+      "如果有多个版本，选择市值最大的",
+      "新代币可能还没有上线CoinGecko"
+    ]
+  }
+}

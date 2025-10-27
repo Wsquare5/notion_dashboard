@@ -1,0 +1,69 @@
+[
+  {
+    "base": "1000CAT",
+    "spot_price": 0.00531,
+    "perp_price": 0.005308,
+    "spot_volume_24h": 1122382.401289,
+    "perp_volume_24h": 5316835.735909,
+    "open_interest": 249294433.0,
+    "open_interest_usd": 1323254.850364,
+    "funding_rate": 1.301e-05,
+    "index_price": 0.00531872,
+    "mark_price": 0.00531263,
+    "basis": -0.002015522531736894,
+    "index_composition": [
+      {
+        "exchange": "binance",
+        "symbol": "1000CATUSDT",
+        "price": "0.00531000",
+        "weight": "0.56338028"
+      },
+      {
+        "exchange": "okex",
+        "symbol": "CAT-USDT*1000",
+        "price": "0.00531000",
+        "weight": "0.16901408"
+      },
+      {
+        "exchange": "gateio",
+        "symbol": "CAT_USDT*1000",
+        "price": "0.00531500",
+        "weight": "0.05633803"
+      },
+      {
+        "exchange": "kucoin",
+        "symbol": "CAT-USDT*1000",
+        "price": "0.00533900",
+        "weight": "0.08450704"
+      },
+      {
+        "exchange": "mxc",
+        "symbol": "CATUSDT*1000",
+        "price": "0.00530500",
+        "weight": "0.08450704"
+      },
+      {
+        "exchange": "binance_cross2",
+        "symbol": "1000CATTRY/USDTTRY",
+        "price": "0.00532953",
+        "weight": "0.04225352"
+      }
+    ],
+    "index_composition_summary": "binance (56%), okex (17%), kucoin (8%), mxc (8%), gateio (6%), +1 more",
+    "circulating_supply": null,
+    "total_supply": null,
+    "max_supply": null,
+    "ath_price": null,
+    "ath_date": null,
+    "ath_market_cap": null,
+    "atl_price": null,
+    "atl_date": null,
+    "atl_market_cap": null,
+    "market_cap_calc": null,
+    "fdv_calc": null,
+    "logo_url": null,
+    "genesis_date": null,
+    "binance_listing_date": null,
+    "coingecko_id": null
+  }
+]

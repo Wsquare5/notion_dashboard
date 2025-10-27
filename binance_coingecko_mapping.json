@@ -1,0 +1,2965 @@
+{
+  "metadata": {
+    "created_at": "2025-10-23 09:37:07",
+    "total_symbols": 591,
+    "matched_symbols": 575,
+    "match_rate": 97.29272419627749
+  },
+  "mapping": {
+    "0G": {
+      "coingecko_id": "zero-gravity",
+      "match_type": "exact",
+      "timestamp": 1761183427.660135
+    },
+    "1000000BOB": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.660162
+    },
+    "1000000MOG": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.6602628
+    },
+    "1000BONK": {
+      "coingecko_id": "1000bonk",
+      "match_type": "exact",
+      "timestamp": 1761183427.66027
+    },
+    "1000CAT": {
+      "coingecko_id": "1000cat",
+      "match_type": "exact",
+      "timestamp": 1761183427.6603289
+    },
+    "1000CHEEMS": {
+      "coingecko_id": "1000chems",
+      "match_type": "exact",
+      "timestamp": 1761183427.660334
+    },
+    "1000FLOKI": {
+      "coingecko_id": "floki",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660404
+    },
+    "1000LUNC": {
+      "coingecko_id": "luna-wormhole",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660436
+    },
+    "1000PEPE": {
+      "coingecko_id": "baby-pepe-5",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660444
+    },
+    "1000RATS": {
+      "coingecko_id": "1000rats",
+      "match_type": "exact",
+      "timestamp": 1761183427.660605
+    },
+    "1000SATS": {
+      "coingecko_id": "1000sats-ordinals",
+      "match_type": "exact",
+      "timestamp": 1761183427.6606688
+    },
+    "1000SHIB": {
+      "coingecko_id": "1000shib",
+      "match_type": "exact",
+      "timestamp": 1761183427.6606798
+    },
+    "1000WHY": {
+      "coingecko_id": "wenwifhat",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660685
+    },
+    "1000X": {
+      "coingecko_id": "1000x-by-virtuals",
+      "match_type": "exact",
+      "timestamp": 1761183427.6606889
+    },
+    "1000XEC": {
+      "coingecko_id": "ecash",
+      "match_type": "exact",
+      "timestamp": 1761183427.660764
+    },
+    "1INCH": {
+      "coingecko_id": "1inch",
+      "match_type": "exact",
+      "timestamp": 1761183427.66077
+    },
+    "1MBABYDOGE": {
+      "coingecko_id": "1mbabydoge",
+      "match_type": "exact",
+      "timestamp": 1761183427.660816
+    },
+    "2Z": {
+      "coingecko_id": "doublezero",
+      "match_type": "exact",
+      "timestamp": 1761183427.6608598
+    },
+    "4": {
+      "coingecko_id": "4-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.660892
+    },
+    "A": {
+      "coingecko_id": "vaulta",
+      "match_type": "exact",
+      "timestamp": 1761183427.660905
+    },
+    "A2Z": {
+      "coingecko_id": "arena-z",
+      "match_type": "exact",
+      "timestamp": 1761183427.660937
+    },
+    "AAVE": {
+      "coingecko_id": "aave",
+      "match_type": "major",
+      "timestamp": 1761183427.660943
+    },
+    "ACA": {
+      "coingecko_id": "acala",
+      "match_type": "exact",
+      "timestamp": 1761183427.66095
+    },
+    "ACE": {
+      "coingecko_id": "acent",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660953
+    },
+    "ACH": {
+      "coingecko_id": "alchemy-pay",
+      "match_type": "exact",
+      "timestamp": 1761183427.66096
+    },
+    "ACM": {
+      "coingecko_id": "acmfinance",
+      "match_type": "multiple",
+      "timestamp": 1761183427.660977
+    },
+    "ACT": {
+      "coingecko_id": "acet-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6609988
+    },
+    "ACX": {
+      "coingecko_id": "across-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.661001
+    },
+    "ADA": {
+      "coingecko_id": "cardano",
+      "match_type": "major",
+      "timestamp": 1761183427.661005
+    },
+    "ADX": {
+      "coingecko_id": "adex",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6610088
+    },
+    "AERGO": {
+      "coingecko_id": "aergo",
+      "match_type": "exact",
+      "timestamp": 1761183427.661013
+    },
+    "AERO": {
+      "coingecko_id": "aerodrome-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.6610172
+    },
+    "AEUR": {
+      "coingecko_id": "anchored-coins-eur",
+      "match_type": "exact",
+      "timestamp": 1761183427.661022
+    },
+    "AEVO": {
+      "coingecko_id": "aevo-exchange",
+      "match_type": "major",
+      "timestamp": 1761183427.661024
+    },
+    "AGLD": {
+      "coingecko_id": "adventure-gold",
+      "match_type": "exact",
+      "timestamp": 1761183427.661026
+    },
+    "AGT": {
+      "coingecko_id": "alaya-ai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6610298
+    },
+    "AI": {
+      "coingecko_id": "sleepless-ai",
+      "match_type": "major",
+      "timestamp": 1761183427.661032
+    },
+    "AI16Z": {
+      "coingecko_id": "ai16z",
+      "match_type": "exact",
+      "timestamp": 1761183427.661036
+    },
+    "AIA": {
+      "coingecko_id": "aia",
+      "match_type": "exact",
+      "timestamp": 1761183427.6610382
+    },
+    "AIN": {
+      "coingecko_id": "ainalyst",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661042
+    },
+    "AIO": {
+      "coingecko_id": "all-in-one-wallet",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661046
+    },
+    "AIOT": {
+      "coingecko_id": "okzoo",
+      "match_type": "exact",
+      "timestamp": 1761183427.661052
+    },
+    "AIXBT": {
+      "coingecko_id": "aixbt",
+      "match_type": "exact",
+      "timestamp": 1761183427.661054
+    },
+    "AKE": {
+      "coingecko_id": "akedo",
+      "match_type": "exact",
+      "timestamp": 1761183427.661058
+    },
+    "AKT": {
+      "coingecko_id": "akash-network",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66106
+    },
+    "ALCH": {
+      "coingecko_id": "alchemist-accelerate",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6610649
+    },
+    "ALCX": {
+      "coingecko_id": "alchemix",
+      "match_type": "exact",
+      "timestamp": 1761183427.661067
+    },
+    "ALGO": {
+      "coingecko_id": "algorand",
+      "match_type": "major",
+      "timestamp": 1761183427.6610692
+    },
+    "ALICE": {
+      "coingecko_id": "alice",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6610718
+    },
+    "ALL": {
+      "coingecko_id": "alliance-fan-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661074
+    },
+    "ALPINE": {
+      "coingecko_id": "alpine-f1-team-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.661077
+    },
+    "ALT": {
+      "coingecko_id": "altlayer",
+      "match_type": "major",
+      "timestamp": 1761183427.661079
+    },
+    "AMP": {
+      "coingecko_id": "amp-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.661081
+    },
+    "ANIME": {
+      "coingecko_id": "a-new-internet-money-era",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661085
+    },
+    "ANKR": {
+      "coingecko_id": "ankr",
+      "match_type": "exact",
+      "timestamp": 1761183427.661087
+    },
+    "APE": {
+      "coingecko_id": "ape-3",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661089
+    },
+    "API3": {
+      "coingecko_id": "api3",
+      "match_type": "exact",
+      "timestamp": 1761183427.6610932
+    },
+    "APT": {
+      "coingecko_id": "aptos",
+      "match_type": "major",
+      "timestamp": 1761183427.661141
+    },
+    "AR": {
+      "coingecko_id": "arweave",
+      "match_type": "exact",
+      "timestamp": 1761183427.6611898
+    },
+    "ARB": {
+      "coingecko_id": "arbitrum",
+      "match_type": "major",
+      "timestamp": 1761183427.661217
+    },
+    "ARC": {
+      "coingecko_id": "ai-rig-complex",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6612659
+    },
+    "ARDR": {
+      "coingecko_id": "ardor",
+      "match_type": "exact",
+      "timestamp": 1761183427.661273
+    },
+    "ARIA": {
+      "coingecko_id": "aria",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661275
+    },
+    "ARK": {
+      "coingecko_id": "ark",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6612768
+    },
+    "ARKM": {
+      "coingecko_id": "arkham",
+      "match_type": "exact",
+      "timestamp": 1761183427.661282
+    },
+    "ARPA": {
+      "coingecko_id": "arpa",
+      "match_type": "exact",
+      "timestamp": 1761183427.6612852
+    },
+    "ASR": {
+      "coingecko_id": "as-roma-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.6612868
+    },
+    "ASTER": {
+      "coingecko_id": "aster-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661292
+    },
+    "ASTR": {
+      "coingecko_id": "astar",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661294
+    },
+    "ATA": {
+      "coingecko_id": "ata-by-virtuals",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661298
+    },
+    "ATH": {
+      "coingecko_id": "aethir",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661303
+    },
+    "ATM": {
+      "coingecko_id": "all-the-money",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661312
+    },
+    "ATOM": {
+      "coingecko_id": "cosmos",
+      "match_type": "major",
+      "timestamp": 1761183427.661315
+    },
+    "AUCTION": {
+      "coingecko_id": "auction",
+      "match_type": "exact",
+      "timestamp": 1761183427.6613178
+    },
+    "AUDIO": {
+      "coingecko_id": "audius",
+      "match_type": "exact",
+      "timestamp": 1761183427.66132
+    },
+    "AVA": {
+      "coingecko_id": "ava-ai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661325
+    },
+    "AVAAI": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.6613271
+    },
+    "AVAX": {
+      "coingecko_id": "avalanche-2",
+      "match_type": "major",
+      "timestamp": 1761183427.6613288
+    },
+    "AVNT": {
+      "coingecko_id": "avantis",
+      "match_type": "exact",
+      "timestamp": 1761183427.661334
+    },
+    "AWE": {
+      "coingecko_id": "stp-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.661338
+    },
+    "AXL": {
+      "coingecko_id": "axelar",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6613429
+    },
+    "AXS": {
+      "coingecko_id": "axie-infinity",
+      "match_type": "exact",
+      "timestamp": 1761183427.661346
+    },
+    "B": {
+      "coingecko_id": "blocks-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6613498
+    },
+    "B2": {
+      "coingecko_id": "bsquared-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6613572
+    },
+    "B3": {
+      "coingecko_id": "b3",
+      "match_type": "exact",
+      "timestamp": 1761183427.661361
+    },
+    "BABY": {
+      "coingecko_id": "a-fund-baby",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661365
+    },
+    "BAN": {
+      "coingecko_id": "banano",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661372
+    },
+    "BANANA": {
+      "coingecko_id": "banana-gun",
+      "match_type": "major",
+      "timestamp": 1761183427.6613739
+    },
+    "BANANAS31": {
+      "coingecko_id": "banana-for-scale-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.6613781
+    },
+    "BAND": {
+      "coingecko_id": "band-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.661381
+    },
+    "BANK": {
+      "coingecko_id": "bankcoin-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661383
+    },
+    "BAR": {
+      "coingecko_id": "bullarena",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661421
+    },
+    "BARD": {
+      "coingecko_id": "lombard-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.66145
+    },
+    "BAS": {
+      "coingecko_id": "bas",
+      "match_type": "exact",
+      "timestamp": 1761183427.661452
+    },
+    "BAT": {
+      "coingecko_id": "basic-attention-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6614568
+    },
+    "BB": {
+      "coingecko_id": "baby-bali",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661459
+    },
+    "BCH": {
+      "coingecko_id": "bitcoin-cash",
+      "match_type": "major",
+      "timestamp": 1761183427.6614652
+    },
+    "BDXN": {
+      "coingecko_id": "bondex",
+      "match_type": "exact",
+      "timestamp": 1761183427.661469
+    },
+    "BEAMX": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.661471
+    },
+    "BEL": {
+      "coingecko_id": "bella-protocol",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6614752
+    },
+    "BERA": {
+      "coingecko_id": "berachain-bera",
+      "match_type": "exact",
+      "timestamp": 1761183427.6614778
+    },
+    "BFUSD": {
+      "coingecko_id": "bfusd",
+      "match_type": "exact",
+      "timestamp": 1761183427.661483
+    },
+    "BICO": {
+      "coingecko_id": "biconomy",
+      "match_type": "exact",
+      "timestamp": 1761183427.6614861
+    },
+    "BID": {
+      "coingecko_id": "bidao",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6615648
+    },
+    "BIFI": {
+      "coingecko_id": "beefy-finance",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661571
+    },
+    "BIGTIME": {
+      "coingecko_id": "big-time",
+      "match_type": "exact",
+      "timestamp": 1761183427.661577
+    },
+    "BIO": {
+      "coingecko_id": "bionergy",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661607
+    },
+    "BLESS": {
+      "coingecko_id": "bless-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.6616151
+    },
+    "BLUAI": {
+      "coingecko_id": "bluwhale",
+      "match_type": "exact",
+      "timestamp": 1761183427.661618
+    },
+    "BLUR": {
+      "coingecko_id": "blur",
+      "match_type": "exact",
+      "timestamp": 1761183427.661639
+    },
+    "BMT": {
+      "coingecko_id": "bitcoin-maxi-tears",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661647
+    },
+    "BNB": {
+      "coingecko_id": "binancecoin",
+      "match_type": "major",
+      "timestamp": 1761183427.66165
+    },
+    "BNSOL": {
+      "coingecko_id": "binance-staked-sol",
+      "match_type": "exact",
+      "timestamp": 1761183427.6616561
+    },
+    "BNT": {
+      "coingecko_id": "bancor",
+      "match_type": "exact",
+      "timestamp": 1761183427.6616588
+    },
+    "BOME": {
+      "coingecko_id": "book-of-meme",
+      "match_type": "major",
+      "timestamp": 1761183427.661661
+    },
+    "BONK": {
+      "coingecko_id": "bonk",
+      "match_type": "major",
+      "timestamp": 1761183427.6616619
+    },
+    "BR": {
+      "coingecko_id": "bedrock-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.661667
+    },
+    "BRETT": {
+      "coingecko_id": "based-brett",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661671
+    },
+    "BROCCOLI714": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.661747
+    },
+    "BROCCOLIF3B": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.661752
+    },
+    "BSV": {
+      "coingecko_id": "bitcoin-cash-sv",
+      "match_type": "exact",
+      "timestamp": 1761183427.661758
+    },
+    "BTC": {
+      "coingecko_id": "bitcoin",
+      "match_type": "major",
+      "timestamp": 1761183427.66176
+    },
+    "BTCDOM": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.661763
+    },
+    "BTR": {
+      "coingecko_id": "bitlayer-bitvm",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661768
+    },
+    "BTTC": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.661771
+    },
+    "BULLA": {
+      "coingecko_id": "bulla",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661773
+    },
+    "C": {
+      "coingecko_id": "chainbase",
+      "match_type": "exact",
+      "timestamp": 1761183427.661778
+    },
+    "C98": {
+      "coingecko_id": "coin98",
+      "match_type": "exact",
+      "timestamp": 1761183427.661783
+    },
+    "CAKE": {
+      "coingecko_id": "pancakeswap-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.66179
+    },
+    "CARV": {
+      "coingecko_id": "carv",
+      "match_type": "exact",
+      "timestamp": 1761183427.661812
+    },
+    "CATI": {
+      "coingecko_id": "catizen",
+      "match_type": "exact",
+      "timestamp": 1761183427.6618528
+    },
+    "CELO": {
+      "coingecko_id": "celo",
+      "match_type": "exact",
+      "timestamp": 1761183427.661864
+    },
+    "CELR": {
+      "coingecko_id": "celer-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.661867
+    },
+    "CETUS": {
+      "coingecko_id": "cetus-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.66187
+    },
+    "CFX": {
+      "coingecko_id": "conflux-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661886
+    },
+    "CGPT": {
+      "coingecko_id": "chaingpt",
+      "match_type": "exact",
+      "timestamp": 1761183427.661909
+    },
+    "CHESS": {
+      "coingecko_id": "chesscoin-0-32",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661916
+    },
+    "CHILLGUY": {
+      "coingecko_id": "chill-guy",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6619189
+    },
+    "CHR": {
+      "coingecko_id": "chromaway",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6619232
+    },
+    "CHZ": {
+      "coingecko_id": "chiliz",
+      "match_type": "exact",
+      "timestamp": 1761183427.661925
+    },
+    "CITY": {
+      "coingecko_id": "alpha-city-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.661928
+    },
+    "CKB": {
+      "coingecko_id": "nervos-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.661991
+    },
+    "CLO": {
+      "coingecko_id": "cloudland",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662036
+    },
+    "COAI": {
+      "coingecko_id": "chainopera-ai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662046
+    },
+    "COMP": {
+      "coingecko_id": "compound-governance-token",
+      "match_type": "major",
+      "timestamp": 1761183427.662051
+    },
+    "COOKIE": {
+      "coingecko_id": "cookie",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6620631
+    },
+    "COS": {
+      "coingecko_id": "contentos",
+      "match_type": "exact",
+      "timestamp": 1761183427.662106
+    },
+    "COTI": {
+      "coingecko_id": "coti",
+      "match_type": "exact",
+      "timestamp": 1761183427.662113
+    },
+    "COW": {
+      "coingecko_id": "coinwind",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662116
+    },
+    "CROSS": {
+      "coingecko_id": "cross-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.662122
+    },
+    "CRV": {
+      "coingecko_id": "bridged-curve-dao-token-stargate",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662126
+    },
+    "CTK": {
+      "coingecko_id": "certik",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662132
+    },
+    "CTSI": {
+      "coingecko_id": "cartesi",
+      "match_type": "exact",
+      "timestamp": 1761183427.6621351
+    },
+    "CUDIS": {
+      "coingecko_id": "cudis",
+      "match_type": "exact",
+      "timestamp": 1761183427.6621969
+    },
+    "CVC": {
+      "coingecko_id": "civic",
+      "match_type": "exact",
+      "timestamp": 1761183427.66227
+    },
+    "CVX": {
+      "coingecko_id": "convex-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.6622798
+    },
+    "CYBER": {
+      "coingecko_id": "cyberconnect",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6622841
+    },
+    "D": {
+      "coingecko_id": "dar-open-network",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662384
+    },
+    "DAM": {
+      "coingecko_id": "dam",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662393
+    },
+    "DASH": {
+      "coingecko_id": "dash",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662396
+    },
+    "DATA": {
+      "coingecko_id": "data-ai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6623979
+    },
+    "DCR": {
+      "coingecko_id": "decred",
+      "match_type": "exact",
+      "timestamp": 1761183427.662404
+    },
+    "DEEP": {
+      "coingecko_id": "deep",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662557
+    },
+    "DEGEN": {
+      "coingecko_id": "cross-chain-degen-dao",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662601
+    },
+    "DEGO": {
+      "coingecko_id": "dego-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.6626308
+    },
+    "DENT": {
+      "coingecko_id": "dent",
+      "match_type": "exact",
+      "timestamp": 1761183427.6626492
+    },
+    "DEXE": {
+      "coingecko_id": "dexe",
+      "match_type": "exact",
+      "timestamp": 1761183427.662724
+    },
+    "DF": {
+      "coingecko_id": "dforce-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.662755
+    },
+    "DGB": {
+      "coingecko_id": "digibyte",
+      "match_type": "exact",
+      "timestamp": 1761183427.66276
+    },
+    "DIA": {
+      "coingecko_id": "dia-data",
+      "match_type": "exact",
+      "timestamp": 1761183427.662763
+    },
+    "DMC": {
+      "coingecko_id": "datamall-coin",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6627681
+    },
+    "DODO": {
+      "coingecko_id": "dodo",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662775
+    },
+    "DODOX": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.6627781
+    },
+    "DOGE": {
+      "coingecko_id": "dogecoin",
+      "match_type": "major",
+      "timestamp": 1761183427.6627798
+    },
+    "DOGS": {
+      "coingecko_id": "doggensnout-skeptic",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6628191
+    },
+    "DOLO": {
+      "coingecko_id": "dolomite",
+      "match_type": "exact",
+      "timestamp": 1761183427.662824
+    },
+    "DOOD": {
+      "coingecko_id": "doodles",
+      "match_type": "exact",
+      "timestamp": 1761183427.662828
+    },
+    "DOT": {
+      "coingecko_id": "polkadot",
+      "match_type": "major",
+      "timestamp": 1761183427.66283
+    },
+    "DRIFT": {
+      "coingecko_id": "drift-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.662836
+    },
+    "DUSK": {
+      "coingecko_id": "dusk-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6628401
+    },
+    "DYDX": {
+      "coingecko_id": "dydx-chain",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662842
+    },
+    "DYM": {
+      "coingecko_id": "dymension",
+      "match_type": "major",
+      "timestamp": 1761183427.662847
+    },
+    "EDEN": {
+      "coingecko_id": "eden",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662852
+    },
+    "EDU": {
+      "coingecko_id": "edu-coin",
+      "match_type": "exact",
+      "timestamp": 1761183427.662855
+    },
+    "EGLD": {
+      "coingecko_id": "elrond-erd-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.66286
+    },
+    "EIGEN": {
+      "coingecko_id": "eigenlayer",
+      "match_type": "exact",
+      "timestamp": 1761183427.6628659
+    },
+    "ENA": {
+      "coingecko_id": "ethena",
+      "match_type": "exact",
+      "timestamp": 1761183427.66287
+    },
+    "ENJ": {
+      "coingecko_id": "enjincoin",
+      "match_type": "exact",
+      "timestamp": 1761183427.662873
+    },
+    "ENS": {
+      "coingecko_id": "ethereum-name-service",
+      "match_type": "exact",
+      "timestamp": 1761183427.662876
+    },
+    "ENSO": {
+      "coingecko_id": "enso",
+      "match_type": "exact",
+      "timestamp": 1761183427.662879
+    },
+    "EPIC": {
+      "coingecko_id": "epic-cash",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662883
+    },
+    "EPT": {
+      "coingecko_id": "balance",
+      "match_type": "exact",
+      "timestamp": 1761183427.662886
+    },
+    "ERA": {
+      "coingecko_id": "caldera",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662889
+    },
+    "ESPORTS": {
+      "coingecko_id": "yooldo-games",
+      "match_type": "exact",
+      "timestamp": 1761183427.662892
+    },
+    "ETC": {
+      "coingecko_id": "ethereum-classic",
+      "match_type": "major",
+      "timestamp": 1761183427.662935
+    },
+    "ETH": {
+      "coingecko_id": "ethereum",
+      "match_type": "major",
+      "timestamp": 1761183427.6629398
+    },
+    "ETHFI": {
+      "coingecko_id": "ether-fi",
+      "match_type": "exact",
+      "timestamp": 1761183427.662942
+    },
+    "ETHW": {
+      "coingecko_id": "ethereum-pow-iou",
+      "match_type": "exact",
+      "timestamp": 1761183427.6629472
+    },
+    "EUL": {
+      "coingecko_id": "euler",
+      "match_type": "exact",
+      "timestamp": 1761183427.662949
+    },
+    "EUR": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.662954
+    },
+    "EURI": {
+      "coingecko_id": "eurite",
+      "match_type": "exact",
+      "timestamp": 1761183427.662956
+    },
+    "EVAA": {
+      "coingecko_id": "evaa-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.6629581
+    },
+    "F": {
+      "coingecko_id": "f",
+      "match_type": "multiple",
+      "timestamp": 1761183427.662963
+    },
+    "FARM": {
+      "coingecko_id": "cryptofarmers",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663001
+    },
+    "FARTCOIN": {
+      "coingecko_id": "based-fartcoin",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663014
+    },
+    "FDUSD": {
+      "coingecko_id": "first-digital-usd",
+      "match_type": "exact",
+      "timestamp": 1761183427.6630552
+    },
+    "FET": {
+      "coingecko_id": "fetch-ai",
+      "match_type": "exact",
+      "timestamp": 1761183427.663105
+    },
+    "FF": {
+      "coingecko_id": "falcon-finance-ff",
+      "match_type": "exact",
+      "timestamp": 1761183427.66313
+    },
+    "FHE": {
+      "coingecko_id": "mind-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.663168
+    },
+    "FIDA": {
+      "coingecko_id": "bonfida",
+      "match_type": "exact",
+      "timestamp": 1761183427.6631749
+    },
+    "FIL": {
+      "coingecko_id": "filecoin",
+      "match_type": "major",
+      "timestamp": 1761183427.663177
+    },
+    "FIO": {
+      "coingecko_id": "fio-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.66318
+    },
+    "FIS": {
+      "coingecko_id": "stafi",
+      "match_type": "exact",
+      "timestamp": 1761183427.663182
+    },
+    "FLM": {
+      "coingecko_id": "flamingo-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.663245
+    },
+    "FLOCK": {
+      "coingecko_id": "flock-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6632981
+    },
+    "FLOKI": {
+      "coingecko_id": "floki",
+      "match_type": "major",
+      "timestamp": 1761183427.663303
+    },
+    "FLOW": {
+      "coingecko_id": "flow",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663306
+    },
+    "FLUID": {
+      "coingecko_id": "instadapp",
+      "match_type": "exact",
+      "timestamp": 1761183427.6633081
+    },
+    "FLUX": {
+      "coingecko_id": "flux",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663312
+    },
+    "FORM": {
+      "coingecko_id": "four",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663317
+    },
+    "FORTH": {
+      "coingecko_id": "ampleforth-governance-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.66332
+    },
+    "FTT": {
+      "coingecko_id": "ftx-token",
+      "match_type": "major",
+      "timestamp": 1761183427.6633651
+    },
+    "FUN": {
+      "coingecko_id": "funfair",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6633961
+    },
+    "FXS": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.663402
+    },
+    "G": {
+      "coingecko_id": "gravity",
+      "match_type": "major",
+      "timestamp": 1761183427.663404
+    },
+    "GALA": {
+      "coingecko_id": "gala",
+      "match_type": "exact",
+      "timestamp": 1761183427.66342
+    },
+    "GAS": {
+      "coingecko_id": "gas",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663488
+    },
+    "GHST": {
+      "coingecko_id": "aavegotchi",
+      "match_type": "exact",
+      "timestamp": 1761183427.6634948
+    },
+    "GIGGLE": {
+      "coingecko_id": "giggle-fund",
+      "match_type": "exact",
+      "timestamp": 1761183427.663499
+    },
+    "GLM": {
+      "coingecko_id": "golem",
+      "match_type": "exact",
+      "timestamp": 1761183427.663504
+    },
+    "GLMR": {
+      "coingecko_id": "moonbeam",
+      "match_type": "exact",
+      "timestamp": 1761183427.663552
+    },
+    "GMT": {
+      "coingecko_id": "gamem-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663569
+    },
+    "GMX": {
+      "coingecko_id": "gamext",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6636102
+    },
+    "GNO": {
+      "coingecko_id": "gnosis",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663622
+    },
+    "GNS": {
+      "coingecko_id": "gains-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.66363
+    },
+    "GOAT": {
+      "coingecko_id": "goat",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663643
+    },
+    "GPS": {
+      "coingecko_id": "goplus-security",
+      "match_type": "exact",
+      "timestamp": 1761183427.6636648
+    },
+    "GRASS": {
+      "coingecko_id": "grass",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663672
+    },
+    "GRIFFAIN": {
+      "coingecko_id": "griffain",
+      "match_type": "exact",
+      "timestamp": 1761183427.663677
+    },
+    "GRT": {
+      "coingecko_id": "the-graph",
+      "match_type": "exact",
+      "timestamp": 1761183427.66368
+    },
+    "GTC": {
+      "coingecko_id": "game",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6636832
+    },
+    "GUN": {
+      "coingecko_id": "gunz",
+      "match_type": "exact",
+      "timestamp": 1761183427.663689
+    },
+    "H": {
+      "coingecko_id": "h",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663691
+    },
+    "HAEDAL": {
+      "coingecko_id": "haedal",
+      "match_type": "exact",
+      "timestamp": 1761183427.663695
+    },
+    "HANA": {
+      "coingecko_id": "hana",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663703
+    },
+    "HBAR": {
+      "coingecko_id": "hedera-hashgraph",
+      "match_type": "major",
+      "timestamp": 1761183427.663705
+    },
+    "HEI": {
+      "coingecko_id": "heima",
+      "match_type": "exact",
+      "timestamp": 1761183427.6637099
+    },
+    "HEMI": {
+      "coingecko_id": "hemi",
+      "match_type": "exact",
+      "timestamp": 1761183427.663714
+    },
+    "HFT": {
+      "coingecko_id": "hashflow",
+      "match_type": "exact",
+      "timestamp": 1761183427.663717
+    },
+    "HIGH": {
+      "coingecko_id": "high",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663723
+    },
+    "HIPPO": {
+      "coingecko_id": "sudeng",
+      "match_type": "exact",
+      "timestamp": 1761183427.6637282
+    },
+    "HIVE": {
+      "coingecko_id": "hive",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663733
+    },
+    "HMSTR": {
+      "coingecko_id": "hamster-kombat",
+      "match_type": "exact",
+      "timestamp": 1761183427.663736
+    },
+    "HOLO": {
+      "coingecko_id": "holo",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66374
+    },
+    "HOME": {
+      "coingecko_id": "home",
+      "match_type": "exact",
+      "timestamp": 1761183427.663743
+    },
+    "HOOK": {
+      "coingecko_id": "hooked-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.663746
+    },
+    "HOT": {
+      "coingecko_id": "holotoken",
+      "match_type": "exact",
+      "timestamp": 1761183427.6637492
+    },
+    "HUMA": {
+      "coingecko_id": "huma-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.6637518
+    },
+    "HYPE": {
+      "coingecko_id": "harrypotterhypermarioliquidfentjeffspectrum47i",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663758
+    },
+    "HYPER": {
+      "coingecko_id": "bitcoin-hyper-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663763
+    },
+    "ICNT": {
+      "coingecko_id": "impossible-cloud-network-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.663766
+    },
+    "ICP": {
+      "coingecko_id": "internet-computer",
+      "match_type": "major",
+      "timestamp": 1761183427.663768
+    },
+    "ICX": {
+      "coingecko_id": "icon",
+      "match_type": "exact",
+      "timestamp": 1761183427.663771
+    },
+    "ID": {
+      "coingecko_id": "space-id",
+      "match_type": "major",
+      "timestamp": 1761183427.6637728
+    },
+    "IDEX": {
+      "coingecko_id": "aurora-dao",
+      "match_type": "exact",
+      "timestamp": 1761183427.663775
+    },
+    "IDOL": {
+      "coingecko_id": "meet48",
+      "match_type": "exact",
+      "timestamp": 1761183427.6637802
+    },
+    "ILV": {
+      "coingecko_id": "illuvium",
+      "match_type": "exact",
+      "timestamp": 1761183427.663782
+    },
+    "IMX": {
+      "coingecko_id": "immutable-x",
+      "match_type": "exact",
+      "timestamp": 1761183427.663784
+    },
+    "IN": {
+      "coingecko_id": "incoin-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663786
+    },
+    "INIT": {
+      "coingecko_id": "init",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663788
+    },
+    "INJ": {
+      "coingecko_id": "injective-protocol",
+      "match_type": "major",
+      "timestamp": 1761183427.6637938
+    },
+    "IO": {
+      "coingecko_id": "io-net",
+      "match_type": "major",
+      "timestamp": 1761183427.663795
+    },
+    "IOST": {
+      "coingecko_id": "iostoken",
+      "match_type": "exact",
+      "timestamp": 1761183427.663798
+    },
+    "IOTA": {
+      "coingecko_id": "iota",
+      "match_type": "exact",
+      "timestamp": 1761183427.6638
+    },
+    "IOTX": {
+      "coingecko_id": "binance-peg-iotex",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6638021
+    },
+    "IP": {
+      "coingecko_id": "story-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.6638038
+    },
+    "IQ": {
+      "coingecko_id": "everipedia",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663807
+    },
+    "JASMY": {
+      "coingecko_id": "jasmycoin",
+      "match_type": "exact",
+      "timestamp": 1761183427.663809
+    },
+    "JELLYJELLY": {
+      "coingecko_id": "jelly-my-jelly",
+      "match_type": "exact",
+      "timestamp": 1761183427.66384
+    },
+    "JOE": {
+      "coingecko_id": "joe",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663845
+    },
+    "JST": {
+      "coingecko_id": "just",
+      "match_type": "exact",
+      "timestamp": 1761183427.663848
+    },
+    "JTO": {
+      "coingecko_id": "jito-governance-token",
+      "match_type": "major",
+      "timestamp": 1761183427.6638489
+    },
+    "JUP": {
+      "coingecko_id": "jupiter-exchange-solana",
+      "match_type": "major",
+      "timestamp": 1761183427.663851
+    },
+    "JUV": {
+      "coingecko_id": "juventus-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.6638541
+    },
+    "KAIA": {
+      "coingecko_id": "a-i-agent-kaia",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663857
+    },
+    "KAITO": {
+      "coingecko_id": "kaito",
+      "match_type": "exact",
+      "timestamp": 1761183427.66386
+    },
+    "KAS": {
+      "coingecko_id": "kaspa",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663862
+    },
+    "KAVA": {
+      "coingecko_id": "kava",
+      "match_type": "exact",
+      "timestamp": 1761183427.663865
+    },
+    "KDA": {
+      "coingecko_id": "kadena",
+      "match_type": "exact",
+      "timestamp": 1761183427.663868
+    },
+    "KERNEL": {
+      "coingecko_id": "kernel-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.663871
+    },
+    "KGEN": {
+      "coingecko_id": "kgen",
+      "match_type": "exact",
+      "timestamp": 1761183427.663873
+    },
+    "KMNO": {
+      "coingecko_id": "kamino",
+      "match_type": "exact",
+      "timestamp": 1761183427.663875
+    },
+    "KNC": {
+      "coingecko_id": "kyber-network-crystal",
+      "match_type": "exact",
+      "timestamp": 1761183427.663877
+    },
+    "KOMA": {
+      "coingecko_id": "koma-inu",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663881
+    },
+    "KSM": {
+      "coingecko_id": "kusama",
+      "match_type": "exact",
+      "timestamp": 1761183427.663885
+    },
+    "LA": {
+      "coingecko_id": "lagrange",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663888
+    },
+    "LAB": {
+      "coingecko_id": "lab",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66389
+    },
+    "LAYER": {
+      "coingecko_id": "solayer",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663908
+    },
+    "LAZIO": {
+      "coingecko_id": "lazio-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.663927
+    },
+    "LDO": {
+      "coingecko_id": "lido-dao",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663934
+    },
+    "LIGHT": {
+      "coingecko_id": "arcturian-ai-by-virtuals",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663956
+    },
+    "LINEA": {
+      "coingecko_id": "linea",
+      "match_type": "exact",
+      "timestamp": 1761183427.6639638
+    },
+    "LINK": {
+      "coingecko_id": "chainlink",
+      "match_type": "major",
+      "timestamp": 1761183427.663966
+    },
+    "LISTA": {
+      "coingecko_id": "lista",
+      "match_type": "exact",
+      "timestamp": 1761183427.663969
+    },
+    "LPT": {
+      "coingecko_id": "livepeer",
+      "match_type": "exact",
+      "timestamp": 1761183427.6639721
+    },
+    "LQTY": {
+      "coingecko_id": "liquity",
+      "match_type": "exact",
+      "timestamp": 1761183427.663976
+    },
+    "LRC": {
+      "coingecko_id": "loopring",
+      "match_type": "exact",
+      "timestamp": 1761183427.663978
+    },
+    "LSK": {
+      "coingecko_id": "lisk",
+      "match_type": "exact",
+      "timestamp": 1761183427.66398
+    },
+    "LTC": {
+      "coingecko_id": "litecoin",
+      "match_type": "major",
+      "timestamp": 1761183427.6639822
+    },
+    "LUMIA": {
+      "coingecko_id": "lumia",
+      "match_type": "exact",
+      "timestamp": 1761183427.6639879
+    },
+    "LUNA": {
+      "coingecko_id": "luna-by-virtuals",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663991
+    },
+    "LUNA2": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.663994
+    },
+    "LUNC": {
+      "coingecko_id": "luna-wormhole",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663996
+    },
+    "LYN": {
+      "coingecko_id": "everlyn",
+      "match_type": "multiple",
+      "timestamp": 1761183427.663999
+    },
+    "M": {
+      "coingecko_id": "m-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664001
+    },
+    "MAGIC": {
+      "coingecko_id": "magic",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664004
+    },
+    "MANA": {
+      "coingecko_id": "decentraland",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664006
+    },
+    "MANTA": {
+      "coingecko_id": "manta-network",
+      "match_type": "major",
+      "timestamp": 1761183427.6640089
+    },
+    "MASK": {
+      "coingecko_id": "catwifmask",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664012
+    },
+    "MAV": {
+      "coingecko_id": "maverick-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.664017
+    },
+    "MAVIA": {
+      "coingecko_id": "heroes-of-mavia",
+      "match_type": "exact",
+      "timestamp": 1761183427.664022
+    },
+    "MBL": {
+      "coingecko_id": "moviebloc",
+      "match_type": "exact",
+      "timestamp": 1761183427.664028
+    },
+    "MBOX": {
+      "coingecko_id": "mobox",
+      "match_type": "exact",
+      "timestamp": 1761183427.664031
+    },
+    "MDT": {
+      "coingecko_id": "measurable-data-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.664035
+    },
+    "ME": {
+      "coingecko_id": "literally-me",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6640399
+    },
+    "MELANIA": {
+      "coingecko_id": "melania-meme",
+      "match_type": "exact",
+      "timestamp": 1761183427.664045
+    },
+    "MEME": {
+      "coingecko_id": "memecoin",
+      "match_type": "major",
+      "timestamp": 1761183427.664047
+    },
+    "MERL": {
+      "coingecko_id": "merlin-chain",
+      "match_type": "exact",
+      "timestamp": 1761183427.6640499
+    },
+    "MET": {
+      "coingecko_id": "met-ai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664053
+    },
+    "METIS": {
+      "coingecko_id": "metis-token",
+      "match_type": "major",
+      "timestamp": 1761183427.664054
+    },
+    "MEW": {
+      "coingecko_id": "cat-in-a-dogs-world",
+      "match_type": "exact",
+      "timestamp": 1761183427.6640582
+    },
+    "MILK": {
+      "coingecko_id": "illumicati",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6640608
+    },
+    "MINA": {
+      "coingecko_id": "mina-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.664063
+    },
+    "MIRA": {
+      "coingecko_id": "chains-of-war",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664068
+    },
+    "MITO": {
+      "coingecko_id": "mito",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664072
+    },
+    "MLN": {
+      "coingecko_id": "melon",
+      "match_type": "exact",
+      "timestamp": 1761183427.664074
+    },
+    "MOCA": {
+      "coingecko_id": "mocaverse",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664077
+    },
+    "MON": {
+      "coingecko_id": "monad",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6640809
+    },
+    "MOODENG": {
+      "coingecko_id": "moo-deng",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6641212
+    },
+    "MORPHO": {
+      "coingecko_id": "morpho",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664133
+    },
+    "MOVE": {
+      "coingecko_id": "bluemove",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6641438
+    },
+    "MOVR": {
+      "coingecko_id": "moonriver",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6641521
+    },
+    "MTL": {
+      "coingecko_id": "metal",
+      "match_type": "exact",
+      "timestamp": 1761183427.664172
+    },
+    "MUBARAK": {
+      "coingecko_id": "mubarak",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664184
+    },
+    "MYRO": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.664193
+    },
+    "MYX": {
+      "coingecko_id": "myx-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.664215
+    },
+    "NAORIS": {
+      "coingecko_id": "naoris",
+      "match_type": "exact",
+      "timestamp": 1761183427.664248
+    },
+    "NEAR": {
+      "coingecko_id": "near",
+      "match_type": "major",
+      "timestamp": 1761183427.6642501
+    },
+    "NEIRO": {
+      "coingecko_id": "neiro",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664253
+    },
+    "NEO": {
+      "coingecko_id": "neo",
+      "match_type": "exact",
+      "timestamp": 1761183427.664256
+    },
+    "NEWT": {
+      "coingecko_id": "newt",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664261
+    },
+    "NEXO": {
+      "coingecko_id": "nexo",
+      "match_type": "exact",
+      "timestamp": 1761183427.664264
+    },
+    "NFP": {
+      "coingecko_id": "nfprompt-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.664267
+    },
+    "NIL": {
+      "coingecko_id": "nillion",
+      "match_type": "exact",
+      "timestamp": 1761183427.6642718
+    },
+    "NKN": {
+      "coingecko_id": "nkn",
+      "match_type": "exact",
+      "timestamp": 1761183427.664275
+    },
+    "NMR": {
+      "coingecko_id": "numeraire",
+      "match_type": "exact",
+      "timestamp": 1761183427.664296
+    },
+    "NOM": {
+      "coingecko_id": "nomad",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6643279
+    },
+    "NOT": {
+      "coingecko_id": "notcoin",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664334
+    },
+    "NTRN": {
+      "coingecko_id": "neutron-3",
+      "match_type": "exact",
+      "timestamp": 1761183427.664337
+    },
+    "NXPC": {
+      "coingecko_id": "nexpace",
+      "match_type": "exact",
+      "timestamp": 1761183427.6643388
+    },
+    "OBOL": {
+      "coingecko_id": "obol-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.664344
+    },
+    "OG": {
+      "coingecko_id": "og-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.664347
+    },
+    "OGN": {
+      "coingecko_id": "origin-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.664355
+    },
+    "OL": {
+      "coingecko_id": "open-loot",
+      "match_type": "exact",
+      "timestamp": 1761183427.66436
+    },
+    "OM": {
+      "coingecko_id": "mantra-dao",
+      "match_type": "exact",
+      "timestamp": 1761183427.664363
+    },
+    "ONDO": {
+      "coingecko_id": "ondo-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.6643672
+    },
+    "ONE": {
+      "coingecko_id": "1-one",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6643689
+    },
+    "ONG": {
+      "coingecko_id": "ong",
+      "match_type": "exact",
+      "timestamp": 1761183427.664372
+    },
+    "ONT": {
+      "coingecko_id": "binance-peg-ontology",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664374
+    },
+    "OP": {
+      "coingecko_id": "optimism",
+      "match_type": "major",
+      "timestamp": 1761183427.664377
+    },
+    "OPEN": {
+      "coingecko_id": "opengpu",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664382
+    },
+    "ORCA": {
+      "coingecko_id": "orca",
+      "match_type": "exact",
+      "timestamp": 1761183427.664387
+    },
+    "ORDER": {
+      "coingecko_id": "order-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6643898
+    },
+    "ORDI": {
+      "coingecko_id": "ordinals",
+      "match_type": "major",
+      "timestamp": 1761183427.6643908
+    },
+    "OSMO": {
+      "coingecko_id": "osmosis",
+      "match_type": "exact",
+      "timestamp": 1761183427.664394
+    },
+    "OXT": {
+      "coingecko_id": "orchid-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.664395
+    },
+    "PARTI": {
+      "coingecko_id": "particle-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6643991
+    },
+    "PAXG": {
+      "coingecko_id": "pax-gold",
+      "match_type": "exact",
+      "timestamp": 1761183427.664402
+    },
+    "PENDLE": {
+      "coingecko_id": "pendle",
+      "match_type": "exact",
+      "timestamp": 1761183427.664406
+    },
+    "PENGU": {
+      "coingecko_id": "penguiana",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66441
+    },
+    "PEOPLE": {
+      "coingecko_id": "constitutiondao",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664413
+    },
+    "PEPE": {
+      "coingecko_id": "pepe",
+      "match_type": "major",
+      "timestamp": 1761183427.664416
+    },
+    "PERP": {
+      "coingecko_id": "perpetual-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.6644192
+    },
+    "PHA": {
+      "coingecko_id": "pha",
+      "match_type": "exact",
+      "timestamp": 1761183427.664421
+    },
+    "PHB": {
+      "coingecko_id": "phoenix-global",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664424
+    },
+    "PIPPIN": {
+      "coingecko_id": "pippin",
+      "match_type": "exact",
+      "timestamp": 1761183427.664429
+    },
+    "PIVX": {
+      "coingecko_id": "pivx",
+      "match_type": "exact",
+      "timestamp": 1761183427.664431
+    },
+    "PIXEL": {
+      "coingecko_id": "pixels",
+      "match_type": "major",
+      "timestamp": 1761183427.664435
+    },
+    "PLAY": {
+      "coingecko_id": "play-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664437
+    },
+    "PLUME": {
+      "coingecko_id": "plume",
+      "match_type": "exact",
+      "timestamp": 1761183427.6644402
+    },
+    "PNUT": {
+      "coingecko_id": "peanut-3",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6644428
+    },
+    "POL": {
+      "coingecko_id": "katana-bridged-pol-katana",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6644459
+    },
+    "POLYX": {
+      "coingecko_id": "polymesh",
+      "match_type": "exact",
+      "timestamp": 1761183427.664449
+    },
+    "POND": {
+      "coingecko_id": "marlin",
+      "match_type": "exact",
+      "timestamp": 1761183427.664452
+    },
+    "PONKE": {
+      "coingecko_id": "ponke",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6644568
+    },
+    "POPCAT": {
+      "coingecko_id": "popcat",
+      "match_type": "exact",
+      "timestamp": 1761183427.6644611
+    },
+    "PORT3": {
+      "coingecko_id": "port3-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6644638
+    },
+    "PORTAL": {
+      "coingecko_id": "portal",
+      "match_type": "major",
+      "timestamp": 1761183427.664465
+    },
+    "PORTO": {
+      "coingecko_id": "fc-porto",
+      "match_type": "exact",
+      "timestamp": 1761183427.664469
+    },
+    "POWR": {
+      "coingecko_id": "power-ledger",
+      "match_type": "exact",
+      "timestamp": 1761183427.664481
+    },
+    "PROM": {
+      "coingecko_id": "prometeus",
+      "match_type": "exact",
+      "timestamp": 1761183427.664491
+    },
+    "PROMPT": {
+      "coingecko_id": "promptbidder",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664494
+    },
+    "PROVE": {
+      "coingecko_id": "succinct",
+      "match_type": "exact",
+      "timestamp": 1761183427.664501
+    },
+    "PSG": {
+      "coingecko_id": "paris-saint-germain-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.664503
+    },
+    "PTB": {
+      "coingecko_id": "portal-to-bitcoin",
+      "match_type": "exact",
+      "timestamp": 1761183427.664507
+    },
+    "PUFFER": {
+      "coingecko_id": "puffer-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.66451
+    },
+    "PUMP": {
+      "coingecko_id": "big-pump",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664514
+    },
+    "PUMPBTC": {
+      "coingecko_id": "pumpbtc",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645188
+    },
+    "PUNDIX": {
+      "coingecko_id": "pundi-x-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.664522
+    },
+    "PYR": {
+      "coingecko_id": "vulcan-forged",
+      "match_type": "exact",
+      "timestamp": 1761183427.664525
+    },
+    "PYTH": {
+      "coingecko_id": "pyth-network",
+      "match_type": "major",
+      "timestamp": 1761183427.664526
+    },
+    "Q": {
+      "coingecko_id": "q",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6645288
+    },
+    "QI": {
+      "coingecko_id": "benqi",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664533
+    },
+    "QKC": {
+      "coingecko_id": "quark-chain",
+      "match_type": "exact",
+      "timestamp": 1761183427.664535
+    },
+    "QNT": {
+      "coingecko_id": "quant-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645381
+    },
+    "QTUM": {
+      "coingecko_id": "qtum",
+      "match_type": "exact",
+      "timestamp": 1761183427.664541
+    },
+    "QUICK": {
+      "coingecko_id": "quick",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664544
+    },
+    "RAD": {
+      "coingecko_id": "radicle",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664546
+    },
+    "RARE": {
+      "coingecko_id": "superrare",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664549
+    },
+    "RAY": {
+      "coingecko_id": "raydium",
+      "match_type": "exact",
+      "timestamp": 1761183427.664552
+    },
+    "RAYSOL": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.664557
+    },
+    "RDNT": {
+      "coingecko_id": "radiant-capital",
+      "match_type": "exact",
+      "timestamp": 1761183427.66456
+    },
+    "RECALL": {
+      "coingecko_id": "recall",
+      "match_type": "exact",
+      "timestamp": 1761183427.664562
+    },
+    "RED": {
+      "coingecko_id": "redstone-oracles",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664565
+    },
+    "REI": {
+      "coingecko_id": "rei-ai-by-virtuals",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664568
+    },
+    "RENDER": {
+      "coingecko_id": "render-token",
+      "match_type": "major",
+      "timestamp": 1761183427.66457
+    },
+    "REQ": {
+      "coingecko_id": "request-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.664572
+    },
+    "RESOLV": {
+      "coingecko_id": "resolv",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645749
+    },
+    "REZ": {
+      "coingecko_id": "renzo",
+      "match_type": "major",
+      "timestamp": 1761183427.664577
+    },
+    "RIF": {
+      "coingecko_id": "rif-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645792
+    },
+    "RIVER": {
+      "coingecko_id": "river",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645818
+    },
+    "RLC": {
+      "coingecko_id": "iexec-rlc",
+      "match_type": "exact",
+      "timestamp": 1761183427.6645849
+    },
+    "RONIN": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.6645892
+    },
+    "ROSE": {
+      "coingecko_id": "oasis-network",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6645918
+    },
+    "RPL": {
+      "coingecko_id": "rocket-pool",
+      "match_type": "exact",
+      "timestamp": 1761183427.664595
+    },
+    "RSR": {
+      "coingecko_id": "reserve-rights-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.664597
+    },
+    "RUNE": {
+      "coingecko_id": "thorchain",
+      "match_type": "major",
+      "timestamp": 1761183427.664599
+    },
+    "RVN": {
+      "coingecko_id": "ravencoin",
+      "match_type": "exact",
+      "timestamp": 1761183427.664603
+    },
+    "RVV": {
+      "coingecko_id": "astra-nova",
+      "match_type": "exact",
+      "timestamp": 1761183427.6646059
+    },
+    "S": {
+      "coingecko_id": "agent-s",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6646788
+    },
+    "SAFE": {
+      "coingecko_id": "basesafe",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6646988
+    },
+    "SAGA": {
+      "coingecko_id": "saga-2",
+      "match_type": "major",
+      "timestamp": 1761183427.664713
+    },
+    "SAHARA": {
+      "coingecko_id": "sahara-ai",
+      "match_type": "exact",
+      "timestamp": 1761183427.664746
+    },
+    "SAND": {
+      "coingecko_id": "the-sandbox",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6647522
+    },
+    "SANTOS": {
+      "coingecko_id": "santos-fc-fan-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.6647549
+    },
+    "SAPIEN": {
+      "coingecko_id": "sapien-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.664757
+    },
+    "SC": {
+      "coingecko_id": "safecircle",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66476
+    },
+    "SCR": {
+      "coingecko_id": "scroll",
+      "match_type": "exact",
+      "timestamp": 1761183427.664765
+    },
+    "SCRT": {
+      "coingecko_id": "secret",
+      "match_type": "exact",
+      "timestamp": 1761183427.664769
+    },
+    "SEI": {
+      "coingecko_id": "sei-network",
+      "match_type": "major",
+      "timestamp": 1761183427.664772
+    },
+    "SFP": {
+      "coingecko_id": "safepal",
+      "match_type": "exact",
+      "timestamp": 1761183427.664775
+    },
+    "SHELL": {
+      "coingecko_id": "myshell",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664777
+    },
+    "SHIB": {
+      "coingecko_id": "shiba-inu",
+      "match_type": "major",
+      "timestamp": 1761183427.664779
+    },
+    "SIGN": {
+      "coingecko_id": "sign-global",
+      "match_type": "exact",
+      "timestamp": 1761183427.664781
+    },
+    "SIREN": {
+      "coingecko_id": "siren-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.6647859
+    },
+    "SKATE": {
+      "coingecko_id": "skate",
+      "match_type": "exact",
+      "timestamp": 1761183427.66479
+    },
+    "SKL": {
+      "coingecko_id": "skale",
+      "match_type": "exact",
+      "timestamp": 1761183427.664792
+    },
+    "SKY": {
+      "coingecko_id": "darkcrypto-share",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6647968
+    },
+    "SKYAI": {
+      "coingecko_id": "skyai",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648
+    },
+    "SLP": {
+      "coingecko_id": "slp",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664803
+    },
+    "SNX": {
+      "coingecko_id": "havven",
+      "match_type": "major",
+      "timestamp": 1761183427.664804
+    },
+    "SOL": {
+      "coingecko_id": "solana",
+      "match_type": "major",
+      "timestamp": 1761183427.664806
+    },
+    "SOLV": {
+      "coingecko_id": "solv-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.664808
+    },
+    "SOMI": {
+      "coingecko_id": "somnia",
+      "match_type": "exact",
+      "timestamp": 1761183427.664813
+    },
+    "SONIC": {
+      "coingecko_id": "sonic-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6648178
+    },
+    "SOON": {
+      "coingecko_id": "soon-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.664822
+    },
+    "SOPH": {
+      "coingecko_id": "sophiaverse",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664824
+    },
+    "SPELL": {
+      "coingecko_id": "spell-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6648262
+    },
+    "SPK": {
+      "coingecko_id": "spark-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.664829
+    },
+    "SPX": {
+      "coingecko_id": "spx6900",
+      "match_type": "exact",
+      "timestamp": 1761183427.664831
+    },
+    "SQD": {
+      "coingecko_id": "sqd",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664834
+    },
+    "SSV": {
+      "coingecko_id": "ssv-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648371
+    },
+    "STBL": {
+      "coingecko_id": "algostable",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66484
+    },
+    "STEEM": {
+      "coingecko_id": "steem",
+      "match_type": "exact",
+      "timestamp": 1761183427.664842
+    },
+    "STG": {
+      "coingecko_id": "stargate-finance",
+      "match_type": "exact",
+      "timestamp": 1761183427.664844
+    },
+    "STO": {
+      "coingecko_id": "stakestone",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648471
+    },
+    "STORJ": {
+      "coingecko_id": "storj",
+      "match_type": "exact",
+      "timestamp": 1761183427.66485
+    },
+    "STRAX": {
+      "coingecko_id": "stratis",
+      "match_type": "exact",
+      "timestamp": 1761183427.664852
+    },
+    "STRK": {
+      "coingecko_id": "starknet",
+      "match_type": "major",
+      "timestamp": 1761183427.664856
+    },
+    "STX": {
+      "coingecko_id": "blockstack",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6648588
+    },
+    "SUI": {
+      "coingecko_id": "sui",
+      "match_type": "major",
+      "timestamp": 1761183427.66486
+    },
+    "SUN": {
+      "coingecko_id": "sun-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648629
+    },
+    "SUPER": {
+      "coingecko_id": "superciety",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664865
+    },
+    "SUSHI": {
+      "coingecko_id": "sushi",
+      "match_type": "exact",
+      "timestamp": 1761183427.664868
+    },
+    "SWARMS": {
+      "coingecko_id": "swarms",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648698
+    },
+    "SWELL": {
+      "coingecko_id": "layerzero-bridged-swell",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664873
+    },
+    "SXP": {
+      "coingecko_id": "swipe",
+      "match_type": "exact",
+      "timestamp": 1761183427.664875
+    },
+    "SXT": {
+      "coingecko_id": "space-and-time",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648781
+    },
+    "SYN": {
+      "coingecko_id": "synapse-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664881
+    },
+    "SYRUP": {
+      "coingecko_id": "syrup",
+      "match_type": "exact",
+      "timestamp": 1761183427.664883
+    },
+    "SYS": {
+      "coingecko_id": "syscoin",
+      "match_type": "exact",
+      "timestamp": 1761183427.664886
+    },
+    "T": {
+      "coingecko_id": "talos-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664889
+    },
+    "TA": {
+      "coingecko_id": "trusta-ai",
+      "match_type": "exact",
+      "timestamp": 1761183427.664892
+    },
+    "TAC": {
+      "coingecko_id": "tac",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648939
+    },
+    "TAG": {
+      "coingecko_id": "tagger",
+      "match_type": "exact",
+      "timestamp": 1761183427.664896
+    },
+    "TAIKO": {
+      "coingecko_id": "taiko",
+      "match_type": "exact",
+      "timestamp": 1761183427.6648982
+    },
+    "TAKE": {
+      "coingecko_id": "overtake",
+      "match_type": "exact",
+      "timestamp": 1761183427.6649
+    },
+    "TANSSI": {
+      "coingecko_id": "tanssi",
+      "match_type": "exact",
+      "timestamp": 1761183427.6649332
+    },
+    "TAO": {
+      "coingecko_id": "bittensor",
+      "match_type": "major",
+      "timestamp": 1761183427.6649432
+    },
+    "TFUEL": {
+      "coingecko_id": "theta-fuel",
+      "match_type": "exact",
+      "timestamp": 1761183427.664963
+    },
+    "THE": {
+      "coingecko_id": "the-coin",
+      "match_type": "multiple",
+      "timestamp": 1761183427.664993
+    },
+    "THETA": {
+      "coingecko_id": "theta-token",
+      "match_type": "major",
+      "timestamp": 1761183427.6649961
+    },
+    "TIA": {
+      "coingecko_id": "celestia",
+      "match_type": "major",
+      "timestamp": 1761183427.6649978
+    },
+    "TKO": {
+      "coingecko_id": "tokocrypto",
+      "match_type": "exact",
+      "timestamp": 1761183427.665001
+    },
+    "TLM": {
+      "coingecko_id": "alien-worlds",
+      "match_type": "exact",
+      "timestamp": 1761183427.665004
+    },
+    "TNSR": {
+      "coingecko_id": "tensor",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665007
+    },
+    "TOKEN": {
+      "coingecko_id": "token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665014
+    },
+    "TON": {
+      "coingecko_id": "tac-bridged-ton-tac",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665025
+    },
+    "TOSHI": {
+      "coingecko_id": "first-dog-to-buy-crypto",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665029
+    },
+    "TOWNS": {
+      "coingecko_id": "towns",
+      "match_type": "exact",
+      "timestamp": 1761183427.665034
+    },
+    "TRADOOR": {
+      "coingecko_id": "tradoor",
+      "match_type": "exact",
+      "timestamp": 1761183427.6650372
+    },
+    "TRB": {
+      "coingecko_id": "tellor",
+      "match_type": "exact",
+      "timestamp": 1761183427.665039
+    },
+    "TREE": {
+      "coingecko_id": "tree-capital",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6650429
+    },
+    "TRU": {
+      "coingecko_id": "truebit-protocol",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665046
+    },
+    "TRUMP": {
+      "coingecko_id": "bridged-maga-wormhole",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665049
+    },
+    "TRUTH": {
+      "coingecko_id": "swarm-network",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665052
+    },
+    "TRX": {
+      "coingecko_id": "tron",
+      "match_type": "major",
+      "timestamp": 1761183427.665053
+    },
+    "TST": {
+      "coingecko_id": "standard-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665056
+    },
+    "TURBO": {
+      "coingecko_id": "based-turbo",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665059
+    },
+    "TURTLE": {
+      "coingecko_id": "turtle-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665062
+    },
+    "TUSD": {
+      "coingecko_id": "bridged-trueusd",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6650639
+    },
+    "TUT": {
+      "coingecko_id": "tutellus",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6650681
+    },
+    "TWT": {
+      "coingecko_id": "trust-wallet-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.66507
+    },
+    "UB": {
+      "coingecko_id": "unibase",
+      "match_type": "exact",
+      "timestamp": 1761183427.665073
+    },
+    "UMA": {
+      "coingecko_id": "uma",
+      "match_type": "exact",
+      "timestamp": 1761183427.665076
+    },
+    "UNI": {
+      "coingecko_id": "uniswap",
+      "match_type": "major",
+      "timestamp": 1761183427.665078
+    },
+    "USD1": {
+      "coingecko_id": "usd1",
+      "match_type": "multiple",
+      "timestamp": 1761183427.66508
+    },
+    "USDC": {
+      "coingecko_id": "airdao-bridged-usdc-airdao",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665083
+    },
+    "USDE": {
+      "coingecko_id": "energi-dollar",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665087
+    },
+    "USDP": {
+      "coingecko_id": "parallel-usdp",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6651
+    },
+    "USELESS": {
+      "coingecko_id": "useless-3",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665102
+    },
+    "USTC": {
+      "coingecko_id": "terrausd",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6651049
+    },
+    "USUAL": {
+      "coingecko_id": "usual",
+      "match_type": "exact",
+      "timestamp": 1761183427.665107
+    },
+    "UTK": {
+      "coingecko_id": "unite-the-kingdom",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665109
+    },
+    "VANA": {
+      "coingecko_id": "vana",
+      "match_type": "exact",
+      "timestamp": 1761183427.665112
+    },
+    "VANRY": {
+      "coingecko_id": "vanar-chain",
+      "match_type": "exact",
+      "timestamp": 1761183427.6651142
+    },
+    "VELODROME": {
+      "coingecko_id": null,
+      "match_type": "none",
+      "timestamp": 1761183427.6651158
+    },
+    "VELVET": {
+      "coingecko_id": "velvet",
+      "match_type": "exact",
+      "timestamp": 1761183427.665118
+    },
+    "VET": {
+      "coingecko_id": "vechain",
+      "match_type": "major",
+      "timestamp": 1761183427.66512
+    },
+    "VFY": {
+      "coingecko_id": "zkverify",
+      "match_type": "exact",
+      "timestamp": 1761183427.665122
+    },
+    "VIC": {
+      "coingecko_id": "tomochain",
+      "match_type": "exact",
+      "timestamp": 1761183427.6651242
+    },
+    "VINE": {
+      "coingecko_id": "do-it-for-the-vine",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6651268
+    },
+    "VIRTUAL": {
+      "coingecko_id": "virtual-protocol",
+      "match_type": "exact",
+      "timestamp": 1761183427.665131
+    },
+    "VOXEL": {
+      "coingecko_id": "voxies",
+      "match_type": "exact",
+      "timestamp": 1761183427.665133
+    },
+    "VTHO": {
+      "coingecko_id": "vethor-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.665136
+    },
+    "VVV": {
+      "coingecko_id": "venice-token",
+      "match_type": "exact",
+      "timestamp": 1761183427.665138
+    },
+    "W": {
+      "coingecko_id": "victorious",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665142
+    },
+    "WAL": {
+      "coingecko_id": "walrus-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.665144
+    },
+    "WAN": {
+      "coingecko_id": "wanchain",
+      "match_type": "exact",
+      "timestamp": 1761183427.665146
+    },
+    "WAXP": {
+      "coingecko_id": "wax",
+      "match_type": "exact",
+      "timestamp": 1761183427.665149
+    },
+    "WBETH": {
+      "coingecko_id": "wrapped-beacon-eth",
+      "match_type": "exact",
+      "timestamp": 1761183427.665154
+    },
+    "WBTC": {
+      "coingecko_id": "arbitrum-bridged-wbtc-arbitrum-one",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665157
+    },
+    "WCT": {
+      "coingecko_id": "connect-token-wct",
+      "match_type": "exact",
+      "timestamp": 1761183427.665159
+    },
+    "WIF": {
+      "coingecko_id": "dogwifcoin",
+      "match_type": "major",
+      "timestamp": 1761183427.665162
+    },
+    "WIN": {
+      "coingecko_id": "win-2",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665164
+    },
+    "WLD": {
+      "coingecko_id": "worldcoin-wld",
+      "match_type": "major",
+      "timestamp": 1761183427.665167
+    },
+    "WLFI": {
+      "coingecko_id": "stupid-world-liberty-financial",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6651719
+    },
+    "WOO": {
+      "coingecko_id": "woo-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.665174
+    },
+    "XAI": {
+      "coingecko_id": "grok-3",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6651762
+    },
+    "XAN": {
+      "coingecko_id": "anoma",
+      "match_type": "exact",
+      "timestamp": 1761183427.6651788
+    },
+    "XCN": {
+      "coingecko_id": "chain-2",
+      "match_type": "exact",
+      "timestamp": 1761183427.6651819
+    },
+    "XEC": {
+      "coingecko_id": "ecash",
+      "match_type": "exact",
+      "timestamp": 1761183427.665184
+    },
+    "XLM": {
+      "coingecko_id": "stellar",
+      "match_type": "major",
+      "timestamp": 1761183427.665185
+    },
+    "XMR": {
+      "coingecko_id": "monero",
+      "match_type": "exact",
+      "timestamp": 1761183427.665189
+    },
+    "XNO": {
+      "coingecko_id": "nano",
+      "match_type": "exact",
+      "timestamp": 1761183427.665192
+    },
+    "XNY": {
+      "coingecko_id": "codatta",
+      "match_type": "exact",
+      "timestamp": 1761183427.665194
+    },
+    "XPIN": {
+      "coingecko_id": "xpin-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6651971
+    },
+    "XPL": {
+      "coingecko_id": "plasma",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665201
+    },
+    "XRP": {
+      "coingecko_id": "ripple",
+      "match_type": "major",
+      "timestamp": 1761183427.665202
+    },
+    "XTZ": {
+      "coingecko_id": "binance-peg-tezos-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665204
+    },
+    "XUSD": {
+      "coingecko_id": "compx-xusd",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665208
+    },
+    "XVG": {
+      "coingecko_id": "verge",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665211
+    },
+    "XVS": {
+      "coingecko_id": "venus",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652129
+    },
+    "YALA": {
+      "coingecko_id": "yala",
+      "match_type": "exact",
+      "timestamp": 1761183427.665215
+    },
+    "YB": {
+      "coingecko_id": "yield-basis",
+      "match_type": "exact",
+      "timestamp": 1761183427.665218
+    },
+    "YFI": {
+      "coingecko_id": "yearn-finance",
+      "match_type": "major",
+      "timestamp": 1761183427.665219
+    },
+    "YGG": {
+      "coingecko_id": "yield-guild-games",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652212
+    },
+    "ZBT": {
+      "coingecko_id": "zerobase",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652238
+    },
+    "ZEC": {
+      "coingecko_id": "binance-peg-zcash-token",
+      "match_type": "multiple",
+      "timestamp": 1761183427.665225
+    },
+    "ZEN": {
+      "coingecko_id": "zenai",
+      "match_type": "multiple",
+      "timestamp": 1761183427.6652281
+    },
+    "ZEREBRO": {
+      "coingecko_id": "zerebro",
+      "match_type": "exact",
+      "timestamp": 1761183427.665231
+    },
+    "ZETA": {
+      "coingecko_id": "zetachain",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652339
+    },
+    "ZIL": {
+      "coingecko_id": "zilliqa",
+      "match_type": "exact",
+      "timestamp": 1761183427.665236
+    },
+    "ZK": {
+      "coingecko_id": "zksync",
+      "match_type": "major",
+      "timestamp": 1761183427.665238
+    },
+    "ZKC": {
+      "coingecko_id": "boundless",
+      "match_type": "exact",
+      "timestamp": 1761183427.665243
+    },
+    "ZKJ": {
+      "coingecko_id": "polyhedra-network",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652448
+    },
+    "ZORA": {
+      "coingecko_id": "zora",
+      "match_type": "exact",
+      "timestamp": 1761183427.665248
+    },
+    "ZRC": {
+      "coingecko_id": "zircuit",
+      "match_type": "exact",
+      "timestamp": 1761183427.665249
+    },
+    "ZRO": {
+      "coingecko_id": "layerzero",
+      "match_type": "major",
+      "timestamp": 1761183427.665251
+    },
+    "ZRX": {
+      "coingecko_id": "0x",
+      "match_type": "exact",
+      "timestamp": 1761183427.6652532
+    },
+    "币安人生": {
+      "coingecko_id": "bianrensheng",
+      "match_type": "exact",
+      "timestamp": 1761183427.665256
+    }
+  }
+}
