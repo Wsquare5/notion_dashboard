@@ -1,1242 +1,1298 @@
 [
   {
-    "base": "ALL",
-    "spot_price": null,
-    "perp_price": 0.8764,
-    "openInterest": 1720377.0,
-    "market_cap": 1555049.0,
-    "fdv": 1555049.0
-  },
-  {
-    "base": "1000X",
-    "spot_price": null,
-    "perp_price": 0.03302,
-    "openInterest": 23627425.0,
-    "market_cap": 2438294.0,
-    "fdv": 2438294.0
-  },
-  {
-    "base": "MAVIA",
-    "spot_price": null,
-    "perp_price": 0.0798,
-    "openInterest": 8796939.0,
-    "market_cap": 4114528.0,
-    "fdv": 19927314.0
-  },
-  {
-    "base": "RECALL",
-    "spot_price": null,
-    "perp_price": 0.55394,
-    "openInterest": 17977786.0,
-    "market_cap": 6036119.0,
-    "fdv": 30019715.0
-  },
-  {
-    "base": "BDXN",
-    "spot_price": null,
-    "perp_price": 0.04777,
-    "openInterest": 87052907.0,
-    "market_cap": 7701015.0,
-    "fdv": 48131342.0
-  },
-  {
-    "base": "EPT",
-    "spot_price": null,
-    "perp_price": 0.00363,
-    "openInterest": 745803746.0,
-    "market_cap": 8444518.0,
-    "fdv": 36452469.0
-  },
-  {
-    "base": "MON",
-    "spot_price": null,
-    "perp_price": 0.06876,
-    "openInterest": 28657792.0,
-    "market_cap": 9371414.0,
-    "fdv": 16395338.0
-  },
-  {
-    "base": "TAC",
-    "spot_price": null,
-    "perp_price": 0.00471,
-    "openInterest": 234042591.0,
-    "market_cap": 9550359.0,
-    "fdv": 47199095.0
-  },
-  {
-    "base": "SKATE",
-    "spot_price": null,
-    "perp_price": 0.04526,
-    "openInterest": 57202203.0,
-    "market_cap": 9714270.0,
-    "fdv": 45391494.0
-  },
-  {
-    "base": "MILK",
-    "spot_price": null,
-    "perp_price": 0.03763,
-    "openInterest": 29829935.0,
-    "market_cap": 9830115.0,
-    "fdv": 45369760.0
-  },
-  {
-    "base": "TA",
-    "spot_price": null,
-    "perp_price": 0.05646,
-    "openInterest": 102101760.0,
-    "market_cap": 10085514.0,
-    "fdv": 56030631.0
-  },
-  {
-    "base": "FHE",
-    "spot_price": null,
-    "perp_price": 0.04231,
-    "openInterest": 83226173.0,
-    "market_cap": 10515675.0,
-    "fdv": 42231628.0
-  },
-  {
-    "base": "PLAY",
-    "spot_price": null,
-    "perp_price": 0.02839,
-    "openInterest": 71677513.0,
-    "market_cap": 10578108.0,
-    "fdv": 141607875.0
-  },
-  {
-    "base": "TANSSI",
-    "spot_price": null,
-    "perp_price": 0.03763,
-    "openInterest": 51418855.0,
-    "market_cap": 11104308.0,
-    "fdv": 37958356.0
-  },
-  {
-    "base": "DMC",
-    "spot_price": null,
-    "perp_price": 0.003072,
-    "openInterest": 482300334.0,
-    "market_cap": 11364711.0,
-    "fdv": 38264737.0
-  },
-  {
-    "base": "ARC",
-    "spot_price": null,
-    "perp_price": 0.01196,
-    "openInterest": 273776887.0,
-    "market_cap": 11958078.0,
-    "fdv": 11958078.0
-  },
-  {
-    "base": "OBOL",
-    "spot_price": null,
-    "perp_price": 0.09749,
-    "openInterest": 19360436.0,
-    "market_cap": 12370235.0,
-    "fdv": 48759303.0
-  },
-  {
-    "base": "BULLA",
-    "spot_price": null,
-    "perp_price": 0.0449,
-    "openInterest": 27212068.0,
-    "market_cap": 12383930.0,
-    "fdv": 44228320.0
-  },
-  {
-    "base": "DAM",
-    "spot_price": null,
-    "perp_price": 0.06367,
-    "openInterest": 61148180.0,
-    "market_cap": 12477831.0,
-    "fdv": 62391742.0
-  },
-  {
-    "base": "HIPPO",
-    "spot_price": null,
-    "perp_price": 0.001259,
-    "openInterest": 2406851281.0,
-    "market_cap": 12648199.0,
-    "fdv": 12648199.0
-  },
-  {
-    "base": "HANA",
-    "spot_price": null,
-    "perp_price": 0.0539,
-    "openInterest": 166025839.0,
-    "market_cap": 12916200.0,
-    "fdv": 53817498.0
-  },
-  {
-    "base": "KOMA",
-    "spot_price": null,
-    "perp_price": 0.02134,
-    "openInterest": 175756616.0,
-    "market_cap": 13090818.0,
-    "fdv": 13090818.0
-  },
-  {
-    "base": "BR",
-    "spot_price": null,
-    "perp_price": 0.06079,
-    "openInterest": 14453481.0,
-    "market_cap": 13343027.0,
-    "fdv": 60650122.0
-  },
-  {
-    "base": "SWARMS",
-    "spot_price": null,
-    "perp_price": 0.01447,
-    "openInterest": 284386325.0,
-    "market_cap": 14428762.0,
-    "fdv": 14428762.0
-  },
-  {
-    "base": "XNY",
-    "spot_price": null,
-    "perp_price": 0.00591,
-    "openInterest": 489160236.0,
-    "market_cap": 14785489.0,
-    "fdv": 59141955.0
-  },
-  {
-    "base": "BID",
-    "spot_price": null,
-    "perp_price": 0.05498,
-    "openInterest": 19747186.0,
-    "market_cap": 14847386.0,
-    "fdv": 54928157.0
-  },
-  {
-    "base": "CUDIS",
-    "spot_price": null,
-    "perp_price": 0.06016,
-    "openInterest": 35321363.0,
-    "market_cap": 14925512.0,
-    "fdv": 60305101.0
-  },
-  {
-    "base": "PIPPIN",
-    "spot_price": null,
-    "perp_price": 0.01541,
-    "openInterest": 454395583.0,
-    "market_cap": 15285003.0,
-    "fdv": 15285003.0
-  },
-  {
-    "base": "BTR",
-    "spot_price": null,
-    "perp_price": 0.05942,
-    "openInterest": 25595497.0,
-    "market_cap": 15532195.0,
-    "fdv": 59373833.0
-  },
-  {
-    "base": "PORT3",
-    "spot_price": null,
-    "perp_price": 0.03262,
-    "openInterest": 110590661.0,
-    "market_cap": 16310402.0,
-    "fdv": 32630774.0
-  },
-  {
-    "base": "SWELL",
-    "spot_price": null,
-    "perp_price": 0.006361,
-    "openInterest": 142803529.0,
-    "market_cap": 16865128.0,
-    "fdv": 63623569.0
-  },
-  {
-    "base": "OL",
-    "spot_price": null,
-    "perp_price": 0.02328,
-    "openInterest": 27709651.0,
-    "market_cap": 18158667.0,
-    "fdv": 116359466.0
-  },
-  {
-    "base": "YALA",
-    "spot_price": null,
-    "perp_price": 0.0799,
-    "openInterest": 31647763.0,
-    "market_cap": 19686098.0,
-    "fdv": 79907852.0
-  },
-  {
-    "base": "LAB",
-    "spot_price": null,
-    "perp_price": 0.25996,
-    "openInterest": 11407716.0,
-    "market_cap": 19755553.0,
-    "fdv": 258087000.0
-  },
-  {
-    "base": "PROMPT",
-    "spot_price": null,
-    "perp_price": 0.0885,
-    "openInterest": 16145432.0,
-    "market_cap": 19846683.0,
-    "fdv": 88640713.0
-  },
-  {
-    "base": "VELVET",
-    "spot_price": null,
-    "perp_price": 0.22354,
-    "openInterest": 21558560.0,
-    "market_cap": 20924570.0,
-    "fdv": 230270866.0
-  },
-  {
-    "base": "GRIFFAIN",
-    "spot_price": null,
-    "perp_price": 0.02173,
-    "openInterest": 98993138.0,
-    "market_cap": 21810968.0,
-    "fdv": 21810968.0
-  },
-  {
-    "base": "IDOL",
-    "spot_price": null,
-    "perp_price": 0.02519,
-    "openInterest": 50989147.0,
-    "market_cap": 22785996.0,
-    "fdv": 121202106.0
-  },
-  {
-    "base": "AIN",
-    "spot_price": null,
-    "perp_price": 0.13247,
-    "openInterest": 28813134.0,
-    "market_cap": 24573130.0,
-    "fdv": 132612681.0
-  },
-  {
-    "base": "TOKEN",
-    "spot_price": null,
-    "perp_price": 0.00847,
-    "openInterest": 184422862.0,
-    "market_cap": 24827686.0,
-    "fdv": 84828245.0
-  },
-  {
-    "base": "TRUTH",
-    "spot_price": null,
-    "perp_price": 0.012547,
-    "openInterest": 229208041.0,
-    "market_cap": 26169782.0,
-    "fdv": 125496164.0
-  },
-  {
-    "base": "F",
-    "spot_price": null,
-    "perp_price": 0.009698,
-    "openInterest": 126882756.0,
-    "market_cap": 26503140.0,
-    "fdv": 97742570.0
-  },
-  {
-    "base": "VFY",
-    "spot_price": null,
-    "perp_price": 0.08706,
-    "openInterest": 37922352.0,
-    "market_cap": 26560666.0,
-    "fdv": 86744527.0
-  },
-  {
-    "base": "EVAA",
-    "spot_price": null,
-    "perp_price": 4.138,
-    "openInterest": 2533605.6,
-    "market_cap": 27026405.0,
-    "fdv": 204189481.0
-  },
-  {
-    "base": "CHILLGUY",
-    "spot_price": null,
-    "perp_price": 0.027,
-    "openInterest": 53014999.0,
-    "market_cap": 27072232.0,
-    "fdv": 27072232.0
-  },
-  {
-    "base": "ARIA",
-    "spot_price": null,
-    "perp_price": 0.14934,
-    "openInterest": 16167504.0,
-    "market_cap": 27412927.0,
-    "fdv": 149797414.0
-  },
-  {
-    "base": "SKYAI",
-    "spot_price": null,
-    "perp_price": 0.0279,
-    "openInterest": 120219250.0,
-    "market_cap": 28012953.0,
-    "fdv": 28012953.0
-  },
-  {
-    "base": "ZKJ",
-    "spot_price": null,
-    "perp_price": 0.0761,
-    "openInterest": 23526300.7,
-    "market_cap": 28138559.0,
-    "fdv": 75947528.0
-  },
-  {
-    "base": "PUFFER",
-    "spot_price": null,
-    "perp_price": 0.09332,
-    "openInterest": 11586699.0,
-    "market_cap": 28217633.0,
-    "fdv": 93545717.0
-  },
-  {
-    "base": "SAPIEN",
-    "spot_price": null,
-    "perp_price": 0.12116,
-    "openInterest": 11008189.0,
-    "market_cap": 30648655.0,
-    "fdv": 122594620.0
-  },
-  {
-    "base": "NAORIS",
-    "spot_price": null,
-    "perp_price": 0.05151,
-    "openInterest": 81815189.0,
-    "market_cap": 31067404.0,
-    "fdv": 207371787.0
-  },
-  {
-    "base": "ESPORTS",
-    "spot_price": null,
-    "perp_price": 0.20649,
-    "openInterest": 12473582.0,
-    "market_cap": 31536705.0,
-    "fdv": 186976513.0
-  },
-  {
-    "base": "LYN",
-    "spot_price": null,
-    "perp_price": 0.15904,
-    "openInterest": 29450324.0,
-    "market_cap": 33299386.0,
-    "fdv": 159327205.0
-  },
-  {
-    "base": "ZRC",
-    "spot_price": null,
-    "perp_price": 0.01549,
-    "openInterest": 39128248.0,
-    "market_cap": 34104130.0,
-    "fdv": 155377308.0
-  },
-  {
-    "base": "IN",
-    "spot_price": null,
-    "perp_price": 0.14861,
-    "openInterest": 25018544.0,
-    "market_cap": 34149107.0,
-    "fdv": 149558135.0
-  },
-  {
-    "base": "AIO",
-    "spot_price": null,
-    "perp_price": 0.14935,
-    "openInterest": 16963550.0,
-    "market_cap": 34395463.0,
-    "fdv": 149383119.0
-  },
-  {
-    "base": "PONKE",
-    "spot_price": null,
-    "perp_price": 0.06219,
-    "openInterest": 15569804.0,
-    "market_cap": 34647687.0,
-    "fdv": 34651560.0
-  },
-  {
-    "base": "AERGO",
-    "spot_price": null,
-    "perp_price": 0.07502,
-    "openInterest": 22056029.0,
-    "market_cap": 35467564.0,
-    "fdv": 37531814.0
-  },
-  {
-    "base": "ICNT",
-    "spot_price": null,
-    "perp_price": 0.2111,
-    "openInterest": 6785618.0,
-    "market_cap": 35505345.0,
-    "fdv": 148629002.0
-  },
-  {
-    "base": "SLERF",
-    "spot_price": null,
-    "perp_price": 0.28702,
-    "openInterest": 39222779.0,
-    "market_cap": 35852211.0,
-    "fdv": 35852211.0
-  },
-  {
-    "base": "TRADOOR",
-    "spot_price": null,
-    "perp_price": 2.536,
-    "openInterest": 1284433.0,
-    "market_cap": 36610439.0,
-    "fdv": 153085675.0
-  },
-  {
-    "base": "TAG",
-    "spot_price": null,
-    "perp_price": 0.0003378,
-    "openInterest": 5358992800.0,
-    "market_cap": 36737535.0,
-    "fdv": 136799873.0
-  },
-  {
-    "base": "CROSS",
-    "spot_price": null,
-    "perp_price": 0.11121,
-    "openInterest": 11059635.0,
-    "market_cap": 37447434.0,
-    "fdv": 110058322.0
-  },
-  {
-    "base": "AKE",
-    "spot_price": null,
-    "perp_price": 0.001646,
-    "openInterest": 1497293787.0,
-    "market_cap": 37739238.0,
-    "fdv": 165550201.0
-  },
-  {
-    "base": "Q",
-    "spot_price": null,
-    "perp_price": 0.02492,
-    "openInterest": 288759676.0,
-    "market_cap": 39968645.0,
-    "fdv": 247330724.0
-  },
-  {
-    "base": "STBL",
-    "spot_price": null,
-    "perp_price": 0.08104,
-    "openInterest": 116367692.0,
-    "market_cap": 40635656.0,
-    "fdv": 812713112.0
-  },
-  {
-    "base": "MET",
-    "spot_price": null,
-    "perp_price": 0.9725,
-    "openInterest": 2619233.0,
-    "market_cap": 41226798.0,
-    "fdv": 215011104.0
-  },
-  {
-    "base": "ZEREBRO",
-    "spot_price": null,
-    "perp_price": 0.04194,
-    "openInterest": 453616466.0,
-    "market_cap": 41758859.0,
-    "fdv": 41758859.0
-  },
-  {
-    "base": "CLO",
-    "spot_price": null,
-    "perp_price": 0.3417,
-    "openInterest": 20654963.0,
-    "market_cap": 44589197.0,
-    "fdv": 345384947.0
-  },
-  {
-    "base": "SONIC",
-    "spot_price": null,
-    "perp_price": 0.1246,
-    "openInterest": 27468565.2,
-    "market_cap": 45149225.0,
-    "fdv": 300994834.0
-  },
-  {
-    "base": "TAKE",
-    "spot_price": null,
-    "perp_price": 0.31732,
-    "openInterest": 34221630.0,
-    "market_cap": 46271899.0,
-    "fdv": 315516701.0
-  },
-  {
-    "base": "FLOCK",
-    "spot_price": null,
-    "perp_price": 0.1958,
-    "openInterest": 7597233.0,
-    "market_cap": 46406019.0,
-    "fdv": 195720170.0
-  },
-  {
-    "base": "VINE",
-    "spot_price": null,
-    "perp_price": 0.04635,
-    "openInterest": 72785769.0,
-    "market_cap": 46440383.0,
-    "fdv": 46440383.0
-  },
-  {
-    "base": "TAIKO",
-    "spot_price": null,
-    "perp_price": 0.2534,
-    "openInterest": 2842030.0,
-    "market_cap": 47338545.0,
-    "fdv": 254057738.0
-  },
-  {
-    "base": "CARV",
-    "spot_price": null,
-    "perp_price": 0.1598,
-    "openInterest": 10932281.0,
-    "market_cap": 47377149.0,
-    "fdv": 160402641.0
-  },
-  {
-    "base": "XPIN",
-    "spot_price": null,
-    "perp_price": 0.0032298,
-    "openInterest": 6670829901.0,
-    "market_cap": 51537515.0,
-    "fdv": 333252602.0
-  },
-  {
-    "base": "LIGHT",
-    "spot_price": null,
-    "perp_price": 1.2296,
-    "openInterest": 10610737.0,
-    "market_cap": 53008303.0,
-    "fdv": 517070438.0
-  },
-  {
-    "base": "GOAT",
-    "spot_price": null,
-    "perp_price": 0.05296,
-    "openInterest": 43029346.0,
-    "market_cap": 53018314.0,
-    "fdv": 53018314.0
-  },
-  {
-    "base": "AIOT",
-    "spot_price": null,
-    "perp_price": 0.4886,
-    "openInterest": 3262608.0,
-    "market_cap": 54623973.0,
-    "fdv": 485474508.0
-  },
-  {
-    "base": "BAN",
-    "spot_price": null,
-    "perp_price": 0.05609,
-    "openInterest": 83739402.0,
-    "market_cap": 55888170.0,
-    "fdv": 55888170.0
-  },
-  {
-    "base": "DOOD",
-    "spot_price": null,
-    "perp_price": 0.007509,
-    "openInterest": 578942566.0,
-    "market_cap": 58977550.0,
-    "fdv": 75612244.0
-  },
-  {
-    "base": "VVV",
-    "spot_price": null,
-    "perp_price": 1.531,
-    "openInterest": 1649911.51,
-    "market_cap": 61099166.0,
-    "fdv": 116592618.0
-  },
-  {
-    "base": "ALCH",
-    "spot_price": null,
-    "perp_price": 0.07202,
-    "openInterest": 263675123.0,
-    "market_cap": 61179155.0,
-    "fdv": 71972233.0
-  },
-  {
-    "base": "AI16Z",
-    "spot_price": null,
-    "perp_price": 0.0574,
-    "openInterest": 85873250.7,
-    "market_cap": 63155833.0,
-    "fdv": 63155833.0
-  },
-  {
-    "base": "SIREN",
-    "spot_price": null,
-    "perp_price": 0.09277,
-    "openInterest": 12306031.0,
-    "market_cap": 67413708.0,
-    "fdv": 67413708.0
-  },
-  {
-    "base": "B3",
-    "spot_price": null,
-    "perp_price": 0.002252,
-    "openInterest": 1167180703.0,
-    "market_cap": 68119669.0,
-    "fdv": 224835323.0
-  },
-  {
-    "base": "RIVER",
-    "spot_price": null,
-    "perp_price": 3.534,
-    "openInterest": 385984.2,
-    "market_cap": 68991994.0,
-    "fdv": 351999968.0
-  },
-  {
-    "base": "PTB",
-    "spot_price": null,
-    "perp_price": 0.03372,
-    "openInterest": 111251901.0,
-    "market_cap": 70118744.0,
-    "fdv": 178046621.0
-  },
-  {
-    "base": "JELLYJELLY",
-    "spot_price": null,
-    "perp_price": 0.07146,
-    "openInterest": 891053587.0,
-    "market_cap": 71306077.0,
-    "fdv": 71306077.0
-  },
-  {
-    "base": "DEGEN",
-    "spot_price": null,
-    "perp_price": 0.00197,
-    "openInterest": 455038356.0,
-    "market_cap": 72932556.0,
-    "fdv": 72932556.0
-  },
-  {
-    "base": "ORDER",
-    "spot_price": null,
-    "perp_price": 0.22591,
-    "openInterest": 11865944.0,
-    "market_cap": 73788242.0,
-    "fdv": 227225641.0
-  },
-  {
-    "base": "B2",
-    "spot_price": null,
-    "perp_price": 1.821,
-    "openInterest": 6651422.0,
-    "market_cap": 76034022.0,
-    "fdv": 384325630.0
-  },
-  {
-    "base": "MELANIA",
-    "spot_price": null,
-    "perp_price": 0.1054,
-    "openInterest": 26758207.31,
-    "market_cap": 83069003.0,
-    "fdv": 105484530.0
-  },
-  {
-    "base": "BANK",
-    "spot_price": null,
-    "perp_price": 0.19657,
-    "openInterest": 83899196.0,
-    "market_cap": 84277937.0,
-    "fdv": 84277937.0
-  },
-  {
-    "base": "PUMPBTC",
-    "spot_price": null,
-    "perp_price": 0.04171,
-    "openInterest": 60093674.0,
-    "market_cap": 84531774.0,
-    "fdv": 84531774.0
-  },
-  {
-    "base": "XAN",
-    "spot_price": null,
-    "perp_price": 0.03536,
-    "openInterest": 183231456.0,
-    "market_cap": 88405406.0,
-    "fdv": 353621622.0
-  },
-  {
-    "base": "AIA",
-    "spot_price": null,
-    "perp_price": 0.9498,
-    "openInterest": 7562520.0,
-    "market_cap": 94261455.0,
-    "fdv": 947351311.0
-  },
-  {
-    "base": "UB",
-    "spot_price": null,
-    "perp_price": 0.038503,
-    "openInterest": 234316918.0,
-    "market_cap": 95621937.0,
-    "fdv": 382487747.0
-  },
-  {
-    "base": "KGEN",
-    "spot_price": null,
-    "perp_price": 0.52288,
-    "openInterest": 32645623.0,
-    "market_cap": 105149616.0,
-    "fdv": 529246988.0
-  },
-  {
-    "base": "ETHW",
-    "spot_price": null,
-    "perp_price": 0.9856,
-    "openInterest": 1158638.0,
-    "market_cap": 106593342.0,
-    "fdv": 106593342.0
-  },
-  {
-    "base": "MOODENG",
-    "spot_price": null,
-    "perp_price": 0.10852,
-    "openInterest": 62885077.0,
-    "market_cap": 107797685.0,
-    "fdv": 107797685.0
-  },
-  {
-    "base": "GIGGLE",
-    "spot_price": null,
-    "perp_price": 115.29,
-    "openInterest": 139401.34,
-    "market_cap": 115382929.0,
-    "fdv": 115382929.0
-  },
-  {
-    "base": "BLESS",
-    "spot_price": null,
-    "perp_price": 0.06543,
-    "openInterest": 161667387.0,
-    "market_cap": 119562577.0,
-    "fdv": 649208541.0
-  },
-  {
-    "base": "ZETA",
-    "spot_price": null,
-    "perp_price": 0.1136,
-    "openInterest": 14339882.0,
-    "market_cap": 121905761.0,
-    "fdv": 238787045.0
-  },
-  {
-    "base": "SQD",
-    "spot_price": null,
-    "perp_price": 0.15061,
-    "openInterest": 10466242.0,
-    "market_cap": 128782444.0,
-    "fdv": 202018686.0
-  },
-  {
-    "base": "4",
-    "spot_price": null,
-    "perp_price": 0.14033,
-    "openInterest": 134457743.0,
-    "market_cap": 141693835.0,
-    "fdv": 141693835.0
-  },
-  {
-    "base": "GRASS",
-    "spot_price": null,
-    "perp_price": 0.4537,
-    "openInterest": 7349969.3,
-    "market_cap": 142348820.0,
-    "fdv": 454265855.0
-  },
-  {
-    "base": "POPCAT",
-    "spot_price": null,
-    "perp_price": 0.1471,
-    "openInterest": 37789636.0,
-    "market_cap": 144477006.0,
-    "fdv": 144477006.0
-  },
-  {
-    "base": "MEW",
-    "spot_price": null,
-    "perp_price": 0.001869,
-    "openInterest": 1675163557.0,
-    "market_cap": 166531722.0,
-    "fdv": 166531722.0
-  },
-  {
-    "base": "SAFE",
-    "spot_price": null,
-    "perp_price": 0.2699,
-    "openInterest": 5119142.0,
-    "market_cap": 174977172.0,
-    "fdv": 270378294.0
-  },
-  {
-    "base": "B",
-    "spot_price": null,
-    "perp_price": 0.1748,
-    "openInterest": 36634744.0,
-    "market_cap": 175058921.0,
-    "fdv": 175058921.0
-  },
-  {
-    "base": "AKT",
-    "spot_price": null,
-    "perp_price": 0.678,
-    "openInterest": 1866317.4,
-    "market_cap": 191195734.0,
-    "fdv": 191256368.0
-  },
-  {
-    "base": "DRIFT",
-    "spot_price": null,
-    "perp_price": 0.5097,
-    "openInterest": 5553411.0,
-    "market_cap": 194561880.0,
-    "fdv": 509578109.0
-  },
-  {
-    "base": "BAS",
-    "spot_price": null,
-    "perp_price": 0.0778,
-    "openInterest": 179397915.0,
-    "market_cap": 200650876.0,
-    "fdv": 802603503.0
-  },
-  {
-    "base": "H",
-    "spot_price": null,
-    "perp_price": 0.11017,
-    "openInterest": 162597363.0,
-    "market_cap": 203387794.0,
-    "fdv": 1114453666.0
-  },
-  {
-    "base": "DEEP",
-    "spot_price": null,
-    "perp_price": 0.08212,
-    "openInterest": 20154688.0,
-    "market_cap": 205655528.0,
-    "fdv": 822622111.0
-  },
-  {
-    "base": "MOCA",
-    "spot_price": null,
-    "perp_price": 0.0535,
-    "openInterest": 105131700.0,
-    "market_cap": 211722794.0,
-    "fdv": 476141490.0
-  },
-  {
-    "base": "SOON",
-    "spot_price": null,
-    "perp_price": 0.8008,
-    "openInterest": 28148085.0,
-    "market_cap": 218157170.0,
-    "fdv": 786523863.0
-  },
-  {
-    "base": "BRETT",
-    "spot_price": null,
-    "perp_price": 0.02652,
-    "openInterest": 86207982.0,
-    "market_cap": 263733516.0,
-    "fdv": 263733516.0
-  },
-  {
-    "base": "TOSHI",
-    "spot_price": null,
-    "perp_price": 0.0007336,
-    "openInterest": 2489312058.0,
-    "market_cap": 308693916.0,
-    "fdv": 308693916.0
-  },
-  {
-    "base": "USELESS",
-    "spot_price": null,
-    "perp_price": 0.3144,
-    "openInterest": 30442283.0,
-    "market_cap": 315989405.0,
-    "fdv": 315989405.0
-  },
-  {
-    "base": "XCN",
-    "spot_price": null,
-    "perp_price": 0.00885,
-    "openInterest": 109003781.0,
-    "market_cap": 318983554.0,
-    "fdv": 431992976.0
-  },
-  {
-    "base": "MERL",
-    "spot_price": null,
-    "perp_price": 0.33143,
-    "openInterest": 96879590.0,
-    "market_cap": 325625872.0,
-    "fdv": 698511888.0
-  },
-  {
-    "base": "FLUID",
-    "spot_price": null,
-    "perp_price": 4.727,
-    "openInterest": 362341.6,
-    "market_cap": 364567047.0,
-    "fdv": 474985548.0
-  },
-  {
-    "base": "FARTCOIN",
-    "spot_price": null,
-    "perp_price": 0.3671,
-    "openInterest": 120331381.3,
-    "market_cap": 366884042.0,
-    "fdv": 366884042.0
-  },
-  {
-    "base": "ATH",
-    "spot_price": null,
-    "perp_price": 0.02881,
-    "openInterest": 599357781.0,
-    "market_cap": 410619730.0,
-    "fdv": 1211545743.0
-  },
-  {
-    "base": "ZORA",
-    "spot_price": null,
-    "perp_price": 0.09304,
-    "openInterest": 159346975.0,
-    "market_cap": 419346475.0,
-    "fdv": 938135292.0
-  },
-  {
-    "base": "BSV",
-    "spot_price": null,
-    "perp_price": 21.91,
-    "openInterest": 115192.2,
-    "market_cap": 436950685.0,
-    "fdv": 436950685.0
-  },
-  {
-    "base": "MYX",
-    "spot_price": null,
-    "perp_price": 2.765,
-    "openInterest": 3624813.0,
-    "market_cap": 527838328.0,
-    "fdv": 2766898681.0
-  },
-  {
-    "base": "AERO",
-    "spot_price": null,
-    "perp_price": 0.7615,
-    "openInterest": 9941035.8,
-    "market_cap": 684566370.0,
-    "fdv": 1340887366.0
-  },
-  {
-    "base": "SPX",
-    "spot_price": null,
-    "perp_price": 0.9647,
-    "openInterest": 10601580.0,
-    "market_cap": 897789580.0,
-    "fdv": 897789580.0
-  },
-  {
-    "base": "KAS",
-    "spot_price": null,
-    "perp_price": 0.05162,
-    "openInterest": 80274744.0,
-    "market_cap": 1382644888.0,
-    "fdv": 1384911864.0
-  },
-  {
-    "base": "IP",
-    "spot_price": null,
-    "perp_price": 5.48,
-    "openInterest": 5365765.1,
-    "market_cap": 1766647348.0,
-    "fdv": 5582064125.0
-  },
-  {
-    "base": "COAI",
-    "spot_price": null,
-    "perp_price": 13.361,
-    "openInterest": 2736991.0,
-    "market_cap": 2740078744.0,
-    "fdv": 13945892542.0
-  },
-  {
-    "base": "M",
-    "spot_price": null,
-    "perp_price": 1.8821,
-    "openInterest": 8083810.0,
-    "market_cap": 3195199523.0,
-    "fdv": 9994868088.0
-  },
-  {
     "base": "XMR",
     "spot_price": null,
-    "perp_price": 292.32,
-    "openInterest": 37048.677,
-    "market_cap": 5399548062.0,
-    "fdv": 5399548062.0
-  },
-  {
-    "base": "HYPE",
-    "spot_price": null,
-    "perp_price": 35.16,
-    "openInterest": 4250374.63,
-    "market_cap": 9517638926.0,
-    "fdv": 35144089471.0
+    "perp_price": 334.81,
+    "openInterest": 43972.28,
+    "market_cap": 6163879002.0,
+    "fdv": 6163879002.0
   },
   {
     "base": "1000SHIB",
     "spot_price": null,
-    "perp_price": 0.009861,
-    "openInterest": 3048093297.0,
+    "perp_price": 0.010037,
+    "openInterest": 2949810828.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "BTCDOM",
     "spot_price": null,
-    "perp_price": 4236.3,
-    "openInterest": 3855.608,
+    "perp_price": 4332.5,
+    "openInterest": 4091.342,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "1000XEC",
     "spot_price": null,
-    "perp_price": 0.01422,
-    "openInterest": 64634102.0,
+    "perp_price": 0.0148,
+    "openInterest": 67430576.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "1000LUNC",
     "spot_price": null,
-    "perp_price": 0.04144,
-    "openInterest": 107232744.0,
+    "perp_price": 0.04339,
+    "openInterest": 74412748.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "LUNA2",
     "spot_price": null,
-    "perp_price": 0.0992,
-    "openInterest": 18254301.0,
+    "perp_price": 0.0932,
+    "openInterest": 18767224.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "1000PEPE",
     "spot_price": null,
-    "perp_price": 0.0067458,
-    "openInterest": 12164778120.0,
+    "perp_price": 0.0066011,
+    "openInterest": 15099678641.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "1000FLOKI",
     "spot_price": null,
-    "perp_price": 0.06548,
-    "openInterest": 145290821.0,
+    "perp_price": 0.07009,
+    "openInterest": 152844733.0,
     "market_cap": null,
     "fdv": null
   },
   {
     "base": "DODOX",
     "spot_price": null,
-    "perp_price": 0.033313,
-    "openInterest": 22943098.0,
+    "perp_price": 0.029199,
+    "openInterest": 26107522.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "BSV",
+    "spot_price": null,
+    "perp_price": 22.12,
+    "openInterest": 101115.1,
+    "market_cap": 445072690.0,
+    "fdv": 445072690.0
+  },
+  {
+    "base": "TOKEN",
+    "spot_price": null,
+    "perp_price": 0.007504,
+    "openInterest": 197893986.0,
+    "market_cap": 22288128.0,
+    "fdv": 74843651.0
+  },
+  {
+    "base": "KAS",
+    "spot_price": null,
+    "perp_price": 0.05279,
+    "openInterest": 62976603.0,
+    "market_cap": 1410896339.0,
+    "fdv": 1415797079.0
   },
   {
     "base": "1000BONK",
     "spot_price": null,
-    "perp_price": 0.014224,
-    "openInterest": 1705407145.0,
-    "market_cap": null,
-    "fdv": 1331838724687.0
+    "perp_price": 0.014145,
+    "openInterest": 1738367524.0,
+    "market_cap": 0.0,
+    "fdv": 1326621001938.0
+  },
+  {
+    "base": "ETHW",
+    "spot_price": null,
+    "perp_price": 0.8964,
+    "openInterest": 1102749.0,
+    "market_cap": 96560364.0,
+    "fdv": 96560364.0
   },
   {
     "base": "1000RATS",
     "spot_price": null,
-    "perp_price": 0.03005,
-    "openInterest": 215611707.0,
+    "perp_price": 0.03393,
+    "openInterest": 189774720.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "ZETA",
+    "spot_price": null,
+    "perp_price": 0.1141,
+    "openInterest": 16221269.0,
+    "market_cap": 127906053.0,
+    "fdv": 239667816.0
   },
   {
     "base": "MYRO",
     "spot_price": null,
-    "perp_price": 0.014,
-    "openInterest": 101792867.0,
+    "perp_price": 0.01769,
+    "openInterest": 90490121.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "MEW",
+    "spot_price": null,
+    "perp_price": 0.001767,
+    "openInterest": 1785768978.0,
+    "market_cap": 156966733.0,
+    "fdv": 156966733.0
+  },
+  {
+    "base": "BRETT",
+    "spot_price": null,
+    "perp_price": 0.02756,
+    "openInterest": 77681946.0,
+    "market_cap": 273286167.0,
+    "fdv": 273286167.0
+  },
+  {
+    "base": "POPCAT",
+    "spot_price": null,
+    "perp_price": 0.1428,
+    "openInterest": 53673412.0,
+    "market_cap": 139645091.0,
+    "fdv": 139645091.0
+  },
+  {
+    "base": "GOAT",
+    "spot_price": null,
+    "perp_price": 0.05321,
+    "openInterest": 53179928.0,
+    "market_cap": 52980377.0,
+    "fdv": 52980377.0
+  },
+  {
+    "base": "MOODENG",
+    "spot_price": null,
+    "perp_price": 0.10554,
+    "openInterest": 64452362.0,
+    "market_cap": 104401010.0,
+    "fdv": 104401010.0
+  },
+  {
+    "base": "SAFE",
+    "spot_price": null,
+    "perp_price": 0.2285,
+    "openInterest": 6990762.0,
+    "market_cap": 150996616.0,
+    "fdv": 228598489.0
+  },
+  {
+    "base": "PONKE",
+    "spot_price": null,
+    "perp_price": 0.05772,
+    "openInterest": 15199272.0,
+    "market_cap": 31980167.0,
+    "fdv": 31983741.0
   },
   {
     "base": "1000000MOG",
     "spot_price": null,
-    "perp_price": 0.4384,
-    "openInterest": 4199343.1,
+    "perp_price": 0.4103,
+    "openInterest": 3352593.3,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "GRASS",
+    "spot_price": null,
+    "perp_price": 0.3396,
+    "openInterest": 7408088.7,
+    "market_cap": 150690803.0,
+    "fdv": 338024246.0
+  },
+  {
+    "base": "DRIFT",
+    "spot_price": null,
+    "perp_price": 0.4037,
+    "openInterest": 5731500.0,
+    "market_cap": 154297708.0,
+    "fdv": 403236673.0
+  },
+  {
+    "base": "SWELL",
+    "spot_price": null,
+    "perp_price": 0.005657,
+    "openInterest": 198546706.0,
+    "market_cap": 15236245.0,
+    "fdv": 56479258.0
+  },
+  {
+    "base": "HIPPO",
+    "spot_price": null,
+    "perp_price": 0.001879,
+    "openInterest": 3133470822.0,
+    "market_cap": 18648868.0,
+    "fdv": 18648868.0
+  },
+  {
+    "base": "1000X",
+    "spot_price": null,
+    "perp_price": 0.0334,
+    "openInterest": 24763002.0,
+    "market_cap": 3820106.0,
+    "fdv": 3820106.0
+  },
+  {
+    "base": "DEGEN",
+    "spot_price": null,
+    "perp_price": 0.001902,
+    "openInterest": 404731528.0,
+    "market_cap": 70259587.0,
+    "fdv": 70259587.0
+  },
+  {
+    "base": "BAN",
+    "spot_price": null,
+    "perp_price": 0.07038,
+    "openInterest": 69586084.0,
+    "market_cap": 69914968.0,
+    "fdv": 69914968.0
+  },
+  {
+    "base": "AKT",
+    "spot_price": null,
+    "perp_price": 0.743,
+    "openInterest": 4169935.8,
+    "market_cap": 208503001.0,
+    "fdv": 208667459.0
   },
   {
     "base": "1000WHY",
     "spot_price": null,
-    "perp_price": 2.52e-05,
-    "openInterest": 69490546748.0,
+    "perp_price": 2.43e-05,
+    "openInterest": 63949547118.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "CHILLGUY",
+    "spot_price": null,
+    "perp_price": 0.02672,
+    "openInterest": 54053431.0,
+    "market_cap": 26651967.0,
+    "fdv": 26651967.0
+  },
+  {
+    "base": "AERO",
+    "spot_price": null,
+    "perp_price": 1.0637,
+    "openInterest": 10097320.6,
+    "market_cap": 959474034.0,
+    "fdv": 1887853512.0
   },
   {
     "base": "RAYSOL",
     "spot_price": null,
-    "perp_price": 1.7768,
-    "openInterest": 2405208.3,
+    "perp_price": 1.6595,
+    "openInterest": 2276562.2,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "KOMA",
+    "spot_price": null,
+    "perp_price": 0.01823,
+    "openInterest": 133437394.0,
+    "market_cap": 11023737.0,
+    "fdv": 11023737.0
+  },
+  {
+    "base": "SPX",
+    "spot_price": null,
+    "perp_price": 0.8598,
+    "openInterest": 12332835.0,
+    "market_cap": 795081698.0,
+    "fdv": 795081698.0
+  },
+  {
+    "base": "MOCA",
+    "spot_price": null,
+    "perp_price": 0.05491,
+    "openInterest": 116814233.0,
+    "market_cap": 216573846.0,
+    "fdv": 487035331.0
+  },
+  {
+    "base": "FARTCOIN",
+    "spot_price": null,
+    "perp_price": 0.3233,
+    "openInterest": 124945048.3,
+    "market_cap": 322435198.0,
+    "fdv": 322435198.0
+  },
+  {
+    "base": "GRIFFAIN",
+    "spot_price": null,
+    "perp_price": 0.02086,
+    "openInterest": 101749694.0,
+    "market_cap": 20819451.0,
+    "fdv": 20819451.0
+  },
+  {
+    "base": "AI16Z",
+    "spot_price": null,
+    "perp_price": 0.08179,
+    "openInterest": 90356001.3,
+    "market_cap": 88820558.0,
+    "fdv": 88820558.0
+  },
+  {
+    "base": "ZEREBRO",
+    "spot_price": null,
+    "perp_price": 0.04571,
+    "openInterest": 559779702.0,
+    "market_cap": 45504767.0,
+    "fdv": 45504767.0
+  },
+  {
+    "base": "ALCH",
+    "spot_price": null,
+    "perp_price": 0.07467,
+    "openInterest": 252960154.0,
+    "market_cap": 62734630.0,
+    "fdv": 73802100.0
+  },
+  {
+    "base": "SWARMS",
+    "spot_price": null,
+    "perp_price": 0.01662,
+    "openInterest": 305070821.0,
+    "market_cap": 16413765.0,
+    "fdv": 16413765.0
+  },
+  {
+    "base": "SONIC",
+    "spot_price": null,
+    "perp_price": 0.1285,
+    "openInterest": 26417366.5,
+    "market_cap": 46175217.0,
+    "fdv": 307834782.0
+  },
+  {
+    "base": "ARC",
+    "spot_price": null,
+    "perp_price": 0.01829,
+    "openInterest": 397884319.0,
+    "market_cap": 18168997.0,
+    "fdv": 18168997.0
   },
   {
     "base": "AVAAI",
     "spot_price": null,
-    "perp_price": 0.01312,
-    "openInterest": 173011738.0,
+    "perp_price": 0.01546,
+    "openInterest": 219005922.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "MELANIA",
+    "spot_price": null,
+    "perp_price": 0.1206,
+    "openInterest": 46958869.55,
+    "market_cap": 97268326.0,
+    "fdv": 120084441.0
+  },
+  {
+    "base": "VINE",
+    "spot_price": null,
+    "perp_price": 0.04366,
+    "openInterest": 63184745.0,
+    "market_cap": 43694763.0,
+    "fdv": 43694763.0
+  },
+  {
+    "base": "PIPPIN",
+    "spot_price": null,
+    "perp_price": 0.04028,
+    "openInterest": 544564819.0,
+    "market_cap": 40426171.0,
+    "fdv": 40426171.0
+  },
+  {
+    "base": "VVV",
+    "spot_price": null,
+    "perp_price": 1.552,
+    "openInterest": 874745.24,
+    "market_cap": 62816898.0,
+    "fdv": 118318138.0
+  },
+  {
+    "base": "B3",
+    "spot_price": null,
+    "perp_price": 0.002214,
+    "openInterest": 1193230514.0,
+    "market_cap": 66792255.0,
+    "fdv": 220454067.0
+  },
+  {
+    "base": "IP",
+    "spot_price": null,
+    "perp_price": 4.362,
+    "openInterest": 5348764.2,
+    "market_cap": 1406626098.0,
+    "fdv": 4435381488.0
+  },
+  {
+    "base": "BID",
+    "spot_price": null,
+    "perp_price": 0.06125,
+    "openInterest": 21206560.0,
+    "market_cap": 16576958.0,
+    "fdv": 61369884.0
   },
   {
     "base": "BROCCOLIF3B",
     "spot_price": null,
-    "perp_price": 0.01908,
-    "openInterest": 406776385.0,
-    "market_cap": null,
-    "fdv": null
+    "perp_price": 0.012683,
+    "openInterest": 397612074.0,
+    "market_cap": 12734250.0,
+    "fdv": 12734250.0
+  },
+  {
+    "base": "SIREN",
+    "spot_price": null,
+    "perp_price": 0.08748,
+    "openInterest": 13171603.0,
+    "market_cap": 63830168.0,
+    "fdv": 63830168.0
+  },
+  {
+    "base": "BR",
+    "spot_price": null,
+    "perp_price": 0.07798,
+    "openInterest": 11294101.0,
+    "market_cap": 17072819.0,
+    "fdv": 77603721.0
+  },
+  {
+    "base": "JELLYJELLY",
+    "spot_price": null,
+    "perp_price": 0.09212,
+    "openInterest": 862878582.0,
+    "market_cap": 93786975.0,
+    "fdv": 93786975.0
+  },
+  {
+    "base": "MAVIA",
+    "spot_price": null,
+    "perp_price": 0.10533,
+    "openInterest": 26519273.0,
+    "market_cap": 5447864.0,
+    "fdv": 26384875.0
+  },
+  {
+    "base": "ATH",
+    "spot_price": null,
+    "perp_price": 0.02815,
+    "openInterest": 699688984.0,
+    "market_cap": 403598222.0,
+    "fdv": 1190828576.0
+  },
+  {
+    "base": "PROMPT",
+    "spot_price": null,
+    "perp_price": 0.07903,
+    "openInterest": 18223551.0,
+    "market_cap": 17700245.0,
+    "fdv": 79054137.0
+  },
+  {
+    "base": "XCN",
+    "spot_price": null,
+    "perp_price": 0.00809,
+    "openInterest": 134053832.0,
+    "market_cap": 291618414.0,
+    "fdv": 392225214.0
+  },
+  {
+    "base": "FHE",
+    "spot_price": null,
+    "perp_price": 0.03512,
+    "openInterest": 41253836.0,
+    "market_cap": 8638375.0,
+    "fdv": 34692269.0
+  },
+  {
+    "base": "AERGO",
+    "spot_price": null,
+    "perp_price": 0.07283,
+    "openInterest": 20259255.0,
+    "market_cap": 34271437.0,
+    "fdv": 36266071.0
+  },
+  {
+    "base": "BANK",
+    "spot_price": null,
+    "perp_price": 0.09368,
+    "openInterest": 73043183.0,
+    "market_cap": 39877112.0,
+    "fdv": 39877112.0
+  },
+  {
+    "base": "EPT",
+    "spot_price": null,
+    "perp_price": 0.003725,
+    "openInterest": 618336436.0,
+    "market_cap": 8651100.0,
+    "fdv": 37344221.0
+  },
+  {
+    "base": "DEEP",
+    "spot_price": null,
+    "perp_price": 0.07571,
+    "openInterest": 24272367.0,
+    "market_cap": 189540472.0,
+    "fdv": 758161888.0
+  },
+  {
+    "base": "AIOT",
+    "spot_price": null,
+    "perp_price": 0.5015,
+    "openInterest": 2609366.0,
+    "market_cap": 56440233.0,
+    "fdv": 501616650.0
+  },
+  {
+    "base": "B2",
+    "spot_price": null,
+    "perp_price": 1.141,
+    "openInterest": 7400217.0,
+    "market_cap": 47376259.0,
+    "fdv": 239470571.0
+  },
+  {
+    "base": "MILK",
+    "spot_price": null,
+    "perp_price": 0.03233,
+    "openInterest": 29108944.0,
+    "market_cap": 8387949.0,
+    "fdv": 38713611.0
+  },
+  {
+    "base": "OBOL",
+    "spot_price": null,
+    "perp_price": 0.08732,
+    "openInterest": 20807646.0,
+    "market_cap": 11122150.0,
+    "fdv": 43674509.0
+  },
+  {
+    "base": "DOOD",
+    "spot_price": null,
+    "perp_price": 0.008378,
+    "openInterest": 792364725.0,
+    "market_cap": 65337192.0,
+    "fdv": 83765630.0
+  },
+  {
+    "base": "ZKJ",
+    "spot_price": null,
+    "perp_price": 0.06372,
+    "openInterest": 25848668.5,
+    "market_cap": 24581946.0,
+    "fdv": 63679215.0
+  },
+  {
+    "base": "SKYAI",
+    "spot_price": null,
+    "perp_price": 0.02046,
+    "openInterest": 108628616.0,
+    "market_cap": 20456075.0,
+    "fdv": 20456075.0
   },
   {
     "base": "AGT",
     "spot_price": null,
-    "perp_price": 0.004842,
-    "openInterest": 1002830714.0,
-    "market_cap": null,
-    "fdv": 23980209.0
+    "perp_price": 0.004409,
+    "openInterest": 1008379141.0,
+    "market_cap": 0.0,
+    "fdv": 21822988.0
+  },
+  {
+    "base": "B",
+    "spot_price": null,
+    "perp_price": 0.195,
+    "openInterest": 38056527.0,
+    "market_cap": 194728410.0,
+    "fdv": 194728410.0
+  },
+  {
+    "base": "SOON",
+    "spot_price": null,
+    "perp_price": 0.7105,
+    "openInterest": 25940147.0,
+    "market_cap": 198779556.0,
+    "fdv": 698176472.0
+  },
+  {
+    "base": "MERL",
+    "spot_price": null,
+    "perp_price": 0.32325,
+    "openInterest": 92263909.0,
+    "market_cap": 339445076.0,
+    "fdv": 677613974.0
+  },
+  {
+    "base": "HYPE",
+    "spot_price": null,
+    "perp_price": 44.076,
+    "openInterest": 4516912.7,
+    "market_cap": 11905699854.0,
+    "fdv": 43962056571.0
+  },
+  {
+    "base": "BDXN",
+    "spot_price": null,
+    "perp_price": 0.02934,
+    "openInterest": 80945167.0,
+    "market_cap": 4680194.0,
+    "fdv": 29251214.0
+  },
+  {
+    "base": "PUFFER",
+    "spot_price": null,
+    "perp_price": 0.09578,
+    "openInterest": 15512576.0,
+    "market_cap": 28917012.0,
+    "fdv": 95864266.0
+  },
+  {
+    "base": "PORT3",
+    "spot_price": null,
+    "perp_price": 0.05746,
+    "openInterest": 526415134.0,
+    "market_cap": 27840827.0,
+    "fdv": 55698674.0
   },
   {
     "base": "1000000BOB",
     "spot_price": null,
-    "perp_price": 0.03207,
-    "openInterest": 24259008.0,
+    "perp_price": 0.03014,
+    "openInterest": 20130704.0,
     "market_cap": null,
     "fdv": null
+  },
+  {
+    "base": "SKATE",
+    "spot_price": null,
+    "perp_price": 0.0331,
+    "openInterest": 64672574.0,
+    "market_cap": 7030848.0,
+    "fdv": 32821615.0
+  },
+  {
+    "base": "TAIKO",
+    "spot_price": null,
+    "perp_price": 0.2434,
+    "openInterest": 2501890.0,
+    "market_cap": 45446011.0,
+    "fdv": 243139574.0
+  },
+  {
+    "base": "SQD",
+    "spot_price": null,
+    "perp_price": 0.09609,
+    "openInterest": 21409025.0,
+    "market_cap": 83265388.0,
+    "fdv": 128134067.0
+  },
+  {
+    "base": "PUMPBTC",
+    "spot_price": null,
+    "perp_price": 0.0478,
+    "openInterest": 40137760.0,
+    "market_cap": 86784189.0,
+    "fdv": 86784189.0
+  },
+  {
+    "base": "MYX",
+    "spot_price": null,
+    "perp_price": 2.076,
+    "openInterest": 4063744.0,
+    "market_cap": 396466921.0,
+    "fdv": 2078257195.0
+  },
+  {
+    "base": "DMC",
+    "spot_price": null,
+    "perp_price": 0.002319,
+    "openInterest": 444730660.0,
+    "market_cap": 9679875.0,
+    "fdv": 29579980.0
+  },
+  {
+    "base": "H",
+    "spot_price": null,
+    "perp_price": 0.27934,
+    "openInterest": 155733414.0,
+    "market_cap": 509042240.0,
+    "fdv": 2789272545.0
+  },
+  {
+    "base": "OL",
+    "spot_price": null,
+    "perp_price": 0.02743,
+    "openInterest": 85864837.0,
+    "market_cap": 21374266.0,
+    "fdv": 136964798.0
+  },
+  {
+    "base": "ICNT",
+    "spot_price": null,
+    "perp_price": 0.2748,
+    "openInterest": 13615910.0,
+    "market_cap": 45932170.0,
+    "fdv": 192276757.0
+  },
+  {
+    "base": "BULLA",
+    "spot_price": null,
+    "perp_price": 0.04416,
+    "openInterest": 26312876.0,
+    "market_cap": 12268005.0,
+    "fdv": 43814305.0
+  },
+  {
+    "base": "IDOL",
+    "spot_price": null,
+    "perp_price": 0.03302,
+    "openInterest": 43614456.0,
+    "market_cap": 29700980.0,
+    "fdv": 157983937.0
+  },
+  {
+    "base": "M",
+    "spot_price": null,
+    "perp_price": 2.525,
+    "openInterest": 8105971.0,
+    "market_cap": 4285398431.0,
+    "fdv": 13377471180.0
+  },
+  {
+    "base": "TANSSI",
+    "spot_price": null,
+    "perp_price": 0.02993,
+    "openInterest": 56309367.0,
+    "market_cap": 8924208.0,
+    "fdv": 29817440.0
+  },
+  {
+    "base": "CROSS",
+    "spot_price": null,
+    "perp_price": 0.12669,
+    "openInterest": 8345491.0,
+    "market_cap": 42408167.0,
+    "fdv": 124637959.0
+  },
+  {
+    "base": "AIN",
+    "spot_price": null,
+    "perp_price": 0.13204,
+    "openInterest": 31071188.0,
+    "market_cap": 24399547.0,
+    "fdv": 131675917.0
+  },
+  {
+    "base": "VELVET",
+    "spot_price": null,
+    "perp_price": 0.24546,
+    "openInterest": 16614163.0,
+    "market_cap": 22381289.0,
+    "fdv": 245365278.0
+  },
+  {
+    "base": "TAC",
+    "spot_price": null,
+    "perp_price": 0.005581,
+    "openInterest": 355426477.0,
+    "market_cap": 14267783.0,
+    "fdv": 55716206.0
+  },
+  {
+    "base": "TA",
+    "spot_price": null,
+    "perp_price": 0.04526,
+    "openInterest": 75835343.0,
+    "market_cap": 8123462.0,
+    "fdv": 45130343.0
+  },
+  {
+    "base": "ZORA",
+    "spot_price": null,
+    "perp_price": 0.07137,
+    "openInterest": 151172802.0,
+    "market_cap": 318227469.0,
+    "fdv": 711918275.0
+  },
+  {
+    "base": "TAG",
+    "spot_price": null,
+    "perp_price": 0.0005121,
+    "openInterest": 4894463540.0,
+    "market_cap": 55424993.0,
+    "fdv": 206386518.0
+  },
+  {
+    "base": "ZRC",
+    "spot_price": null,
+    "perp_price": 0.01384,
+    "openInterest": 39285146.0,
+    "market_cap": 30279688.0,
+    "fdv": 137953276.0
+  },
+  {
+    "base": "ESPORTS",
+    "spot_price": null,
+    "perp_price": 0.2306,
+    "openInterest": 13504580.0,
+    "market_cap": 34821022.0,
+    "fdv": 206448750.0
+  },
+  {
+    "base": "PLAY",
+    "spot_price": null,
+    "perp_price": 0.02507,
+    "openInterest": 70595150.0,
+    "market_cap": 11732437.0,
+    "fdv": 11732437.0
+  },
+  {
+    "base": "NAORIS",
+    "spot_price": null,
+    "perp_price": 0.0489,
+    "openInterest": 71376296.0,
+    "market_cap": 29008799.0,
+    "fdv": 193630802.0
+  },
+  {
+    "base": "ALL",
+    "spot_price": null,
+    "perp_price": 0.8458,
+    "openInterest": 1803518.0,
+    "market_cap": 1584662.0,
+    "fdv": 1584662.0
+  },
+  {
+    "base": "IN",
+    "spot_price": null,
+    "perp_price": 0.12134,
+    "openInterest": 24489969.0,
+    "market_cap": 27838443.0,
+    "fdv": 121920189.0
+  },
+  {
+    "base": "YALA",
+    "spot_price": null,
+    "perp_price": 0.1033,
+    "openInterest": 27034687.0,
+    "market_cap": 25537396.0,
+    "fdv": 103658858.0
+  },
+  {
+    "base": "CARV",
+    "spot_price": null,
+    "perp_price": 0.1694,
+    "openInterest": 10240718.0,
+    "market_cap": 49939785.0,
+    "fdv": 169078842.0
+  },
+  {
+    "base": "AIO",
+    "spot_price": null,
+    "perp_price": 0.16595,
+    "openInterest": 15574909.0,
+    "market_cap": 38183262.0,
+    "fdv": 165833930.0
+  },
+  {
+    "base": "XNY",
+    "spot_price": null,
+    "perp_price": 0.00671,
+    "openInterest": 299661209.0,
+    "market_cap": 16791399.0,
+    "fdv": 67165596.0
+  },
+  {
+    "base": "USELESS",
+    "spot_price": null,
+    "perp_price": 0.2285,
+    "openInterest": 35614287.0,
+    "market_cap": 227909949.0,
+    "fdv": 227909949.0
+  },
+  {
+    "base": "DAM",
+    "spot_price": null,
+    "perp_price": 0.03759,
+    "openInterest": 67558591.0,
+    "market_cap": 7489150.0,
+    "fdv": 37447304.0
+  },
+  {
+    "base": "CUDIS",
+    "spot_price": null,
+    "perp_price": 0.04133,
+    "openInterest": 40064597.0,
+    "market_cap": 10156917.0,
+    "fdv": 41038049.0
+  },
+  {
+    "base": "SAPIEN",
+    "spot_price": null,
+    "perp_price": 0.1756,
+    "openInterest": 14758458.0,
+    "market_cap": 43775792.0,
+    "fdv": 175103169.0
+  },
+  {
+    "base": "BAS",
+    "spot_price": null,
+    "perp_price": 0.01396,
+    "openInterest": 553999035.0,
+    "market_cap": 34728974.0,
+    "fdv": 138915897.0
+  },
+  {
+    "base": "BTR",
+    "spot_price": null,
+    "perp_price": 0.06251,
+    "openInterest": 24729372.0,
+    "market_cap": 16303122.0,
+    "fdv": 62320804.0
+  },
+  {
+    "base": "Q",
+    "spot_price": null,
+    "perp_price": 0.023636,
+    "openInterest": 303894564.0,
+    "market_cap": 38103062.0,
+    "fdv": 235786275.0
+  },
+  {
+    "base": "ARIA",
+    "spot_price": null,
+    "perp_price": 0.16835,
+    "openInterest": 11448036.0,
+    "market_cap": 30745407.0,
+    "fdv": 168007687.0
+  },
+  {
+    "base": "TAKE",
+    "spot_price": null,
+    "perp_price": 0.27039,
+    "openInterest": 36439371.0,
+    "market_cap": 43662730.0,
+    "fdv": 269425381.0
+  },
+  {
+    "base": "PTB",
+    "spot_price": null,
+    "perp_price": 0.0303,
+    "openInterest": 75744367.0,
+    "market_cap": 62335221.0,
+    "fdv": 158282576.0
+  },
+  {
+    "base": "FLOCK",
+    "spot_price": null,
+    "perp_price": 0.2595,
+    "openInterest": 9089369.0,
+    "market_cap": 62813099.0,
+    "fdv": 258844407.0
+  },
+  {
+    "base": "XPIN",
+    "spot_price": null,
+    "perp_price": 0.007103,
+    "openInterest": 5042189905.0,
+    "market_cap": 109403184.0,
+    "fdv": 707424407.0
+  },
+  {
+    "base": "UB",
+    "spot_price": null,
+    "perp_price": 0.07692,
+    "openInterest": 245644034.0,
+    "market_cap": 192362311.0,
+    "fdv": 769449243.0
+  },
+  {
+    "base": "TOSHI",
+    "spot_price": null,
+    "perp_price": 0.0006934,
+    "openInterest": 3595374377.0,
+    "market_cap": 292297216.0,
+    "fdv": 292297216.0
+  },
+  {
+    "base": "STBL",
+    "spot_price": null,
+    "perp_price": 0.09529,
+    "openInterest": 78102235.0,
+    "market_cap": 47538521.0,
+    "fdv": 950770427.0
+  },
+  {
+    "base": "AIA",
+    "spot_price": null,
+    "perp_price": 1.201,
+    "openInterest": 8526773.0,
+    "market_cap": 118898534.0,
+    "fdv": 1194960145.0
+  },
+  {
+    "base": "TRADOOR",
+    "spot_price": null,
+    "perp_price": 2.589,
+    "openInterest": 1325043.0,
+    "market_cap": 36975948.0,
+    "fdv": 154614040.0
+  },
+  {
+    "base": "BLESS",
+    "spot_price": null,
+    "perp_price": 0.0441,
+    "openInterest": 203899174.0,
+    "market_cap": 80389855.0,
+    "fdv": 436505970.0
+  },
+  {
+    "base": "FLUID",
+    "spot_price": null,
+    "perp_price": 4.323,
+    "openInterest": 416563.4,
+    "market_cap": 336321041.0,
+    "fdv": 432548937.0
+  },
+  {
+    "base": "COAI",
+    "spot_price": null,
+    "perp_price": 1.554,
+    "openInterest": 13928701.0,
+    "market_cap": 302230075.0,
+    "fdv": 1538228841.0
+  },
+  {
+    "base": "HANA",
+    "spot_price": null,
+    "perp_price": 0.03403,
+    "openInterest": 162453207.0,
+    "market_cap": 8139507.0,
+    "fdv": 33914610.0
+  },
+  {
+    "base": "AKE",
+    "spot_price": null,
+    "perp_price": 0.0014354,
+    "openInterest": 1974005272.0,
+    "market_cap": 32645281.0,
+    "fdv": 143204609.0
+  },
+  {
+    "base": "ORDER",
+    "spot_price": null,
+    "perp_price": 0.21484,
+    "openInterest": 12058930.0,
+    "market_cap": 71468928.0,
+    "fdv": 215269200.0
+  },
+  {
+    "base": "LIGHT",
+    "spot_price": null,
+    "perp_price": 1.8929,
+    "openInterest": 12390285.0,
+    "market_cap": 80662434.0,
+    "fdv": 786823148.0
+  },
+  {
+    "base": "XAN",
+    "spot_price": null,
+    "perp_price": 0.03411,
+    "openInterest": 91381341.0,
+    "market_cap": 85353137.0,
+    "fdv": 341412550.0
+  },
+  {
+    "base": "VFY",
+    "spot_price": null,
+    "perp_price": 0.07009,
+    "openInterest": 28139156.0,
+    "market_cap": 21618365.0,
+    "fdv": 70603458.0
+  },
+  {
+    "base": "TRUTH",
+    "spot_price": null,
+    "perp_price": 0.012986,
+    "openInterest": 167707741.0,
+    "market_cap": 27139483.0,
+    "fdv": 130146331.0
+  },
+  {
+    "base": "EVAA",
+    "spot_price": null,
+    "perp_price": 8.98,
+    "openInterest": 2483602.2,
+    "market_cap": 59497633.0,
+    "fdv": 449515599.0
+  },
+  {
+    "base": "LYN",
+    "spot_price": null,
+    "perp_price": 0.11657,
+    "openInterest": 26364081.0,
+    "market_cap": 24287244.0,
+    "fdv": 116206908.0
+  },
+  {
+    "base": "KGEN",
+    "spot_price": null,
+    "perp_price": 0.24815,
+    "openInterest": 24138173.0,
+    "market_cap": 49203031.0,
+    "fdv": 247652412.0
+  },
+  {
+    "base": "4",
+    "spot_price": null,
+    "perp_price": 0.09105,
+    "openInterest": 168985331.0,
+    "market_cap": 90804777.0,
+    "fdv": 90804777.0
+  },
+  {
+    "base": "MON",
+    "spot_price": null,
+    "perp_price": 0.04495,
+    "openInterest": 100853749.0,
+    "market_cap": 10432186.0,
+    "fdv": 17798299.0
+  },
+  {
+    "base": "MET",
+    "spot_price": null,
+    "perp_price": 0.4419,
+    "openInterest": 27924253.0,
+    "market_cap": 210528516.0,
+    "fdv": 439681100.0
+  },
+  {
+    "base": "CLO",
+    "spot_price": null,
+    "perp_price": 0.3154,
+    "openInterest": 14042547.0,
+    "market_cap": 40660565.0,
+    "fdv": 314954030.0
+  },
+  {
+    "base": "RECALL",
+    "spot_price": null,
+    "perp_price": 0.3451,
+    "openInterest": 13343111.0,
+    "market_cap": 226503301.0,
+    "fdv": 345722504.0
+  },
+  {
+    "base": "LAB",
+    "spot_price": null,
+    "perp_price": 0.19428,
+    "openInterest": 44289967.0,
+    "market_cap": 14823348.0,
+    "fdv": 193652556.0
+  },
+  {
+    "base": "RIVER",
+    "spot_price": null,
+    "perp_price": 7.303,
+    "openInterest": 1047391.7,
+    "market_cap": 142538164.0,
+    "fdv": 727235530.0
+  },
+  {
+    "base": "RVV",
+    "spot_price": null,
+    "perp_price": 0.008998,
+    "openInterest": 750369326.0,
+    "market_cap": 14402713.0,
+    "fdv": 89160407.0
+  },
+  {
+    "base": "币安人生",
+    "spot_price": null,
+    "perp_price": 0.22484,
+    "openInterest": 164464198.0,
+    "market_cap": 224829732.0,
+    "fdv": 224829732.0
+  },
+  {
+    "base": "BLUAI",
+    "spot_price": null,
+    "perp_price": 0.02094,
+    "openInterest": 249153436.0,
+    "market_cap": 25572464.0,
+    "fdv": 208244824.0
+  },
+  {
+    "base": "APR",
+    "spot_price": null,
+    "perp_price": 0.32116,
+    "openInterest": 15782971.0,
+    "market_cap": 14539.47,
+    "fdv": 31024.0
+  },
+  {
+    "base": "ON",
+    "spot_price": null,
+    "perp_price": 0.1469,
+    "openInterest": 23459720.0,
+    "market_cap": 21098114.0,
+    "fdv": 102364788.0
+  },
+  {
+    "base": "42",
+    "spot_price": null,
+    "perp_price": 0.10421,
+    "openInterest": 45471767.0,
+    "market_cap": 15390974.0,
+    "fdv": 103876088.0
+  },
+  {
+    "base": "COMMON",
+    "spot_price": null,
+    "perp_price": 0.009864,
+    "openInterest": 612143824.0,
+    "market_cap": 23033252.0,
+    "fdv": 98581553.0
+  },
+  {
+    "base": "KITE",
+    "spot_price": null,
+    "perp_price": 0.14958,
+    "openInterest": 78062734.0,
+    "market_cap": 788019.0,
+    "fdv": 794512.0
+  },
+  {
+    "base": "AT",
+    "spot_price": null,
+    "perp_price": 0.3603,
+    "openInterest": 11295205.0,
+    "market_cap": 82628309.0,
+    "fdv": 359253519.0
+  },
+  {
+    "base": "CC",
+    "spot_price": null,
+    "perp_price": 0.1336,
+    "openInterest": 31133483.0,
+    "market_cap": 0.0,
+    "fdv": 731631.0
   }
 ]

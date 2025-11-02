@@ -1,7 +1,7 @@
 {
   "metadata": {
     "created_at": "2025-10-23 10:25:20",
-    "total_symbols": 591
+    "total_symbols": 598
   },
   "mapping": {
     "0G": {
@@ -221,10 +221,10 @@
       "match_type": "exact"
     },
     "AI": {
-      "cmc_id": 10712,
+      "cmc_id": 28846,
       "cmc_slug": "flourishing-ai",
       "cmc_symbol": "AI",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "AI16Z": {
       "cmc_id": 34026,
@@ -311,10 +311,10 @@
       "match_type": "exact"
     },
     "ALT": {
-      "cmc_id": 10897,
+      "cmc_id": 29073,
       "cmc_slug": "alitas",
       "cmc_symbol": "ALT",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "AMP": {
       "cmc_id": 6945,
@@ -335,10 +335,10 @@
       "match_type": "exact"
     },
     "APE": {
-      "cmc_id": 7257,
+      "cmc_id": 18876,
       "cmc_slug": "apecoin",
       "cmc_symbol": "APE",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "API3": {
       "cmc_id": 7737,
@@ -515,10 +515,10 @@
       "match_type": "exact"
     },
     "BABY": {
-      "cmc_id": 10334,
+      "cmc_id": 32198,
       "cmc_slug": "babyswap",
       "cmc_symbol": "BABY",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "BAN": {
       "cmc_id": 33881,
@@ -821,10 +821,10 @@
       "match_type": "exact"
     },
     "CHESS": {
-      "cmc_id": 1297,
+      "cmc_id": 10974,
       "cmc_slug": "chesscoin",
       "cmc_symbol": "CHESS",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "CHILLGUY": {
       "cmc_id": 34125,
@@ -992,7 +992,7 @@
       "cmc_id": 7087,
       "cmc_slug": "dego-finance",
       "cmc_symbol": "DEGO",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "DENT": {
       "cmc_id": 1886,
@@ -1097,10 +1097,10 @@
       "match_type": "exact"
     },
     "EDEN": {
-      "cmc_id": 7750,
+      "cmc_id": 38513,
       "cmc_slug": "eden-network",
       "cmc_symbol": "EDEN",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "EDU": {
       "cmc_id": 24613,
@@ -1541,10 +1541,10 @@
       "match_type": "exact"
     },
     "HOT": {
-      "cmc_id": 2430,
+      "cmc_id": 2682,
       "cmc_slug": "hydro-protocol",
       "cmc_symbol": "HOT",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "HUMA": {
       "cmc_id": 36576,
@@ -1583,10 +1583,10 @@
       "match_type": "exact"
     },
     "ID": {
-      "cmc_id": 8495,
+      "cmc_id": 21846,
       "cmc_slug": "everest",
       "cmc_symbol": "ID",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "IDEX": {
       "cmc_id": 3928,
@@ -1787,10 +1787,10 @@
       "match_type": "exact"
     },
     "LAYER": {
-      "cmc_id": 6638,
+      "cmc_id": 35429,
       "cmc_slug": "unilayer",
       "cmc_symbol": "LAYER",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "LAZIO": {
       "cmc_id": 12687,
@@ -1961,10 +1961,10 @@
       "match_type": "manual"
     },
     "MEME": {
-      "cmc_id": 1191,
+      "cmc_id": 28301,
       "cmc_slug": "memetic",
       "cmc_symbol": "MEME",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "MERL": {
       "cmc_id": 30712,
@@ -2501,10 +2501,10 @@
       "match_type": "exact"
     },
     "QUICK": {
-      "cmc_id": 8206,
+      "cmc_id": 19966,
       "cmc_slug": "quickswap",
       "cmc_symbol": "QUICK",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "RAD": {
       "cmc_id": 6843,
@@ -2687,10 +2687,10 @@
       "match_type": "exact"
     },
     "SCR": {
-      "cmc_id": 3094,
+      "cmc_id": 26998,
       "cmc_slug": "scorum-coins",
       "cmc_symbol": "SCR",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "SCRT": {
       "cmc_id": 5604,
@@ -2801,10 +2801,10 @@
       "match_type": "exact"
     },
     "SOPH": {
-      "cmc_id": 27486,
+      "cmc_id": 32087,
       "cmc_slug": "sophiaverse",
       "cmc_symbol": "SOPH",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "SPELL": {
       "cmc_id": 11289,
@@ -2873,10 +2873,10 @@
       "match_type": "exact"
     },
     "STRK": {
-      "cmc_id": 8911,
+      "cmc_id": 22691,
       "cmc_slug": "strike",
       "cmc_symbol": "STRK",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "STX": {
       "cmc_id": 4847,
@@ -3107,10 +3107,10 @@
       "match_type": "exact"
     },
     "TST": {
-      "cmc_id": 31934,
+      "cmc_id": 35647,
       "cmc_slug": "teleport-system-token",
       "cmc_symbol": "TST",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "TURBO": {
       "cmc_id": 24911,
@@ -3131,10 +3131,10 @@
       "match_type": "exact"
     },
     "TUT": {
-      "cmc_id": 14349,
+      "cmc_id": 35892,
       "cmc_slug": "tutellus",
       "cmc_symbol": "TUT",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "TWT": {
       "cmc_id": 5964,
@@ -3353,10 +3353,10 @@
       "match_type": "exact"
     },
     "XAI": {
-      "cmc_id": 11726,
+      "cmc_id": 28933,
       "cmc_slug": "sideshift-token",
       "cmc_symbol": "XAI",
-      "match_type": "exact"
+      "match_type": "manual"
     },
     "XAN": {
       "cmc_id": 38481,
@@ -3549,6 +3549,48 @@
       "cmc_slug": "bianrensheng",
       "cmc_symbol": "币安人生",
       "match_type": "exact"
+    },
+    "CC": {
+      "cmc_id": 37263,
+      "cmc_slug": "cc",
+      "cmc_symbol": "CC",
+      "match_type": "manual"
+    },
+    "AT": {
+      "cmc_id": 38757,
+      "cmc_slug": "apro",
+      "cmc_symbol": "AT",
+      "match_type": "manual"
+    },
+    "KITE": {
+      "cmc_id": 38828,
+      "cmc_slug": "kite",
+      "cmc_symbol": "KITE",
+      "match_type": "manual"
+    },
+    "COMMON": {
+      "cmc_id": 38775,
+      "cmc_slug": "common",
+      "cmc_symbol": "COMMON",
+      "match_type": "manual"
+    },
+    "ON": {
+      "cmc_id": 38750,
+      "cmc_slug": "orochi-network",
+      "cmc_symbol": "ON",
+      "match_type": "manual"
+    },
+    "APR": {
+      "cmc_id": 38569,
+      "cmc_slug": "apriori",
+      "cmc_symbol": "APR",
+      "match_type": "manual"
+    },
+    "42": {
+      "cmc_id": 38771,
+      "cmc_slug": "semantic-layer",
+      "cmc_symbol": "42",
+      "match_type": "manual"
     }
   }
 }

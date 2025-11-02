@@ -285,6 +285,7 @@ def update_trading_data(symbols: List[str] = None, perp_only_flag: bool = False,
     success_count = 0
     error_count = 0
     skipped_count = 0
+    failed_symbols = []  # Track failed symbols for retry
     
     for i, symbol in enumerate(symbols_to_update, 1):
         try:
@@ -355,6 +356,90 @@ def update_trading_data(symbols: List[str] = None, perp_only_flag: bool = False,
         except Exception as e:
             print(f"  ❌ Failed: {e}")
             error_count += 1
+            failed_symbols.append(symbol)
+    
+    # Retry failed symbols
+    if failed_symbols:
+        print(f"\n🔄 Retrying {len(failed_symbols)} failed symbols...\n")
+        retry_success = 0
+        retry_failed = []
+        
+        for i, symbol in enumerate(failed_symbols, 1):
+            try:
+                print(f"[Retry {i}/{len(failed_symbols)}] {symbol}")
+                
+                # Check if page exists
+                existing_page = notion_client.get_page_by_symbol(symbol)
+                if not existing_page:
+                    print(f"  ⚠️  Page not found in Notion, skipping")
+                    retry_failed.append(symbol)
+                    continue
+                
+                # Fetch Binance data
+                is_perp_only = False
+                if perp_only_flag:
+                    is_perp_only = True
+                elif perp_only_set is not None:
+                    try:
+                        if symbol.upper() in perp_only_set:
+                            is_perp_only = True
+                    except Exception:
+                        pass
+
+                if is_perp_only:
+                    print(f"  ℹ️  Skipping spot fetch for perp-only symbol: {symbol}")
+                    spot_data = None
+                else:
+                    spot_data = fetcher.fetch_spot_data(symbol)
+
+                perp_data = fetcher.fetch_perp_data(symbol)
+                
+                if not spot_data and not perp_data:
+                    print(f"  ⚠️  No data available, skipping")
+                    retry_failed.append(symbol)
+                    continue
+                
+                # Build properties
+                properties = build_trading_properties(symbol, spot_data, perp_data)
+                
+                if not properties:
+                    print(f"  ⚠️  No properties to update, skipping")
+                    retry_failed.append(symbol)
+                    continue
+                
+                # Update Notion
+                page_id = existing_page['id']
+                notion_client.update_page(page_id, properties)
+                
+                # Show what was updated
+                info_parts = []
+                if spot_data and spot_data.get("spot_price"):
+                    info_parts.append(f"Spot: ${spot_data['spot_price']:.4f}")
+                if perp_data and perp_data.get("perp_price"):
+                    info_parts.append(f"Perp: ${perp_data['perp_price']:.4f}")
+                if perp_data and perp_data.get("funding_rate"):
+                    info_parts.append(f"FR: {perp_data['funding_rate']*100:.4f}%")
+                
+                info_str = " | ".join(info_parts) if info_parts else "updated"
+                print(f"  ✅ {info_str}")
+                
+                retry_success += 1
+                
+                # Rate limiting
+                time.sleep(0.5)
+                
+            except Exception as e:
+                print(f"  ❌ Failed again: {e}")
+                retry_failed.append(symbol)
+        
+        # Update final counts
+        success_count += retry_success
+        error_count = len(retry_failed)
+        
+        if retry_success > 0:
+            print(f"\n✅ Retry successful: {retry_success} symbols")
+        if retry_failed:
+            print(f"❌ Still failed after retry: {', '.join(retry_failed)}")
     
     print(f"\n✨ Update complete!")
     print(f"  Success: {success_count}")

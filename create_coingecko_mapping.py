@@ -59,7 +59,7 @@ def create_binance_coingecko_mapping():
         })
     
     # Match Binance symbols to CoinGecko IDs
-    print("🔗 匹配Binance代币到CoinGecko...")
+    print("🔗 匹配Binance代币到CoinGecko (按市值优先)...")
     
     # Enhanced major coins mapping
     major_coins = {
@@ -145,10 +145,33 @@ def create_binance_coingecko_mapping():
     
     mapping_results = {}
     matched_count = 0
+    match_details = []  # Track details for review
+    
+    # Fetch market cap data for better matching
+    print("📊 获取CoinGecko市值数据...")
+    try:
+        market_url = 'https://api.coingecko.com/api/v3/coins/markets'
+        market_params = {
+            'vs_currency': 'usd',
+            'order': 'market_cap_desc',
+            'per_page': 250,
+            'page': 1
+        }
+        market_response = requests.get(market_url, params=market_params, timeout=15)
+        market_data = market_response.json() if market_response.status_code == 200 else []
+        
+        # Create market cap index
+        market_cap_index = {coin['id']: coin.get('market_cap', 0) for coin in market_data}
+        print(f"✅ 获取到 {len(market_cap_index)} 个代币的市值数据")
+        time.sleep(2)
+    except Exception as e:
+        print(f"⚠️  无法获取市值数据: {e}")
+        market_cap_index = {}
     
     for symbol in binance_symbols:
         coingecko_id = None
         match_type = "none"
+        candidates_info = []
         
         # Check major coins first
         if symbol.upper() in major_coins:
@@ -175,10 +198,31 @@ def create_binance_coingecko_mapping():
                         matched_count += 1
                         break
                     else:
-                        # Multiple matches - take first one (could be improved)
-                        coingecko_id = candidates[0]['id']
-                        match_type = "multiple"
+                        # Multiple matches - sort by market cap if available
+                        candidates_with_mc = []
+                        for c in candidates:
+                            mc = market_cap_index.get(c['id'], 0)
+                            candidates_with_mc.append({
+                                **c,
+                                'market_cap': mc
+                            })
+                        
+                        # Sort by market cap (highest first)
+                        candidates_with_mc.sort(key=lambda x: x['market_cap'], reverse=True)
+                        
+                        # Pick the one with highest market cap
+                        best_candidate = candidates_with_mc[0]
+                        coingecko_id = best_candidate['id']
+                        match_type = "multiple_mcap"
                         matched_count += 1
+                        
+                        # Store candidate info for review
+                        candidates_info = [{
+                            'id': c['id'],
+                            'name': c['name'],
+                            'market_cap': c['market_cap']
+                        } for c in candidates_with_mc[:5]]  # Top 5
+                        
                         break
         
         mapping_results[symbol] = {
@@ -186,6 +230,15 @@ def create_binance_coingecko_mapping():
             'match_type': match_type,
             'timestamp': time.time()
         }
+        
+        # Track for review if multiple candidates
+        if candidates_info:
+            match_details.append({
+                'symbol': symbol,
+                'selected_id': coingecko_id,
+                'candidates': candidates_info,
+                'total_candidates': len(candidates_info)
+            })
         
         if coingecko_id:
             print(f"✅ {symbol} -> {coingecko_id} ({match_type})")
@@ -197,7 +250,7 @@ def create_binance_coingecko_mapping():
     print(f"  匹配成功: {matched_count}")
     print(f"  匹配率: {matched_count/len(binance_symbols)*100:.1f}%")
     
-    # Save to file
+    # Save main mapping to file
     output_file = Path('binance_coingecko_mapping.json')
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump({
@@ -212,6 +265,28 @@ def create_binance_coingecko_mapping():
     
     print(f"💾 映射文件已保存到: {output_file}")
     print(f"📄 文件大小: {output_file.stat().st_size / 1024:.1f} KB")
+    
+    # Save review file for multiple matches
+    if match_details:
+        review_file = Path('coingecko_mapping_review.json')
+        with open(review_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                'metadata': {
+                    'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
+                    'note': 'Tokens with multiple CoinGecko matches - sorted by market cap'
+                },
+                'tokens': match_details
+            }, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n⚠️  {len(match_details)} 个代币有多个匹配（已自动选择市值最大的）")
+        print(f"📝 详细信息保存到: {review_file}")
+        print(f"\n建议手动复核的前10个代币:")
+        for detail in match_details[:10]:
+            print(f"  {detail['symbol']:8} -> {detail['selected_id']:30} " + 
+                  f"(共 {detail['total_candidates']} 个候选)")
+            if detail['candidates']:
+                top = detail['candidates'][0]
+                print(f"           市值: ${top['market_cap']:,.0f}")
 
 if __name__ == "__main__":
     create_binance_coingecko_mapping()

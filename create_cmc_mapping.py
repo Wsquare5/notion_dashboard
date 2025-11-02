@@ -63,7 +63,13 @@ def get_binance_symbols():
 
 
 def build_mapping(cmc_list, binance_symbols):
-    """Build symbol->CMC id mapping by symbol match. If multiple CMC entries share the same symbol, pick the highest market cap rank if available."""
+    """Build symbol->CMC id mapping with smart matching.
+    
+    Matching strategy:
+    1. Exact symbol match - pick the one with highest market cap (lowest rank)
+    2. For multiple matches, prefer active status
+    3. Sort by market cap to ensure we pick the most significant coin
+    """
     symbol_map = {}
     cmc_by_symbol = {}
     for item in cmc_list:
@@ -74,17 +80,41 @@ def build_mapping(cmc_list, binance_symbols):
 
     matched = 0
     mapping = {}
+    match_details = []  # Track matching details for review
+    
     for b in binance_symbols:
         candidates = cmc_by_symbol.get(b.upper(), [])
         if candidates:
-            # prefer the one with lowest cmc_rank if available
-            best = sorted(candidates, key=lambda x: (x.get('cmc_rank') or 1e9))[0]
+            # Smart matching: prioritize by rank (market cap proxy) and active status
+            active_candidates = [c for c in candidates if c.get('is_active') == 1]
+            
+            # If we have active candidates, use them; otherwise fall back to all
+            pool = active_candidates if active_candidates else candidates
+            
+            # Sort by rank (lower rank = higher market cap = more significant)
+            # Handle None ranks by putting them at the end
+            best = sorted(pool, key=lambda x: (x.get('rank') or 999999))[0]
+            
             mapping[b] = {
                 'cmc_id': best.get('id'),
                 'cmc_slug': best.get('slug'),
                 'cmc_symbol': best.get('symbol'),
                 'match_type': 'exact'
             }
+            
+            # Track details for review
+            detail = {
+                'symbol': b,
+                'cmc_id': best.get('id'),
+                'name': best.get('name'),
+                'slug': best.get('slug'),
+                'rank': best.get('rank'),
+                'is_active': best.get('is_active'),
+                'total_candidates': len(candidates),
+                'active_candidates': len(active_candidates)
+            }
+            match_details.append(detail)
+            
             matched += 1
         else:
             mapping[b] = {
@@ -93,10 +123,11 @@ def build_mapping(cmc_list, binance_symbols):
                 'cmc_symbol': None,
                 'match_type': 'none'
             }
-    return mapping, matched
+    
+    return mapping, matched, match_details
 
 
-def save_mapping(mapping):
+def save_mapping(mapping, match_details=None):
     out = {
         'metadata': {
             'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
@@ -107,6 +138,30 @@ def save_mapping(mapping):
     with open('binance_cmc_mapping.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
     print('Saved mapping to binance_cmc_mapping.json')
+    
+    # Save match details for review
+    if match_details:
+        # Sort by multiple candidates (potential issues) and then by rank
+        review_candidates = [d for d in match_details if d['total_candidates'] > 1]
+        review_candidates.sort(key=lambda x: (-x['total_candidates'], x['rank'] or 999999))
+        
+        review_out = {
+            'metadata': {
+                'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
+                'note': 'Tokens with multiple CMC matches - review recommended'
+            },
+            'tokens': review_candidates
+        }
+        
+        with open('cmc_mapping_review.json', 'w', encoding='utf-8') as f:
+            json.dump(review_out, f, indent=2, ensure_ascii=False)
+        
+        if review_candidates:
+            print(f'\n⚠️  {len(review_candidates)} tokens have multiple CMC matches')
+            print('Review file created: cmc_mapping_review.json')
+            print('\nTop 10 tokens to review (most candidates):')
+            for d in review_candidates[:10]:
+                print(f"  {d['symbol']:8} - {d['name']:30} (Rank: {d['rank'] or 'N/A':>6}) [{d['total_candidates']} candidates]")
 
 
 if __name__ == '__main__':
@@ -123,12 +178,15 @@ if __name__ == '__main__':
     binance_symbols = get_binance_symbols()
     print(f'Binance symbols: {len(binance_symbols)}')
 
-    mapping, matched = build_mapping(coins, binance_symbols)
+    mapping, matched, match_details = build_mapping(coins, binance_symbols)
     print(f'Matched {matched}/{len(binance_symbols)}')
 
-    save_mapping(mapping)
+    save_mapping(mapping, match_details)
 
     # Print unmatched
     unmatched = [s for s, info in mapping.items() if not info['cmc_id']]
-    print('Unmatched tokens:')
-    print(unmatched)
+    if unmatched:
+        print(f'\n❌ {len(unmatched)} unmatched tokens:')
+        print(', '.join(unmatched[:20]))
+        if len(unmatched) > 20:
+            print(f'   ... and {len(unmatched) - 20} more')
