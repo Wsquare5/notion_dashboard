@@ -13,9 +13,10 @@ Expected speedup: 3 hours -> 15-20 minutes for 603 coins
 import json
 import time
 import argparse
+import requests
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional, Set
 
 # Import the existing modules
 import sys
@@ -41,6 +42,36 @@ MAX_WORKERS = 20  # Parallel workers for Binance API calls
 NOTION_BATCH_SIZE = 10  # Notion API batch update size
 
 
+def get_binance_symbols() -> Tuple[Set[str], Set[str], Set[str]]:
+    """
+    Get all Binance symbols and classify them
+    Returns: (all_perp_symbols, spot_symbols, perp_only_symbols)
+    """
+    # Get all perpetual contracts
+    try:
+        perp_response = requests.get("https://fapi.binance.com/fapi/v1/exchangeInfo", timeout=10)
+        perp_response.raise_for_status()
+        perp_symbols = {s['symbol'].replace('USDT', '') for s in perp_response.json()['symbols'] 
+                       if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}
+    except Exception as e:
+        print(f"❌ Failed to fetch perpetual contracts: {e}")
+        return set(), set(), set()
+    
+    # Get all spot pairs
+    try:
+        spot_response = requests.get("https://api.binance.com/api/v3/exchangeInfo", timeout=10)
+        spot_response.raise_for_status()
+        spot_symbols = {s['symbol'].replace('USDT', '') for s in spot_response.json()['symbols'] 
+                       if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}
+    except Exception as e:
+        print(f"❌ Failed to fetch spot pairs: {e}")
+        return perp_symbols, set(), perp_symbols
+    
+    perp_only_symbols = perp_symbols - spot_symbols
+    
+    return perp_symbols, spot_symbols, perp_only_symbols
+
+
 def load_all_notion_pages(notion: NotionClient) -> Dict[str, Dict]:
     """
     Batch load all pages from Notion database
@@ -51,34 +82,18 @@ def load_all_notion_pages(notion: NotionClient) -> Dict[str, Dict]:
     
     pages_by_symbol = {}
     try:
-        # Query all pages from database
-        has_more = True
-        start_cursor = None
-        page_count = 0
+        # Use the NotionClient's query_database method
+        all_pages = notion.query_database()
         
-        while has_more:
-            response = notion.notion.databases.query(
-                database_id=notion.database_id,
-                start_cursor=start_cursor,
-                page_size=100  # Max allowed by Notion API
-            )
-            
-            for page in response.get('results', []):
-                # Extract symbol from title
-                title_prop = page.get('properties', {}).get('Symbol', {})
-                if title_prop.get('title'):
-                    symbol = title_prop['title'][0]['text']['content']
-                    pages_by_symbol[symbol] = page
-                    page_count += 1
-            
-            has_more = response.get('has_more', False)
-            start_cursor = response.get('next_cursor')
-            
-            if has_more:
-                time.sleep(0.3)  # Rate limiting between pagination
+        for page in all_pages:
+            # Extract symbol from title
+            title_prop = page.get('properties', {}).get('Symbol', {})
+            if title_prop.get('title'):
+                symbol = title_prop['title'][0]['text']['content']
+                pages_by_symbol[symbol] = page
         
         elapsed = time.time() - start
-        print(f"✅ Loaded {page_count} pages in {elapsed:.1f}s")
+        print(f"✅ Loaded {len(pages_by_symbol)} pages in {elapsed:.1f}s")
         
     except Exception as e:
         print(f"❌ Failed to load Notion pages: {e}")
@@ -218,7 +233,8 @@ Examples:
     
     # Load mappings
     with CMC_MAPPING_FILE.open('r') as f:
-        cmc_mapping = json.load(f)
+        cmc_data = json.load(f)
+        cmc_mapping = cmc_data.get('mapping', {})
     
     blacklist = set()
     if BLACKLIST_FILE.exists():
@@ -229,10 +245,7 @@ Examples:
     db_props = notion.get_database_properties()
     
     # Get all symbols
-    perp_symbols = BinanceDataFetcher.get_all_perp_symbols()
-    spot_symbols = BinanceDataFetcher.get_all_spot_symbols()
-    
-    perp_only_symbols = perp_symbols - spot_symbols
+    perp_symbols, spot_symbols, perp_only_symbols = get_binance_symbols()
     spot_and_perp_symbols = perp_symbols & spot_symbols
     
     all_symbols = sorted(list(perp_symbols))
