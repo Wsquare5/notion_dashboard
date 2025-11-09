@@ -404,6 +404,7 @@ def sync_tokens_to_notion(symbols: List[str] = None, limit: int = None):
     
     success_count = 0
     error_count = 0
+    failed_symbols = []
     
     for symbol, cmc_id in symbol_to_id.items():
         try:
@@ -464,10 +465,83 @@ def sync_tokens_to_notion(symbols: List[str] = None, limit: int = None):
         except Exception as e:
             print(f"  ❌ Failed: {symbol} - {e}")
             error_count += 1
+            failed_symbols.append(symbol)
     
     print(f"\n✨ Sync complete!")
     print(f"  Success: {success_count}")
     print(f"  Errors: {error_count}")
+    
+    # Retry failed symbols until all succeed
+    retry_round = 1
+    while failed_symbols and retry_round <= 5:
+        print(f"\n🔄 Retry round {retry_round}: {len(failed_symbols)} failed symbols...")
+        time.sleep(2)  # Wait before retry
+        
+        retry_failed = []
+        retry_success = 0
+        
+        for symbol in failed_symbols:
+            try:
+                cmc_id = symbol_to_id.get(symbol)
+                if not cmc_id:
+                    continue
+                
+                cmc_id_str = str(cmc_id)
+                metadata = all_metadata.get(cmc_id_str, {})
+                quote = all_quotes.get(cmc_id_str, {})
+                
+                # Build properties
+                result = build_notion_properties(symbol, metadata, quote, verbose=True)
+                if isinstance(result, tuple):
+                    properties, extra_info = result
+                else:
+                    properties = result
+                    extra_info = {}
+                
+                # Extract logo URL
+                logo_url = None
+                if metadata and 'logo' in metadata:
+                    logo_url = metadata['logo']
+                
+                # Check if page exists
+                existing_page = notion_client.get_page_by_symbol(symbol)
+                
+                if existing_page:
+                    page_id = existing_page['id']
+                    notion_client.update_page(page_id, properties, icon_url=logo_url)
+                    action = "Updated"
+                else:
+                    properties["Symbol"] = {
+                        "title": [{"text": {"content": symbol}}]
+                    }
+                    notion_client.create_page(properties, icon_url=logo_url)
+                    action = "Created"
+                
+                print(f"  ✅ {action}: {symbol}")
+                retry_success += 1
+                success_count += 1
+                error_count -= 1
+                
+                time.sleep(0.3)
+                
+            except Exception as e:
+                print(f"  ❌ Still failing: {symbol} - {str(e)[:60]}...")
+                retry_failed.append(symbol)
+        
+        print(f"  Retry result: {retry_success}/{len(failed_symbols)} recovered")
+        failed_symbols = retry_failed
+        retry_round += 1
+    
+    if failed_symbols:
+        print(f"\n⚠️  {len(failed_symbols)} symbols still failed after retries: {', '.join(failed_symbols[:10])}")
+        if len(failed_symbols) > 10:
+            print(f"    ... and {len(failed_symbols) - 10} more")
+    else:
+        print(f"\n🎉 All symbols synced successfully!")
+    
+    print(f"\n=== Final Statistics ===")
+    print(f"✅ Total Success: {success_count}")
+    print(f"❌ Total Errors: {error_count}")
 
 
 def main():

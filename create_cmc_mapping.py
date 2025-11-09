@@ -27,23 +27,52 @@ def fetch_cmc_map(api_key: str) -> list:
     start = 1
     limit = 100
     all_coins = []
+    max_retries = 3
 
     while True:
         params = {'start': start, 'limit': limit}
         print(f"Fetching CMC map start={start} limit={limit}...")
-        resp = requests.get(base_url, headers=headers, params=params, timeout=15)
-        if resp.status_code != 200:
-            print(f"Error fetching CMC map: {resp.status_code} {resp.text}")
-            break
-        data = resp.json()
-        if 'data' not in data:
-            break
-        batch = data['data']
-        all_coins.extend(batch)
-        if len(batch) < limit:
-            break
-        start += limit
-        time.sleep(1)  # modest delay
+        
+        # 添加重试机制
+        for attempt in range(max_retries):
+            try:
+                resp = requests.get(base_url, headers=headers, params=params, timeout=15)
+                if resp.status_code != 200:
+                    print(f"Error fetching CMC map: {resp.status_code} {resp.text}")
+                    if attempt < max_retries - 1:
+                        print(f"  Retrying... (attempt {attempt + 2}/{max_retries})")
+                        time.sleep(2)
+                        continue
+                    break
+                
+                data = resp.json()
+                if 'data' not in data:
+                    return all_coins
+                
+                batch = data['data']
+                all_coins.extend(batch)
+                print(f"  ✓ Fetched {len(batch)} entries (total: {len(all_coins)})")
+                
+                if len(batch) < limit:
+                    return all_coins
+                
+                start += limit
+                time.sleep(1)  # modest delay
+                break  # 成功，跳出重试循环
+                
+            except Exception as e:
+                print(f"  ⚠️  Error: {e}")
+                if attempt < max_retries - 1:
+                    print(f"  Retrying... (attempt {attempt + 2}/{max_retries})")
+                    time.sleep(3)
+                else:
+                    print(f"  ❌ Max retries reached. Returning {len(all_coins)} entries collected so far.")
+                    return all_coins
+        
+        # 如果所有重试都失败，返回已收集的数据
+        if not batch:
+            return all_coins
+    
     return all_coins
 
 

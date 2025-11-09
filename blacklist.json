@@ -1,0 +1,8 @@
+{
+  "blacklist": [
+    "BTTC",
+    "RAYSOL",
+    "EUR"
+  ],
+  "reason": "这些币种不需要追踪，已从数据库中移除"
+}
