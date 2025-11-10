@@ -1,0 +1,6 @@
+{
+  "database_id": "YOUR_DAILY_MARKET_DATABASE_ID_HERE",
+  "description": "每日行情数据库配置",
+  "update_times": ["09:00", "21:00"],
+  "top_n": 5
+}

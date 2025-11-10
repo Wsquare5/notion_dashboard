@@ -312,7 +312,11 @@ Examples:
     # Load mappings
     with CMC_MAPPING_FILE.open('r') as f:
         cmc_data = json.load(f)
-        cmc_mapping = cmc_data.get('mapping', {})
+        # Handle both formats: direct dict or wrapped in 'mapping' key
+        if 'mapping' in cmc_data:
+            cmc_mapping = cmc_data['mapping']
+        else:
+            cmc_mapping = cmc_data
     
     blacklist = set()
     if BLACKLIST_FILE.exists():
@@ -372,6 +376,7 @@ Examples:
         
         if not spot_data and not perp_data:
             skipped_symbols.append(symbol)
+            print(f"  ⚠️  {symbol}: 跳过 - 没有交易数据")
             continue
         
         page = pages_by_symbol.get(symbol)
@@ -381,8 +386,10 @@ Examples:
             cmc_data = cmc_mapping.get(symbol)
             if not cmc_data:
                 skipped_symbols.append(symbol)
+                print(f"  ⚠️  {symbol}: 跳过 - 没有 CMC mapping")
                 continue
             
+            print(f"  ✅ {symbol}: 准备创建新页面")
             creates_to_process.append({
                 'symbol': symbol,
                 'spot_data': spot_data,

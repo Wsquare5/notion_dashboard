@@ -9,7 +9,10 @@ import json
 import time
 from pathlib import Path
 
-CONFIG_FILE = Path('api_config.json')
+# 获取项目根目录
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+CONFIG_FILE = PROJECT_ROOT / 'config' / 'api_config.json'
 
 
 def load_config():
@@ -156,17 +159,11 @@ def build_mapping(cmc_list, binance_symbols):
     return mapping, matched, match_details
 
 
-def save_mapping(mapping, match_details=None):
-    out = {
-        'metadata': {
-            'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
-            'total_symbols': len(mapping)
-        },
-        'mapping': mapping
-    }
-    with open('binance_cmc_mapping.json', 'w', encoding='utf-8') as f:
+def save_mapping(out, match_details):
+    output_file = PROJECT_ROOT / 'config' / 'binance_cmc_mapping.json'
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
-    print('Saved mapping to binance_cmc_mapping.json')
+    print(f'Saved mapping to {output_file}')
     
     # Save match details for review
     if match_details:
@@ -182,7 +179,8 @@ def save_mapping(mapping, match_details=None):
             'tokens': review_candidates
         }
         
-        with open('cmc_mapping_review.json', 'w', encoding='utf-8') as f:
+        review_file = PROJECT_ROOT / 'config' / 'cmc_mapping_review.json'
+        with open(review_file, 'w', encoding='utf-8') as f:
             json.dump(review_out, f, indent=2, ensure_ascii=False)
         
         if review_candidates:

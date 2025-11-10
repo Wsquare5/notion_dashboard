@@ -282,8 +282,8 @@ class NotionClient:
         }
         self.base_url = 'https://api.notion.com/v1'
     
-    def query_database(self, filter_params: Dict = None) -> List[Dict]:
-        """Query database pages"""
+    def query_database(self, filter_params: Dict = None, max_retries: int = 3) -> List[Dict]:
+        """Query database pages with retry"""
         url = f"{self.base_url}/databases/{self.database_id}/query"
         
         all_results = []
@@ -297,18 +297,25 @@ class NotionClient:
             if start_cursor:
                 payload['start_cursor'] = start_cursor
             
-            try:
-                response = requests.post(url, headers=self.headers, json=payload, timeout=30)
-                response.raise_for_status()
-                result = response.json()
-                
-                all_results.extend(result.get('results', []))
-                has_more = result.get('has_more', False)
-                start_cursor = result.get('next_cursor')
-                
-            except Exception as e:
-                print(f"❌ Error querying Notion: {e}")
-                break
+            # Retry logic for each page
+            for attempt in range(max_retries):
+                try:
+                    response = requests.post(url, headers=self.headers, json=payload, timeout=30)
+                    response.raise_for_status()
+                    result = response.json()
+                    
+                    all_results.extend(result.get('results', []))
+                    has_more = result.get('has_more', False)
+                    start_cursor = result.get('next_cursor')
+                    break  # Success, exit retry loop
+                    
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        print(f"⚠️  Error querying Notion (attempt {attempt + 1}/{max_retries}): {e}")
+                        time.sleep(2)  # Wait before retry
+                    else:
+                        print(f"❌ Error querying Notion after {max_retries} attempts: {e}")
+                        return all_results  # Return partial results instead of breaking
         
         return all_results
 

@@ -13,36 +13,28 @@ def print_menu():
     print("🚀 Binance Trading Data Update Menu")
     print("="*80)
     print("\n请选择更新模式：\n")
-    print("  [1] 快速更新 - 只更新实时数据（价格、交易量、资金费率等）")
-    print("      • 速度最快，不调用 CMC API，不更新静态字段")
-    print("      • 推荐日常使用（每1-4小时）")
+    print("  [1] ⚡️ 更新 Binance 基本交易数据")
+    print("      • 价格、交易量、资金费率等实时数据")
+    print("      • 极速并行处理（8分钟完成）")
+    print("      • 推荐日常使用")
     print()
-    print("  [2] 更新静态字段 - 实时数据 + Funding Cycle + Categories + Index Composition")
-    print("      • 不调用 CMC API，速度较快")
-    print("      • 推荐不定期运行（当有新币上市或分类变化时）")
+    print("  [2] ⚡️ 更新 Binance + 静态字段")
+    print("      • 基本交易数据 + Funding Cycle + Categories + Index Composition")
+    print("      • 不调用 CMC API，速度快")
+    print("      • 推荐不定期运行（有新币上市或分类变化时）")
     print()
-    print("  [3] 完整更新 - 实时数据 + 供应量 + 静态字段")
-    print("      • 调用 CMC API，速度较慢")
-    print("      • 推荐每天运行1次或有需要时使用")
+    print("  [3] ⚡️ 更新完整的 Binance + 静态字段 + CMC 供应量")
+    print("      • 基本交易数据 + 静态字段 + CMC 供应量")
+    print("      • 调用 CMC API，最完整的数据")
+    print("      • 推荐每天运行1次")
     print()
-    print("  [4] 指定币种快速更新 - 只更新实时数据")
-    print("      • 只更新指定币种的实时数据")
+    print("  [4] 🎯 指定币种完整更新")
+    print("      • 输入币种符号，完整更新指定币种")
+    print("      • 包含实时数据 + 静态字段 + CMC 供应量")
     print()
-    print("  [5] 指定币种 + 静态字段")
-    print("      • 更新指定币种 + Funding Cycle + Categories + Index Composition")
-    print()
-    print("  [6] 指定币种 + 完整元数据")
-    print("      • 更新指定币种 + 供应量 + 静态字段")
-    print()
-    print("  [7] ⚡️ 极速更新 - 并行处理（快12倍！）")
-    print("      • 使用多线程并行获取数据")
-    print("      • 3小时 → 15分钟")
-    print()
-    print("  [8] ⚡️ 极速更新 + 静态字段")
-    print("      • 并行处理 + Funding Cycle + Categories + Index Composition")
-    print()
-    print("  [9] ⚡️ 极速完整更新")
-    print("      • 并行处理 + 供应量 + 静态字段")
+    print("  [5] 📊 每日行情总结")
+    print("      • 生成涨跌幅前5名总结并写入 Notion")
+    print("      • 只统计有合约价格的币种")
     print()
     print("  [0] 退出")
     print("\n" + "="*80)
@@ -82,74 +74,46 @@ def main():
     while True:
         print_menu()
         
-        choice = input("请选择操作 [0-9]: ").strip()
+        choice = input("请选择操作 [0-5]: ").strip().upper()
         
         if choice == '0':
             print("\n👋 再见！")
             sys.exit(0)
         
         elif choice == '1':
-            # 快速更新 - 只更新实时数据
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py"
-            if run_update(cmd, "快速更新所有币种（实时数据）"):
+            # 更新 Binance 基本交易数据（极速）
+            cmd = f"cd {script_dir} && python3 update.py"
+            if run_update(cmd, "⚡️ 更新 Binance 基本交易数据"):
                 input("\n按 Enter 键继续...")
         
         elif choice == '2':
-            # 更新静态字段
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields"
-            if run_update(cmd, "更新所有币种 + 静态字段"):
+            # 更新 Binance + 静态字段（极速）
+            cmd = f"cd {script_dir} && python3 update.py --update-static-fields"
+            if run_update(cmd, "⚡️ 更新 Binance + 静态字段"):
                 input("\n按 Enter 键继续...")
         
         elif choice == '3':
-            # 完整更新
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-metadata"
-            if run_update(cmd, "完整更新所有币种（实时数据 + 供应量 + 静态字段）"):
+            # 完整更新（极速 + CMC）
+            cmd = f"cd {script_dir} && python3 update.py --update-metadata"
+            if run_update(cmd, "⚡️ 更新完整的 Binance + 静态字段 + CMC 供应量"):
                 input("\n按 Enter 键继续...")
         
         elif choice == '4':
-            # 指定币种更新
+            # 指定币种完整更新
             symbols = get_symbols_input()
             if symbols:
-                cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py {symbols}"
-                if run_update(cmd, f"快速更新币种：{symbols}"):
+                cmd = f"cd {script_dir} && python3 update.py --update-metadata {symbols}"
+                if run_update(cmd, f"🎯 指定币种完整更新：{symbols}"):
                     input("\n按 Enter 键继续...")
         
         elif choice == '5':
-            # 指定币种 + 静态字段
-            symbols = get_symbols_input()
-            if symbols:
-                cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields {symbols}"
-                if run_update(cmd, f"更新币种 + 静态字段：{symbols}"):
-                    input("\n按 Enter 键继续...")
-        
-        elif choice == '6':
-            # 指定币种 + 完整元数据
-            symbols = get_symbols_input()
-            if symbols:
-                cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-metadata {symbols}"
-                if run_update(cmd, f"完整更新币种：{symbols}"):
-                    input("\n按 Enter 键继续...")
-        
-        elif choice == '7':
-            # 极速更新
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data_fast.py"
-            if run_update(cmd, "⚡️ 极速更新所有币种（并行处理，快12倍！）"):
-                input("\n按 Enter 键继续...")
-        
-        elif choice == '8':
-            # 极速更新 + 静态字段
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data_fast.py --update-static-fields"
-            if run_update(cmd, "⚡️ 极速更新 + 静态字段（并行处理）"):
-                input("\n按 Enter 键继续...")
-        
-        elif choice == '9':
-            # 极速完整更新
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data_fast.py --update-metadata"
-            if run_update(cmd, "⚡️ 极速完整更新（并行处理 + 供应量）"):
+            # 每日行情总结
+            cmd = f"cd {script_dir} && python3 scripts/daily_market_summary.py"
+            if run_update(cmd, "📊 生成每日行情总结"):
                 input("\n按 Enter 键继续...")
         
         else:
-            print("\n❌ 无效选项，请输入 0-9")
+            print("\n❌ 无效选项，请输入 0-5")
             input("\n按 Enter 键继续...")
 
 if __name__ == '__main__':

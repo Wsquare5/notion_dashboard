@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2025-11-06 13:57:20",
+    "created_at": "2025-11-10 21:10:53",
     "note": "Tokens with multiple CMC matches - review recommended"
   },
   "tokens": [
@@ -9,7 +9,7 @@
       "cmc_id": 24478,
       "name": "Pepe",
       "slug": "pepe",
-      "rank": 41,
+      "rank": 40,
       "is_active": 1,
       "total_candidates": 21,
       "active_candidates": 21
@@ -19,7 +19,7 @@
       "cmc_id": 35336,
       "name": "OFFICIAL TRUMP",
       "slug": "official-trump",
-      "rank": 49,
+      "rank": 51,
       "is_active": 1,
       "total_candidates": 17,
       "active_candidates": 17
@@ -39,7 +39,7 @@
       "cmc_id": 33251,
       "name": "World Liberty Financial",
       "slug": "world-liberty-financial-wlfi",
-      "rank": 33,
+      "rank": 31,
       "is_active": 1,
       "total_candidates": 9,
       "active_candidates": 9
@@ -59,7 +59,7 @@
       "cmc_id": 28846,
       "name": "Sleepless AI",
       "slug": "sleepless-ai",
-      "rank": 709,
+      "rank": 704,
       "is_active": 1,
       "total_candidates": 8,
       "active_candidates": 8
@@ -69,17 +69,7 @@
       "cmc_id": 5994,
       "name": "Shiba Inu",
       "slug": "shiba-inu",
-      "rank": 24,
-      "is_active": 1,
-      "total_candidates": 6,
-      "active_candidates": 6
-    },
-    {
-      "symbol": "PUMP",
-      "cmc_id": 36507,
-      "name": "Pump.fun",
-      "slug": "pump-fun",
-      "rank": 53,
+      "rank": 23,
       "is_active": 1,
       "total_candidates": 6,
       "active_candidates": 6
@@ -89,17 +79,27 @@
       "cmc_id": 32698,
       "name": "DOGS",
       "slug": "dogs",
-      "rank": 732,
+      "rank": 707,
       "is_active": 1,
       "total_candidates": 6,
       "active_candidates": 6
+    },
+    {
+      "symbol": "PUMP",
+      "cmc_id": 36507,
+      "name": "Pump.fun",
+      "slug": "pump-fun",
+      "rank": 54,
+      "is_active": 1,
+      "total_candidates": 5,
+      "active_candidates": 5
     },
     {
       "symbol": "BRETT",
       "cmc_id": 29743,
       "name": "Brett (Based)",
       "slug": "based-brett",
-      "rank": 163,
+      "rank": 160,
       "is_active": 1,
       "total_candidates": 5,
       "active_candidates": 5
@@ -109,7 +109,7 @@
       "cmc_id": 28301,
       "name": "Memecoin",
       "slug": "meme",
-      "rank": 334,
+      "rank": 319,
       "is_active": 1,
       "total_candidates": 5,
       "active_candidates": 5
@@ -119,7 +119,7 @@
       "cmc_id": 32198,
       "name": "Babylon",
       "slug": "babylon",
-      "rank": 376,
+      "rank": 367,
       "is_active": 1,
       "total_candidates": 5,
       "active_candidates": 5
@@ -129,27 +129,7 @@
       "cmc_id": 32521,
       "name": "Neiro",
       "slug": "neiro",
-      "rank": 391,
-      "is_active": 1,
-      "total_candidates": 5,
-      "active_candidates": 5
-    },
-    {
-      "symbol": "BANK",
-      "cmc_id": 36296,
-      "name": "Lorenzo Protocol",
-      "slug": "lorenzo-protocol",
-      "rank": 507,
-      "is_active": 1,
-      "total_candidates": 5,
-      "active_candidates": 5
-    },
-    {
-      "symbol": "BANANA",
-      "cmc_id": 28066,
-      "name": "Banana Gun",
-      "slug": "banana-gun",
-      "rank": 547,
+      "rank": 380,
       "is_active": 1,
       "total_candidates": 5,
       "active_candidates": 5
@@ -159,6 +139,26 @@
       "cmc_id": 28933,
       "name": "Xai",
       "slug": "xai-games",
+      "rank": 548,
+      "is_active": 1,
+      "total_candidates": 5,
+      "active_candidates": 5
+    },
+    {
+      "symbol": "BANK",
+      "cmc_id": 36296,
+      "name": "Lorenzo Protocol",
+      "slug": "lorenzo-protocol",
+      "rank": 551,
+      "is_active": 1,
+      "total_candidates": 5,
+      "active_candidates": 5
+    },
+    {
+      "symbol": "BANANA",
+      "cmc_id": 28066,
+      "name": "Banana Gun",
+      "slug": "banana-gun",
       "rank": 566,
       "is_active": 1,
       "total_candidates": 5,
@@ -169,27 +169,17 @@
       "cmc_id": 20874,
       "name": "MilkyWay",
       "slug": "milkyway",
-      "rank": 1096,
+      "rank": 1084,
       "is_active": 1,
       "total_candidates": 5,
       "active_candidates": 5
-    },
-    {
-      "symbol": "BONK",
-      "cmc_id": 23095,
-      "name": "Bonk",
-      "slug": "bonk1",
-      "rank": 68,
-      "is_active": 1,
-      "total_candidates": 4,
-      "active_candidates": 4
     },
     {
       "symbol": "FLOKI",
       "cmc_id": 10804,
       "name": "FLOKI",
       "slug": "floki-inu",
-      "rank": 92,
+      "rank": 95,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -199,7 +189,7 @@
       "cmc_id": 28752,
       "name": "dogwifhat",
       "slug": "dogwifhat",
-      "rank": 114,
+      "rank": 111,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -209,7 +199,7 @@
       "cmc_id": 24911,
       "name": "Turbo",
       "slug": "turbo",
-      "rank": 264,
+      "rank": 249,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -219,7 +209,7 @@
       "cmc_id": 29073,
       "name": "Altlayer",
       "slug": "altlayer",
-      "rank": 339,
+      "rank": 351,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -229,7 +219,17 @@
       "cmc_id": 30746,
       "name": "BounceBit",
       "slug": "bouncebit",
-      "rank": 355,
+      "rank": 365,
+      "is_active": 1,
+      "total_candidates": 4,
+      "active_candidates": 4
+    },
+    {
+      "symbol": "XUSD",
+      "cmc_id": 32372,
+      "name": "StraitsX USD",
+      "slug": "straitsx-xusd",
+      "rank": 433,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -239,7 +239,7 @@
       "cmc_id": 35051,
       "name": "Sonic SVM",
       "slug": "sonic-svm",
-      "rank": 488,
+      "rank": 483,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -249,7 +249,7 @@
       "cmc_id": 33440,
       "name": "Goatseus Maximus",
       "slug": "goatseus-maximus",
-      "rank": 513,
+      "rank": 486,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -269,7 +269,7 @@
       "cmc_id": 34926,
       "name": "AI Rig Complex",
       "slug": "ai-rig-complex",
-      "rank": 704,
+      "rank": 693,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -279,7 +279,7 @@
       "cmc_id": 5227,
       "name": "Atletico De Madrid Fan Token",
       "slug": "atletico-de-madrid-fan-token",
-      "rank": 1216,
+      "rank": 1233,
       "is_active": 1,
       "total_candidates": 4,
       "active_candidates": 4
@@ -315,16 +315,6 @@
       "active_candidates": 3
     },
     {
-      "symbol": "USD1",
-      "cmc_id": 36148,
-      "name": "World Liberty Financial USD",
-      "slug": "usd1",
-      "rank": 34,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
       "symbol": "ARB",
       "cmc_id": 11841,
       "name": "Arbitrum",
@@ -335,11 +325,21 @@
       "active_candidates": 3
     },
     {
+      "symbol": "BONK",
+      "cmc_id": 23095,
+      "name": "Bonk",
+      "slug": "bonk1",
+      "rank": 66,
+      "is_active": 1,
+      "total_candidates": 3,
+      "active_candidates": 3
+    },
+    {
       "symbol": "S",
       "cmc_id": 32684,
       "name": "Sonic",
       "slug": "sonic",
-      "rank": 124,
+      "rank": 121,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -349,7 +349,7 @@
       "cmc_id": 33597,
       "name": "Fartcoin",
       "slug": "fartcoin",
-      "rank": 149,
+      "rank": 137,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -359,7 +359,7 @@
       "cmc_id": 32452,
       "name": "Movement",
       "slug": "movement",
-      "rank": 238,
+      "rank": 192,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -369,7 +369,7 @@
       "cmc_id": 21585,
       "name": "Safe",
       "slug": "safe1",
-      "rank": 254,
+      "rank": 261,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -379,27 +379,7 @@
       "cmc_id": 33788,
       "name": "Peanut the Squirrel",
       "slug": "peanut-the-squirrel",
-      "rank": 284,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "COW",
-      "cmc_id": 19269,
-      "name": "CoW Protocol",
-      "slug": "cow-protocol",
-      "rank": 299,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "SC",
-      "cmc_id": 1042,
-      "name": "Siacoin",
-      "slug": "siacoin",
-      "rank": 302,
+      "rank": 282,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -409,7 +389,27 @@
       "cmc_id": 2682,
       "name": "Holo",
       "slug": "holo",
-      "rank": 303,
+      "rank": 290,
+      "is_active": 1,
+      "total_candidates": 3,
+      "active_candidates": 3
+    },
+    {
+      "symbol": "SC",
+      "cmc_id": 1042,
+      "name": "Siacoin",
+      "slug": "siacoin",
+      "rank": 294,
+      "is_active": 1,
+      "total_candidates": 3,
+      "active_candidates": 3
+    },
+    {
+      "symbol": "COW",
+      "cmc_id": 19269,
+      "name": "CoW Protocol",
+      "slug": "cow-protocol",
+      "rank": 297,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -419,7 +419,7 @@
       "cmc_id": 33093,
       "name": "Moo Deng (moodengsol.com)",
       "slug": "moo-deng-solana",
-      "rank": 326,
+      "rank": 323,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -429,7 +429,7 @@
       "cmc_id": 3945,
       "name": "Harmony",
       "slug": "harmony",
-      "rank": 357,
+      "rank": 347,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -439,27 +439,7 @@
       "cmc_id": 38506,
       "name": "Bitlight",
       "slug": "bitlight",
-      "rank": 386,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "BAN",
-      "cmc_id": 33881,
-      "name": "Comedian",
-      "slug": "comedian",
-      "rank": 405,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "LUNA",
-      "cmc_id": 20314,
-      "name": "Terra",
-      "slug": "terra-luna-v2",
-      "rank": 429,
+      "rank": 393,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -469,17 +449,17 @@
       "cmc_id": 29870,
       "name": "BOOK OF MEME",
       "slug": "book-of-meme",
-      "rank": 434,
+      "rank": 404,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
     },
     {
-      "symbol": "XUSD",
-      "cmc_id": 32372,
-      "name": "StraitsX USD",
-      "slug": "straitsx-xusd",
-      "rank": 476,
+      "symbol": "BAN",
+      "cmc_id": 33881,
+      "name": "Comedian",
+      "slug": "comedian",
+      "rank": 450,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -489,7 +469,7 @@
       "cmc_id": 34958,
       "name": "Tagger",
       "slug": "tagger",
-      "rank": 480,
+      "rank": 456,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -499,17 +479,7 @@
       "cmc_id": 11396,
       "name": "JOE",
       "slug": "joe",
-      "rank": 558,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "TRUST",
-      "cmc_id": 38863,
-      "name": "Intuition",
-      "slug": "intuition",
-      "rank": 561,
+      "rank": 534,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -519,7 +489,7 @@
       "cmc_id": 11706,
       "name": "Acet",
       "slug": "acet",
-      "rank": 567,
+      "rank": 589,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -529,7 +499,7 @@
       "cmc_id": 4206,
       "name": "WINkLink",
       "slug": "wink",
-      "rank": 606,
+      "rank": 598,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -539,7 +509,17 @@
       "cmc_id": 38236,
       "name": "Quack AI",
       "slug": "quack-ai",
-      "rank": 620,
+      "rank": 615,
+      "is_active": 1,
+      "total_candidates": 3,
+      "active_candidates": 3
+    },
+    {
+      "symbol": "TRUST",
+      "cmc_id": 38863,
+      "name": "Intuition",
+      "slug": "intuition",
+      "rank": 621,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -549,7 +529,7 @@
       "cmc_id": 9288,
       "name": "BENQI",
       "slug": "benqi",
-      "rank": 643,
+      "rank": 648,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -559,7 +539,7 @@
       "cmc_id": 36770,
       "name": "Infinity Ground",
       "slug": "infinity-ground",
-      "rank": 670,
+      "rank": 715,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -569,17 +549,7 @@
       "cmc_id": 2776,
       "name": "AVA (Travala)",
       "slug": "ava",
-      "rank": 733,
-      "is_active": 1,
-      "total_candidates": 3,
-      "active_candidates": 3
-    },
-    {
-      "symbol": "DODO",
-      "cmc_id": 7224,
-      "name": "DODO",
-      "slug": "dodo",
-      "rank": 820,
+      "rank": 722,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -589,17 +559,17 @@
       "cmc_id": 28674,
       "name": "Fusionist",
       "slug": "fusionist",
-      "rank": 821,
+      "rank": 763,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
     },
     {
-      "symbol": "FARM",
-      "cmc_id": 6859,
-      "name": "Harvest Finance",
-      "slug": "harvest-finance",
-      "rank": 838,
+      "symbol": "DODO",
+      "cmc_id": 7224,
+      "name": "DODO",
+      "slug": "dodo",
+      "rank": 792,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -609,7 +579,17 @@
       "cmc_id": 35647,
       "name": "Test",
       "slug": "test-token-bsc",
-      "rank": 872,
+      "rank": 886,
+      "is_active": 1,
+      "total_candidates": 3,
+      "active_candidates": 3
+    },
+    {
+      "symbol": "FARM",
+      "cmc_id": 6859,
+      "name": "Harvest Finance",
+      "slug": "harvest-finance",
+      "rank": 931,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -619,7 +599,7 @@
       "cmc_id": 11374,
       "name": "DAR Open Network",
       "slug": "mines-of-dalarnia",
-      "rank": 1044,
+      "rank": 1000,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -629,7 +609,7 @@
       "cmc_id": 37534,
       "name": "PlaysOut",
       "slug": "playsout",
-      "rank": 1049,
+      "rank": 1012,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -639,7 +619,7 @@
       "cmc_id": 7311,
       "name": "Beefy",
       "slug": "beefy-finance",
-      "rank": 1101,
+      "rank": 1087,
       "is_active": 1,
       "total_candidates": 3,
       "active_candidates": 3
@@ -679,7 +659,17 @@
       "cmc_id": 7083,
       "name": "Uniswap",
       "slug": "uniswap",
-      "rank": 30,
+      "rank": 28,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "USD1",
+      "cmc_id": 36148,
+      "name": "World Liberty Financial USD",
+      "slug": "usd1",
+      "rank": 36,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -689,7 +679,7 @@
       "cmc_id": 35491,
       "name": "MemeCore",
       "slug": "memecore",
-      "rank": 38,
+      "rank": 41,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -699,7 +689,7 @@
       "cmc_id": 36341,
       "name": "Aster",
       "slug": "aster",
-      "rank": 43,
+      "rank": 44,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -709,16 +699,6 @@
       "cmc_id": 33038,
       "name": "Sky",
       "slug": "sky",
-      "rank": 60,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "JUP",
-      "cmc_id": 29210,
-      "name": "Jupiter",
-      "slug": "jupiter-ag",
       "rank": 62,
       "is_active": 1,
       "total_candidates": 2,
@@ -735,11 +715,31 @@
       "active_candidates": 2
     },
     {
+      "symbol": "JUP",
+      "cmc_id": 29210,
+      "name": "Jupiter",
+      "slug": "jupiter-ag",
+      "rank": 65,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
       "symbol": "PENGU",
       "cmc_id": 34466,
       "name": "Pudgy Penguins",
       "slug": "pudgy-penguins",
-      "rank": 72,
+      "rank": 70,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "DASH",
+      "cmc_id": 131,
+      "name": "Dash",
+      "slug": "dash",
+      "rank": 71,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -749,7 +749,17 @@
       "cmc_id": 29270,
       "name": "Aerodrome Finance",
       "slug": "aerodrome-finance",
-      "rank": 76,
+      "rank": 74,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "STRK",
+      "cmc_id": 22691,
+      "name": "Starknet",
+      "slug": "starknet-token",
+      "rank": 78,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -765,26 +775,6 @@
       "active_candidates": 2
     },
     {
-      "symbol": "STRK",
-      "cmc_id": 22691,
-      "name": "Starknet",
-      "slug": "starknet-token",
-      "rank": 102,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "ATH",
-      "cmc_id": 30083,
-      "name": "Aethir",
-      "slug": "aethir",
-      "rank": 127,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
       "symbol": "NEO",
       "cmc_id": 1376,
       "name": "Neo",
@@ -795,11 +785,21 @@
       "active_candidates": 2
     },
     {
+      "symbol": "ATH",
+      "cmc_id": 30083,
+      "name": "Aethir",
+      "slug": "aethir",
+      "rank": 130,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
       "symbol": "W",
       "cmc_id": 29587,
       "name": "Wormhole",
       "slug": "wormhole",
-      "rank": 142,
+      "rank": 143,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -809,7 +809,7 @@
       "cmc_id": 33391,
       "name": "DeepBook Protocol",
       "slug": "deepbook-protocol",
-      "rank": 143,
+      "rank": 146,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -819,7 +819,7 @@
       "cmc_id": 18876,
       "name": "ApeCoin",
       "slug": "apecoin-ape",
-      "rank": 144,
+      "rank": 149,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -829,7 +829,7 @@
       "cmc_id": 4157,
       "name": "THORChain",
       "slug": "thorchain",
-      "rank": 152,
+      "rank": 151,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -839,7 +839,17 @@
       "cmc_id": 18679,
       "name": "Onyxcoin",
       "slug": "onyxcoin",
-      "rank": 158,
+      "rank": 161,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "USELESS",
+      "cmc_id": 36828,
+      "name": "Useless Coin",
+      "slug": "theuselesscoin",
+      "rank": 175,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -855,31 +865,31 @@
       "active_candidates": 2
     },
     {
-      "symbol": "MET",
-      "cmc_id": 38353,
-      "name": "Meteora",
-      "slug": "meteora",
-      "rank": 186,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
       "symbol": "AXL",
       "cmc_id": 17799,
       "name": "Axelar",
       "slug": "axelar",
-      "rank": 189,
+      "rank": 187,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "USELESS",
-      "cmc_id": 36828,
-      "name": "Useless Coin",
-      "slug": "theuselesscoin",
-      "rank": 190,
+      "symbol": "MET",
+      "cmc_id": 38353,
+      "name": "Meteora",
+      "slug": "meteora",
+      "rank": 193,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "CC",
+      "cmc_id": 37263,
+      "name": "Canton Network",
+      "slug": "canton-network",
+      "rank": 201,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -889,17 +899,7 @@
       "cmc_id": 38430,
       "name": "DeAgentAI",
       "slug": "deagentai",
-      "rank": 220,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "GIGGLE",
-      "cmc_id": 38470,
-      "name": "Giggle Fund",
-      "slug": "giggle-fund",
-      "rank": 221,
+      "rank": 213,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -909,17 +909,17 @@
       "cmc_id": 38489,
       "name": "ChainOpera AI",
       "slug": "chainopera-ai",
-      "rank": 229,
+      "rank": 223,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "BIO",
-      "cmc_id": 34812,
-      "name": "Bio Protocol",
-      "slug": "bio",
-      "rank": 252,
+      "symbol": "GIGGLE",
+      "cmc_id": 38470,
+      "name": "Giggle Fund",
+      "slug": "giggle-fund",
+      "rank": 232,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -929,7 +929,17 @@
       "cmc_id": 7653,
       "name": "Oasis",
       "slug": "oasis-network",
-      "rank": 258,
+      "rank": 239,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "BIO",
+      "cmc_id": 34812,
+      "name": "Bio Protocol",
+      "slug": "bio",
+      "rank": 251,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -939,7 +949,7 @@
       "cmc_id": 693,
       "name": "Verge",
       "slug": "verge",
-      "rank": 262,
+      "rank": 278,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -949,7 +959,7 @@
       "cmc_id": 21846,
       "name": "SPACE ID",
       "slug": "space-id",
-      "rank": 288,
+      "rank": 285,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -959,7 +969,7 @@
       "cmc_id": 35347,
       "name": "Official Melania Meme",
       "slug": "melania-meme",
-      "rank": 305,
+      "rank": 299,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -969,7 +979,7 @@
       "cmc_id": 21707,
       "name": "RedStone",
       "slug": "redstone",
-      "rank": 326,
+      "rank": 322,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -979,7 +989,7 @@
       "cmc_id": 32956,
       "name": "Grass",
       "slug": "grass",
-      "rank": 348,
+      "rank": 345,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -989,7 +999,7 @@
       "cmc_id": 8536,
       "name": "Mask Network",
       "slug": "mask-network",
-      "rank": 350,
+      "rank": 349,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1005,11 +1015,21 @@
       "active_candidates": 2
     },
     {
+      "symbol": "LAYER",
+      "cmc_id": 35429,
+      "name": "Solayer",
+      "slug": "solayer",
+      "rank": 366,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
       "symbol": "ME",
       "cmc_id": 32197,
       "name": "Magic Eden",
       "slug": "magiceden",
-      "rank": 381,
+      "rank": 384,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1019,17 +1039,7 @@
       "cmc_id": 32120,
       "name": "Gravity (by Galxe)",
       "slug": "gravity-token",
-      "rank": 390,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "LAYER",
-      "cmc_id": 35429,
-      "name": "Solayer",
-      "slug": "solayer",
-      "rank": 394,
+      "rank": 388,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1039,17 +1049,7 @@
       "cmc_id": 36133,
       "name": "Defi App",
       "slug": "defi-app",
-      "rank": 420,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "USDP",
-      "cmc_id": 3330,
-      "name": "Pax Dollar",
-      "slug": "paxos-standard",
-      "rank": 427,
+      "rank": 408,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1059,27 +1059,17 @@
       "cmc_id": 3978,
       "name": "Chromia",
       "slug": "chromia",
-      "rank": 432,
+      "rank": 412,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "ARK",
-      "cmc_id": 1586,
-      "name": "Ark",
-      "slug": "ark",
-      "rank": 457,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "STRAX",
-      "cmc_id": 30168,
-      "name": "Xertra",
-      "slug": "stratis-new",
-      "rank": 458,
+      "symbol": "LUNA",
+      "cmc_id": 20314,
+      "name": "Terra",
+      "slug": "terra-luna-v2",
+      "rank": 413,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1089,17 +1079,37 @@
       "cmc_id": 14806,
       "name": "ConstitutionDAO",
       "slug": "constitutiondao",
-      "rank": 475,
+      "rank": 431,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "FLOCK",
-      "cmc_id": 34987,
-      "name": "FLock.io",
-      "slug": "flock-io",
-      "rank": 499,
+      "symbol": "ARK",
+      "cmc_id": 1586,
+      "name": "Ark",
+      "slug": "ark",
+      "rank": 439,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "STRAX",
+      "cmc_id": 30168,
+      "name": "Xertra",
+      "slug": "stratis-new",
+      "rank": 445,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "USDP",
+      "cmc_id": 3330,
+      "name": "Pax Dollar",
+      "slug": "paxos-standard",
+      "rank": 451,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1109,7 +1119,17 @@
       "cmc_id": 24781,
       "name": "Cyber",
       "slug": "cyberconnect",
-      "rank": 507,
+      "rank": 479,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "FLOCK",
+      "cmc_id": 34987,
+      "name": "FLock.io",
+      "slug": "flock-io",
+      "rank": 494,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1125,11 +1145,11 @@
       "active_candidates": 2
     },
     {
-      "symbol": "MIRA",
-      "cmc_id": 38495,
-      "name": "Mira",
-      "slug": "mira-network",
-      "rank": 544,
+      "symbol": "ANIME",
+      "cmc_id": 35319,
+      "name": "Animecoin",
+      "slug": "anime",
+      "rank": 536,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1139,27 +1159,17 @@
       "cmc_id": 3701,
       "name": "Rootstock Infrastructure Framework",
       "slug": "rsk-infrastructure-framework",
-      "rank": 544,
+      "rank": 537,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "ANIME",
-      "cmc_id": 35319,
-      "name": "Animecoin",
-      "slug": "anime",
-      "rank": 555,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "ERA",
-      "cmc_id": 37374,
-      "name": "Caldera",
-      "slug": "caldera",
-      "rank": 556,
+      "symbol": "MIRA",
+      "cmc_id": 38495,
+      "name": "Mira",
+      "slug": "mira-network",
+      "rank": 554,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1169,7 +1179,7 @@
       "cmc_id": 7129,
       "name": "TerraClassicUSD",
       "slug": "terrausd",
-      "rank": 572,
+      "rank": 559,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1179,27 +1189,17 @@
       "cmc_id": 38309,
       "name": "Holoworld AI",
       "slug": "holoworld-ai",
-      "rank": 582,
+      "rank": 569,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "SHELL",
-      "cmc_id": 35710,
-      "name": "MyShell",
-      "slug": "myshell",
-      "rank": 584,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "CLO",
-      "cmc_id": 38634,
-      "name": "Yei Finance",
-      "slug": "clovis",
-      "rank": 617,
+      "symbol": "ERA",
+      "cmc_id": 37374,
+      "name": "Caldera",
+      "slug": "caldera",
+      "rank": 587,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1209,7 +1209,7 @@
       "cmc_id": 33223,
       "name": "LAB",
       "slug": "lab",
-      "rank": 618,
+      "rank": 596,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1219,7 +1219,17 @@
       "cmc_id": 36281,
       "name": "Hyperlane",
       "slug": "hyperlane",
-      "rank": 623,
+      "rank": 619,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "SHELL",
+      "cmc_id": 35710,
+      "name": "MyShell",
+      "slug": "myshell",
+      "rank": 642,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1229,17 +1239,17 @@
       "cmc_id": 26998,
       "name": "Scroll",
       "slug": "scroll",
-      "rank": 663,
+      "rank": 654,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "RARE",
-      "cmc_id": 11294,
-      "name": "SuperRare",
-      "slug": "superrare",
-      "rank": 725,
+      "symbol": "CLO",
+      "cmc_id": 38634,
+      "name": "Yei Finance",
+      "slug": "clovis",
+      "rank": 679,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1249,7 +1259,17 @@
       "cmc_id": 37495,
       "name": "Treehouse",
       "slug": "treehouse",
-      "rank": 735,
+      "rank": 703,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "RARE",
+      "cmc_id": 11294,
+      "name": "SuperRare",
+      "slug": "superrare",
+      "rank": 706,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1259,47 +1279,7 @@
       "cmc_id": 18037,
       "name": "Maverick Protocol",
       "slug": "maverick-protocol",
-      "rank": 752,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "CHILLGUY",
-      "cmc_id": 34125,
-      "name": "Just a chill guy",
-      "slug": "just-a-chill-guy",
-      "rank": 756,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "ATA",
-      "cmc_id": 10188,
-      "name": "Automata Network",
-      "slug": "automata-network",
-      "rank": 757,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "EPIC",
-      "cmc_id": 8615,
-      "name": "Epic Chain",
-      "slug": "epic-chain",
-      "rank": 765,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "TRU",
-      "cmc_id": 7725,
-      "name": "TrueFi",
-      "slug": "truefi-token",
-      "rank": 779,
+      "rank": 723,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1309,7 +1289,47 @@
       "cmc_id": 37340,
       "name": "Chainbase",
       "slug": "chainbase",
-      "rank": 793,
+      "rank": 736,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "ATA",
+      "cmc_id": 10188,
+      "name": "Automata Network",
+      "slug": "automata-network",
+      "rank": 744,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "CHILLGUY",
+      "cmc_id": 34125,
+      "name": "Just a chill guy",
+      "slug": "just-a-chill-guy",
+      "rank": 758,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "TRU",
+      "cmc_id": 7725,
+      "name": "TrueFi",
+      "slug": "truefi-token",
+      "rank": 760,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "EPIC",
+      "cmc_id": 8615,
+      "name": "Epic Chain",
+      "slug": "epic-chain",
+      "rank": 762,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1319,17 +1339,7 @@
       "cmc_id": 38513,
       "name": "OpenEden",
       "slug": "openeden",
-      "rank": 805,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "ACA",
-      "cmc_id": 6756,
-      "name": "Acala Token",
-      "slug": "acala",
-      "rank": 823,
+      "rank": 788,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1339,17 +1349,17 @@
       "cmc_id": 36041,
       "name": "Mubarak",
       "slug": "mubarak",
-      "rank": 846,
+      "rank": 821,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "BR",
-      "cmc_id": 36063,
-      "name": "Bedrock",
-      "slug": "bedrock-dao",
-      "rank": 849,
+      "symbol": "ACA",
+      "cmc_id": 6756,
+      "name": "Acala Token",
+      "slug": "acala",
+      "rank": 828,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1359,17 +1369,17 @@
       "cmc_id": 10052,
       "name": "Gitcoin",
       "slug": "gitcoin",
-      "rank": 893,
+      "rank": 871,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
     },
     {
-      "symbol": "BTR",
-      "cmc_id": 36277,
-      "name": "Bitlayer",
-      "slug": "bitlayer",
-      "rank": 921,
+      "symbol": "BR",
+      "cmc_id": 36063,
+      "name": "Bedrock",
+      "slug": "bedrock-dao",
+      "rank": 885,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1379,7 +1389,17 @@
       "cmc_id": 35892,
       "name": "Tutorial",
       "slug": "tutorial",
-      "rank": 930,
+      "rank": 909,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "BTR",
+      "cmc_id": 36277,
+      "name": "Bitlayer",
+      "slug": "bitlayer",
+      "rank": 912,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1389,17 +1409,7 @@
       "cmc_id": 35430,
       "name": "CreatorBid",
       "slug": "creatorbid",
-      "rank": 955,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "42",
-      "cmc_id": 38771,
-      "name": "Semantic Layer",
-      "slug": "semantic-layer",
-      "rank": 1007,
+      "rank": 1009,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1409,7 +1419,17 @@
       "cmc_id": 8206,
       "name": "QuickSwap [Old]",
       "slug": "quickswap",
-      "rank": 1026,
+      "rank": 1017,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "42",
+      "cmc_id": 38771,
+      "name": "Semantic Layer",
+      "slug": "semantic-layer",
+      "rank": 1042,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1419,7 +1439,7 @@
       "cmc_id": 5225,
       "name": "FC Barcelona Fan Token",
       "slug": "fc-barcelona-fan-token",
-      "rank": 1085,
+      "rank": 1070,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1429,17 +1449,7 @@
       "cmc_id": 36920,
       "name": "DeLorean",
       "slug": "delorean",
-      "rank": 1114,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "MON",
-      "cmc_id": 30950,
-      "name": "MON",
-      "slug": "mon",
-      "rank": 1139,
+      "rank": 1089,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1449,7 +1459,7 @@
       "cmc_id": 2143,
       "name": "Streamr",
       "slug": "streamr",
-      "rank": 1174,
+      "rank": 1158,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1459,7 +1469,17 @@
       "cmc_id": 10974,
       "name": "Tranchess",
       "slug": "tranchess",
-      "rank": 1175,
+      "rank": 1170,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "MON",
+      "cmc_id": 30950,
+      "name": "MON",
+      "slug": "mon",
+      "rank": 1170,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1469,17 +1489,7 @@
       "cmc_id": 38468,
       "name": "Hana Network",
       "slug": "hana-network",
-      "rank": 1210,
-      "is_active": 1,
-      "total_candidates": 2,
-      "active_candidates": 2
-    },
-    {
-      "symbol": "AGT",
-      "cmc_id": 36195,
-      "name": "Alaya Governance Token",
-      "slug": "alaya-ai",
-      "rank": 1293,
+      "rank": 1221,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1489,7 +1499,17 @@
       "cmc_id": 28299,
       "name": "TokenFi",
       "slug": "tokenfi",
-      "rank": 1294,
+      "rank": 1253,
+      "is_active": 1,
+      "total_candidates": 2,
+      "active_candidates": 2
+    },
+    {
+      "symbol": "AGT",
+      "cmc_id": 36195,
+      "name": "Alaya Governance Token",
+      "slug": "alaya-ai",
+      "rank": 1296,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
@@ -1499,7 +1519,7 @@
       "cmc_id": 33963,
       "name": "Sallar",
       "slug": "sallar",
-      "rank": 2184,
+      "rank": 2157,
       "is_active": 1,
       "total_candidates": 2,
       "active_candidates": 2
