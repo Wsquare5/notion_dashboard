@@ -27,11 +27,11 @@ from typing import Dict, List, Optional
 
 # Configuration
 ROOT = Path(__file__).resolve().parents[1]
-NOTION_CONFIG_FILE = ROOT / 'config.json'
-CMC_MAPPING_FILE = ROOT / 'binance_cmc_mapping.json'
-PERP_ONLY_CACHE_FILE = ROOT / 'perp_only_cache.json'
-API_CONFIG_FILE = ROOT / 'api_config.json'
-BLACKLIST_FILE = ROOT / 'blacklist.json'
+NOTION_CONFIG_FILE = ROOT / 'config' / 'config.json'
+CMC_MAPPING_FILE = ROOT / 'config' / 'binance_cmc_mapping.json'
+PERP_ONLY_CACHE_FILE = ROOT / 'data' / 'perp_only_cache.json'
+API_CONFIG_FILE = ROOT / 'config' / 'api_config.json'
+BLACKLIST_FILE = ROOT / 'config' / 'blacklist.json'
 
 
 class CMCClient:

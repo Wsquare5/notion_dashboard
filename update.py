@@ -20,7 +20,7 @@ from typing import Dict, List, Tuple, Optional, Set
 
 # Import the existing modules
 import sys
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent))
 
 from scripts.update_binance_trading_data import (
     CMCClient,
@@ -30,11 +30,11 @@ from scripts.update_binance_trading_data import (
 )
 
 # Constants
-BASE_DIR = Path(__file__).parent.parent
-NOTION_CONFIG_FILE = BASE_DIR / "config.json"
-API_CONFIG_FILE = BASE_DIR / "api_config.json"
-CMC_MAPPING_FILE = BASE_DIR / "binance_cmc_mapping.json"
-BLACKLIST_FILE = BASE_DIR / "blacklist.json"
+BASE_DIR = Path(__file__).parent
+NOTION_CONFIG_FILE = BASE_DIR / "config" / "config.json"
+API_CONFIG_FILE = BASE_DIR / "config" / "api_config.json"
+CMC_MAPPING_FILE = BASE_DIR / "config" / "binance_cmc_mapping.json"
+BLACKLIST_FILE = BASE_DIR / "config" / "blacklist.json"
 PERP_ONLY_CACHE_FILE = BASE_DIR / "data" / "perp_only_cache.json"
 
 # Thread pool settings
@@ -317,7 +317,14 @@ Examples:
     blacklist = set()
     if BLACKLIST_FILE.exists():
         with BLACKLIST_FILE.open('r') as f:
-            blacklist = set(json.load(f))
+            blacklist_data = json.load(f)
+            # Handle both formats: array or object with "blacklist" key
+            if isinstance(blacklist_data, list):
+                blacklist = set(blacklist_data)
+            elif isinstance(blacklist_data, dict) and 'blacklist' in blacklist_data:
+                blacklist = set(blacklist_data['blacklist'])
+            else:
+                blacklist = set()
     
     # Get database properties
     db_props = notion.get_database_properties()

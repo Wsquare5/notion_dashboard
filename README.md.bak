@@ -1,0 +1,456 @@
+# 🚀 Binance to Notion - Fast Trading Data Updater# 🚀 Binance Trading Data → Notion Sync
+
+自动同步 Binance 交易数据到 Notion 数据库的高性能工具。自动同步 Binance 现货和永续合约交易数据到 Notion，包括价格、交易量、资金费率、市值等信息。
+
+## ⚡ 核心特性## 📋 目录
+
+- **极速更新**：534 个币种 8.1 分钟完成（vs 旧版 96 分钟）= **11.9 倍加速**- [快速开始](#快速开始)
+
+- **并行处理**：20 个线程获取 Binance 数据 + 10 个线程写入 Notion- [交互式更新菜单](#交互式更新菜单)
+
+- **自动重试**：网络失败自动重试 3 次，确保高成功率- [命令行使用](#命令行使用)
+
+- **完整数据**：现货价格、合约价格、交易量、资金费率、持仓量、基差、市值- [自动化定时更新](#自动化定时更新)
+
+- [数据说明](#数据说明)
+
+## 📁 项目结构
+
+Files added:
+
+````
+
+Binance/- `scripts/binance_to_notion.py` - main sync script (Python)
+
+├── update.py              # 主更新脚本（快速并行版本）- `requirements.txt` - Python dependencies
+
+├── menu.py                # 交互式菜单- `.env.example` - example environment variables file
+
+├── requirements.txt- `overrides.json` - manual mapping for tricky symbols -> CoinGecko IDs
+
+│
+
+├── config/                # 配置文件Requirements
+
+│   ├── config.json       # Notion 配置
+
+│   ├── api_config.json   # API 密钥- Python 3.9+
+
+│   ├── blacklist.json    # 黑名单- A Notion integration and a target Notion database (see steps below)
+
+│   └── ...
+
+│Setup
+
+├── core/                  # 核心工具
+
+│   ├── create_cmc_mapping.py1. Create and activate a virtualenv:
+
+│   └── ...
+
+│```bash
+
+├── scripts/               # 辅助脚本python -m venv .venv
+
+│   ├── utils/            # 工具函数source .venv/bin/activate
+
+│   ├── sync/             # 同步脚本pip install -r requirements.txt
+
+│   ├── maintenance/      # 数据库维护```
+
+│   └── update_funding_cycles.py
+
+│2. Copy `.env.example` to `.env` and fill in `NOTION_TOKEN` and `NOTION_DATABASE_ID`.
+
+├── data/                  # 数据文件
+
+├── logs/                  # 日志文件Creating a Notion integration and database
+
+├── docs/                  # 详细文档
+
+└── archive/               # 废弃的旧脚本1. In Notion, go to Settings & Members → Integrations → Develop your own integrations → New integration.
+
+```2. Give it a name and copy the "Internal Integration Token" into `NOTION_TOKEN` in your `.env`.
+
+3. Create a new database (Table) in Notion with these properties (case-sensitive):
+
+## 🚀 快速开始
+
+   - `Name` (Title)
+
+### 1. 安装依赖   - `Symbol` (Rich Text)
+
+   - `Price (USD)` (Number)
+
+```bash   - `Market Cap (USD)` (Number)
+
+pip install -r requirements.txt   - `Open Interest` (Number)
+
+```   - `24h Volume (USD)` (Number)
+
+   - `CoinGecko ID` (Rich Text)
+
+### 2. 配置   - `Website` (URL)
+
+
+
+复制配置文件模板：4. Share the database with your integration (top-right Share → Invite → select your integration).
+
+```bash5. Copy the database ID from the URL and paste into `NOTION_DATABASE_ID` in `.env`.
+
+cp config/config.json.example config/config.json
+
+```---
+
+
+
+编辑 `config/config.json`，填入你的 Notion Token 和 Database ID。## 🎯 快速开始
+
+
+
+### 3. 运行更新### 1. 交互式更新菜单（推荐）⭐️
+
+
+
+**快速更新（只更新交易数据，推荐）：**最简单的使用方式，无需记忆命令：
+
+```bash
+
+python3 update.py --workers 20```bash
+
+```python3 update_menu.py
+
+````
+
+**完整更新（包含供应量等元数据）：**
+
+```bash**菜单选项**：
+
+python3 update.py --workers 20 --update-metadata
+
+```
+
+🚀 Binance Trading Data Update Menu
+
+**更新指定币种：**================================================================================
+
+```bash
+
+python3 update.py BTC ETH BNB --workers 20请选择更新模式：
+
+```
+
+[1] 快速更新 - 只更新实时数据（价格、交易量、资金费率等）
+
+## ⏱️ 性能指标 • 速度最快，不调用 CMC API
+
+      • 推荐日常使用（每1-4小时）
+
+| 操作 | 时间 | 速度 |
+
+|------|------|------| [2] 更新 Funding Cycle - 实时数据 + 资金费率周期
+
+| Binance 数据获取 | 4.2 分钟 | 100% 成功（含重试） | • 不调用 CMC API，速度快
+
+| Notion 数据写入 | 3.4 分钟 | 2.58 pages/s | • 推荐每天运行 1 次
+
+| **总计** | **8.1 分钟** | **1.09 symbols/s** |
+
+[3] 完整更新 - 实时数据 + 供应量 + Funding Cycle
+
+旧版本需要 96 分钟，新版本 **提速 11.9 倍**！🎉 • 调用 CMC API，速度较慢
+
+      • 推荐每天运行1次或有需要时使用
+
+## 📊 更新字段
+
+[4] 指定币种更新 - 快速更新特定币种
+
+### 交易数据（每次更新） [5] 指定币种 + Funding Cycle
+
+- ✅ Spot Price（现货价格） [6] 指定币种 + 完整元数据
+
+- ✅ Perp Price（合约价格） [7] 同步分类标签 - 从 Binance API 同步分类
+
+- ✅ Spot Volume 24h（现货交易量）
+
+- ✅ Perp Volume 24h（合约交易量） [0] 退出
+
+- ✅ Price Change%（24h 涨跌幅）```
+
+- ✅ Open Interest（未平仓量）
+
+- ✅ Funding Rate（资金费率）**使用示例**：
+
+- ✅ Spot-Perp Basis（基差）
+
+- ✅ Market Cap（市值，自动计算）1. 运行 `python3 update_menu.py`
+
+2. 输入数字选择操作（例如：输入 `1` 进行快速更新）
+
+### 静态字段（--update-metadata）3. 等待执行完成
+
+- 📊 Supply（流通供应量）4. 按 Enter 返回菜单继续其他操作
+
+- 🏷️ Categories（分类标签）
+
+- 📅 Funding Cycle（资金费率周期）---
+
+- 📈 Index Composition（指数成分）
+
+## 💻 命令行使用
+
+## 🔄 推荐更新频率
+
+如果您熟悉命令行或需要在脚本中使用，可以直接运行：
+
+````bash
+
+# 每 4-8 小时：快速更新（只需 8 分钟）### 基本用法
+
+python3 update.py --workers 20
+
+```bash
+
+# 每天 1 次：完整更新（包含元数据）# 1. 快速更新（推荐日常使用）
+
+python3 update.py --workers 20 --update-metadatapython3 scripts/update_binance_trading_data.py
+
+````
+
+# 2. 更新 Funding Cycle
+
+## 📖 详细文档 python3 scripts/update_binance_trading_data.py --update-funding-cycle
+
+- [快速入门](docs/QUICK_START.md)# 3. 完整更新（包括供应量）
+
+- [定时任务设置](docs/SCHEDULER_SETUP.md)python3 scripts/update_binance_trading_data.py --update-metadata
+
+- [性能优化说明](docs/PERFORMANCE_OPTIMIZATION.md)
+
+- [更新日志](docs/CHANGELOG.md)# 4. 更新指定币种
+
+python3 scripts/update_binance_trading_data.py BTC ETH SOL
+
+## 🛠️ 命令行参数
+
+# 5. 更新指定币种 + Funding Cycle
+
+````bashpython3 scripts/update_binance_trading_data.py --update-funding-cycle BTC ETH
+
+python3 update.py [symbols...] [options]
+
+# 6. 同步分类标签
+
+选项：python3 scripts/sync_binance_categories.py
+
+  --workers N              并行线程数（默认：20）```
+
+  --update-metadata        更新所有元数据（供应量+静态字段）
+
+  --update-static-fields   只更新静态字段### 参数说明
+
+````
+
+| 参数 | 说明 | CMC API | 速度 |
+
+## ❓ 常见问题| ------------------------ | ------------------------------------- | --------- | ------ |
+
+| 无参数 | 只更新实时数据 | ❌ 不调用 | 快 ⚡️ |
+
+**Q: 为什么有些币种更新失败？** | `--update-funding-cycle` | 更新实时数据 + Funding Cycle | ❌ 不调用 | 快 ⚡️ |
+
+A: 通常是网络超时。脚本会自动重试 3 次，大部分会成功恢复。| `--update-metadata` | 更新实时数据 + 供应量 + Funding Cycle | ✅ 调用 | 慢 🐢 |
+
+**Q: 可以更快吗？** ---
+
+A: 可以增加 `--workers` 数量，但要注意 API 限速。推荐 20-30。
+
+## ⏰ 自动化定时更新
+
+**Q: 只有现货的币种会更新吗？**
+
+A: 当前版本只更新有合约的 534 个币种。只有现货的 71 个币种可以用其他脚本低频更新。### 使用 cron（推荐）
+
+## 📝 许可证编辑 crontab：
+
+MIT License```bash
+
+crontab -e
+
+## 🤝 贡献```
+
+欢迎提交 Issue 和 Pull Request！添加以下任务：
+
+---```bash
+
+# 每 4 小时快速更新（只更新价格、交易量等实时数据）⭐️
+
+**Powered by Binance API + Notion API + Python** 🐍0 _/4 _ \* \* cd /Users/wanjinwoo/Desktop/Work/trading/Binance && python3 scripts/update_binance_trading_data.py >> logs/update.log 2>&1
+
+# 每天早上 9 点更新 Funding Cycle
+
+0 9 \* \* \* cd /Users/wanjinwoo/Desktop/Work/trading/Binance && python3 scripts/update_binance_trading_data.py --update-funding-cycle >> logs/funding_cycle.log 2>&1
+
+# 每天早上 10 点完整更新（包括供应量）
+
+0 10 \* \* \* cd /Users/wanjinwoo/Desktop/Work/trading/Binance && python3 scripts/update_binance_trading_data.py --update-metadata >> logs/metadata.log 2>&1
+
+````
+
+### 使用 macOS LaunchAgent
+
+已配置文件：`com.binance.daily_update.plist`
+
+```bash
+# 加载任务
+launchctl load ~/Library/LaunchAgents/com.binance.daily_update.plist
+
+# 查看状态
+launchctl list | grep binance
+
+# 手动触发
+launchctl start com.binance.daily_update
+
+# 查看日志
+tail -f logs/update.log
+````
+
+---
+
+## 📊 数据说明
+
+### 实时数据（每次都更新）
+
+**交易数据**：
+
+- Spot Price（现货价格）
+- Perp Price（合约价格）
+- Spot vol 24h（现货 24h 交易量）
+- Perp vol 24h（合约 24h 交易量）
+- Funding（资金费率）
+- OI（未平仓量）
+- Basis（基差）
+- Price change（24h 涨跌幅）
+
+**市值计算**：
+
+- MC（市值）= Circulating Supply × Price
+- FDV（完全稀释市值）= Total Supply × Price
+- 自动支持 1000X 和 1000000X multiplier 币种
+
+### 元数据（需要参数才更新）
+
+**供应量数据**（`--update-metadata`）：
+
+- Circulating Supply（流通供应量）
+- Total Supply（总供应量）
+- Max Supply（最大供应量）
+
+**周期数据**（`--update-funding-cycle` 或 `--update-metadata`）：
+
+- Funding Cycle（资金费率周期：1h/4h/8h）
+
+**分类数据**（每次都更新）：
+
+- Categories（币种分类：AI、DeFi、Meme、Layer-1 等 23 个分类）
+
+---
+
+## 📁 项目结构
+
+```
+Binance/
+├── update_menu.py                           # 🎯 交互式更新菜单（推荐使用）
+├── config.json                              # Notion 配置
+├── api_config.json                          # CMC API 配置
+├── binance_cmc_mapping.json                 # CMC ID 映射（600+ 币种）
+├── blacklist.json                           # 黑名单
+├── scripts/
+│   ├── update_binance_trading_data.py      # 主更新脚本
+│   ├── sync_binance_categories.py          # 同步分类标签
+│   ├── sync_cmc_to_notion.py               # 同步 CMC 基本信息
+│   ├── auto_match_new_symbols.py           # 自动匹配新币种
+│   └── ...
+├── logs/                                    # 日志文件
+└── data/                                    # 数据缓存
+
+```
+
+---
+
+## 🔧 高级功能
+
+### 自动匹配新币种
+
+当 Binance 上线新合约时，脚本会自动：
+
+1. 检测新币种
+2. 搜索 CMC 匹配
+3. 创建 Notion 页面
+4. 同步基本信息
+
+### 黑名单管理
+
+编辑 `blacklist.json` 添加不想跟踪的币种：
+
+```json
+{
+  "symbols": ["BTTC", "EUR", "RAYSOL"],
+  "reason": "User requested exclusion"
+}
+```
+
+### Multiplier 币种支持
+
+自动识别并正确计算：
+
+- 1000X 系列（1000PEPE, 1000BONK 等）
+- 1000000X 系列（1000000BOB, 1MBABYDOGE 等）
+
+---
+
+## 📖 文档
+
+- [DATA_UPDATE_SUMMARY.md](DATA_UPDATE_SUMMARY.md) - 详细的数据更新说明
+- [FUNDING_CYCLE_UPDATE.md](FUNDING_CYCLE_UPDATE.md) - Funding Cycle 更新说明
+- [LATEST_UPDATES.md](LATEST_UPDATES.md) - 最新更新日志
+
+---
+
+## ❓ 常见问题
+
+**Q: 每次更新需要多长时间？**
+
+- 快速更新（无参数）：约 10-15 分钟（600 币种）
+- Funding Cycle 更新：约 15-20 分钟
+- 完整更新（含供应量）：约 20-30 分钟
+
+**Q: 为什么要分开更新？**
+
+- 实时数据（价格、交易量）变化频繁，需要高频更新
+- 元数据（供应量、Funding Cycle）变化少，低频更新节省 API 配额
+
+**Q: 推荐的更新频率是？**
+
+- 日常监控：每 4 小时快速更新
+- Funding Cycle：每天 1 次
+- 供应量数据：每天 1 次或有需要时
+
+**Q: 如何查看更新日志？**
+
+```bash
+tail -f logs/update.log
+```
+
+---
+
+## 🎉 开始使用
+
+最简单的方式：
+
+```bash
+python3 update_menu.py
+```
+
+选择 `1` 进行快速更新，几分钟后就能在 Notion 中看到最新数据！
