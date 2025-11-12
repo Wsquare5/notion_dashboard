@@ -360,7 +360,68 @@ Examples:
         max_workers=args.workers
     )
     
-    # Step 3: Prepare updates
+    # Step 3: Auto-match new symbols without CMC mapping
+    new_symbols_without_mapping = []
+    for symbol in all_symbols:
+        if symbol not in cmc_mapping and symbol not in pages_by_symbol:
+            new_symbols_without_mapping.append(symbol)
+    
+    if new_symbols_without_mapping:
+        print(f"\n🔍 发现 {len(new_symbols_without_mapping)} 个新币种没有 CMC mapping: {', '.join(new_symbols_without_mapping)}")
+        print("🔄 正在自动匹配 CMC ID...")
+        
+        if cmc_client:
+            # Auto-match new symbols
+            matched_count = 0
+            for symbol in new_symbols_without_mapping:
+                try:
+                    # Search CMC by symbol
+                    headers = {
+                        'X-CMC_PRO_API_KEY': cmc_client.api_key,
+                        'Accept': 'application/json'
+                    }
+                    url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map'
+                    params = {'symbol': symbol}
+                    
+                    response = requests.get(url, headers=headers, params=params, timeout=10)
+                    if response.status_code == 200:
+                        data = response.json()
+                        coins = data.get('data', [])
+                        
+                        if coins:
+                            # Get active coins and sort by rank
+                            active_coins = [c for c in coins if c.get('is_active') == 1]
+                            if active_coins:
+                                # Pick the one with lowest rank (highest market cap)
+                                best_match = sorted(active_coins, key=lambda x: x.get('rank') or 999999)[0]
+                                
+                                cmc_mapping[symbol] = {
+                                    'cmc_id': best_match.get('id'),
+                                    'cmc_slug': best_match.get('slug'),
+                                    'cmc_symbol': best_match.get('symbol'),
+                                    'match_type': 'auto'
+                                }
+                                matched_count += 1
+                                print(f"  ✅ {symbol} → {best_match.get('name')} (CMC ID: {best_match.get('id')}, Rank: {best_match.get('rank')})")
+                            else:
+                                print(f"  ⚠️  {symbol}: 找到 {len(coins)} 个匹配，但都不是活跃币种")
+                        else:
+                            print(f"  ⚠️  {symbol}: CMC 未找到匹配")
+                    
+                    time.sleep(0.2)  # Rate limiting
+                    
+                except Exception as e:
+                    print(f"  ❌ {symbol}: 匹配失败 - {e}")
+            
+            if matched_count > 0:
+                print(f"\n💾 保存更新的 CMC mapping ({matched_count} 个新匹配)...")
+                with CMC_MAPPING_FILE.open('w', encoding='utf-8') as f:
+                    json.dump(cmc_mapping, f, indent=2, ensure_ascii=False)
+                print("✅ CMC mapping 已更新")
+        else:
+            print("⚠️  CMC API client 未初始化，跳过自动匹配")
+    
+    # Step 4: Prepare updates
     print(f"\n📝 Preparing updates for {len(all_symbols)} symbols...")
     
     update_meta = args.update_metadata
@@ -368,6 +429,7 @@ Examples:
     
     updates_to_process = []
     creates_to_process = []
+    recreates_to_process = []  # Pages to delete and recreate
     skipped_symbols = []
     
     # Prepare all updates/creates first
@@ -386,7 +448,7 @@ Examples:
             cmc_data = cmc_mapping.get(symbol)
             if not cmc_data:
                 skipped_symbols.append(symbol)
-                print(f"  ⚠️  {symbol}: 跳过 - 没有 CMC mapping")
+                print(f"  ⚠️  {symbol}: 跳过 - 没有 CMC mapping（自动匹配也未找到）")
                 continue
             
             print(f"  ✅ {symbol}: 准备创建新页面")
@@ -397,21 +459,74 @@ Examples:
                 'cmc_data': cmc_data
             })
         else:
-            # Prepare update
+            # Check if page needs to be recreated for Logo
             cmc_data = cmc_mapping.get(symbol)
-            updates_to_process.append({
-                'symbol': symbol,
-                'page': page,
-                'spot_data': spot_data,
-                'perp_data': perp_data,
-                'cmc_data': cmc_data
-            })
+            needs_logo_recreate = False
+            
+            if cmc_data and cmc_data.get('cmc_id') and update_meta:
+                # Check if Logo is missing
+                props = page.get('properties', {})
+                logo_files = props.get('Logo', {}).get('files', [])
+                page_icon = page.get('icon')
+                
+                if not logo_files and not page_icon:
+                    needs_logo_recreate = True
+                    print(f"  🔄 {symbol}: Logo 缺失，将删除并重新创建页面")
+            
+            if needs_logo_recreate:
+                # Mark for recreation
+                recreates_to_process.append({
+                    'symbol': symbol,
+                    'page_id': page['id'],
+                    'spot_data': spot_data,
+                    'perp_data': perp_data,
+                    'cmc_data': cmc_data
+                })
+            else:
+                # Prepare normal update
+                updates_to_process.append({
+                    'symbol': symbol,
+                    'page': page,
+                    'spot_data': spot_data,
+                    'perp_data': perp_data,
+                    'cmc_data': cmc_data
+                })
     
     print(f"  ✅ {len(updates_to_process)} pages to update")
     print(f"  ✅ {len(creates_to_process)} pages to create")
+    print(f"  🔄 {len(recreates_to_process)} pages to recreate (for Logo)")
     print(f"  ⚠️  {len(skipped_symbols)} symbols skipped")
     
-    # Step 4: Process updates in parallel
+    # Step 4.5: Process recreates (delete old pages first)
+    if recreates_to_process:
+        print(f"\n🗑️  Deleting {len(recreates_to_process)} pages for recreation...")
+        for recreate_info in recreates_to_process:
+            try:
+                symbol = recreate_info['symbol']
+                page_id = recreate_info['page_id']
+                
+                # Archive the page using Notion API
+                url = f"{notion.base_url}/pages/{page_id}"
+                payload = {"archived": True}
+                response = requests.patch(url, headers=notion.headers, json=payload, timeout=30)
+                response.raise_for_status()
+                
+                print(f"  ✅ {symbol}: 已删除")
+                
+                # Move to creates list
+                creates_to_process.append({
+                    'symbol': symbol,
+                    'spot_data': recreate_info['spot_data'],
+                    'perp_data': recreate_info['perp_data'],
+                    'cmc_data': recreate_info['cmc_data']
+                })
+            except Exception as e:
+                print(f"  ❌ {symbol}: 删除失败 - {e}")
+        
+        print(f"✅ 已删除 {len(recreates_to_process)} 个页面，将重新创建")
+
+    
+    # Step 5: Process updates in parallel
     def process_update(update_info):
         """Worker function to update a single page"""
         try:
@@ -469,7 +584,8 @@ Examples:
             if cmc_client and cmc_data.get('cmc_id'):
                 try:
                     cmc_full_data = cmc_client.get_token_data(cmc_data['cmc_id'])
-                except Exception:
+                except Exception as e:
+                    print(f"⚠️  CMC API failed for {symbol} (ID {cmc_data['cmc_id']}): {type(e).__name__}: {str(e)[:100]}")
                     pass
             
             properties, icon_url = build_trading_properties(

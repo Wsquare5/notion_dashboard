@@ -16,6 +16,8 @@ Does NOT update:
 """
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import os
 import json
 import sys

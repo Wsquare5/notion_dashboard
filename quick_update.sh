@@ -1,4 +1,4 @@
-#!/bin/bash
+1#!/bin/bash
 # 快速更新 - 只更新交易数据（推荐每 4-8 小时运行）
 # 用法: ./quick_update.sh
 
