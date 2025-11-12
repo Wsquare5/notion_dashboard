@@ -285,38 +285,59 @@ class NotionClient:
     def query_database(self, filter_params: Dict = None, max_retries: int = 3) -> List[Dict]:
         """Query database pages with retry"""
         url = f"{self.base_url}/databases/{self.database_id}/query"
-        
+        # Use a session with retries and avoid inheriting environment proxies which
+        # can cause ProxyError in some local network setups (VPN/proxy misconfig).
+        session = requests.Session()
+        session.headers.update(self.headers)
+        session.trust_env = False
+
+        retry_strategy = Retry(
+            total=max_retries,
+            backoff_factor=1,
+            status_forcelist=(429, 502, 503, 504),
+            allowed_methods=("GET", "POST")
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
+
         all_results = []
         has_more = True
         start_cursor = None
-        
-        while has_more:
-            payload = {}
-            if filter_params:
-                payload['filter'] = filter_params
-            if start_cursor:
-                payload['start_cursor'] = start_cursor
-            
-            # Retry logic for each page
-            for attempt in range(max_retries):
+
+        try:
+            while has_more:
+                payload = {}
+                if filter_params:
+                    payload['filter'] = filter_params
+                if start_cursor:
+                    payload['start_cursor'] = start_cursor
+
                 try:
-                    response = requests.post(url, headers=self.headers, json=payload, timeout=30)
-                    response.raise_for_status()
-                    result = response.json()
-                    
-                    all_results.extend(result.get('results', []))
-                    has_more = result.get('has_more', False)
-                    start_cursor = result.get('next_cursor')
-                    break  # Success, exit retry loop
-                    
-                except Exception as e:
-                    if attempt < max_retries - 1:
-                        print(f"⚠️  Error querying Notion (attempt {attempt + 1}/{max_retries}): {e}")
-                        time.sleep(2)  # Wait before retry
+                    resp = session.post(url, json=payload, timeout=30)
+                    resp.raise_for_status()
+                except requests.exceptions.ProxyError as e:
+                    if all_results:
+                        print(f"⚠️  Notion proxy error, returning {len(all_results)} pages collected so far: {e}")
+                        return all_results
                     else:
-                        print(f"❌ Error querying Notion after {max_retries} attempts: {e}")
-                        return all_results  # Return partial results instead of breaking
-        
+                        raise
+                except requests.exceptions.RequestException as e:
+                    if all_results:
+                        print(f"⚠️  Notion request failed, returning {len(all_results)} pages collected so far: {e}")
+                        return all_results
+                    else:
+                        raise
+
+                result = resp.json()
+                all_results.extend(result.get('results', []))
+                has_more = result.get('has_more', False)
+                start_cursor = result.get('next_cursor')
+
+        except Exception as exc:
+            print(f"❌ Error querying Notion database: {exc}")
+            raise
+
         return all_results
 
     def get_database_properties(self) -> set:

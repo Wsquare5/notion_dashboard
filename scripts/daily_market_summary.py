@@ -15,6 +15,8 @@ import sys
 from pathlib import Path
 from datetime import datetime
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from typing import List, Dict
 
 # 配置文件路径
@@ -56,24 +58,63 @@ def get_all_symbols_from_notion(notion_token: str, database_id: str) -> List[Dic
     }
     
     url = f"https://api.notion.com/v1/databases/{database_id}/query"
-    
+
+    # Build a session that does not trust environment proxies and has retries
+    session = requests.Session()
+    session.headers.update(headers)
+    session.trust_env = False  # ignore system/OS proxy env vars to avoid unexpected proxy use
+
+    retry_strategy = Retry(
+        total=3,
+        backoff_factor=1,
+        status_forcelist=(429, 502, 503, 504),
+        allowed_methods=("GET", "POST")
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
     all_pages = []
     has_more = True
     start_cursor = None
-    
-    while has_more:
-        payload = {}
-        if start_cursor:
-            payload["start_cursor"] = start_cursor
-        
-        response = requests.post(url, headers=headers, json=payload)
-        response.raise_for_status()
-        data = response.json()
-        
-        all_pages.extend(data.get('results', []))
-        has_more = data.get('has_more', False)
-        start_cursor = data.get('next_cursor')
-    
+
+    try:
+        while has_more:
+            payload = {}
+            if start_cursor:
+                payload["start_cursor"] = start_cursor
+
+            # Use session.post which will automatically retry per strategy
+            try:
+                resp = session.post(url, json=payload, timeout=30)
+                resp.raise_for_status()
+            except requests.exceptions.ProxyError as e:
+                # Proxy errors are often environmental (VPN/proxy/firewall). If we have some pages
+                # already collected return them with a warning; otherwise re-raise for visibility.
+                if all_pages:
+                    print(f"⚠️  Warning: Notion proxy error during pagination, returning {len(all_pages)} pages collected so far: {e}")
+                    return all_pages
+                else:
+                    raise
+            except requests.exceptions.RequestException as e:
+                # For other request errors, try to surface a helpful message
+                if all_pages:
+                    print(f"⚠️  Warning: Notion request failed, returning {len(all_pages)} pages collected so far: {e}")
+                    return all_pages
+                else:
+                    raise
+
+            data = resp.json()
+            all_pages.extend(data.get('results', []))
+            has_more = data.get('has_more', False)
+            start_cursor = data.get('next_cursor')
+
+    except Exception as exc:
+        # Bubble up a clearer error for the caller if nothing was collected
+        print(f"\n❌ 无法从 Notion 读取页面: {exc}")
+        print("建议检查：Notion token、网络/VPN/系统代理设置，或将 session.trust_env 设置为 True 以使用环境代理。")
+        raise
+
     print(f"✅ 读取到 {len(all_pages)} 个币种")
     return all_pages
 
