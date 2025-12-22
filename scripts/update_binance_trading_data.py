@@ -463,6 +463,9 @@ class NotionClient:
             return response.json()
         except Exception as e:
             print(f"❌ Error creating page: {e}")
+            if hasattr(response, 'text'):
+                print(f"    详细错误: {response.text}")
+            print(f"    发送的properties: {properties}")
             raise
     
     def update_page(self, page_id: str, properties: Dict, icon_url: str = None) -> Dict:
