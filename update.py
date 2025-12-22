@@ -102,9 +102,8 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
         
         # Logo (作为页面图标)
         icon_url = metadata.get('logo')
-        icon = {"type": "external", "external": {"url": icon_url}} if icon_url else None
 
-        return properties, icon
+        return properties, icon_url
 
     except Exception as e:
         print(f"    - ❌ 获取 CMC 元数据时出错: {e}")
@@ -163,18 +162,19 @@ def main():
             
             # 为新币种获取CMC元数据
             cmc_id = cmc_mapping.get(symbol, {}).get('cmc_id')
-            properties, icon = get_cmc_metadata_for_new_coin(cmc_client, cmc_id)
+            properties, icon_url = get_cmc_metadata_for_new_coin(cmc_client, cmc_id)
             
             # 无论是否获取到CMC数据，都先创建页面，确保Symbol存在
             if properties is None:
                 properties = {}
+                icon_url = None
                 print("    - 未能获取CMC元数据，将创建基础页面。")
 
             # 添加Symbol属性，这是必须的
             properties['Symbol'] = {'title': [{'text': {'content': symbol}}]}
             
             try:
-                notion_client.create_page(properties, icon)
+                notion_client.create_page(properties, icon_url, symbol)
                 print(f"    - ✅ 成功为 {symbol} 创建了Notion页面。")
             except Exception as e:
                 print(f"    - ❌ 为 {symbol} 创建页面失败: {e}")
