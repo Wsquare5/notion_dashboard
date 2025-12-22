@@ -6,11 +6,34 @@
 import sys
 import json
 import time
+import requests
 from pathlib import Path
 
 # 使用与项目其他脚本相同的导入方式
 sys.path.insert(0, str(Path(__file__).parent / 'scripts'))
-from update_binance_trading_data import NotionClient, CMCClient, BinanceClient
+from update_binance_trading_data import NotionClient, CMCClient
+
+def get_all_binance_usdt_perp():
+    """从币安获取所有USDT永续合约列表"""
+    try:
+        url = "https://fapi.binance.com/fapi/v1/exchangeInfo"
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        
+        # 提取所有以USDT结尾的永续合约符号
+        symbols = []
+        for symbol_info in data.get('symbols', []):
+            symbol = symbol_info['symbol']
+            if symbol.endswith('USDT') and symbol_info.get('contractType') == 'PERPETUAL':
+                # 去掉USDT后缀，只保留基础币种符号
+                base_symbol = symbol.replace('USDT', '')
+                symbols.append(base_symbol)
+        
+        return sorted(symbols)
+    except Exception as e:
+        print(f"❌ 获取币安交易对失败: {e}")
+        return []
 
 def load_config(path):
     """通用配置加载函数，包含错误处理。"""
@@ -104,7 +127,6 @@ def main():
 
     # --- 2. 初始化客户端 ---
     print("\n[2/5] 正在初始化 API 客户端...")
-    binance_client = BinanceClient()
     notion_client = NotionClient(config['notion']['api_key'], config['notion']['database_id'])
     cmc_client = CMCClient(api_config['coinmarketcap']['api_key'])
     print("✅ API 客户端初始化完成。")
@@ -112,7 +134,7 @@ def main():
     # --- 3. 获取最新和已有的交易对 ---
     print("\n[3/5] 正在获取数据...")
     print("  - 从币安获取最新交易对...")
-    all_binance_symbols = binance_client.get_all_usdt_perp_symbols()
+    all_binance_symbols = get_all_binance_usdt_perp()
     if not all_binance_symbols:
         print("❌ 无法从币安获取交易对列表，程序终止。")
         return
