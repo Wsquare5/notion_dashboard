@@ -75,9 +75,9 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
 
         # 使用现有的build_properties函数来组装属性
         # 这样可以确保使用正确的Notion字段
-        from scripts.update_binance_trading_data import build_properties
+        from scripts.update_binance_trading_data import build_trading_properties
         
-        properties, icon_url = build_properties(
+        properties, icon_url = build_trading_properties(
             symbol=None,  # Symbol会在外部单独添加
             cmc_data=token_data,  # 传入完整的CMC数据
             cmc_full_data=token_data,
