@@ -3,3 +3,5 @@ pycoingecko
 notion-client
 python-dotenv
 tenacity
+websockets
+python-socks
