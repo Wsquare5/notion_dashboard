@@ -43,6 +43,11 @@ def print_menu():
     print("      • 生成涨跌幅前5名总结并写入 Notion")
     print("      • 需要先收集 WebSocket 数据")
     print()
+    print("  [7] 🪙 更新流通供应量 (低频)")
+    print("      • 从 CoinMarketCap 安全地更新所有币种的流通量")
+    print("      • 内置延迟，无封禁风险，推荐每周运行一次")
+    print("      • 耗时: ~15-20分钟")
+    print()
     print("  [0] 退出")
     print("\n" + "="*80)
     print("💡 提示：WebSocket方式无速率限制，可以随时运行！")
@@ -88,7 +93,7 @@ def main():
     while True:
         print_menu()
         
-        choice = input("请选择操作 [0-6]: ").strip()
+        choice = input("请选择操作 [0-7]: ").strip()
         
         if choice == '0':
             print("\n👋 再见！")
@@ -167,9 +172,14 @@ def main():
             
             cmd = f"cd {script_dir} && python3 daily_summary.py"
             run_command(cmd, "生成每日行情总结...")
+
+        elif choice == '7':
+            # 更新流通供应量
+            cmd = f"cd {script_dir} && python3 update_circulating_supply.py"
+            run_command(cmd, "从 CoinMarketCap 更新流通供应量...")
             
         else:
-            print("\n❌ 无效输入，请输入 0 到 6 之间的数字。")
+            print("\n❌ 无效输入，请输入 0 到 7 之间的数字。")
         
         input("\n按 Enter 键返回主菜单...")
 
