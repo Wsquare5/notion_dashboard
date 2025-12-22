@@ -518,12 +518,10 @@ def build_trading_properties(symbol: str, spot_data: Dict, perp_data: Dict, cmc_
         quote = cmc_full_data.get('quote', {}) or {}
 
     # Logo (only for new pages)
-    # Note: Notion property ordering is defined by the database; sending Logo first
-    # often places it earlier when creating a page. We also return icon_url to set the page icon.
+    # Note: Logo is set as page icon, not as a property field
     if is_new_page and metadata.get('logo'):
         logo_url = metadata.get('logo')
         if logo_url:
-            properties["Logo"] = {"url": logo_url}
             icon_url = logo_url
 
     # Symbol (required for new pages)
