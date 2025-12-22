@@ -164,11 +164,51 @@ def main():
     else:
         print(f"💎 发现 {len(new_symbols)} 个新交易对: {', '.join(new_symbols)}")
         
-        # 自动匹配新币种的CMC ID
-        print("\n🔍 正在自动匹配新币种的 CoinMarketCap ID...")
-        from update_binance_trading_data import auto_match_new_symbols
-        cmc_mapping = auto_match_new_symbols(cmc_mapping, api_config['coinmarketcap']['api_key'])
-        print("✅ CMC ID 匹配完成。")
+        # 只为新币种匹配CMC ID（如果它们在mapping中不存在或cmc_id为空）
+        symbols_need_matching = [s for s in new_symbols if s not in cmc_mapping or not cmc_mapping.get(s, {}).get('cmc_id')]
+        
+        if symbols_need_matching:
+            print(f"\n🔍 正在为 {len(symbols_need_matching)} 个新币种匹配 CoinMarketCap ID...")
+            for symbol in symbols_need_matching:
+                try:
+                    # 通过CMC API搜索币种
+                    headers = {'X-CMC_PRO_API_KEY': api_config['coinmarketcap']['api_key']}
+                    url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map"
+                    params = {'symbol': symbol, 'limit': 5}
+                    response = requests.get(url, headers=headers, params=params, timeout=30)
+                    response.raise_for_status()
+                    
+                    data = response.json()
+                    if data.get('status', {}).get('error_code') == 0:
+                        matches = data.get('data', [])
+                        if matches:
+                            # 优先选择活跃的币种
+                            active_matches = [m for m in matches if m.get('is_active') == 1]
+                            best_match = active_matches[0] if active_matches else matches[0]
+                            
+                            cmc_mapping[symbol] = {
+                                'cmc_id': best_match['id'],
+                                'cmc_slug': best_match['slug'],
+                                'cmc_symbol': best_match['symbol']
+                            }
+                            print(f"  ✅ {symbol} → {best_match['slug']} (ID: {best_match['id']})")
+                        else:
+                            cmc_mapping[symbol] = {'cmc_id': None}
+                            print(f"  ⚠️  {symbol}: 未在CMC找到匹配")
+                    
+                    time.sleep(0.35)  # CMC API速率限制
+                    
+                except Exception as e:
+                    print(f"  ⚠️  {symbol}: 匹配失败 - {str(e)[:50]}")
+                    cmc_mapping[symbol] = {'cmc_id': None}
+            
+            # 保存更新后的映射
+            mapping_data = load_config('config/binance_cmc_mapping.json')
+            mapping_data['mapping'] = cmc_mapping
+            save_config(mapping_data, 'config/binance_cmc_mapping.json')
+            print("✅ CMC映射已更新并保存。")
+        
+        # 创建新页面
         for symbol in new_symbols:
             print(f"\n  - 正在为新币种 {symbol} 创建Notion页面...")
             
