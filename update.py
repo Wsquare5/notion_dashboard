@@ -8,15 +8,9 @@ import json
 import time
 from pathlib import Path
 
-# --- 关键修复：将项目根目录添加到Python模块搜索路径 ---
-# 这能确保 'from scripts.xxx' 能够被正确找到。
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-# ----------------------------------------------------
-
-# 导入自定义的API客户端
-from scripts.notion_api import NotionClient
-from scripts.cmc_api import CMCClient
-from scripts.binance_api import BinanceClient
+# 使用与项目其他脚本相同的导入方式
+sys.path.insert(0, str(Path(__file__).parent / 'scripts'))
+from update_binance_trading_data import NotionClient, CMCClient, BinanceClient
 
 def load_config(path):
     """通用配置加载函数，包含错误处理。"""
