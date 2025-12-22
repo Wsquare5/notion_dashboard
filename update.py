@@ -82,17 +82,21 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
         if metadata.get('name'):
             properties['Name'] = {"rich_text": [{"text": {"content": metadata['name']}}]}
         
-        websites = metadata.get('urls', {}).get('website', [])
-        if websites and websites[0]:
+        # URL字段 - 安全地获取非空URL
+        urls = metadata.get('urls', {})
+        
+        websites = urls.get('website', [])
+        if websites and len(websites) > 0 and websites[0]:
             properties['Website'] = {"url": websites[0]}
             
-        explorer = metadata.get('urls', {}).get('explorer', [])
-        if explorer and explorer[0]:
+        explorer = urls.get('explorer', [])
+        if explorer and len(explorer) > 0 and explorer[0]:
             properties['Explorer'] = {"url": explorer[0]}
 
-        whitepaper = metadata.get('urls', {}).get('whitepaper', [])
-        if whitepaper and whitepaper[0]:
-            properties['Whitepaper'] = {"url": whitepaper[0]}
+        # CMC使用technical_doc而不是whitepaper
+        technical_doc = urls.get('technical_doc', [])
+        if technical_doc and len(technical_doc) > 0 and technical_doc[0]:
+            properties['Whitepaper'] = {"url": technical_doc[0]}
 
         if metadata.get('date_added'):
             date_str = metadata['date_added'][:10]
