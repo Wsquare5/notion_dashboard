@@ -8,8 +8,10 @@ import json
 import time
 from pathlib import Path
 
-# 确保项目根目录在 sys.path 中，以便导入自定义模块
+# --- 关键修复：将项目根目录添加到Python模块搜索路径 ---
+# 这能确保 'from scripts.xxx' 能够被正确找到。
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+# ----------------------------------------------------
 
 # 导入自定义的API客户端
 from scripts.notion_api import NotionClient
@@ -40,7 +42,7 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
 
     try:
         # 加入短暂延时，避免在连续添加多个新币时请求过快
-        time.sleep(1)
+        time.sleep(1.5) # 增加延时以更安全
         print(f"    - 正在为 CMC ID: {cmc_id} 获取元数据...")
         
         token_data = cmc_client.get_token_metadata(cmc_id)
