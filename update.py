@@ -1,787 +1,171 @@
 #!/usr/bin/env python3
 """
-Fast version of Binance to Notion updater with parallel processing
-Optimizations:
-1. Batch query all Notion pages at once
-2. Parallel Binance API calls using ThreadPoolExecutor
-3. Reduced rate limiting delays
-4. Batch Notion updates
-
-Expected speedup: 3 hours -> 15-20 minutes for 603 coins
+从币安API获取最新的交易对列表，并更新到Notion数据库和本地配置文件。
+新增功能：在创建新币种页面时，自动从CoinMarketCap获取并填充元数据。
 """
-
+import sys
 import json
 import time
-import argparse
-import requests
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Dict, List, Tuple, Optional, Set
 
-# Import the existing modules
-import sys
-sys.path.insert(0, str(Path(__file__).parent))
+# 确保项目根目录在 sys.path 中，以便导入自定义模块
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from scripts.update_binance_trading_data import (
-    CMCClient,
-    BinanceDataFetcher,
-    NotionClient,
-    build_trading_properties
-)
+# 导入自定义的API客户端
+from scripts.notion_api import NotionClient
+from scripts.cmc_api import CMCClient
+from scripts.binance_api import BinanceClient
 
-# Constants
-BASE_DIR = Path(__file__).parent
-NOTION_CONFIG_FILE = BASE_DIR / "config" / "config.json"
-API_CONFIG_FILE = BASE_DIR / "config" / "api_config.json"
-CMC_MAPPING_FILE = BASE_DIR / "config" / "binance_cmc_mapping.json"
-BLACKLIST_FILE = BASE_DIR / "config" / "blacklist.json"
-PERP_ONLY_CACHE_FILE = BASE_DIR / "data" / "perp_only_cache.json"
-
-# Thread pool settings
-MAX_WORKERS = 20  # Parallel workers for Binance API calls
-NOTION_BATCH_SIZE = 10  # Notion API batch update size
-
-
-def get_binance_symbols() -> Tuple[Set[str], Set[str], Set[str]]:
-    """
-    Get all Binance symbols and classify them
-    Returns: (all_perp_symbols, spot_symbols, perp_only_symbols)
-    """
-    # Get all perpetual contracts
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-        'Accept': 'application/json'
-    }
+def load_config(path):
+    """通用配置加载函数，包含错误处理。"""
     try:
-        perp_response = requests.get("https://fapi.binance.com/fapi/v1/exchangeInfo", headers=headers, timeout=10)
-        perp_response.raise_for_status()
-        perp_symbols = {s['symbol'].replace('USDT', '') for s in perp_response.json()['symbols'] 
-                       if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}
-    except requests.exceptions.HTTPError as e:
-        if e.response.status_code == 418:
-            print(f"❌ IP 被 Binance 封禁（请求过多）")
-            print(f"   建议：1) 等待 10-30 分钟后重试")
-            print(f"         2) 使用 VPN 或更换网络")
-            print(f"         3) 减少 API 请求频率")
-        else:
-            print(f"❌ Failed to fetch perpetual contracts: {e}")
-        return set(), set(), set()
-    except Exception as e:
-        print(f"❌ Failed to fetch perpetual contracts: {e}")
-        return set(), set(), set()
-    
-    # Get all spot pairs
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"❌ 配置文件未找到: {path}")
+        sys.exit(1)
+    except json.JSONDecodeError:
+        print(f"❌ 配置文件格式错误: {path}")
+        sys.exit(1)
+
+def save_config(data, path):
+    """通用配置保存函数。"""
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+
+def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
+    """为新币种获取并组装CMC元数据。"""
+    if not cmc_id:
+        return None, None
+
     try:
-        spot_response = requests.get("https://api.binance.com/api/v3/exchangeInfo", headers=headers, timeout=10)
-        spot_response.raise_for_status()
-        spot_symbols = {s['symbol'].replace('USDT', '') for s in spot_response.json()['symbols'] 
-                       if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}
+        # 加入短暂延时，避免在连续添加多个新币时请求过快
+        time.sleep(1)
+        print(f"    - 正在为 CMC ID: {cmc_id} 获取元数据...")
+        
+        token_data = cmc_client.get_token_metadata(cmc_id)
+        if not token_data:
+            print(f"    - ⚠️ CMC API 未返回 ID: {cmc_id} 的数据")
+            return None, None
+
+        metadata = token_data.get('metadata', {})
+        quote_data = token_data.get('quote', {})
+
+        properties = {}
+        
+        # 静态元数据
+        if metadata.get('name'):
+            properties['Name'] = {"rich_text": [{"text": {"content": metadata['name']}}]}
+        
+        websites = metadata.get('urls', {}).get('website', [])
+        if websites and websites[0]:
+            properties['Website'] = {"url": websites[0]}
+            
+        explorer = metadata.get('urls', {}).get('explorer', [])
+        if explorer and explorer[0]:
+            properties['Explorer'] = {"url": explorer[0]}
+
+        whitepaper = metadata.get('urls', {}).get('whitepaper', [])
+        if whitepaper and whitepaper[0]:
+            properties['Whitepaper'] = {"url": whitepaper[0]}
+
+        if metadata.get('date_added'):
+            date_str = metadata['date_added'][:10]
+            properties['Genesis Date'] = {"date": {"start": date_str}}
+
+        # 动态元数据（初始值）
+        if quote_data.get('circulating_supply'):
+            properties['Circulating Supply'] = {"number": float(quote_data['circulating_supply'])}
+        if quote_data.get('total_supply'):
+            properties['Total Supply'] = {"number": float(quote_data['total_supply'])}
+        if quote_data.get('max_supply'):
+            properties['Max Supply'] = {"number": float(quote_data['max_supply'])}
+        
+        # Logo (作为页面图标)
+        icon_url = metadata.get('logo')
+        icon = {"type": "external", "external": {"url": icon_url}} if icon_url else None
+
+        return properties, icon
+
     except Exception as e:
-        print(f"❌ Failed to fetch spot pairs: {e}")
-        return perp_symbols, set(), perp_symbols
-    
-    perp_only_symbols = perp_symbols - spot_symbols
-    
-    return perp_symbols, spot_symbols, perp_only_symbols
-
-
-def load_all_notion_pages(notion: NotionClient) -> Dict[str, Dict]:
-    """
-    Batch load all pages from Notion database
-    Returns: {symbol: page_data}
-    """
-    print("📥 Loading all Notion pages...")
-    start = time.time()
-    
-    pages_by_symbol = {}
-    try:
-        # Use the NotionClient's query_database method
-        all_pages = notion.query_database()
-        
-        for page in all_pages:
-            # Extract symbol from title
-            title_prop = page.get('properties', {}).get('Symbol', {})
-            if title_prop.get('title'):
-                symbol = title_prop['title'][0]['text']['content']
-                pages_by_symbol[symbol] = page
-        
-        elapsed = time.time() - start
-        print(f"✅ Loaded {len(pages_by_symbol)} pages in {elapsed:.1f}s")
-        
-    except Exception as e:
-        print(f"❌ Failed to load Notion pages: {e}")
-        return {}
-    
-    return pages_by_symbol
-
-
-def fetch_symbol_data(symbol: str, has_spot: bool, is_perp_only: bool) -> Tuple[str, Optional[Dict], Optional[Dict]]:
-    """
-    Fetch trading data for a single symbol
-    Returns: (symbol, spot_data, perp_data)
-    """
-    spot_data = None
-    if has_spot:
-        spot_result = BinanceDataFetcher.fetch_spot_data(symbol)
-        if isinstance(spot_result, tuple):
-            spot_data, _, _ = spot_result
-        else:
-            spot_data = spot_result
-    
-    perp_data = BinanceDataFetcher.fetch_perp_data(symbol)
-    
-    return (symbol, spot_data, perp_data)
-
-
-def parallel_fetch_trading_data(symbols: List[str], spot_and_perp: set, perp_only: set, max_workers: int = 20, max_retries: int = 3) -> Dict[str, Tuple]:
-    """
-    Fetch trading data for all symbols in parallel with automatic retry for failed requests
-    Returns: {symbol: (spot_data, perp_data)}
-    """
-    print(f"🚀 Fetching trading data for {len(symbols)} symbols (using {max_workers} threads)...")
-    start = time.time()
-    
-    results = {}
-    failed_symbols = []
-    
-    # First attempt - parallel fetch
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all tasks
-        futures = {}
-        for symbol in symbols:
-            has_spot = symbol in spot_and_perp
-            is_perp_only = symbol in perp_only
-            future = executor.submit(fetch_symbol_data, symbol, has_spot, is_perp_only)
-            futures[future] = symbol
-        
-        # Collect results
-        completed = 0
-        for future in as_completed(futures):
-            symbol = futures[future]
-            try:
-                symbol, spot_data, perp_data = future.result()
-                
-                # Check if we got any data
-                if not spot_data and not perp_data:
-                    failed_symbols.append(symbol)
-                    results[symbol] = (None, None)
-                else:
-                    results[symbol] = (spot_data, perp_data)
-                
-                completed += 1
-                
-                if completed % 50 == 0:
-                    elapsed = time.time() - start
-                    rate = completed / elapsed
-                    remaining = (len(symbols) - completed) / rate if rate > 0 else 0
-                    print(f"  Progress: {completed}/{len(symbols)} ({completed/len(symbols)*100:.1f}%) - ETA: {remaining:.0f}s")
-                    
-            except Exception as e:
-                print(f"  ⚠️  {symbol}: {str(e)[:50]}")
-                failed_symbols.append(symbol)
-                results[symbol] = (None, None)
-    
-    elapsed = time.time() - start
-    rate = len(symbols) / elapsed
-    print(f"✅ Initial fetch: {len(symbols) - len(failed_symbols)}/{len(symbols)} successful in {elapsed:.1f}s ({rate:.1f} symbols/s)")
-    
-    # Retry failed symbols
-    if failed_symbols:
-        print(f"\n🔄 Retrying {len(failed_symbols)} failed symbols (max {max_retries} attempts)...")
-        
-        retry_count = 0
-        while failed_symbols and retry_count < max_retries:
-            retry_count += 1
-            print(f"\n  Attempt {retry_count}/{max_retries}: Retrying {len(failed_symbols)} symbols...")
-            
-            # Wait a bit before retry to avoid rate limiting
-            time.sleep(2)
-            
-            retry_failed = []
-            retry_start = time.time()
-            
-            # Retry with fewer workers to reduce network pressure
-            retry_workers = max(5, max_workers // 4)
-            
-            with ThreadPoolExecutor(max_workers=retry_workers) as executor:
-                futures = {}
-                for symbol in failed_symbols:
-                    has_spot = symbol in spot_and_perp
-                    is_perp_only = symbol in perp_only
-                    future = executor.submit(fetch_symbol_data, symbol, has_spot, is_perp_only)
-                    futures[future] = symbol
-                
-                for future in as_completed(futures):
-                    symbol = futures[future]
-                    try:
-                        symbol, spot_data, perp_data = future.result()
-                        
-                        if not spot_data and not perp_data:
-                            retry_failed.append(symbol)
-                        else:
-                            results[symbol] = (spot_data, perp_data)
-                            print(f"    ✅ {symbol} - retry successful")
-                            
-                    except Exception as e:
-                        retry_failed.append(symbol)
-                        print(f"    ⚠️  {symbol} - retry failed: {str(e)[:40]}")
-            
-            retry_elapsed = time.time() - retry_start
-            recovered = len(failed_symbols) - len(retry_failed)
-            
-            if recovered > 0:
-                print(f"  ✅ Recovered {recovered} symbols in {retry_elapsed:.1f}s")
-            
-            failed_symbols = retry_failed
-            
-            if not failed_symbols:
-                break
-        
-        # Final summary
-        total_elapsed = time.time() - start
-        total_success = len(symbols) - len(failed_symbols)
-        
-        print(f"\n{'='*80}")
-        print(f"📊 Fetch Summary:")
-        print(f"  ✅ Successful: {total_success}/{len(symbols)} ({total_success/len(symbols)*100:.1f}%)")
-        if failed_symbols:
-            print(f"  ❌ Still failed: {len(failed_symbols)} symbols")
-            print(f"  Failed symbols: {', '.join(failed_symbols[:20])}")
-            if len(failed_symbols) > 20:
-                print(f"                  ... and {len(failed_symbols) - 20} more")
-        print(f"  ⏱️  Total time: {total_elapsed:.1f}s")
-        print(f"{'='*80}\n")
-    
-    return results
+        print(f"    - ❌ 获取 CMC 元数据时出错: {e}")
+        return None, None
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Fast update Binance trading data to Notion (parallel processing)',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog='''
-Examples:
-  # Fast update all coins
-  python3 scripts/update_binance_trading_data_fast.py
-  
-  # Fast update with static fields
-  python3 scripts/update_binance_trading_data_fast.py --update-static-fields
-  
-  # Fast update with metadata (supply data)
-  python3 scripts/update_binance_trading_data_fast.py --update-metadata
-  
-  # Specify number of parallel workers (default: 20)
-  python3 scripts/update_binance_trading_data_fast.py --workers 30
-        '''
-    )
-    parser.add_argument('symbols', nargs='*', help='Specific symbols to update (optional)')
-    parser.add_argument('--update-metadata', '--update-supply', action='store_true',
-                       help='Update all metadata: Supply + Static Fields (calls CMC API)')
-    parser.add_argument('--update-static-fields', action='store_true',
-                       help='Update static fields: Funding Cycle, Categories, Index Composition')
-    parser.add_argument('--update-funding-cycle', action='store_true',
-                       help='(Deprecated: use --update-static-fields)')
-    parser.add_argument('--workers', type=int, default=20,
-                       help='Number of parallel workers (default: 20)')
-    
-    args = parser.parse_args()
-    
+    """主执行函数。"""
+    print("\n" + "="*80)
+    print("🔄 开始同步币安最新交易对...")
     print("="*80)
-    print("🚀 Fast Binance to Notion Updater (Parallel Version)")
-    print("="*80)
-    print(f"⚙️  Workers: {args.workers}")
-    print(f"⚙️  Update metadata: {args.update_metadata}")
-    print(f"⚙️  Update static fields: {args.update_static_fields or args.update_funding_cycle}")
-    print("="*80)
-    
-    start_time = time.time()
-    
-    # Load configuration
-    if not NOTION_CONFIG_FILE.exists():
-        print(f"❌ Config file not found: {NOTION_CONFIG_FILE}")
+
+    # --- 1. 加载配置 ---
+    print("\n[1/5] 正在加载本地配置...")
+    config = load_config('config/config.json')
+    api_config = load_config('config/api_config.json')
+    cmc_mapping = load_config('config/binance_cmc_mapping.json').get('mapping', {})
+    blacklist = load_config('config/blacklist.json')
+    print("✅ 本地配置加载完成。")
+
+    # --- 2. 初始化客户端 ---
+    print("\n[2/5] 正在初始化 API 客户端...")
+    binance_client = BinanceClient()
+    notion_client = NotionClient(config['notion']['api_key'], config['notion']['database_id'])
+    cmc_client = CMCClient(api_config['coinmarketcap']['api_key'])
+    print("✅ API 客户端初始化完成。")
+
+    # --- 3. 获取最新和已有的交易对 ---
+    print("\n[3/5] 正在获取数据...")
+    print("  - 从币安获取最新交易对...")
+    all_binance_symbols = binance_client.get_all_usdt_perp_symbols()
+    if not all_binance_symbols:
+        print("❌ 无法从币安获取交易对列表，程序终止。")
         return
-    
-    with NOTION_CONFIG_FILE.open('r') as f:
-        config = json.load(f)
-    
-    notion_api_key = config['notion']['api_key']
-    notion_database_id = config['notion']['database_id']
-    
-    # Initialize clients
-    notion = NotionClient(notion_api_key, notion_database_id)
-    
-    cmc_client = None
-    if API_CONFIG_FILE.exists():
-        try:
-            with API_CONFIG_FILE.open('r') as f:
-                api_config = json.load(f)
-                cmc_api_key = api_config.get('coinmarketcap', {}).get('api_key')
-                if cmc_api_key:
-                    cmc_client = CMCClient(cmc_api_key)
-                    print("✅ CMC API client initialized")
-        except Exception as e:
-            print(f"⚠️  CMC client init failed: {e}")
-    
-    # Load mappings
-    with CMC_MAPPING_FILE.open('r') as f:
-        cmc_data = json.load(f)
-        # Handle both formats: direct dict or wrapped in 'mapping' key
-        if 'mapping' in cmc_data:
-            cmc_mapping = cmc_data['mapping']
-        else:
-            cmc_mapping = cmc_data
-    
-    blacklist = set()
-    if BLACKLIST_FILE.exists():
-        with BLACKLIST_FILE.open('r') as f:
-            blacklist_data = json.load(f)
-            # Handle both formats: array or object with "blacklist" key
-            if isinstance(blacklist_data, list):
-                blacklist = set(blacklist_data)
-            elif isinstance(blacklist_data, dict) and 'blacklist' in blacklist_data:
-                blacklist = set(blacklist_data['blacklist'])
-            else:
-                blacklist = set()
-    
-    # Get database properties
-    db_props = notion.get_database_properties()
-    
-    # Get all symbols
-    perp_symbols, spot_symbols, perp_only_symbols = get_binance_symbols()
-    spot_and_perp_symbols = perp_symbols & spot_symbols
-    
-    all_symbols = sorted(list(perp_symbols))
-    
-    # Filter by user input if provided
-    if args.symbols:
-        all_symbols = [s for s in args.symbols if s in perp_symbols]
-        print(f"🎯 Filtering to {len(all_symbols)} specified symbols")
-    
-    # Remove blacklisted
-    all_symbols = [s for s in all_symbols if s not in blacklist]
-    
-    print(f"📊 Total symbols: {len(all_symbols)}")
-    
-    # Step 1: Batch load all Notion pages
-    pages_by_symbol = load_all_notion_pages(notion)
-    
-    # Step 2: Parallel fetch all trading data
-    trading_data = parallel_fetch_trading_data(
-        all_symbols,
-        spot_and_perp_symbols,
-        perp_only_symbols,
-        max_workers=args.workers
-    )
-    
-    # Step 3: Auto-match new symbols without CMC mapping
-    new_symbols_without_mapping = []
-    for symbol in all_symbols:
-        if symbol not in cmc_mapping and symbol not in pages_by_symbol:
-            new_symbols_without_mapping.append(symbol)
-    
-    if new_symbols_without_mapping:
-        print(f"\n🔍 发现 {len(new_symbols_without_mapping)} 个新币种没有 CMC mapping: {', '.join(new_symbols_without_mapping)}")
-        print("🔄 正在自动匹配 CMC ID...")
-        
-        if cmc_client:
-            # Auto-match new symbols
-            matched_count = 0
-            for symbol in new_symbols_without_mapping:
-                try:
-                    # Search CMC by symbol
-                    headers = {
-                        'X-CMC_PRO_API_KEY': cmc_client.api_key,
-                        'Accept': 'application/json'
-                    }
-                    url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map'
-                    params = {'symbol': symbol}
-                    
-                    response = requests.get(url, headers=headers, params=params, timeout=10)
-                    if response.status_code == 200:
-                        data = response.json()
-                        coins = data.get('data', [])
-                        
-                        if coins:
-                            # Get active coins and sort by rank
-                            active_coins = [c for c in coins if c.get('is_active') == 1]
-                            if active_coins:
-                                # Pick the one with lowest rank (highest market cap)
-                                best_match = sorted(active_coins, key=lambda x: x.get('rank') or 999999)[0]
-                                
-                                cmc_mapping[symbol] = {
-                                    'cmc_id': best_match.get('id'),
-                                    'cmc_slug': best_match.get('slug'),
-                                    'cmc_symbol': best_match.get('symbol'),
-                                    'match_type': 'auto'
-                                }
-                                matched_count += 1
-                                print(f"  ✅ {symbol} → {best_match.get('name')} (CMC ID: {best_match.get('id')}, Rank: {best_match.get('rank')})")
-                            else:
-                                print(f"  ⚠️  {symbol}: 找到 {len(coins)} 个匹配，但都不是活跃币种")
-                        else:
-                            print(f"  ⚠️  {symbol}: CMC 未找到匹配")
-                    
-                    time.sleep(0.2)  # Rate limiting
-                    
-                except Exception as e:
-                    print(f"  ❌ {symbol}: 匹配失败 - {e}")
+    print(f"    - 币安返回 {len(all_binance_symbols)} 个USDT永续合约。")
+
+    print("  - 从Notion获取现有交易对...")
+    existing_notion_symbols = notion_client.get_all_symbols_from_db()
+    print(f"    - Notion中存在 {len(existing_notion_symbols)} 个交易对。")
+
+    # --- 4. 找出新交易对并创建页面 ---
+    print("\n[4/5] 正在比对并创建新页面...")
+    new_symbols = [s for s in all_binance_symbols if s not in existing_notion_symbols and s not in blacklist]
+
+    if not new_symbols:
+        print("✅ 没有发现新的交易对。")
+    else:
+        print(f"💎 发现 {len(new_symbols)} 个新交易对: {', '.join(new_symbols)}")
+        for symbol in new_symbols:
+            print(f"\n  - 正在为新币种 {symbol} 创建Notion页面...")
             
-            if matched_count > 0:
-                print(f"\n💾 保存更新的 CMC mapping ({matched_count} 个新匹配)...")
-                with CMC_MAPPING_FILE.open('w', encoding='utf-8') as f:
-                    json.dump(cmc_mapping, f, indent=2, ensure_ascii=False)
-                print("✅ CMC mapping 已更新")
-        else:
-            print("⚠️  CMC API client 未初始化，跳过自动匹配")
-    
-    # Step 4: Prepare updates
-    print(f"\n📝 Preparing updates for {len(all_symbols)} symbols...")
-    
-    update_meta = args.update_metadata
-    update_static = args.update_static_fields or args.update_funding_cycle or args.update_metadata
-    
-    updates_to_process = []
-    creates_to_process = []
-    recreates_to_process = []  # Pages to delete and recreate
-    skipped_symbols = []
-    
-    # Prepare all updates/creates first
-    for symbol in all_symbols:
-        spot_data, perp_data = trading_data.get(symbol, (None, None))
-        
-        if not spot_data and not perp_data:
-            skipped_symbols.append(symbol)
-            print(f"  ⚠️  {symbol}: 跳过 - 没有交易数据")
-            continue
-        
-        page = pages_by_symbol.get(symbol)
-        
-        if not page:
-            # Prepare creation
-            cmc_data = cmc_mapping.get(symbol)
-            if not cmc_data:
-                skipped_symbols.append(symbol)
-                print(f"  ⚠️  {symbol}: 跳过 - 没有 CMC mapping（自动匹配也未找到）")
-                continue
+            # 为新币种获取CMC元数据
+            cmc_id = cmc_mapping.get(symbol, {}).get('cmc_id')
+            properties, icon = get_cmc_metadata_for_new_coin(cmc_client, cmc_id)
             
-            print(f"  ✅ {symbol}: 准备创建新页面")
-            creates_to_process.append({
-                'symbol': symbol,
-                'spot_data': spot_data,
-                'perp_data': perp_data,
-                'cmc_data': cmc_data
-            })
-        else:
-            # Check if page needs to be recreated for Logo
-            cmc_data = cmc_mapping.get(symbol)
-            needs_logo_recreate = False
+            # 无论是否获取到CMC数据，都先创建页面，确保Symbol存在
+            if properties is None:
+                properties = {}
+                print("    - 未能获取CMC元数据，将创建基础页面。")
+
+            # 添加Symbol属性，这是必须的
+            properties['Symbol'] = {'title': [{'text': {'content': symbol}}]}
             
-            if cmc_data and cmc_data.get('cmc_id') and update_meta:
-                # Check if Logo is missing
-                props = page.get('properties', {})
-                logo_files = props.get('Logo', {}).get('files', [])
-                page_icon = page.get('icon')
-                
-                if not logo_files and not page_icon:
-                    needs_logo_recreate = True
-                    print(f"  🔄 {symbol}: Logo 缺失，将删除并重新创建页面")
-            
-            if needs_logo_recreate:
-                # Mark for recreation
-                recreates_to_process.append({
-                    'symbol': symbol,
-                    'page_id': page['id'],
-                    'spot_data': spot_data,
-                    'perp_data': perp_data,
-                    'cmc_data': cmc_data
-                })
-            else:
-                # Prepare normal update
-                updates_to_process.append({
-                    'symbol': symbol,
-                    'page': page,
-                    'spot_data': spot_data,
-                    'perp_data': perp_data,
-                    'cmc_data': cmc_data
-                })
-    
-    print(f"  ✅ {len(updates_to_process)} pages to update")
-    print(f"  ✅ {len(creates_to_process)} pages to create")
-    print(f"  🔄 {len(recreates_to_process)} pages to recreate (for Logo)")
-    print(f"  ⚠️  {len(skipped_symbols)} symbols skipped")
-    
-    # Step 4.5: Process recreates (delete old pages first)
-    if recreates_to_process:
-        print(f"\n🗑️  Deleting {len(recreates_to_process)} pages for recreation...")
-        for recreate_info in recreates_to_process:
             try:
-                symbol = recreate_info['symbol']
-                page_id = recreate_info['page_id']
-                
-                # Archive the page using Notion API
-                url = f"{notion.base_url}/pages/{page_id}"
-                payload = {"archived": True}
-                response = requests.patch(url, headers=notion.headers, json=payload, timeout=30)
-                response.raise_for_status()
-                
-                print(f"  ✅ {symbol}: 已删除")
-                
-                # Move to creates list
-                creates_to_process.append({
-                    'symbol': symbol,
-                    'spot_data': recreate_info['spot_data'],
-                    'perp_data': recreate_info['perp_data'],
-                    'cmc_data': recreate_info['cmc_data']
-                })
+                notion_client.create_page(properties, icon)
+                print(f"    - ✅ 成功为 {symbol} 创建了Notion页面。")
             except Exception as e:
-                print(f"  ❌ {symbol}: 删除失败 - {e}")
-        
-        print(f"✅ 已删除 {len(recreates_to_process)} 个页面，将重新创建")
+                print(f"    - ❌ 为 {symbol} 创建页面失败: {e}")
 
-    
-    # Step 5: Process updates in parallel
-    def process_update(update_info):
-        """Worker function to update a single page"""
-        try:
-            symbol = update_info['symbol']
-            page = update_info['page']
-            spot_data = update_info['spot_data']
-            perp_data = update_info['perp_data']
-            cmc_data = update_info['cmc_data']
-            
-            cmc_full_data = None
-            if update_meta and cmc_data and cmc_data.get('cmc_id') and cmc_client:
-                try:
-                    cmc_full_data = cmc_client.get_token_data(cmc_data['cmc_id'])
-                except Exception:
-                    pass
-            
-            properties, _ = build_trading_properties(
-                symbol, spot_data, perp_data, cmc_data, cmc_full_data,
-                existing_page=page, is_new_page=False,
-                update_metadata=update_meta, update_static_fields=update_static
-            )
-            
-            notion.update_page(page['id'], properties)
-            
-            # Format display info
-            spot_price = spot_data.get('spot_price') if spot_data else None
-            perp_price = perp_data.get('perp_price') if perp_data else None
-            oi = perp_data.get('open_interest_usd') if perp_data else None
-            funding = perp_data.get('funding_rate') if perp_data else None
-            
-            info_parts = []
-            if spot_price:
-                info_parts.append(f"S:${spot_price:.4f}")
-            if perp_price:
-                info_parts.append(f"P:${perp_price:.4f}")
-            if oi:
-                info_parts.append(f"OI:${oi/1e9:.2f}B" if oi >= 1e9 else f"OI:${oi/1e6:.0f}M")
-            if funding is not None:
-                info_parts.append(f"FR:{funding*100:.4f}%")
-            
-            return ('success', symbol, ' '.join(info_parts))
-            
-        except Exception as e:
-            return ('error', symbol, str(e)[:50])
-    
-    def process_create(create_info):
-        """Worker function to create a single page"""
-        try:
-            symbol = create_info['symbol']
-            spot_data = create_info['spot_data']
-            perp_data = create_info['perp_data']
-            cmc_data = create_info['cmc_data']
-            
-            cmc_full_data = None
-            if cmc_client and cmc_data.get('cmc_id'):
-                try:
-                    cmc_full_data = cmc_client.get_token_data(cmc_data['cmc_id'])
-                except Exception as e:
-                    print(f"⚠️  CMC API failed for {symbol} (ID {cmc_data['cmc_id']}): {type(e).__name__}: {str(e)[:100]}")
-                    pass
-            
-            properties, icon_url = build_trading_properties(
-                symbol, spot_data, perp_data, cmc_data, cmc_full_data,
-                is_new_page=True, update_metadata=True, update_static_fields=True
-            )
-            
-            if properties.get('Logo') and 'Logo' not in db_props:
-                logo_val = properties.pop('Logo')
-                logo_url = logo_val.get('url') if isinstance(logo_val, dict) else None
-                if logo_url:
-                    properties['CoinGecko ID'] = {"rich_text": [{"text": {"content": logo_url}}]}
-            
-            notion.create_page(properties, icon_url, symbol=symbol)
-            
-            return ('created', symbol, '')
-            
-        except Exception as e:
-            return ('error', symbol, str(e)[:50])
-    
-    # Process updates in parallel
-    print(f"\n🚀 Updating {len(updates_to_process)} pages in parallel (10 workers)...")
-    update_start = time.time()
-    
-    success_count = 0
-    created_count = 0
-    error_count = 0
-    failed_updates = []  # 收集失败的更新
-    
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = [executor.submit(process_update, update_info) for update_info in updates_to_process]
-        
-        completed = 0
-        for future in as_completed(futures):
-            status, symbol, info = future.result()
-            completed += 1
-            
-            if status == 'success':
-                success_count += 1
-                if completed % 50 == 0 or completed == len(updates_to_process):
-                    print(f"  [{completed}/{len(updates_to_process)}] {symbol} ✅ {info}")
-            else:
-                error_count += 1
-                # 保存失败的更新信息，用于重试
-                for update_info in updates_to_process:
-                    if update_info['symbol'] == symbol:
-                        failed_updates.append(update_info)
-                        break
-                print(f"  [{completed}/{len(updates_to_process)}] {symbol} ❌ {info}")
-    
-    update_elapsed = time.time() - update_start
-    print(f"✅ Updated {success_count} pages in {update_elapsed:.1f}s ({success_count/update_elapsed:.2f} pages/s)")
-    
-    # 重试失败的更新
-    max_retries = 3
-    for retry_num in range(1, max_retries + 1):
-        if not failed_updates:
-            break
-            
-        print(f"\n🔄 Retry {retry_num}/{max_retries} for {len(failed_updates)} failed updates...")
-        retry_start = time.time()
-        
-        retry_failed = []
-        with ThreadPoolExecutor(max_workers=5) as executor:  # 减少并发数，避免再次失败
-            futures = [executor.submit(process_update, update_info) for update_info in failed_updates]
-            
-            for future in as_completed(futures):
-                status, symbol, info = future.result()
-                
-                if status == 'success':
-                    success_count += 1
-                    error_count -= 1
-                    print(f"    ✅ {symbol} - retry successful")
-                else:
-                    # 保存仍然失败的更新
-                    for update_info in failed_updates:
-                        if update_info['symbol'] == symbol:
-                            retry_failed.append(update_info)
-                            break
-                    print(f"    ⚠️  {symbol} - retry failed: {info[:40]}")
-        
-        retry_elapsed = time.time() - retry_start
-        recovered = len(failed_updates) - len(retry_failed)
-        
-        if recovered > 0:
-            print(f"  ✅ Recovered {recovered} pages in {retry_elapsed:.1f}s")
-        
-        failed_updates = retry_failed
-        
-        if not failed_updates:
-            break
-    
-    # Process creates in parallel  
-    if creates_to_process:
-        print(f"\n🚀 Creating {len(creates_to_process)} pages in parallel (10 workers)...")
-        create_start = time.time()
-        failed_creates = []
-        
-        with ThreadPoolExecutor(max_workers=10) as executor:
-            futures = [executor.submit(process_create, create_info) for create_info in creates_to_process]
-            
-            completed = 0
-            for future in as_completed(futures):
-                status, symbol, info = future.result()
-                completed += 1
-                
-                if status == 'created':
-                    created_count += 1
-                    success_count += 1
-                    if completed % 50 == 0 or completed == len(creates_to_process):
-                        print(f"  [{completed}/{len(creates_to_process)}] {symbol} ✅ Created")
-                else:
-                    error_count += 1
-                    # 保存失败的创建信息
-                    for create_info in creates_to_process:
-                        if create_info['symbol'] == symbol:
-                            failed_creates.append(create_info)
-                            break
-                    print(f"  [{completed}/{len(creates_to_process)}] {symbol} ❌ {info}")
-        
-        create_elapsed = time.time() - create_start
-        print(f"✅ Created {created_count} pages in {create_elapsed:.1f}s ({created_count/create_elapsed:.2f} pages/s)")
-        
-        # 重试失败的创建
-        for retry_num in range(1, max_retries + 1):
-            if not failed_creates:
-                break
-                
-            print(f"\n🔄 Retry {retry_num}/{max_retries} for {len(failed_creates)} failed creates...")
-            retry_start = time.time()
-            
-            retry_failed = []
-            with ThreadPoolExecutor(max_workers=5) as executor:
-                futures = [executor.submit(process_create, create_info) for create_info in failed_creates]
-                
-                for future in as_completed(futures):
-                    status, symbol, info = future.result()
-                    
-                    if status == 'created':
-                        created_count += 1
-                        success_count += 1
-                        error_count -= 1
-                        print(f"    ✅ {symbol} - retry created successfully")
-                    else:
-                        for create_info in failed_creates:
-                            if create_info['symbol'] == symbol:
-                                retry_failed.append(create_info)
-                                break
-                        print(f"    ⚠️  {symbol} - retry failed: {info[:40]}")
-            
-            retry_elapsed = time.time() - retry_start
-            recovered = len(failed_creates) - len(retry_failed)
-            
-            if recovered > 0:
-                print(f"  ✅ Recovered {recovered} pages in {retry_elapsed:.1f}s")
-            
-            failed_creates = retry_failed
-            
-            if not failed_creates:
-                break
-    
-    skipped_count = len(skipped_symbols)
-    
-    # Summary
-    elapsed = time.time() - start_time
-    print(f"\n{'='*80}")
-    print(f"✅ Update Complete in {elapsed/60:.1f} minutes")
-    print(f"{'='*80}")
-    print(f"Success: {success_count} (Updated: {success_count - created_count}, Created: {created_count})")
-    print(f"Skipped: {skipped_count}")
-    if error_count > 0:
-        print(f"Errors: {error_count}")
-        if failed_updates:
-            print(f"  Still failed updates: {', '.join([u['symbol'] for u in failed_updates])}")
-        if 'failed_creates' in locals() and failed_creates:
-            print(f"  Still failed creates: {', '.join([c['symbol'] for c in failed_creates])}")
-    print(f"Rate: {success_count/elapsed:.2f} symbols/second")
-    print(f"{'='*80}")
+    # --- 5. 更新本地配置文件 ---
+    print("\n[5/5] 正在更新本地 `config.json` 的币种列表...")
+    # 合并新旧列表，去重并排序
+    final_symbol_list = sorted(list(set(all_binance_symbols) - set(blacklist)))
+    config['binance_symbols'] = final_symbol_list
+    save_config(config, 'config/config.json')
+    print(f"✅ `config.json` 更新完成，现在包含 {len(final_symbol_list)} 个币种。")
 
+    print("\n" + "="*80)
+    print("🎉 同步完成！")
+    print("="*80)
 
-if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\n\n⚠️  Interrupted by user")
-        sys.exit(1)
+if __name__ == "__main__":
+    main()
