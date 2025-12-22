@@ -14,18 +14,24 @@ sys.path.insert(0, str(Path(__file__).parent / 'scripts'))
 from update_binance_trading_data import NotionClient, CMCClient
 
 def get_all_binance_usdt_perp():
-    """从币安获取所有USDT永续合约列表"""
+    """从币安获取所有当前在交易中的USDT永续合约列表"""
     try:
         url = "https://fapi.binance.com/fapi/v1/exchangeInfo"
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
-        # 提取所有以USDT结尾的永续合约符号
+        # 提取所有以USDT结尾、状态为TRADING的永续合约符号
         symbols = []
         for symbol_info in data.get('symbols', []):
             symbol = symbol_info['symbol']
-            if symbol.endswith('USDT') and symbol_info.get('contractType') == 'PERPETUAL':
+            status = symbol_info.get('status')
+            contract_type = symbol_info.get('contractType')
+            
+            # 只处理状态为TRADING的永续合约
+            if (symbol.endswith('USDT') and 
+                contract_type == 'PERPETUAL' and 
+                status == 'TRADING'):
                 # 去掉USDT后缀，只保留基础币种符号
                 base_symbol = symbol.replace('USDT', '')
                 symbols.append(base_symbol)
