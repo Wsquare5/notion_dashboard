@@ -163,6 +163,12 @@ def main():
         print("✅ 没有发现新的交易对。")
     else:
         print(f"💎 发现 {len(new_symbols)} 个新交易对: {', '.join(new_symbols)}")
+        
+        # 自动匹配新币种的CMC ID
+        print("\n🔍 正在自动匹配新币种的 CoinMarketCap ID...")
+        from update_binance_trading_data import auto_match_new_symbols
+        cmc_mapping = auto_match_new_symbols(cmc_mapping, api_config['coinmarketcap']['api_key'])
+        print("✅ CMC ID 匹配完成。")
         for symbol in new_symbols:
             print(f"\n  - 正在为新币种 {symbol} 创建Notion页面...")
             
