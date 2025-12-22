@@ -48,18 +48,31 @@ def get_binance_symbols() -> Tuple[Set[str], Set[str], Set[str]]:
     Returns: (all_perp_symbols, spot_symbols, perp_only_symbols)
     """
     # Get all perpetual contracts
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Accept': 'application/json'
+    }
     try:
-        perp_response = requests.get("https://fapi.binance.com/fapi/v1/exchangeInfo", timeout=10)
+        perp_response = requests.get("https://fapi.binance.com/fapi/v1/exchangeInfo", headers=headers, timeout=10)
         perp_response.raise_for_status()
         perp_symbols = {s['symbol'].replace('USDT', '') for s in perp_response.json()['symbols'] 
                        if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 418:
+            print(f"❌ IP 被 Binance 封禁（请求过多）")
+            print(f"   建议：1) 等待 10-30 分钟后重试")
+            print(f"         2) 使用 VPN 或更换网络")
+            print(f"         3) 减少 API 请求频率")
+        else:
+            print(f"❌ Failed to fetch perpetual contracts: {e}")
+        return set(), set(), set()
     except Exception as e:
         print(f"❌ Failed to fetch perpetual contracts: {e}")
         return set(), set(), set()
     
     # Get all spot pairs
     try:
-        spot_response = requests.get("https://api.binance.com/api/v3/exchangeInfo", timeout=10)
+        spot_response = requests.get("https://api.binance.com/api/v3/exchangeInfo", headers=headers, timeout=10)
         spot_response.raise_for_status()
         spot_symbols = {s['symbol'].replace('USDT', '') for s in spot_response.json()['symbols'] 
                        if s['symbol'].endswith('USDT') and s['status'] == 'TRADING'}

@@ -27,6 +27,45 @@ from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
+# Binance API request helper with rate limiting protection
+def safe_binance_request(url, params=None, timeout=10, max_retries=3):
+    """
+    Safe Binance API request with proper headers and error handling
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Accept': 'application/json'
+    }
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=timeout)
+            response.raise_for_status()
+            return response
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 418:
+                # IP banned
+                try:
+                    error_data = e.response.json()
+                    if 'msg' in error_data and 'banned until' in error_data['msg']:
+                        print(f"⚠️  IP 被 Binance 封禁（请求过多），请等待 10-30 分钟")
+                except:
+                    pass
+                raise
+            elif e.response.status_code == 429:
+                # Rate limit, wait and retry
+                wait_time = 2 ** attempt
+                print(f"⚠️  速率限制，等待 {wait_time}秒后重试...")
+                time.sleep(wait_time)
+                continue
+            raise
+        except Exception as e:
+            if attempt == max_retries - 1:
+                raise
+            time.sleep(1)
+    
+    raise Exception(f"Failed after {max_retries} attempts")
+
 # Configuration
 ROOT = Path(__file__).resolve().parents[1]
 NOTION_CONFIG_FILE = ROOT / 'config' / 'config.json'

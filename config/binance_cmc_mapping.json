@@ -1,3644 +1,3710 @@
 {
-  "metadata": {
-    "created_at": "2025-11-12 23:24:13",
-    "total_symbols": 606
+  "0G": {
+    "cmc_id": 38337,
+    "cmc_slug": "zero-gravity",
+    "cmc_symbol": "0G",
+    "match_type": "exact"
   },
-  "mapping": {
-    "0G": {
-      "cmc_id": 38337,
-      "cmc_slug": "zero-gravity",
-      "cmc_symbol": "0G",
-      "match_type": "exact"
-    },
-    "1000000BOB": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000000MOG": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000BONK": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000CAT": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000CHEEMS": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000FLOKI": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000LUNC": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000PEPE": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000RATS": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000SATS": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000SHIB": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000WHY": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1000X": {
-      "cmc_id": 35168,
-      "cmc_slug": "1000x-by-virtuals",
-      "cmc_symbol": "1000X",
-      "match_type": "exact"
-    },
-    "1000XEC": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "1INCH": {
-      "cmc_id": 8104,
-      "cmc_slug": "1inch",
-      "cmc_symbol": "1INCH",
-      "match_type": "exact"
-    },
-    "1MBABYDOGE": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "2Z": {
-      "cmc_id": 38515,
-      "cmc_slug": "doublezero",
-      "cmc_symbol": "2Z",
-      "match_type": "exact"
-    },
-    "4": {
-      "cmc_id": 38557,
-      "cmc_slug": "4four",
-      "cmc_symbol": "4",
-      "match_type": "exact"
-    },
-    "42": {
-      "cmc_id": 38771,
-      "cmc_slug": "semantic-layer",
-      "cmc_symbol": "42",
-      "match_type": "exact"
-    },
-    "A": {
-      "cmc_id": 36462,
-      "cmc_slug": "vaulta",
-      "cmc_symbol": "A",
-      "match_type": "exact"
-    },
-    "A2Z": {
-      "cmc_id": 37357,
-      "cmc_slug": "arena-z",
-      "cmc_symbol": "A2Z",
-      "match_type": "exact"
-    },
-    "AAVE": {
-      "cmc_id": 7278,
-      "cmc_slug": "aave",
-      "cmc_symbol": "AAVE",
-      "match_type": "exact"
-    },
-    "ACA": {
-      "cmc_id": 6756,
-      "cmc_slug": "acala",
-      "cmc_symbol": "ACA",
-      "match_type": "exact"
-    },
-    "ACE": {
-      "cmc_id": 28674,
-      "cmc_slug": "fusionist",
-      "cmc_symbol": "ACE",
-      "match_type": "exact"
-    },
-    "ACH": {
-      "cmc_id": 6958,
-      "cmc_slug": "alchemy-pay",
-      "cmc_symbol": "ACH",
-      "match_type": "exact"
-    },
-    "ACM": {
-      "cmc_id": 8538,
-      "cmc_slug": "ac-milan-fan-token",
-      "cmc_symbol": "ACM",
-      "match_type": "exact"
-    },
-    "ACT": {
-      "cmc_id": 11706,
-      "cmc_slug": "acet",
-      "cmc_symbol": "ACT",
-      "match_type": "exact"
-    },
-    "ACX": {
-      "cmc_id": 22620,
-      "cmc_slug": "across-protocol",
-      "cmc_symbol": "ACX",
-      "match_type": "exact"
-    },
-    "ADA": {
-      "cmc_id": 2010,
-      "cmc_slug": "cardano",
-      "cmc_symbol": "ADA",
-      "match_type": "exact"
-    },
-    "ADX": {
-      "cmc_id": 1768,
-      "cmc_slug": "adx-net",
-      "cmc_symbol": "ADX",
-      "match_type": "exact"
-    },
-    "AERGO": {
-      "cmc_id": 3637,
-      "cmc_slug": "aergo",
-      "cmc_symbol": "AERGO",
-      "match_type": "exact"
-    },
-    "AERO": {
-      "cmc_id": 29270,
-      "cmc_slug": "aerodrome-finance",
-      "cmc_symbol": "AERO",
-      "match_type": "exact"
-    },
-    "AEUR": {
-      "cmc_id": 28596,
-      "cmc_slug": "anchored-coins-aeur",
-      "cmc_symbol": "AEUR",
-      "match_type": "exact"
-    },
-    "AEVO": {
-      "cmc_id": 29676,
-      "cmc_slug": "aevo",
-      "cmc_symbol": "AEVO",
-      "match_type": "exact"
-    },
-    "AGLD": {
-      "cmc_id": 11568,
-      "cmc_slug": "adventure-gold",
-      "cmc_symbol": "AGLD",
-      "match_type": "exact"
-    },
-    "AGT": {
-      "cmc_id": 36195,
-      "cmc_slug": "alaya-ai",
-      "cmc_symbol": "AGT",
-      "match_type": "exact"
-    },
-    "AI": {
-      "cmc_id": 28846,
-      "cmc_slug": "sleepless-ai",
-      "cmc_symbol": "AI",
-      "match_type": "exact"
-    },
-    "AIA": {
-      "cmc_id": 38430,
-      "cmc_slug": "deagentai",
-      "cmc_symbol": "AIA",
-      "match_type": "exact"
-    },
-    "AIN": {
-      "cmc_id": 36770,
-      "cmc_slug": "infinity-ground",
-      "cmc_symbol": "AIN",
-      "match_type": "exact"
-    },
-    "AIO": {
-      "cmc_id": 37562,
-      "cmc_slug": "olaxbt",
-      "cmc_symbol": "AIO",
-      "match_type": "exact"
-    },
-    "AIOT": {
-      "cmc_id": 36319,
-      "cmc_slug": "okzoo",
-      "cmc_symbol": "AIOT",
-      "match_type": "exact"
-    },
-    "AIXBT": {
-      "cmc_id": 34103,
-      "cmc_slug": "aixbt",
-      "cmc_symbol": "AIXBT",
-      "match_type": "exact"
-    },
-    "AKE": {
-      "cmc_id": 38127,
-      "cmc_slug": "akedo",
-      "cmc_symbol": "AKE",
-      "match_type": "exact"
-    },
-    "AKT": {
-      "cmc_id": 7431,
-      "cmc_slug": "akash-network",
-      "cmc_symbol": "AKT",
-      "match_type": "exact"
-    },
-    "ALCH": {
-      "cmc_id": 34880,
-      "cmc_slug": "alchemist-ai",
-      "cmc_symbol": "ALCH",
-      "match_type": "exact"
-    },
-    "ALCX": {
-      "cmc_id": 8613,
-      "cmc_slug": "alchemix",
-      "cmc_symbol": "ALCX",
-      "match_type": "exact"
-    },
-    "ALGO": {
-      "cmc_id": 4030,
-      "cmc_slug": "algorand",
-      "cmc_symbol": "ALGO",
-      "match_type": "exact"
-    },
-    "ALICE": {
-      "cmc_id": 8766,
-      "cmc_slug": "myneighboralice",
-      "cmc_symbol": "ALICE",
-      "match_type": "exact"
-    },
-    "ALL": {
-      "cmc_id": 33963,
-      "cmc_slug": "sallar",
-      "cmc_symbol": "ALL",
-      "match_type": "exact"
-    },
-    "ALPINE": {
-      "cmc_id": 18112,
-      "cmc_slug": "alpine-f1-team-fan-token",
-      "cmc_symbol": "ALPINE",
-      "match_type": "exact"
-    },
-    "ALT": {
-      "cmc_id": 29073,
-      "cmc_slug": "altlayer",
-      "cmc_symbol": "ALT",
-      "match_type": "exact"
-    },
-    "AMP": {
-      "cmc_id": 6945,
-      "cmc_slug": "amp",
-      "cmc_symbol": "AMP",
-      "match_type": "exact"
-    },
-    "ANIME": {
-      "cmc_id": 35319,
-      "cmc_slug": "anime",
-      "cmc_symbol": "ANIME",
-      "match_type": "exact"
-    },
-    "ANKR": {
-      "cmc_id": 3783,
-      "cmc_slug": "ankr",
-      "cmc_symbol": "ANKR",
-      "match_type": "exact"
-    },
-    "APE": {
-      "cmc_id": 18876,
-      "cmc_slug": "apecoin-ape",
-      "cmc_symbol": "APE",
-      "match_type": "exact"
-    },
-    "API3": {
-      "cmc_id": 7737,
-      "cmc_slug": "api3",
-      "cmc_symbol": "API3",
-      "match_type": "exact"
-    },
-    "APR": {
-      "cmc_id": 38569,
-      "cmc_slug": "apriori",
-      "cmc_symbol": "APR",
-      "match_type": "exact"
-    },
-    "APT": {
-      "cmc_id": 21794,
-      "cmc_slug": "aptos",
-      "cmc_symbol": "APT",
-      "match_type": "exact"
-    },
-    "AR": {
-      "cmc_id": 5632,
-      "cmc_slug": "arweave",
-      "cmc_symbol": "AR",
-      "match_type": "exact"
-    },
-    "ARB": {
-      "cmc_id": 11841,
-      "cmc_slug": "arbitrum",
-      "cmc_symbol": "ARB",
-      "match_type": "exact"
-    },
-    "ARC": {
-      "cmc_id": 34926,
-      "cmc_slug": "ai-rig-complex",
-      "cmc_symbol": "ARC",
-      "match_type": "exact"
-    },
-    "ARDR": {
-      "cmc_id": 1320,
-      "cmc_slug": "ardor",
-      "cmc_symbol": "ARDR",
-      "match_type": "exact"
-    },
-    "ARIA": {
-      "cmc_id": 38102,
-      "cmc_slug": "aria-ai",
-      "cmc_symbol": "ARIA",
-      "match_type": "exact"
-    },
-    "ARK": {
-      "cmc_id": 1586,
-      "cmc_slug": "ark",
-      "cmc_symbol": "ARK",
-      "match_type": "exact"
-    },
-    "ARKM": {
-      "cmc_id": 27565,
-      "cmc_slug": "arkham",
-      "cmc_symbol": "ARKM",
-      "match_type": "exact"
-    },
-    "ARPA": {
-      "cmc_id": 4039,
-      "cmc_slug": "arpa-chain",
-      "cmc_symbol": "ARPA",
-      "match_type": "exact"
-    },
-    "ASR": {
-      "cmc_id": 5229,
-      "cmc_slug": "as-roma-fan-token",
-      "cmc_symbol": "ASR",
-      "match_type": "exact"
-    },
-    "ASTER": {
-      "cmc_id": 36341,
-      "cmc_slug": "aster",
-      "cmc_symbol": "ASTER",
-      "match_type": "exact"
-    },
-    "ASTR": {
-      "cmc_id": 12885,
-      "cmc_slug": "astar",
-      "cmc_symbol": "ASTR",
-      "match_type": "exact"
-    },
-    "AT": {
-      "cmc_id": 38757,
-      "cmc_slug": "apro",
-      "cmc_symbol": "AT",
-      "match_type": "exact"
-    },
-    "ATA": {
-      "cmc_id": 10188,
-      "cmc_slug": "automata-network",
-      "cmc_symbol": "ATA",
-      "match_type": "exact"
-    },
-    "ATH": {
-      "cmc_id": 30083,
-      "cmc_slug": "aethir",
-      "cmc_symbol": "ATH",
-      "match_type": "exact"
-    },
-    "ATM": {
-      "cmc_id": 5227,
-      "cmc_slug": "atletico-de-madrid-fan-token",
-      "cmc_symbol": "ATM",
-      "match_type": "exact"
-    },
-    "ATOM": {
-      "cmc_id": 3794,
-      "cmc_slug": "cosmos",
-      "cmc_symbol": "ATOM",
-      "match_type": "exact"
-    },
-    "AUCTION": {
-      "cmc_id": 8602,
-      "cmc_slug": "bounce-token",
-      "cmc_symbol": "AUCTION",
-      "match_type": "exact"
-    },
-    "AUDIO": {
-      "cmc_id": 7455,
-      "cmc_slug": "audius",
-      "cmc_symbol": "AUDIO",
-      "match_type": "exact"
-    },
-    "AVA": {
-      "cmc_id": 2776,
-      "cmc_slug": "ava",
-      "cmc_symbol": "AVA",
-      "match_type": "exact"
-    },
-    "AVAAI": {
-      "cmc_id": 35156,
-      "cmc_slug": "ava-ai-top",
-      "cmc_symbol": "AVAAI",
-      "match_type": "auto"
-    },
-    "AVAX": {
-      "cmc_id": 5805,
-      "cmc_slug": "avalanche",
-      "cmc_symbol": "AVAX",
-      "match_type": "exact"
-    },
-    "AVNT": {
-      "cmc_id": 38299,
-      "cmc_slug": "avantis",
-      "cmc_symbol": "AVNT",
-      "match_type": "exact"
-    },
-    "AWE": {
-      "cmc_id": 4006,
-      "cmc_slug": "awe-network",
-      "cmc_symbol": "AWE",
-      "match_type": "exact"
-    },
-    "AXL": {
-      "cmc_id": 17799,
-      "cmc_slug": "axelar",
-      "cmc_symbol": "AXL",
-      "match_type": "exact"
-    },
-    "AXS": {
-      "cmc_id": 6783,
-      "cmc_slug": "axie-infinity",
-      "cmc_symbol": "AXS",
-      "match_type": "exact"
-    },
-    "B": {
-      "cmc_id": 36532,
-      "cmc_slug": "buildon",
-      "cmc_symbol": "B",
-      "match_type": "exact"
-    },
-    "B2": {
-      "cmc_id": 36352,
-      "cmc_slug": "bsquared-network",
-      "cmc_symbol": "B2",
-      "match_type": "exact"
-    },
-    "B3": {
-      "cmc_id": 35690,
-      "cmc_slug": "b3",
-      "cmc_symbol": "B3",
-      "match_type": "exact"
-    },
-    "BABY": {
-      "cmc_id": 32198,
-      "cmc_slug": "babylon",
-      "cmc_symbol": "BABY",
-      "match_type": "exact"
-    },
-    "BAN": {
-      "cmc_id": 33881,
-      "cmc_slug": "comedian",
-      "cmc_symbol": "BAN",
-      "match_type": "exact"
-    },
-    "BANANA": {
-      "cmc_id": 28066,
-      "cmc_slug": "banana-gun",
-      "cmc_symbol": "BANANA",
-      "match_type": "exact"
-    },
-    "BANANAS31": {
-      "cmc_id": 34118,
-      "cmc_slug": "banana-for-scale",
-      "cmc_symbol": "BANANAS31",
-      "match_type": "exact"
-    },
-    "BAND": {
-      "cmc_id": 4679,
-      "cmc_slug": "band-protocol",
-      "cmc_symbol": "BAND",
-      "match_type": "exact"
-    },
-    "BANK": {
-      "cmc_id": 36296,
-      "cmc_slug": "lorenzo-protocol",
-      "cmc_symbol": "BANK",
-      "match_type": "exact"
-    },
-    "BAR": {
-      "cmc_id": 5225,
-      "cmc_slug": "fc-barcelona-fan-token",
-      "cmc_symbol": "BAR",
-      "match_type": "exact"
-    },
-    "BARD": {
-      "cmc_id": 38408,
-      "cmc_slug": "lombard",
-      "cmc_symbol": "BARD",
-      "match_type": "exact"
-    },
-    "BAS": {
-      "cmc_id": 37387,
-      "cmc_slug": "bnb-attestation-service",
-      "cmc_symbol": "BAS",
-      "match_type": "exact"
-    },
-    "BAT": {
-      "cmc_id": 1697,
-      "cmc_slug": "basic-attention-token",
-      "cmc_symbol": "BAT",
-      "match_type": "exact"
-    },
-    "BB": {
-      "cmc_id": 30746,
-      "cmc_slug": "bouncebit",
-      "cmc_symbol": "BB",
-      "match_type": "exact"
-    },
-    "BCH": {
-      "cmc_id": 1831,
-      "cmc_slug": "bitcoin-cash",
-      "cmc_symbol": "BCH",
-      "match_type": "exact"
-    },
-    "BDXN": {
-      "cmc_id": 26198,
-      "cmc_slug": "bondex",
-      "cmc_symbol": "BDXN",
-      "match_type": "exact"
-    },
-    "BEAMX": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "BEL": {
-      "cmc_id": 6928,
-      "cmc_slug": "bella-protocol",
-      "cmc_symbol": "BEL",
-      "match_type": "exact"
-    },
-    "BERA": {
-      "cmc_id": 24647,
-      "cmc_slug": "berachain",
-      "cmc_symbol": "BERA",
-      "match_type": "exact"
-    },
-    "BFUSD": {
-      "cmc_id": 37760,
-      "cmc_slug": "bfusd",
-      "cmc_symbol": "BFUSD",
-      "match_type": "exact"
-    },
-    "BICO": {
-      "cmc_id": 9543,
-      "cmc_slug": "biconomy",
-      "cmc_symbol": "BICO",
-      "match_type": "exact"
-    },
-    "BID": {
-      "cmc_id": 35430,
-      "cmc_slug": "creatorbid",
-      "cmc_symbol": "BID",
-      "match_type": "exact"
-    },
-    "BIFI": {
-      "cmc_id": 7311,
-      "cmc_slug": "beefy-finance",
-      "cmc_symbol": "BIFI",
-      "match_type": "exact"
-    },
-    "BIGTIME": {
-      "cmc_id": 28230,
-      "cmc_slug": "big-time",
-      "cmc_symbol": "BIGTIME",
-      "match_type": "exact"
-    },
-    "BIO": {
-      "cmc_id": 34812,
-      "cmc_slug": "bio",
-      "cmc_symbol": "BIO",
-      "match_type": "exact"
-    },
-    "BLESS": {
-      "cmc_id": 38466,
-      "cmc_slug": "bless",
-      "cmc_symbol": "BLESS",
-      "match_type": "exact"
-    },
-    "BLUAI": {
-      "cmc_id": 38717,
-      "cmc_slug": "bluwhale",
-      "cmc_symbol": "BLUAI",
-      "match_type": "exact"
-    },
-    "BLUR": {
-      "cmc_id": 23121,
-      "cmc_slug": "blur-token",
-      "cmc_symbol": "BLUR",
-      "match_type": "exact"
-    },
-    "BMT": {
-      "cmc_id": 35214,
-      "cmc_slug": "bubblemaps",
-      "cmc_symbol": "BMT",
-      "match_type": "exact"
-    },
-    "BNB": {
-      "cmc_id": 1839,
-      "cmc_slug": "bnb",
-      "cmc_symbol": "BNB",
-      "match_type": "exact"
-    },
-    "BNSOL": {
-      "cmc_id": 32882,
-      "cmc_slug": "binance-staked-sol",
-      "cmc_symbol": "BNSOL",
-      "match_type": "exact"
-    },
-    "BNT": {
-      "cmc_id": 1727,
-      "cmc_slug": "bancor",
-      "cmc_symbol": "BNT",
-      "match_type": "exact"
-    },
-    "BOME": {
-      "cmc_id": 29870,
-      "cmc_slug": "book-of-meme",
-      "cmc_symbol": "BOME",
-      "match_type": "exact"
-    },
-    "BONK": {
-      "cmc_id": 23095,
-      "cmc_slug": "bonk1",
-      "cmc_symbol": "BONK",
-      "match_type": "exact"
-    },
-    "BR": {
-      "cmc_id": 36063,
-      "cmc_slug": "bedrock-dao",
-      "cmc_symbol": "BR",
-      "match_type": "exact"
-    },
-    "BRETT": {
-      "cmc_id": 29743,
-      "cmc_slug": "based-brett",
-      "cmc_symbol": "BRETT",
-      "match_type": "exact"
-    },
-    "BROCCOLI714": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "BROCCOLIF3B": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "BSV": {
-      "cmc_id": 3602,
-      "cmc_slug": "bitcoin-sv",
-      "cmc_symbol": "BSV",
-      "match_type": "exact"
-    },
-    "BTC": {
-      "cmc_id": 1,
-      "cmc_slug": "bitcoin",
-      "cmc_symbol": "BTC",
-      "match_type": "exact"
-    },
-    "BTCDOM": {
-      "cmc_id": 10634,
-      "cmc_slug": "binance-btcdom-index",
-      "cmc_symbol": "BTCDOM",
-      "match_type": "auto"
-    },
-    "BTR": {
-      "cmc_id": 36277,
-      "cmc_slug": "bitlayer",
-      "cmc_symbol": "BTR",
-      "match_type": "exact"
-    },
-    "BTTC": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "BULLA": {
-      "cmc_id": 36769,
-      "cmc_slug": "bulla-mascot",
-      "cmc_symbol": "BULLA",
-      "match_type": "exact"
-    },
-    "C": {
-      "cmc_id": 37340,
-      "cmc_slug": "chainbase",
-      "cmc_symbol": "C",
-      "match_type": "exact"
-    },
-    "C98": {
-      "cmc_id": 10903,
-      "cmc_slug": "coin98",
-      "cmc_symbol": "C98",
-      "match_type": "exact"
-    },
-    "CAKE": {
-      "cmc_id": 7186,
-      "cmc_slug": "pancakeswap",
-      "cmc_symbol": "CAKE",
-      "match_type": "exact"
-    },
-    "CARV": {
-      "cmc_id": 33372,
-      "cmc_slug": "carv",
-      "cmc_symbol": "CARV",
-      "match_type": "exact"
-    },
-    "CATI": {
-      "cmc_id": 32966,
-      "cmc_slug": "catizen",
-      "cmc_symbol": "CATI",
-      "match_type": "exact"
-    },
-    "CC": {
-      "cmc_id": 37263,
-      "cmc_slug": "canton-network",
-      "cmc_symbol": "CC",
-      "match_type": "exact"
-    },
-    "CELO": {
-      "cmc_id": 5567,
-      "cmc_slug": "celo",
-      "cmc_symbol": "CELO",
-      "match_type": "exact"
-    },
-    "CELR": {
-      "cmc_id": 3814,
-      "cmc_slug": "celer-network",
-      "cmc_symbol": "CELR",
-      "match_type": "exact"
-    },
-    "CETUS": {
-      "cmc_id": 25114,
-      "cmc_slug": "cetus-protocol",
-      "cmc_symbol": "CETUS",
-      "match_type": "exact"
-    },
-    "CFX": {
-      "cmc_id": 7334,
-      "cmc_slug": "conflux-network",
-      "cmc_symbol": "CFX",
-      "match_type": "exact"
-    },
-    "CGPT": {
-      "cmc_id": 23756,
-      "cmc_slug": "chaingpt",
-      "cmc_symbol": "CGPT",
-      "match_type": "exact"
-    },
-    "CHESS": {
-      "cmc_id": 10974,
-      "cmc_slug": "tranchess",
-      "cmc_symbol": "CHESS",
-      "match_type": "exact"
-    },
-    "CHILLGUY": {
-      "cmc_id": 34125,
-      "cmc_slug": "just-a-chill-guy",
-      "cmc_symbol": "CHILLGUY",
-      "match_type": "exact"
-    },
-    "CHR": {
-      "cmc_id": 3978,
-      "cmc_slug": "chromia",
-      "cmc_symbol": "CHR",
-      "match_type": "exact"
-    },
-    "CHZ": {
-      "cmc_id": 4066,
-      "cmc_slug": "chiliz",
-      "cmc_symbol": "CHZ",
-      "match_type": "exact"
-    },
-    "CITY": {
-      "cmc_id": 10049,
-      "cmc_slug": "manchester-city-fan-token",
-      "cmc_symbol": "CITY",
-      "match_type": "exact"
-    },
-    "CKB": {
-      "cmc_id": 4948,
-      "cmc_slug": "nervos-network",
-      "cmc_symbol": "CKB",
-      "match_type": "exact"
-    },
-    "CLO": {
-      "cmc_id": 38634,
-      "cmc_slug": "clovis",
-      "cmc_symbol": "CLO",
-      "match_type": "exact"
-    },
-    "COAI": {
-      "cmc_id": 38489,
-      "cmc_slug": "chainopera-ai",
-      "cmc_symbol": "COAI",
-      "match_type": "exact"
-    },
-    "COMMON": {
-      "cmc_id": 38775,
-      "cmc_slug": "common",
-      "cmc_symbol": "COMMON",
-      "match_type": "exact"
-    },
-    "COMP": {
-      "cmc_id": 5692,
-      "cmc_slug": "compound",
-      "cmc_symbol": "COMP",
-      "match_type": "exact"
-    },
-    "COOKIE": {
-      "cmc_id": 31838,
-      "cmc_slug": "cookie",
-      "cmc_symbol": "COOKIE",
-      "match_type": "exact"
-    },
-    "COS": {
-      "cmc_id": 4036,
-      "cmc_slug": "contentos",
-      "cmc_symbol": "COS",
-      "match_type": "exact"
-    },
-    "COTI": {
-      "cmc_id": 3992,
-      "cmc_slug": "coti",
-      "cmc_symbol": "COTI",
-      "match_type": "exact"
-    },
-    "COW": {
-      "cmc_id": 19269,
-      "cmc_slug": "cow-protocol",
-      "cmc_symbol": "COW",
-      "match_type": "exact"
-    },
-    "CROSS": {
-      "cmc_id": 37166,
-      "cmc_slug": "cross",
-      "cmc_symbol": "CROSS",
-      "match_type": "exact"
-    },
-    "CRV": {
-      "cmc_id": 6538,
-      "cmc_slug": "curve-dao-token",
-      "cmc_symbol": "CRV",
-      "match_type": "exact"
-    },
-    "CTK": {
-      "cmc_id": 4807,
-      "cmc_slug": "shentu",
-      "cmc_symbol": "CTK",
-      "match_type": "exact"
-    },
-    "CTSI": {
-      "cmc_id": 5444,
-      "cmc_slug": "cartesi",
-      "cmc_symbol": "CTSI",
-      "match_type": "exact"
-    },
-    "CUDIS": {
-      "cmc_id": 36396,
-      "cmc_slug": "cudis",
-      "cmc_symbol": "CUDIS",
-      "match_type": "exact"
-    },
-    "CVC": {
-      "cmc_id": 1816,
-      "cmc_slug": "civic",
-      "cmc_symbol": "CVC",
-      "match_type": "exact"
-    },
-    "CVX": {
-      "cmc_id": 9903,
-      "cmc_slug": "convex-finance",
-      "cmc_symbol": "CVX",
-      "match_type": "exact"
-    },
-    "CYBER": {
-      "cmc_id": 24781,
-      "cmc_slug": "cyberconnect",
-      "cmc_symbol": "CYBER",
-      "match_type": "exact"
-    },
-    "D": {
-      "cmc_id": 11374,
-      "cmc_slug": "mines-of-dalarnia",
-      "cmc_symbol": "D",
-      "match_type": "exact"
-    },
-    "DAM": {
-      "cmc_id": 37638,
-      "cmc_slug": "reservoir",
-      "cmc_symbol": "DAM",
-      "match_type": "exact"
-    },
-    "DASH": {
-      "cmc_id": 131,
-      "cmc_slug": "dash",
-      "cmc_symbol": "DASH",
-      "match_type": "exact"
-    },
-    "DATA": {
-      "cmc_id": 2143,
-      "cmc_slug": "streamr",
-      "cmc_symbol": "DATA",
-      "match_type": "exact"
-    },
-    "DCR": {
-      "cmc_id": 1168,
-      "cmc_slug": "decred",
-      "cmc_symbol": "DCR",
-      "match_type": "exact"
-    },
-    "DEEP": {
-      "cmc_id": 33391,
-      "cmc_slug": "deepbook-protocol",
-      "cmc_symbol": "DEEP",
-      "match_type": "exact"
-    },
-    "DEGEN": {
-      "cmc_id": 30096,
-      "cmc_slug": "degen-base",
-      "cmc_symbol": "DEGEN",
-      "match_type": "exact"
-    },
-    "DEGO": {
-      "cmc_id": 7087,
-      "cmc_slug": "dego-finance",
-      "cmc_symbol": "DEGO",
-      "match_type": "exact"
-    },
-    "DENT": {
-      "cmc_id": 1886,
-      "cmc_slug": "dent",
-      "cmc_symbol": "DENT",
-      "match_type": "exact"
-    },
-    "DEXE": {
-      "cmc_id": 7326,
-      "cmc_slug": "dexe",
-      "cmc_symbol": "DEXE",
-      "match_type": "exact"
-    },
-    "DF": {
-      "cmc_id": 4758,
-      "cmc_slug": "dforce",
-      "cmc_symbol": "DF",
-      "match_type": "exact"
-    },
-    "DGB": {
-      "cmc_id": 109,
-      "cmc_slug": "digibyte",
-      "cmc_symbol": "DGB",
-      "match_type": "exact"
-    },
-    "DIA": {
-      "cmc_id": 6138,
-      "cmc_slug": "dia",
-      "cmc_symbol": "DIA",
-      "match_type": "exact"
-    },
-    "DMC": {
-      "cmc_id": 36920,
-      "cmc_slug": "delorean",
-      "cmc_symbol": "DMC",
-      "match_type": "exact"
-    },
-    "DODO": {
-      "cmc_id": 7224,
-      "cmc_slug": "dodo",
-      "cmc_symbol": "DODO",
-      "match_type": "exact"
-    },
-    "DODOX": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "DOGE": {
-      "cmc_id": 74,
-      "cmc_slug": "dogecoin",
-      "cmc_symbol": "DOGE",
-      "match_type": "exact"
-    },
-    "DOGS": {
-      "cmc_id": 32698,
-      "cmc_slug": "dogs",
-      "cmc_symbol": "DOGS",
-      "match_type": "exact"
-    },
-    "DOLO": {
-      "cmc_id": 35929,
-      "cmc_slug": "dolomite",
-      "cmc_symbol": "DOLO",
-      "match_type": "exact"
-    },
-    "DOOD": {
-      "cmc_id": 35747,
-      "cmc_slug": "doodles",
-      "cmc_symbol": "DOOD",
-      "match_type": "exact"
-    },
-    "DOT": {
-      "cmc_id": 6636,
-      "cmc_slug": "polkadot-new",
-      "cmc_symbol": "DOT",
-      "match_type": "exact"
-    },
-    "DRIFT": {
-      "cmc_id": 31278,
-      "cmc_slug": "drift",
-      "cmc_symbol": "DRIFT",
-      "match_type": "exact"
-    },
-    "DUSK": {
-      "cmc_id": 4092,
-      "cmc_slug": "dusk",
-      "cmc_symbol": "DUSK",
-      "match_type": "exact"
-    },
-    "DYDX": {
-      "cmc_id": 28324,
-      "cmc_slug": "dydx-chain",
-      "cmc_symbol": "DYDX",
-      "match_type": "exact"
-    },
-    "DYM": {
-      "cmc_id": 28932,
-      "cmc_slug": "dymension",
-      "cmc_symbol": "DYM",
-      "match_type": "exact"
-    },
-    "EDEN": {
-      "cmc_id": 38513,
-      "cmc_slug": "openeden",
-      "cmc_symbol": "EDEN",
-      "match_type": "exact"
-    },
-    "EDU": {
-      "cmc_id": 24613,
-      "cmc_slug": "open-campus",
-      "cmc_symbol": "EDU",
-      "match_type": "exact"
-    },
-    "EGLD": {
-      "cmc_id": 6892,
-      "cmc_slug": "multiversx-egld",
-      "cmc_symbol": "EGLD",
-      "match_type": "exact"
-    },
-    "EIGEN": {
-      "cmc_id": 30494,
-      "cmc_slug": "eigenlayer",
-      "cmc_symbol": "EIGEN",
-      "match_type": "exact"
-    },
-    "ENA": {
-      "cmc_id": 30171,
-      "cmc_slug": "ethena",
-      "cmc_symbol": "ENA",
-      "match_type": "exact"
-    },
-    "ENJ": {
-      "cmc_id": 2130,
-      "cmc_slug": "enjin-coin",
-      "cmc_symbol": "ENJ",
-      "match_type": "exact"
-    },
-    "ENS": {
-      "cmc_id": 13855,
-      "cmc_slug": "ethereum-name-service",
-      "cmc_symbol": "ENS",
-      "match_type": "exact"
-    },
-    "ENSO": {
-      "cmc_id": 38668,
-      "cmc_slug": "enso",
-      "cmc_symbol": "ENSO",
-      "match_type": "exact"
-    },
-    "EPIC": {
-      "cmc_id": 8615,
-      "cmc_slug": "epic-chain",
-      "cmc_symbol": "EPIC",
-      "match_type": "exact"
-    },
-    "EPT": {
-      "cmc_id": 35671,
-      "cmc_slug": "balance",
-      "cmc_symbol": "EPT",
-      "match_type": "exact"
-    },
-    "ERA": {
-      "cmc_id": 37374,
-      "cmc_slug": "caldera",
-      "cmc_symbol": "ERA",
-      "match_type": "exact"
-    },
-    "ESPORTS": {
-      "cmc_id": 37414,
-      "cmc_slug": "yooldo",
-      "cmc_symbol": "ESPORTS",
-      "match_type": "exact"
-    },
-    "ETC": {
-      "cmc_id": 1321,
-      "cmc_slug": "ethereum-classic",
-      "cmc_symbol": "ETC",
-      "match_type": "exact"
-    },
-    "ETH": {
-      "cmc_id": 1027,
-      "cmc_slug": "ethereum",
-      "cmc_symbol": "ETH",
-      "match_type": "exact"
-    },
-    "ETHFI": {
-      "cmc_id": 29814,
-      "cmc_slug": "ether-fi-ethfi",
-      "cmc_symbol": "ETHFI",
-      "match_type": "exact"
-    },
-    "ETHW": {
-      "cmc_id": 21296,
-      "cmc_slug": "ethereum-pow",
-      "cmc_symbol": "ETHW",
-      "match_type": "exact"
-    },
-    "EUL": {
-      "cmc_id": 14280,
-      "cmc_slug": "euler-finance",
-      "cmc_symbol": "EUL",
-      "match_type": "exact"
-    },
-    "EUR": {
-      "cmc_id": 2790,
-      "cmc_slug": "euro",
-      "cmc_symbol": "EUR",
-      "match_type": "auto"
-    },
-    "EURI": {
-      "cmc_id": 32644,
-      "cmc_slug": "eurite",
-      "cmc_symbol": "EURI",
-      "match_type": "exact"
-    },
-    "EVAA": {
-      "cmc_id": 38376,
-      "cmc_slug": "evaa-protocol",
-      "cmc_symbol": "EVAA",
-      "match_type": "exact"
-    },
-    "F": {
-      "cmc_id": 34297,
-      "cmc_slug": "synfutures",
-      "cmc_symbol": "F",
-      "match_type": "exact"
-    },
-    "FARM": {
-      "cmc_id": 6859,
-      "cmc_slug": "harvest-finance",
-      "cmc_symbol": "FARM",
-      "match_type": "exact"
-    },
-    "FARTCOIN": {
-      "cmc_id": 33597,
-      "cmc_slug": "fartcoin",
-      "cmc_symbol": "FARTCOIN",
-      "match_type": "exact"
-    },
-    "FDUSD": {
-      "cmc_id": 26081,
-      "cmc_slug": "first-digital-usd",
-      "cmc_symbol": "FDUSD",
-      "match_type": "exact"
-    },
-    "FET": {
-      "cmc_id": 3773,
-      "cmc_slug": "artificial-superintelligence-alliance",
-      "cmc_symbol": "FET",
-      "match_type": "exact"
-    },
-    "FF": {
-      "cmc_id": 38482,
-      "cmc_slug": "falcon-finance-ff",
-      "cmc_symbol": "FF",
-      "match_type": "exact"
-    },
-    "FHE": {
-      "cmc_id": 36153,
-      "cmc_slug": "mind-network",
-      "cmc_symbol": "FHE",
-      "match_type": "exact"
-    },
-    "FIDA": {
-      "cmc_id": 7978,
-      "cmc_slug": "bonfida-sns",
-      "cmc_symbol": "FIDA",
-      "match_type": "exact"
-    },
-    "FIL": {
-      "cmc_id": 2280,
-      "cmc_slug": "filecoin",
-      "cmc_symbol": "FIL",
-      "match_type": "exact"
-    },
-    "FIO": {
-      "cmc_id": 5865,
-      "cmc_slug": "fio-protocol",
-      "cmc_symbol": "FIO",
-      "match_type": "exact"
-    },
-    "FIS": {
-      "cmc_id": 5882,
-      "cmc_slug": "stafi",
-      "cmc_symbol": "FIS",
-      "match_type": "exact"
-    },
-    "FLM": {
-      "cmc_id": 7150,
-      "cmc_slug": "flamingo",
-      "cmc_symbol": "FLM",
-      "match_type": "exact"
-    },
-    "FLOCK": {
-      "cmc_id": 34987,
-      "cmc_slug": "flock-io",
-      "cmc_symbol": "FLOCK",
-      "match_type": "exact"
-    },
-    "FLOKI": {
-      "cmc_id": 10804,
-      "cmc_slug": "floki-inu",
-      "cmc_symbol": "FLOKI",
-      "match_type": "exact"
-    },
-    "FLOW": {
-      "cmc_id": 4558,
-      "cmc_slug": "flow",
-      "cmc_symbol": "FLOW",
-      "match_type": "exact"
-    },
-    "FLUID": {
-      "cmc_id": 10508,
-      "cmc_slug": "instadapp",
-      "cmc_symbol": "FLUID",
-      "match_type": "exact"
-    },
-    "FLUX": {
-      "cmc_id": 3029,
-      "cmc_slug": "zel",
-      "cmc_symbol": "FLUX",
-      "match_type": "exact"
-    },
-    "FOLKS": {
-      "cmc_id": 38864,
-      "cmc_slug": "folks-finance",
-      "cmc_symbol": "FOLKS",
-      "match_type": "exact"
-    },
-    "FORM": {
-      "cmc_id": 23635,
-      "cmc_slug": "binaryx-new",
-      "cmc_symbol": "FORM",
-      "match_type": "exact"
-    },
-    "FORTH": {
-      "cmc_id": 9421,
-      "cmc_slug": "ampleforth-governance-token",
-      "cmc_symbol": "FORTH",
-      "match_type": "exact"
-    },
-    "FTT": {
-      "cmc_id": 4195,
-      "cmc_slug": "ftx-token",
-      "cmc_symbol": "FTT",
-      "match_type": "exact"
-    },
-    "FUN": {
-      "cmc_id": 1757,
-      "cmc_slug": "funtoken",
-      "cmc_symbol": "FUN",
-      "match_type": "exact"
-    },
-    "FXS": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "G": {
-      "cmc_id": 32120,
-      "cmc_slug": "gravity-token",
-      "cmc_symbol": "G",
-      "match_type": "exact"
-    },
-    "GALA": {
-      "cmc_id": 7080,
-      "cmc_slug": "gala",
-      "cmc_symbol": "GALA",
-      "match_type": "exact"
-    },
-    "GAS": {
-      "cmc_id": 1785,
-      "cmc_slug": "gas",
-      "cmc_symbol": "GAS",
-      "match_type": "exact"
-    },
-    "GHST": {
-      "cmc_id": 7046,
-      "cmc_slug": "aavegotchi",
-      "cmc_symbol": "GHST",
-      "match_type": "exact"
-    },
-    "GIGGLE": {
-      "cmc_id": 38470,
-      "cmc_slug": "giggle-fund",
-      "cmc_symbol": "GIGGLE",
-      "match_type": "exact"
-    },
-    "GLM": {
-      "cmc_id": 1455,
-      "cmc_slug": "golem-network-tokens",
-      "cmc_symbol": "GLM",
-      "match_type": "exact"
-    },
-    "GLMR": {
-      "cmc_id": 6836,
-      "cmc_slug": "moonbeam",
-      "cmc_symbol": "GLMR",
-      "match_type": "exact"
-    },
-    "GMT": {
-      "cmc_id": 18069,
-      "cmc_slug": "green-metaverse-token",
-      "cmc_symbol": "GMT",
-      "match_type": "exact"
-    },
-    "GMX": {
-      "cmc_id": 11857,
-      "cmc_slug": "gmx",
-      "cmc_symbol": "GMX",
-      "match_type": "exact"
-    },
-    "GNO": {
-      "cmc_id": 1659,
-      "cmc_slug": "gnosis-gno",
-      "cmc_symbol": "GNO",
-      "match_type": "exact"
-    },
-    "GNS": {
-      "cmc_id": 13663,
-      "cmc_slug": "gains-network",
-      "cmc_symbol": "GNS",
-      "match_type": "exact"
-    },
-    "GOAT": {
-      "cmc_id": 33440,
-      "cmc_slug": "goatseus-maximus",
-      "cmc_symbol": "GOAT",
-      "match_type": "exact"
-    },
-    "GPS": {
-      "cmc_id": 35268,
-      "cmc_slug": "goplus-security",
-      "cmc_symbol": "GPS",
-      "match_type": "exact"
-    },
-    "GRASS": {
-      "cmc_id": 32956,
-      "cmc_slug": "grass",
-      "cmc_symbol": "GRASS",
-      "match_type": "exact"
-    },
-    "GRIFFAIN": {
-      "cmc_id": 34792,
-      "cmc_slug": "griffain",
-      "cmc_symbol": "GRIFFAIN",
-      "match_type": "exact"
-    },
-    "GRT": {
-      "cmc_id": 6719,
-      "cmc_slug": "the-graph",
-      "cmc_symbol": "GRT",
-      "match_type": "exact"
-    },
-    "GTC": {
-      "cmc_id": 10052,
-      "cmc_slug": "gitcoin",
-      "cmc_symbol": "GTC",
-      "match_type": "exact"
-    },
-    "GUN": {
-      "cmc_id": 36156,
-      "cmc_slug": "gunz",
-      "cmc_symbol": "GUN",
-      "match_type": "exact"
-    },
-    "H": {
-      "cmc_id": 36922,
-      "cmc_slug": "humanity-protocol",
-      "cmc_symbol": "H",
-      "match_type": "exact"
-    },
-    "HAEDAL": {
-      "cmc_id": 36369,
-      "cmc_slug": "haedal-protocol",
-      "cmc_symbol": "HAEDAL",
-      "match_type": "exact"
-    },
-    "HANA": {
-      "cmc_id": 38468,
-      "cmc_slug": "hana-network",
-      "cmc_symbol": "HANA",
-      "match_type": "exact"
-    },
-    "HBAR": {
-      "cmc_id": 4642,
-      "cmc_slug": "hedera",
-      "cmc_symbol": "HBAR",
-      "match_type": "exact"
-    },
-    "HEI": {
-      "cmc_id": 35724,
-      "cmc_slug": "heima",
-      "cmc_symbol": "HEI",
-      "match_type": "exact"
-    },
-    "HEMI": {
-      "cmc_id": 38159,
-      "cmc_slug": "hemi",
-      "cmc_symbol": "HEMI",
-      "match_type": "exact"
-    },
-    "HFT": {
-      "cmc_id": 22461,
-      "cmc_slug": "hashflow",
-      "cmc_symbol": "HFT",
-      "match_type": "exact"
-    },
-    "HIGH": {
-      "cmc_id": 11232,
-      "cmc_slug": "highstreet",
-      "cmc_symbol": "HIGH",
-      "match_type": "exact"
-    },
-    "HIPPO": {
-      "cmc_id": 33258,
-      "cmc_slug": "sudeng",
-      "cmc_symbol": "HIPPO",
-      "match_type": "exact"
-    },
-    "HIVE": {
-      "cmc_id": 5370,
-      "cmc_slug": "hive-blockchain",
-      "cmc_symbol": "HIVE",
-      "match_type": "exact"
-    },
-    "HMSTR": {
-      "cmc_id": 32195,
-      "cmc_slug": "hamster-kombat",
-      "cmc_symbol": "HMSTR",
-      "match_type": "exact"
-    },
-    "HOLO": {
-      "cmc_id": 38309,
-      "cmc_slug": "holoworld-ai",
-      "cmc_symbol": "HOLO",
-      "match_type": "exact"
-    },
-    "HOME": {
-      "cmc_id": 36133,
-      "cmc_slug": "defi-app",
-      "cmc_symbol": "HOME",
-      "match_type": "exact"
-    },
-    "HOOK": {
-      "cmc_id": 22764,
-      "cmc_slug": "hooked-protocol",
-      "cmc_symbol": "HOOK",
-      "match_type": "exact"
-    },
-    "HOT": {
-      "cmc_id": 2682,
-      "cmc_slug": "holo",
-      "cmc_symbol": "HOT",
-      "match_type": "exact"
-    },
-    "HUMA": {
-      "cmc_id": 36576,
-      "cmc_slug": "huma-finance",
-      "cmc_symbol": "HUMA",
-      "match_type": "exact"
-    },
-    "HYPE": {
-      "cmc_id": 32196,
-      "cmc_slug": "hyperliquid",
-      "cmc_symbol": "HYPE",
-      "match_type": "exact"
-    },
-    "HYPER": {
-      "cmc_id": 36281,
-      "cmc_slug": "hyperlane",
-      "cmc_symbol": "HYPER",
-      "match_type": "exact"
-    },
-    "ICNT": {
-      "cmc_id": 37070,
-      "cmc_slug": "impossible-cloud-network",
-      "cmc_symbol": "ICNT",
-      "match_type": "exact"
-    },
-    "ICP": {
-      "cmc_id": 8916,
-      "cmc_slug": "internet-computer",
-      "cmc_symbol": "ICP",
-      "match_type": "exact"
-    },
-    "ICX": {
-      "cmc_id": 2099,
-      "cmc_slug": "icon",
-      "cmc_symbol": "ICX",
-      "match_type": "exact"
-    },
-    "ID": {
-      "cmc_id": 21846,
-      "cmc_slug": "space-id",
-      "cmc_symbol": "ID",
-      "match_type": "exact"
-    },
-    "IDEX": {
-      "cmc_id": 3928,
-      "cmc_slug": "idex",
-      "cmc_symbol": "IDEX",
-      "match_type": "exact"
-    },
-    "IDOL": {
-      "cmc_id": 36775,
-      "cmc_slug": "meet48",
-      "cmc_symbol": "IDOL",
-      "match_type": "exact"
-    },
-    "ILV": {
-      "cmc_id": 8719,
-      "cmc_slug": "illuvium",
-      "cmc_symbol": "ILV",
-      "match_type": "exact"
-    },
-    "IMX": {
-      "cmc_id": 10603,
-      "cmc_slug": "immutable-x",
-      "cmc_symbol": "IMX",
-      "match_type": "exact"
-    },
-    "IN": {
-      "cmc_id": 37609,
-      "cmc_slug": "infinit",
-      "cmc_symbol": "IN",
-      "match_type": "exact"
-    },
-    "INIT": {
-      "cmc_id": 33120,
-      "cmc_slug": "initia",
-      "cmc_symbol": "INIT",
-      "match_type": "exact"
-    },
-    "INJ": {
-      "cmc_id": 7226,
-      "cmc_slug": "injective",
-      "cmc_symbol": "INJ",
-      "match_type": "exact"
-    },
-    "IO": {
-      "cmc_id": 29835,
-      "cmc_slug": "io-net",
-      "cmc_symbol": "IO",
-      "match_type": "exact"
-    },
-    "IOST": {
-      "cmc_id": 2405,
-      "cmc_slug": "iostoken",
-      "cmc_symbol": "IOST",
-      "match_type": "exact"
-    },
-    "IOTA": {
-      "cmc_id": 1720,
-      "cmc_slug": "iota",
-      "cmc_symbol": "IOTA",
-      "match_type": "exact"
-    },
-    "IOTX": {
-      "cmc_id": 2777,
-      "cmc_slug": "iotex",
-      "cmc_symbol": "IOTX",
-      "match_type": "exact"
-    },
-    "IP": {
-      "cmc_id": 35626,
-      "cmc_slug": "story-protocol",
-      "cmc_symbol": "IP",
-      "match_type": "exact"
-    },
-    "IQ": {
-      "cmc_id": 2930,
-      "cmc_slug": "iq",
-      "cmc_symbol": "IQ",
-      "match_type": "exact"
-    },
-    "JASMY": {
-      "cmc_id": 8425,
-      "cmc_slug": "jasmy",
-      "cmc_symbol": "JASMY",
-      "match_type": "exact"
-    },
-    "JCT": {
-      "cmc_id": 38909,
-      "cmc_slug": "janction",
-      "cmc_symbol": "JCT",
-      "match_type": "exact"
-    },
-    "JELLYJELLY": {
-      "cmc_id": 35537,
-      "cmc_slug": "jelly-my-jelly",
-      "cmc_symbol": "JELLYJELLY",
-      "match_type": "exact"
-    },
-    "JOE": {
-      "cmc_id": 11396,
-      "cmc_slug": "joe",
-      "cmc_symbol": "JOE",
-      "match_type": "exact"
-    },
-    "JST": {
-      "cmc_id": 5488,
-      "cmc_slug": "just",
-      "cmc_symbol": "JST",
-      "match_type": "exact"
-    },
-    "JTO": {
-      "cmc_id": 28541,
-      "cmc_slug": "jito",
-      "cmc_symbol": "JTO",
-      "match_type": "exact"
-    },
-    "JUP": {
-      "cmc_id": 29210,
-      "cmc_slug": "jupiter-ag",
-      "cmc_symbol": "JUP",
-      "match_type": "exact"
-    },
-    "JUV": {
-      "cmc_id": 5224,
-      "cmc_slug": "juventus-fan-token",
-      "cmc_symbol": "JUV",
-      "match_type": "exact"
-    },
-    "KAIA": {
-      "cmc_id": 32880,
-      "cmc_slug": "kaia",
-      "cmc_symbol": "KAIA",
-      "match_type": "exact"
-    },
-    "KAITO": {
-      "cmc_id": 35763,
-      "cmc_slug": "kaito",
-      "cmc_symbol": "KAITO",
-      "match_type": "exact"
-    },
-    "KAS": {
-      "cmc_id": 20396,
-      "cmc_slug": "kaspa",
-      "cmc_symbol": "KAS",
-      "match_type": "exact"
-    },
-    "KAVA": {
-      "cmc_id": 4846,
-      "cmc_slug": "kava",
-      "cmc_symbol": "KAVA",
-      "match_type": "exact"
-    },
-    "KDA": {
-      "cmc_id": 5647,
-      "cmc_slug": "kadena",
-      "cmc_symbol": "KDA",
-      "match_type": "exact"
-    },
-    "KERNEL": {
-      "cmc_id": 36180,
-      "cmc_slug": "kerneldao",
-      "cmc_symbol": "KERNEL",
-      "match_type": "exact"
-    },
-    "KGEN": {
-      "cmc_id": 38554,
-      "cmc_slug": "kgen",
-      "cmc_symbol": "KGEN",
-      "match_type": "exact"
-    },
-    "KITE": {
-      "cmc_id": 38828,
-      "cmc_slug": "kite",
-      "cmc_symbol": "KITE",
-      "match_type": "exact"
-    },
-    "KMNO": {
-      "cmc_id": 30986,
-      "cmc_slug": "kamino-finance",
-      "cmc_symbol": "KMNO",
-      "match_type": "exact"
-    },
-    "KNC": {
-      "cmc_id": 9444,
-      "cmc_slug": "kyber-network-crystal-v2",
-      "cmc_symbol": "KNC",
-      "match_type": "exact"
-    },
-    "KOMA": {
-      "cmc_id": 33405,
-      "cmc_slug": "koma-inu",
-      "cmc_symbol": "KOMA",
-      "match_type": "exact"
-    },
-    "KSM": {
-      "cmc_id": 5034,
-      "cmc_slug": "kusama",
-      "cmc_symbol": "KSM",
-      "match_type": "exact"
-    },
-    "LA": {
-      "cmc_id": 36510,
-      "cmc_slug": "lagrange",
-      "cmc_symbol": "LA",
-      "match_type": "exact"
-    },
-    "LAB": {
-      "cmc_id": 33223,
-      "cmc_slug": "lab",
-      "cmc_symbol": "LAB",
-      "match_type": "exact"
-    },
-    "LAYER": {
-      "cmc_id": 35429,
-      "cmc_slug": "solayer",
-      "cmc_symbol": "LAYER",
-      "match_type": "exact"
-    },
-    "LAZIO": {
-      "cmc_id": 12687,
-      "cmc_slug": "lazio-fan-token",
-      "cmc_symbol": "LAZIO",
-      "match_type": "exact"
-    },
-    "LDO": {
-      "cmc_id": 8000,
-      "cmc_slug": "lido-dao",
-      "cmc_symbol": "LDO",
-      "match_type": "exact"
-    },
-    "LIGHT": {
-      "cmc_id": 38506,
-      "cmc_slug": "bitlight",
-      "cmc_symbol": "LIGHT",
-      "match_type": "exact"
-    },
-    "LINEA": {
-      "cmc_id": 27657,
-      "cmc_slug": "linea",
-      "cmc_symbol": "LINEA",
-      "match_type": "exact"
-    },
-    "LINK": {
-      "cmc_id": 1975,
-      "cmc_slug": "chainlink",
-      "cmc_symbol": "LINK",
-      "match_type": "exact"
-    },
-    "LISTA": {
-      "cmc_id": 21533,
-      "cmc_slug": "lista-dao",
-      "cmc_symbol": "LISTA",
-      "match_type": "exact"
-    },
-    "LPT": {
-      "cmc_id": 3640,
-      "cmc_slug": "livepeer",
-      "cmc_symbol": "LPT",
-      "match_type": "exact"
-    },
-    "LQTY": {
-      "cmc_id": 7429,
-      "cmc_slug": "liquity",
-      "cmc_symbol": "LQTY",
-      "match_type": "exact"
-    },
-    "LRC": {
-      "cmc_id": 1934,
-      "cmc_slug": "loopring",
-      "cmc_symbol": "LRC",
-      "match_type": "exact"
-    },
-    "LSK": {
-      "cmc_id": 1214,
-      "cmc_slug": "lisk",
-      "cmc_symbol": "LSK",
-      "match_type": "exact"
-    },
-    "LTC": {
-      "cmc_id": 2,
-      "cmc_slug": "litecoin",
-      "cmc_symbol": "LTC",
-      "match_type": "exact"
-    },
-    "LUMIA": {
-      "cmc_id": 33439,
-      "cmc_slug": "lumia",
-      "cmc_symbol": "LUMIA",
-      "match_type": "exact"
-    },
-    "LUNA": {
-      "cmc_id": 20314,
-      "cmc_slug": "terra-luna-v2",
-      "cmc_symbol": "LUNA",
-      "match_type": "exact"
-    },
-    "LUNA2": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "LUNC": {
-      "cmc_id": 4172,
-      "cmc_slug": "terra-luna",
-      "cmc_symbol": "LUNC",
-      "match_type": "exact"
-    },
-    "LYN": {
-      "cmc_id": 38561,
-      "cmc_slug": "everlyn",
-      "cmc_symbol": "LYN",
-      "match_type": "exact"
-    },
-    "M": {
-      "cmc_id": 35491,
-      "cmc_slug": "memecore",
-      "cmc_symbol": "M",
-      "match_type": "exact"
-    },
-    "MAGIC": {
-      "cmc_id": 14783,
-      "cmc_slug": "magic-token",
-      "cmc_symbol": "MAGIC",
-      "match_type": "exact"
-    },
-    "MANA": {
-      "cmc_id": 1966,
-      "cmc_slug": "decentraland",
-      "cmc_symbol": "MANA",
-      "match_type": "exact"
-    },
-    "MANTA": {
-      "cmc_id": 13631,
-      "cmc_slug": "manta-network",
-      "cmc_symbol": "MANTA",
-      "match_type": "exact"
-    },
-    "MASK": {
-      "cmc_id": 8536,
-      "cmc_slug": "mask-network",
-      "cmc_symbol": "MASK",
-      "match_type": "exact"
-    },
-    "MAV": {
-      "cmc_id": 18037,
-      "cmc_slug": "maverick-protocol",
-      "cmc_symbol": "MAV",
-      "match_type": "exact"
-    },
-    "MAVIA": {
-      "cmc_id": 28829,
-      "cmc_slug": "heroes-of-mavia",
-      "cmc_symbol": "MAVIA",
-      "match_type": "exact"
-    },
-    "MBL": {
-      "cmc_id": 4038,
-      "cmc_slug": "moviebloc",
-      "cmc_symbol": "MBL",
-      "match_type": "exact"
-    },
-    "MBOX": {
-      "cmc_id": 9175,
-      "cmc_slug": "mobox",
-      "cmc_symbol": "MBOX",
-      "match_type": "exact"
-    },
-    "MDT": {
-      "cmc_id": 2348,
-      "cmc_slug": "measurable-data-token",
-      "cmc_symbol": "MDT",
-      "match_type": "exact"
-    },
-    "ME": {
-      "cmc_id": 32197,
-      "cmc_slug": "magiceden",
-      "cmc_symbol": "ME",
-      "match_type": "exact"
-    },
-    "MELANIA": {
-      "cmc_id": 35347,
-      "cmc_slug": "melania-meme",
-      "cmc_symbol": "MELANIA",
-      "match_type": "exact"
-    },
-    "MEME": {
-      "cmc_id": 28301,
-      "cmc_slug": "meme",
-      "cmc_symbol": "MEME",
-      "match_type": "exact"
-    },
-    "MERL": {
-      "cmc_id": 30712,
-      "cmc_slug": "merlin-chain",
-      "cmc_symbol": "MERL",
-      "match_type": "exact"
-    },
-    "MET": {
-      "cmc_id": 38353,
-      "cmc_slug": "meteora",
-      "cmc_symbol": "MET",
-      "match_type": "exact"
-    },
-    "METIS": {
-      "cmc_id": 9640,
-      "cmc_slug": "metisdao",
-      "cmc_symbol": "METIS",
-      "match_type": "exact"
-    },
-    "MEW": {
-      "cmc_id": 30126,
-      "cmc_slug": "mew",
-      "cmc_symbol": "MEW",
-      "match_type": "exact"
-    },
-    "MILK": {
-      "cmc_id": 20874,
-      "cmc_slug": "milkyway",
-      "cmc_symbol": "MILK",
-      "match_type": "exact"
-    },
-    "MINA": {
-      "cmc_id": 8646,
-      "cmc_slug": "mina",
-      "cmc_symbol": "MINA",
-      "match_type": "exact"
-    },
-    "MIRA": {
-      "cmc_id": 38495,
-      "cmc_slug": "mira-network",
-      "cmc_symbol": "MIRA",
-      "match_type": "exact"
-    },
-    "MITO": {
-      "cmc_id": 38204,
-      "cmc_slug": "mitosis",
-      "cmc_symbol": "MITO",
-      "match_type": "exact"
-    },
-    "MLN": {
-      "cmc_id": 1552,
-      "cmc_slug": "enzyme",
-      "cmc_symbol": "MLN",
-      "match_type": "exact"
-    },
-    "MMT": {
-      "cmc_id": 38231,
-      "cmc_slug": "momentum-token",
-      "cmc_symbol": "MMT",
-      "match_type": "exact"
-    },
-    "MOCA": {
-      "cmc_id": 31526,
-      "cmc_slug": "mocaverse",
-      "cmc_symbol": "MOCA",
-      "match_type": "exact"
-    },
-    "MON": {
-      "cmc_id": 30950,
-      "cmc_slug": "mon",
-      "cmc_symbol": "MON",
-      "match_type": "exact"
-    },
-    "MOODENG": {
-      "cmc_id": 33093,
-      "cmc_slug": "moo-deng-solana",
-      "cmc_symbol": "MOODENG",
-      "match_type": "exact"
-    },
-    "MORPHO": {
-      "cmc_id": 34104,
-      "cmc_slug": "morpho",
-      "cmc_symbol": "MORPHO",
-      "match_type": "exact"
-    },
-    "MOVE": {
-      "cmc_id": 32452,
-      "cmc_slug": "movement",
-      "cmc_symbol": "MOVE",
-      "match_type": "exact"
-    },
-    "MOVR": {
-      "cmc_id": 9285,
-      "cmc_slug": "moonriver",
-      "cmc_symbol": "MOVR",
-      "match_type": "exact"
-    },
-    "MTL": {
-      "cmc_id": 1788,
-      "cmc_slug": "metal",
-      "cmc_symbol": "MTL",
-      "match_type": "exact"
-    },
-    "MUBARAK": {
-      "cmc_id": 36041,
-      "cmc_slug": "mubarak",
-      "cmc_symbol": "MUBARAK",
-      "match_type": "exact"
-    },
-    "MYRO": {
-      "cmc_id": 28382,
-      "cmc_slug": "myro",
-      "cmc_symbol": "MYRO",
-      "match_type": "exact"
-    },
-    "MYX": {
-      "cmc_id": 36410,
-      "cmc_slug": "myx-finance",
-      "cmc_symbol": "MYX",
-      "match_type": "exact"
-    },
-    "NAORIS": {
-      "cmc_id": 35114,
-      "cmc_slug": "naoris-protocol",
-      "cmc_symbol": "NAORIS",
-      "match_type": "exact"
-    },
-    "NEAR": {
-      "cmc_id": 6535,
-      "cmc_slug": "near-protocol",
-      "cmc_symbol": "NEAR",
-      "match_type": "exact"
-    },
-    "NEIRO": {
-      "cmc_id": 32521,
-      "cmc_slug": "neiro",
-      "cmc_symbol": "NEIRO",
-      "match_type": "exact"
-    },
-    "NEO": {
-      "cmc_id": 1376,
-      "cmc_slug": "neo",
-      "cmc_symbol": "NEO",
-      "match_type": "exact"
-    },
-    "NEWT": {
-      "cmc_id": 36861,
-      "cmc_slug": "newton-protocol",
-      "cmc_symbol": "NEWT",
-      "match_type": "exact"
-    },
-    "NEXO": {
-      "cmc_id": 2694,
-      "cmc_slug": "nexo",
-      "cmc_symbol": "NEXO",
-      "match_type": "exact"
-    },
-    "NFP": {
-      "cmc_id": 28778,
-      "cmc_slug": "nfprompt",
-      "cmc_symbol": "NFP",
-      "match_type": "exact"
-    },
-    "NIL": {
-      "cmc_id": 35702,
-      "cmc_slug": "nillion",
-      "cmc_symbol": "NIL",
-      "match_type": "exact"
-    },
-    "NKN": {
-      "cmc_id": 2780,
-      "cmc_slug": "nkn",
-      "cmc_symbol": "NKN",
-      "match_type": "exact"
-    },
-    "NMR": {
-      "cmc_id": 1732,
-      "cmc_slug": "numeraire",
-      "cmc_symbol": "NMR",
-      "match_type": "exact"
-    },
-    "NOM": {
-      "cmc_id": 38464,
-      "cmc_slug": "nomina",
-      "cmc_symbol": "NOM",
-      "match_type": "exact"
-    },
-    "NOT": {
-      "cmc_id": 28850,
-      "cmc_slug": "notcoin",
-      "cmc_symbol": "NOT",
-      "match_type": "exact"
-    },
-    "NTRN": {
-      "cmc_id": 26680,
-      "cmc_slug": "neutron-ntrn",
-      "cmc_symbol": "NTRN",
-      "match_type": "exact"
-    },
-    "NXPC": {
-      "cmc_id": 36044,
-      "cmc_slug": "maplestory-universe",
-      "cmc_symbol": "NXPC",
-      "match_type": "exact"
-    },
-    "OBOL": {
-      "cmc_id": 36278,
-      "cmc_slug": "obol",
-      "cmc_symbol": "OBOL",
-      "match_type": "exact"
-    },
-    "OG": {
-      "cmc_id": 5309,
-      "cmc_slug": "og-fan-token",
-      "cmc_symbol": "OG",
-      "match_type": "exact"
-    },
-    "OGN": {
-      "cmc_id": 5117,
-      "cmc_slug": "origin-protocol",
-      "cmc_symbol": "OGN",
-      "match_type": "exact"
-    },
-    "OL": {
-      "cmc_id": 34034,
-      "cmc_slug": "open-loot",
-      "cmc_symbol": "OL",
-      "match_type": "exact"
-    },
-    "OM": {
-      "cmc_id": 6536,
-      "cmc_slug": "mantra",
-      "cmc_symbol": "OM",
-      "match_type": "exact"
-    },
-    "ON": {
-      "cmc_id": 38750,
-      "cmc_slug": "orochi-network",
-      "cmc_symbol": "ON",
-      "match_type": "exact"
-    },
-    "ONDO": {
-      "cmc_id": 21159,
-      "cmc_slug": "ondo-finance",
-      "cmc_symbol": "ONDO",
-      "match_type": "exact"
-    },
-    "ONE": {
-      "cmc_id": 3945,
-      "cmc_slug": "harmony",
-      "cmc_symbol": "ONE",
-      "match_type": "exact"
-    },
-    "ONG": {
-      "cmc_id": 3217,
-      "cmc_slug": "ontology-gas",
-      "cmc_symbol": "ONG",
-      "match_type": "exact"
-    },
-    "ONT": {
-      "cmc_id": 2566,
-      "cmc_slug": "ontology",
-      "cmc_symbol": "ONT",
-      "match_type": "exact"
-    },
-    "OP": {
-      "cmc_id": 11840,
-      "cmc_slug": "optimism-ethereum",
-      "cmc_symbol": "OP",
-      "match_type": "exact"
-    },
-    "OPEN": {
-      "cmc_id": 37456,
-      "cmc_slug": "openledger",
-      "cmc_symbol": "OPEN",
-      "match_type": "exact"
-    },
-    "ORCA": {
-      "cmc_id": 11165,
-      "cmc_slug": "orca",
-      "cmc_symbol": "ORCA",
-      "match_type": "exact"
-    },
-    "ORDER": {
-      "cmc_id": 32809,
-      "cmc_slug": "orderly-network",
-      "cmc_symbol": "ORDER",
-      "match_type": "exact"
-    },
-    "ORDI": {
-      "cmc_id": 25028,
-      "cmc_slug": "ordi",
-      "cmc_symbol": "ORDI",
-      "match_type": "exact"
-    },
-    "OSMO": {
-      "cmc_id": 12220,
-      "cmc_slug": "osmosis",
-      "cmc_symbol": "OSMO",
-      "match_type": "exact"
-    },
-    "OXT": {
-      "cmc_id": 5026,
-      "cmc_slug": "orchid",
-      "cmc_symbol": "OXT",
-      "match_type": "exact"
-    },
-    "PARTI": {
-      "cmc_id": 36102,
-      "cmc_slug": "particle-network",
-      "cmc_symbol": "PARTI",
-      "match_type": "exact"
-    },
-    "PAXG": {
-      "cmc_id": 4705,
-      "cmc_slug": "pax-gold",
-      "cmc_symbol": "PAXG",
-      "match_type": "exact"
-    },
-    "PENDLE": {
-      "cmc_id": 9481,
-      "cmc_slug": "pendle",
-      "cmc_symbol": "PENDLE",
-      "match_type": "exact"
-    },
-    "PENGU": {
-      "cmc_id": 34466,
-      "cmc_slug": "pudgy-penguins",
-      "cmc_symbol": "PENGU",
-      "match_type": "exact"
-    },
-    "PEOPLE": {
-      "cmc_id": 14806,
-      "cmc_slug": "constitutiondao",
-      "cmc_symbol": "PEOPLE",
-      "match_type": "exact"
-    },
-    "PEPE": {
-      "cmc_id": 24478,
-      "cmc_slug": "pepe",
-      "cmc_symbol": "PEPE",
-      "match_type": "exact"
-    },
-    "PERP": {
-      "cmc_id": 6950,
-      "cmc_slug": "perpetual-protocol",
-      "cmc_symbol": "PERP",
-      "match_type": "exact"
-    },
-    "PHA": {
-      "cmc_id": 6841,
-      "cmc_slug": "phala-network",
-      "cmc_symbol": "PHA",
-      "match_type": "exact"
-    },
-    "PHB": {
-      "cmc_id": 13969,
-      "cmc_slug": "phoenix-global-new",
-      "cmc_symbol": "PHB",
-      "match_type": "exact"
-    },
-    "PIPPIN": {
-      "cmc_id": 35053,
-      "cmc_slug": "pippin",
-      "cmc_symbol": "PIPPIN",
-      "match_type": "exact"
-    },
-    "PIVX": {
-      "cmc_id": 1169,
-      "cmc_slug": "pivx",
-      "cmc_symbol": "PIVX",
-      "match_type": "exact"
-    },
-    "PIXEL": {
-      "cmc_id": 29335,
-      "cmc_slug": "pixels",
-      "cmc_symbol": "PIXEL",
-      "match_type": "exact"
-    },
-    "PLAY": {
-      "cmc_id": 37534,
-      "cmc_slug": "playsout",
-      "cmc_symbol": "PLAY",
-      "match_type": "exact"
-    },
-    "PLUME": {
-      "cmc_id": 35364,
-      "cmc_slug": "plume",
-      "cmc_symbol": "PLUME",
-      "match_type": "exact"
-    },
-    "PNUT": {
-      "cmc_id": 33788,
-      "cmc_slug": "peanut-the-squirrel",
-      "cmc_symbol": "PNUT",
-      "match_type": "exact"
-    },
-    "POL": {
-      "cmc_id": 28321,
-      "cmc_slug": "polygon-ecosystem-token",
-      "cmc_symbol": "POL",
-      "match_type": "exact"
-    },
-    "POLYX": {
-      "cmc_id": 20362,
-      "cmc_slug": "polymesh",
-      "cmc_symbol": "POLYX",
-      "match_type": "exact"
-    },
-    "POND": {
-      "cmc_id": 7497,
-      "cmc_slug": "marlin",
-      "cmc_symbol": "POND",
-      "match_type": "exact"
-    },
-    "PONKE": {
-      "cmc_id": 29150,
-      "cmc_slug": "ponke",
-      "cmc_symbol": "PONKE",
-      "match_type": "exact"
-    },
-    "POPCAT": {
-      "cmc_id": 28782,
-      "cmc_slug": "popcat-sol",
-      "cmc_symbol": "POPCAT",
-      "match_type": "exact"
-    },
-    "PORT3": {
-      "cmc_id": 29030,
-      "cmc_slug": "port3-network",
-      "cmc_symbol": "PORT3",
-      "match_type": "exact"
-    },
-    "PORTAL": {
-      "cmc_id": 29555,
-      "cmc_slug": "portal-gaming",
-      "cmc_symbol": "PORTAL",
-      "match_type": "exact"
-    },
-    "PORTO": {
-      "cmc_id": 14052,
-      "cmc_slug": "fc-porto",
-      "cmc_symbol": "PORTO",
-      "match_type": "exact"
-    },
-    "POWR": {
-      "cmc_id": 2132,
-      "cmc_slug": "power-ledger",
-      "cmc_symbol": "POWR",
-      "match_type": "exact"
-    },
-    "PROM": {
-      "cmc_id": 4120,
-      "cmc_slug": "prom",
-      "cmc_symbol": "PROM",
-      "match_type": "exact"
-    },
-    "PROMPT": {
-      "cmc_id": 36223,
-      "cmc_slug": "wayfinder",
-      "cmc_symbol": "PROMPT",
-      "match_type": "exact"
-    },
-    "PROVE": {
-      "cmc_id": 37593,
-      "cmc_slug": "succinct",
-      "cmc_symbol": "PROVE",
-      "match_type": "exact"
-    },
-    "PSG": {
-      "cmc_id": 5226,
-      "cmc_slug": "paris-saint-germain-fan-token",
-      "cmc_symbol": "PSG",
-      "match_type": "exact"
-    },
-    "PTB": {
-      "cmc_id": 37372,
-      "cmc_slug": "portaltobitcoin",
-      "cmc_symbol": "PTB",
-      "match_type": "exact"
-    },
-    "PUFFER": {
-      "cmc_id": 32325,
-      "cmc_slug": "puffer",
-      "cmc_symbol": "PUFFER",
-      "match_type": "exact"
-    },
-    "PUMP": {
-      "cmc_id": 36507,
-      "cmc_slug": "pump-fun",
-      "cmc_symbol": "PUMP",
-      "match_type": "exact"
-    },
-    "PUMPBTC": {
-      "cmc_id": 32272,
-      "cmc_slug": "pumpbtc-btc",
-      "cmc_symbol": "PUMPBTC",
-      "match_type": "exact"
-    },
-    "PUNDIX": {
-      "cmc_id": 9040,
-      "cmc_slug": "pundix-new",
-      "cmc_symbol": "PUNDIX",
-      "match_type": "exact"
-    },
-    "PYR": {
-      "cmc_id": 9308,
-      "cmc_slug": "vulcan-forged-pyr",
-      "cmc_symbol": "PYR",
-      "match_type": "exact"
-    },
-    "PYTH": {
-      "cmc_id": 28177,
-      "cmc_slug": "pyth-network",
-      "cmc_symbol": "PYTH",
-      "match_type": "exact"
-    },
-    "Q": {
-      "cmc_id": 38236,
-      "cmc_slug": "quack-ai",
-      "cmc_symbol": "Q",
-      "match_type": "exact"
-    },
-    "QI": {
-      "cmc_id": 9288,
-      "cmc_slug": "benqi",
-      "cmc_symbol": "QI",
-      "match_type": "exact"
-    },
-    "QKC": {
-      "cmc_id": 2840,
-      "cmc_slug": "quarkchain",
-      "cmc_symbol": "QKC",
-      "match_type": "exact"
-    },
-    "QNT": {
-      "cmc_id": 3155,
-      "cmc_slug": "quant",
-      "cmc_symbol": "QNT",
-      "match_type": "exact"
-    },
-    "QTUM": {
-      "cmc_id": 1684,
-      "cmc_slug": "qtum",
-      "cmc_symbol": "QTUM",
-      "match_type": "exact"
-    },
-    "QUICK": {
-      "cmc_id": 8206,
-      "cmc_slug": "quickswap",
-      "cmc_symbol": "QUICK",
-      "match_type": "exact"
-    },
-    "RAD": {
-      "cmc_id": 6843,
-      "cmc_slug": "radworks",
-      "cmc_symbol": "RAD",
-      "match_type": "exact"
-    },
-    "RARE": {
-      "cmc_id": 11294,
-      "cmc_slug": "superrare",
-      "cmc_symbol": "RARE",
-      "match_type": "exact"
-    },
-    "RAY": {
-      "cmc_id": 8526,
-      "cmc_slug": "raydium",
-      "cmc_symbol": "RAY",
-      "match_type": "exact"
-    },
-    "RAYSOL": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "RDNT": {
-      "cmc_id": 21106,
-      "cmc_slug": "radiant-capital",
-      "cmc_symbol": "RDNT",
-      "match_type": "exact"
-    },
-    "RECALL": {
-      "cmc_id": 38669,
-      "cmc_slug": "recall-network",
-      "cmc_symbol": "RECALL",
-      "match_type": "exact"
-    },
-    "RED": {
-      "cmc_id": 21707,
-      "cmc_slug": "redstone",
-      "cmc_symbol": "RED",
-      "match_type": "exact"
-    },
-    "REI": {
-      "cmc_id": 19819,
-      "cmc_slug": "rei-network",
-      "cmc_symbol": "REI",
-      "match_type": "exact"
-    },
-    "RENDER": {
-      "cmc_id": 5690,
-      "cmc_slug": "render",
-      "cmc_symbol": "RENDER",
-      "match_type": "exact"
-    },
-    "REQ": {
-      "cmc_id": 2071,
-      "cmc_slug": "request",
-      "cmc_symbol": "REQ",
-      "match_type": "exact"
-    },
-    "RESOLV": {
-      "cmc_id": 36713,
-      "cmc_slug": "resolv",
-      "cmc_symbol": "RESOLV",
-      "match_type": "exact"
-    },
-    "REZ": {
-      "cmc_id": 30843,
-      "cmc_slug": "renzo",
-      "cmc_symbol": "REZ",
-      "match_type": "exact"
-    },
-    "RIF": {
-      "cmc_id": 3701,
-      "cmc_slug": "rsk-infrastructure-framework",
-      "cmc_symbol": "RIF",
-      "match_type": "exact"
-    },
-    "RIVER": {
-      "cmc_id": 38417,
-      "cmc_slug": "river",
-      "cmc_symbol": "RIVER",
-      "match_type": "exact"
-    },
-    "RLC": {
-      "cmc_id": 1637,
-      "cmc_slug": "rlc",
-      "cmc_symbol": "RLC",
-      "match_type": "exact"
-    },
-    "RONIN": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "ROSE": {
-      "cmc_id": 7653,
-      "cmc_slug": "oasis-network",
-      "cmc_symbol": "ROSE",
-      "match_type": "exact"
-    },
-    "RPL": {
-      "cmc_id": 2943,
-      "cmc_slug": "rocket-pool",
-      "cmc_symbol": "RPL",
-      "match_type": "exact"
-    },
-    "RSR": {
-      "cmc_id": 3964,
-      "cmc_slug": "reserve-rights",
-      "cmc_symbol": "RSR",
-      "match_type": "exact"
-    },
-    "RUNE": {
-      "cmc_id": 4157,
-      "cmc_slug": "thorchain",
-      "cmc_symbol": "RUNE",
-      "match_type": "exact"
-    },
-    "RVN": {
-      "cmc_id": 2577,
-      "cmc_slug": "ravencoin",
-      "cmc_symbol": "RVN",
-      "match_type": "exact"
-    },
-    "RVV": {
-      "cmc_id": 38707,
-      "cmc_slug": "astra-nova",
-      "cmc_symbol": "RVV",
-      "match_type": "exact"
-    },
-    "S": {
-      "cmc_id": 32684,
-      "cmc_slug": "sonic",
-      "cmc_symbol": "S",
-      "match_type": "exact"
-    },
-    "SAFE": {
-      "cmc_id": 21585,
-      "cmc_slug": "safe1",
-      "cmc_symbol": "SAFE",
-      "match_type": "exact"
-    },
-    "SAGA": {
-      "cmc_id": 30372,
-      "cmc_slug": "saga",
-      "cmc_symbol": "SAGA",
-      "match_type": "exact"
-    },
-    "SAHARA": {
-      "cmc_id": 36671,
-      "cmc_slug": "sahara-ai",
-      "cmc_symbol": "SAHARA",
-      "match_type": "exact"
-    },
-    "SAND": {
-      "cmc_id": 6210,
-      "cmc_slug": "the-sandbox",
-      "cmc_symbol": "SAND",
-      "match_type": "exact"
-    },
-    "SANTOS": {
-      "cmc_id": 15248,
-      "cmc_slug": "santos-fc-fan-token",
-      "cmc_symbol": "SANTOS",
-      "match_type": "exact"
-    },
-    "SAPIEN": {
-      "cmc_id": 38117,
-      "cmc_slug": "sapien-io",
-      "cmc_symbol": "SAPIEN",
-      "match_type": "exact"
-    },
-    "SC": {
-      "cmc_id": 1042,
-      "cmc_slug": "siacoin",
-      "cmc_symbol": "SC",
-      "match_type": "exact"
-    },
-    "SCR": {
-      "cmc_id": 26998,
-      "cmc_slug": "scroll",
-      "cmc_symbol": "SCR",
-      "match_type": "exact"
-    },
-    "SCRT": {
-      "cmc_id": 5604,
-      "cmc_slug": "secret",
-      "cmc_symbol": "SCRT",
-      "match_type": "exact"
-    },
-    "SEI": {
-      "cmc_id": 23149,
-      "cmc_slug": "sei",
-      "cmc_symbol": "SEI",
-      "match_type": "exact"
-    },
-    "SFP": {
-      "cmc_id": 8119,
-      "cmc_slug": "safepal",
-      "cmc_symbol": "SFP",
-      "match_type": "exact"
-    },
-    "SHELL": {
-      "cmc_id": 35710,
-      "cmc_slug": "myshell",
-      "cmc_symbol": "SHELL",
-      "match_type": "exact"
-    },
-    "SHIB": {
-      "cmc_id": 5994,
-      "cmc_slug": "shiba-inu",
-      "cmc_symbol": "SHIB",
-      "match_type": "exact"
-    },
-    "SIGN": {
-      "cmc_id": 35600,
-      "cmc_slug": "sign",
-      "cmc_symbol": "SIGN",
-      "match_type": "exact"
-    },
-    "SIREN": {
-      "cmc_id": 35766,
-      "cmc_slug": "siren-bsc",
-      "cmc_symbol": "SIREN",
-      "match_type": "exact"
-    },
-    "SKATE": {
-      "cmc_id": 36747,
-      "cmc_slug": "skate",
-      "cmc_symbol": "SKATE",
-      "match_type": "exact"
-    },
-    "SKL": {
-      "cmc_id": 5691,
-      "cmc_slug": "skale-network",
-      "cmc_symbol": "SKL",
-      "match_type": "exact"
-    },
-    "SKY": {
-      "cmc_id": 33038,
-      "cmc_slug": "sky",
-      "cmc_symbol": "SKY",
-      "match_type": "exact"
-    },
-    "SKYAI": {
-      "cmc_id": 36300,
-      "cmc_slug": "skyai",
-      "cmc_symbol": "SKYAI",
-      "match_type": "exact"
-    },
-    "SLP": {
-      "cmc_id": 5824,
-      "cmc_slug": "smooth-love-potion",
-      "cmc_symbol": "SLP",
-      "match_type": "exact"
-    },
-    "SNX": {
-      "cmc_id": 2586,
-      "cmc_slug": "synthetix",
-      "cmc_symbol": "SNX",
-      "match_type": "exact"
-    },
-    "SOL": {
-      "cmc_id": 5426,
-      "cmc_slug": "solana",
-      "cmc_symbol": "SOL",
-      "match_type": "exact"
-    },
-    "SOLV": {
-      "cmc_id": 12165,
-      "cmc_slug": "solv-protocol",
-      "cmc_symbol": "SOLV",
-      "match_type": "exact"
-    },
-    "SOMI": {
-      "cmc_id": 37637,
-      "cmc_slug": "somnia",
-      "cmc_symbol": "SOMI",
-      "match_type": "exact"
-    },
-    "SONIC": {
-      "cmc_id": 35051,
-      "cmc_slug": "sonic-svm",
-      "cmc_symbol": "SONIC",
-      "match_type": "exact"
-    },
-    "SOON": {
-      "cmc_id": 36542,
-      "cmc_slug": "soon",
-      "cmc_symbol": "SOON",
-      "match_type": "exact"
-    },
-    "SOPH": {
-      "cmc_id": 32087,
-      "cmc_slug": "sophon",
-      "cmc_symbol": "SOPH",
-      "match_type": "exact"
-    },
-    "SPELL": {
-      "cmc_id": 11289,
-      "cmc_slug": "spell-token",
-      "cmc_symbol": "SPELL",
-      "match_type": "exact"
-    },
-    "SPK": {
-      "cmc_id": 36569,
-      "cmc_slug": "spark",
-      "cmc_symbol": "SPK",
-      "match_type": "exact"
-    },
-    "SPX": {
-      "cmc_id": 28081,
-      "cmc_slug": "spx6900",
-      "cmc_symbol": "SPX",
-      "match_type": "exact"
-    },
-    "SQD": {
-      "cmc_id": 12894,
-      "cmc_slug": "subsquid",
-      "cmc_symbol": "SQD",
-      "match_type": "exact"
-    },
-    "SSV": {
-      "cmc_id": 12999,
-      "cmc_slug": "ssv-network",
-      "cmc_symbol": "SSV",
-      "match_type": "exact"
-    },
-    "STABLE": {
-      "cmc_id": 38892,
-      "cmc_slug": "stable",
-      "cmc_symbol": "STABLE",
-      "match_type": "auto"
-    },
-    "STBL": {
-      "cmc_id": 38359,
-      "cmc_slug": "stbl",
-      "cmc_symbol": "STBL",
-      "match_type": "exact"
-    },
-    "STEEM": {
-      "cmc_id": 1230,
-      "cmc_slug": "steem",
-      "cmc_symbol": "STEEM",
-      "match_type": "exact"
-    },
-    "STG": {
-      "cmc_id": 18934,
-      "cmc_slug": "stargate-finance",
-      "cmc_symbol": "STG",
-      "match_type": "exact"
-    },
-    "STO": {
-      "cmc_id": 32194,
-      "cmc_slug": "stakestone",
-      "cmc_symbol": "STO",
-      "match_type": "exact"
-    },
-    "STORJ": {
-      "cmc_id": 1772,
-      "cmc_slug": "storj",
-      "cmc_symbol": "STORJ",
-      "match_type": "exact"
-    },
-    "STRAX": {
-      "cmc_id": 30168,
-      "cmc_slug": "stratis-new",
-      "cmc_symbol": "STRAX",
-      "match_type": "exact"
-    },
-    "STRK": {
-      "cmc_id": 22691,
-      "cmc_slug": "starknet-token",
-      "cmc_symbol": "STRK",
-      "match_type": "exact"
-    },
-    "STX": {
-      "cmc_id": 4847,
-      "cmc_slug": "stacks",
-      "cmc_symbol": "STX",
-      "match_type": "exact"
-    },
-    "SUI": {
-      "cmc_id": 20947,
-      "cmc_slug": "sui",
-      "cmc_symbol": "SUI",
-      "match_type": "exact"
-    },
-    "SUN": {
-      "cmc_id": 10529,
-      "cmc_slug": "sun-token",
-      "cmc_symbol": "SUN",
-      "match_type": "exact"
-    },
-    "SUPER": {
-      "cmc_id": 8290,
-      "cmc_slug": "superverse",
-      "cmc_symbol": "SUPER",
-      "match_type": "exact"
-    },
-    "SUSHI": {
-      "cmc_id": 6758,
-      "cmc_slug": "sushiswap",
-      "cmc_symbol": "SUSHI",
-      "match_type": "exact"
-    },
-    "SWARMS": {
-      "cmc_id": 34993,
-      "cmc_slug": "swarms",
-      "cmc_symbol": "SWARMS",
-      "match_type": "exact"
-    },
-    "SWELL": {
-      "cmc_id": 24924,
-      "cmc_slug": "swell-network",
-      "cmc_symbol": "SWELL",
-      "match_type": "exact"
-    },
-    "SXP": {
-      "cmc_id": 4279,
-      "cmc_slug": "sxp",
-      "cmc_symbol": "SXP",
-      "match_type": "exact"
-    },
-    "SXT": {
-      "cmc_id": 36405,
-      "cmc_slug": "space-and-time",
-      "cmc_symbol": "SXT",
-      "match_type": "exact"
-    },
-    "SYN": {
-      "cmc_id": 12147,
-      "cmc_slug": "synapse-2",
-      "cmc_symbol": "SYN",
-      "match_type": "exact"
-    },
-    "SYRUP": {
-      "cmc_id": 33824,
-      "cmc_slug": "maple-finance",
-      "cmc_symbol": "SYRUP",
-      "match_type": "exact"
-    },
-    "SYS": {
-      "cmc_id": 541,
-      "cmc_slug": "syscoin",
-      "cmc_symbol": "SYS",
-      "match_type": "exact"
-    },
-    "T": {
-      "cmc_id": 17751,
-      "cmc_slug": "threshold",
-      "cmc_symbol": "T",
-      "match_type": "exact"
-    },
-    "TA": {
-      "cmc_id": 37430,
-      "cmc_slug": "trusta-ai",
-      "cmc_symbol": "TA",
-      "match_type": "exact"
-    },
-    "TAC": {
-      "cmc_id": 37338,
-      "cmc_slug": "tac-protocol",
-      "cmc_symbol": "TAC",
-      "match_type": "exact"
-    },
-    "TAG": {
-      "cmc_id": 34958,
-      "cmc_slug": "tagger",
-      "cmc_symbol": "TAG",
-      "match_type": "exact"
-    },
-    "TAIKO": {
-      "cmc_id": 31525,
-      "cmc_slug": "taiko",
-      "cmc_symbol": "TAIKO",
-      "match_type": "exact"
-    },
-    "TAKE": {
-      "cmc_id": 38175,
-      "cmc_slug": "overtake",
-      "cmc_symbol": "TAKE",
-      "match_type": "exact"
-    },
-    "TANSSI": {
-      "cmc_id": 37297,
-      "cmc_slug": "tanssi",
-      "cmc_symbol": "TANSSI",
-      "match_type": "exact"
-    },
-    "TAO": {
-      "cmc_id": 22974,
-      "cmc_slug": "bittensor",
-      "cmc_symbol": "TAO",
-      "match_type": "exact"
-    },
-    "TFUEL": {
-      "cmc_id": 3822,
-      "cmc_slug": "theta-fuel",
-      "cmc_symbol": "TFUEL",
-      "match_type": "exact"
-    },
-    "THE": {
-      "cmc_id": 23335,
-      "cmc_slug": "thena",
-      "cmc_symbol": "THE",
-      "match_type": "exact"
-    },
-    "THETA": {
-      "cmc_id": 2416,
-      "cmc_slug": "theta-network",
-      "cmc_symbol": "THETA",
-      "match_type": "exact"
-    },
-    "TIA": {
-      "cmc_id": 22861,
-      "cmc_slug": "celestia",
-      "cmc_symbol": "TIA",
-      "match_type": "exact"
-    },
-    "TKO": {
-      "cmc_id": 9020,
-      "cmc_slug": "tokocrypto",
-      "cmc_symbol": "TKO",
-      "match_type": "exact"
-    },
-    "TLM": {
-      "cmc_id": 9119,
-      "cmc_slug": "alien-worlds",
-      "cmc_symbol": "TLM",
-      "match_type": "exact"
-    },
-    "TNSR": {
-      "cmc_id": 30449,
-      "cmc_slug": "tensor",
-      "cmc_symbol": "TNSR",
-      "match_type": "exact"
-    },
-    "TOKEN": {
-      "cmc_id": 28299,
-      "cmc_slug": "tokenfi",
-      "cmc_symbol": "TOKEN",
-      "match_type": "exact"
-    },
-    "TON": {
-      "cmc_id": 11419,
-      "cmc_slug": "toncoin",
-      "cmc_symbol": "TON",
-      "match_type": "exact"
-    },
-    "TOSHI": {
-      "cmc_id": 27750,
-      "cmc_slug": "toshithecat",
-      "cmc_symbol": "TOSHI",
-      "match_type": "exact"
-    },
-    "TOWNS": {
-      "cmc_id": 37571,
-      "cmc_slug": "towns",
-      "cmc_symbol": "TOWNS",
-      "match_type": "exact"
-    },
-    "TRADOOR": {
-      "cmc_id": 36737,
-      "cmc_slug": "tradoor",
-      "cmc_symbol": "TRADOOR",
-      "match_type": "exact"
-    },
-    "TRB": {
-      "cmc_id": 4944,
-      "cmc_slug": "tellor",
-      "cmc_symbol": "TRB",
-      "match_type": "exact"
-    },
-    "TREE": {
-      "cmc_id": 37495,
-      "cmc_slug": "treehouse",
-      "cmc_symbol": "TREE",
-      "match_type": "exact"
-    },
-    "TRU": {
-      "cmc_id": 7725,
-      "cmc_slug": "truefi-token",
-      "cmc_symbol": "TRU",
-      "match_type": "exact"
-    },
-    "TRUMP": {
-      "cmc_id": 35336,
-      "cmc_slug": "official-trump",
-      "cmc_symbol": "TRUMP",
-      "match_type": "exact"
-    },
-    "TRUST": {
-      "cmc_id": 38863,
-      "cmc_slug": "intuition",
-      "cmc_symbol": "TRUST",
-      "match_type": "exact"
-    },
-    "TRUTH": {
-      "cmc_id": 38178,
-      "cmc_slug": "swarm-network-ai",
-      "cmc_symbol": "TRUTH",
-      "match_type": "exact"
-    },
-    "TRX": {
-      "cmc_id": 1958,
-      "cmc_slug": "tron",
-      "cmc_symbol": "TRX",
-      "match_type": "exact"
-    },
-    "TST": {
-      "cmc_id": 35647,
-      "cmc_slug": "test-token-bsc",
-      "cmc_symbol": "TST",
-      "match_type": "exact"
-    },
-    "TURBO": {
-      "cmc_id": 24911,
-      "cmc_slug": "turbo",
-      "cmc_symbol": "TURBO",
-      "match_type": "exact"
-    },
-    "TURTLE": {
-      "cmc_id": 38671,
-      "cmc_slug": "turtle-xyz",
-      "cmc_symbol": "TURTLE",
-      "match_type": "exact"
-    },
-    "TUSD": {
-      "cmc_id": 2563,
-      "cmc_slug": "trueusd",
-      "cmc_symbol": "TUSD",
-      "match_type": "exact"
-    },
-    "TUT": {
-      "cmc_id": 35892,
-      "cmc_slug": "tutorial",
-      "cmc_symbol": "TUT",
-      "match_type": "exact"
-    },
-    "TWT": {
-      "cmc_id": 5964,
-      "cmc_slug": "trust-wallet-token",
-      "cmc_symbol": "TWT",
-      "match_type": "exact"
-    },
-    "UAI": {
-      "cmc_id": 38841,
-      "cmc_slug": "unifai-network",
-      "cmc_symbol": "UAI",
-      "match_type": "exact"
-    },
-    "UB": {
-      "cmc_id": 38339,
-      "cmc_slug": "unibase",
-      "cmc_symbol": "UB",
-      "match_type": "exact"
-    },
-    "UMA": {
-      "cmc_id": 5617,
-      "cmc_slug": "uma",
-      "cmc_symbol": "UMA",
-      "match_type": "exact"
-    },
-    "UNI": {
-      "cmc_id": 7083,
-      "cmc_slug": "uniswap",
-      "cmc_symbol": "UNI",
-      "match_type": "exact"
-    },
-    "USD1": {
-      "cmc_id": 36148,
-      "cmc_slug": "usd1",
-      "cmc_symbol": "USD1",
-      "match_type": "exact"
-    },
-    "USDC": {
-      "cmc_id": 3408,
-      "cmc_slug": "usd-coin",
-      "cmc_symbol": "USDC",
-      "match_type": "exact"
-    },
-    "USDE": {
-      "cmc_id": 29470,
-      "cmc_slug": "ethena-usde",
-      "cmc_symbol": "USDe",
-      "match_type": "exact"
-    },
-    "USDP": {
-      "cmc_id": 3330,
-      "cmc_slug": "paxos-standard",
-      "cmc_symbol": "USDP",
-      "match_type": "exact"
-    },
-    "USELESS": {
-      "cmc_id": 36828,
-      "cmc_slug": "theuselesscoin",
-      "cmc_symbol": "USELESS",
-      "match_type": "exact"
-    },
-    "USTC": {
-      "cmc_id": 7129,
-      "cmc_slug": "terrausd",
-      "cmc_symbol": "USTC",
-      "match_type": "exact"
-    },
-    "USUAL": {
-      "cmc_id": 33979,
-      "cmc_slug": "usual",
-      "cmc_symbol": "USUAL",
-      "match_type": "exact"
-    },
-    "UTK": {
-      "cmc_id": 2320,
-      "cmc_slug": "utrust",
-      "cmc_symbol": "UTK",
-      "match_type": "exact"
-    },
-    "VANA": {
-      "cmc_id": 34619,
-      "cmc_slug": "vana",
-      "cmc_symbol": "VANA",
-      "match_type": "exact"
-    },
-    "VANRY": {
-      "cmc_id": 8037,
-      "cmc_slug": "vanar",
-      "cmc_symbol": "VANRY",
-      "match_type": "exact"
-    },
-    "VELODROME": {
-      "cmc_id": null,
-      "cmc_slug": null,
-      "cmc_symbol": null,
-      "match_type": "none"
-    },
-    "VELVET": {
-      "cmc_id": 37298,
-      "cmc_slug": "velvet",
-      "cmc_symbol": "VELVET",
-      "match_type": "exact"
-    },
-    "VET": {
-      "cmc_id": 3077,
-      "cmc_slug": "vechain",
-      "cmc_symbol": "VET",
-      "match_type": "exact"
-    },
-    "VFY": {
-      "cmc_id": 38436,
-      "cmc_slug": "zkverify",
-      "cmc_symbol": "VFY",
-      "match_type": "exact"
-    },
-    "VIC": {
-      "cmc_id": 2570,
-      "cmc_slug": "viction",
-      "cmc_symbol": "VIC",
-      "match_type": "exact"
-    },
-    "VINE": {
-      "cmc_id": 35421,
-      "cmc_slug": "vine-coin",
-      "cmc_symbol": "VINE",
-      "match_type": "exact"
-    },
-    "VIRTUAL": {
-      "cmc_id": 29420,
-      "cmc_slug": "virtual-protocol",
-      "cmc_symbol": "VIRTUAL",
-      "match_type": "exact"
-    },
-    "VOXEL": {
-      "cmc_id": 15678,
-      "cmc_slug": "voxies",
-      "cmc_symbol": "VOXEL",
-      "match_type": "exact"
-    },
-    "VTHO": {
-      "cmc_id": 3012,
-      "cmc_slug": "vethor-token",
-      "cmc_symbol": "VTHO",
-      "match_type": "exact"
-    },
-    "VVV": {
-      "cmc_id": 35509,
-      "cmc_slug": "venice-token",
-      "cmc_symbol": "VVV",
-      "match_type": "exact"
-    },
-    "W": {
-      "cmc_id": 29587,
-      "cmc_slug": "wormhole",
-      "cmc_symbol": "W",
-      "match_type": "exact"
-    },
-    "WAL": {
-      "cmc_id": 36119,
-      "cmc_slug": "walrus-xyz",
-      "cmc_symbol": "WAL",
-      "match_type": "exact"
-    },
-    "WAN": {
-      "cmc_id": 2606,
-      "cmc_slug": "wanchain",
-      "cmc_symbol": "WAN",
-      "match_type": "exact"
-    },
-    "WAXP": {
-      "cmc_id": 2300,
-      "cmc_slug": "wax",
-      "cmc_symbol": "WAXP",
-      "match_type": "exact"
-    },
-    "WBETH": {
-      "cmc_id": 24760,
-      "cmc_slug": "wrapped-beacon-eth",
-      "cmc_symbol": "WBETH",
-      "match_type": "exact"
-    },
-    "WBTC": {
-      "cmc_id": 3717,
-      "cmc_slug": "wrapped-bitcoin",
-      "cmc_symbol": "WBTC",
-      "match_type": "exact"
-    },
-    "WCT": {
-      "cmc_id": 33152,
-      "cmc_slug": "walletconnect-token",
-      "cmc_symbol": "WCT",
-      "match_type": "exact"
-    },
-    "WIF": {
-      "cmc_id": 28752,
-      "cmc_slug": "dogwifhat",
-      "cmc_symbol": "WIF",
-      "match_type": "exact"
-    },
-    "WIN": {
-      "cmc_id": 4206,
-      "cmc_slug": "wink",
-      "cmc_symbol": "WIN",
-      "match_type": "exact"
-    },
-    "WLD": {
-      "cmc_id": 13502,
-      "cmc_slug": "worldcoin-org",
-      "cmc_symbol": "WLD",
-      "match_type": "exact"
-    },
-    "WLFI": {
-      "cmc_id": 33251,
-      "cmc_slug": "world-liberty-financial-wlfi",
-      "cmc_symbol": "WLFI",
-      "match_type": "exact"
-    },
-    "WOO": {
-      "cmc_id": 7501,
-      "cmc_slug": "wootrade",
-      "cmc_symbol": "WOO",
-      "match_type": "exact"
-    },
-    "XAI": {
-      "cmc_id": 28933,
-      "cmc_slug": "xai-games",
-      "cmc_symbol": "XAI",
-      "match_type": "exact"
-    },
-    "XAN": {
-      "cmc_id": 38481,
-      "cmc_slug": "anoma",
-      "cmc_symbol": "XAN",
-      "match_type": "exact"
-    },
-    "XCN": {
-      "cmc_id": 18679,
-      "cmc_slug": "onyxcoin",
-      "cmc_symbol": "XCN",
-      "match_type": "exact"
-    },
-    "XEC": {
-      "cmc_id": 10791,
-      "cmc_slug": "ecash",
-      "cmc_symbol": "XEC",
-      "match_type": "exact"
-    },
-    "XLM": {
-      "cmc_id": 512,
-      "cmc_slug": "stellar",
-      "cmc_symbol": "XLM",
-      "match_type": "exact"
-    },
-    "XMR": {
-      "cmc_id": 328,
-      "cmc_slug": "monero",
-      "cmc_symbol": "XMR",
-      "match_type": "exact"
-    },
-    "XNO": {
-      "cmc_id": 1567,
-      "cmc_slug": "nano",
-      "cmc_symbol": "XNO",
-      "match_type": "exact"
-    },
-    "XNY": {
-      "cmc_id": 36933,
-      "cmc_slug": "codatta",
-      "cmc_symbol": "XNY",
-      "match_type": "exact"
-    },
-    "XPIN": {
-      "cmc_id": 36238,
-      "cmc_slug": "xpin-network",
-      "cmc_symbol": "XPIN",
-      "match_type": "exact"
-    },
-    "XPL": {
-      "cmc_id": 36645,
-      "cmc_slug": "plasma-xpl",
-      "cmc_symbol": "XPL",
-      "match_type": "exact"
-    },
-    "XRP": {
-      "cmc_id": 52,
-      "cmc_slug": "xrp",
-      "cmc_symbol": "XRP",
-      "match_type": "exact"
-    },
-    "XTZ": {
-      "cmc_id": 2011,
-      "cmc_slug": "tezos",
-      "cmc_symbol": "XTZ",
-      "match_type": "exact"
-    },
-    "XUSD": {
-      "cmc_id": 32372,
-      "cmc_slug": "straitsx-xusd",
-      "cmc_symbol": "XUSD",
-      "match_type": "exact"
-    },
-    "XVG": {
-      "cmc_id": 693,
-      "cmc_slug": "verge",
-      "cmc_symbol": "XVG",
-      "match_type": "exact"
-    },
-    "XVS": {
-      "cmc_id": 7288,
-      "cmc_slug": "venus",
-      "cmc_symbol": "XVS",
-      "match_type": "exact"
-    },
-    "YALA": {
-      "cmc_id": 35877,
-      "cmc_slug": "yala",
-      "cmc_symbol": "YALA",
-      "match_type": "exact"
-    },
-    "YB": {
-      "cmc_id": 38651,
-      "cmc_slug": "yieldbasis",
-      "cmc_symbol": "YB",
-      "match_type": "exact"
-    },
-    "YFI": {
-      "cmc_id": 5864,
-      "cmc_slug": "yearn-finance",
-      "cmc_symbol": "YFI",
-      "match_type": "exact"
-    },
-    "YGG": {
-      "cmc_id": 10688,
-      "cmc_slug": "yield-guild-games",
-      "cmc_symbol": "YGG",
-      "match_type": "exact"
-    },
-    "ZBT": {
-      "cmc_id": 38427,
-      "cmc_slug": "zerobase",
-      "cmc_symbol": "ZBT",
-      "match_type": "exact"
-    },
-    "ZEC": {
-      "cmc_id": 1437,
-      "cmc_slug": "zcash",
-      "cmc_symbol": "ZEC",
-      "match_type": "exact"
-    },
-    "ZEN": {
-      "cmc_id": 1698,
-      "cmc_slug": "horizen",
-      "cmc_symbol": "ZEN",
-      "match_type": "exact"
-    },
-    "ZEREBRO": {
-      "cmc_id": 34083,
-      "cmc_slug": "zerebro",
-      "cmc_symbol": "ZEREBRO",
-      "match_type": "exact"
-    },
-    "ZETA": {
-      "cmc_id": 21259,
-      "cmc_slug": "zetachain",
-      "cmc_symbol": "ZETA",
-      "match_type": "exact"
-    },
-    "ZIL": {
-      "cmc_id": 2469,
-      "cmc_slug": "zilliqa",
-      "cmc_symbol": "ZIL",
-      "match_type": "exact"
-    },
-    "ZK": {
-      "cmc_id": 24091,
-      "cmc_slug": "zksync",
-      "cmc_symbol": "ZK",
-      "match_type": "exact"
-    },
-    "ZKC": {
-      "cmc_id": 38371,
-      "cmc_slug": "boundless",
-      "cmc_symbol": "ZKC",
-      "match_type": "exact"
-    },
-    "ZKJ": {
-      "cmc_id": 29779,
-      "cmc_slug": "polyhedra-network",
-      "cmc_symbol": "ZKJ",
-      "match_type": "exact"
-    },
-    "ZORA": {
-      "cmc_id": 35931,
-      "cmc_slug": "zora",
-      "cmc_symbol": "ZORA",
-      "match_type": "exact"
-    },
-    "ZRC": {
-      "cmc_id": 29711,
-      "cmc_slug": "zircuit",
-      "cmc_symbol": "ZRC",
-      "match_type": "exact"
-    },
-    "ZRO": {
-      "cmc_id": 26997,
-      "cmc_slug": "layerzero",
-      "cmc_symbol": "ZRO",
-      "match_type": "exact"
-    },
-    "ZRX": {
-      "cmc_id": 1896,
-      "cmc_slug": "0x",
-      "cmc_symbol": "ZRX",
-      "match_type": "exact"
-    },
-    "币安人生": {
-      "cmc_id": 38590,
-      "cmc_slug": "bianrensheng",
-      "cmc_symbol": "币安人生",
-      "match_type": "exact"
-    },
-    "ALLO": {
-      "cmc_id": 38908,
-      "cmc_slug": "allora",
-      "cmc_symbol": "ALLO",
-      "match_type": "auto"
-    },
-    "BEAT": {
-      "cmc_id": 38837,
-      "cmc_slug": "audiera",
-      "cmc_symbol": "BEAT",
-      "match_type": "auto"
-    },
-    "CLANKER": {
-      "cmc_id": 34285,
-      "cmc_slug": "tokenbot-2",
-      "cmc_symbol": "CLANKER",
-      "match_type": "auto"
-    }
+  "1000000BOB": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000000MOG": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000BONK": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000CAT": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000CHEEMS": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000FLOKI": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000LUNC": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000PEPE": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000RATS": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000SATS": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000SHIB": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000WHY": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1000X": {
+    "cmc_id": 35168,
+    "cmc_slug": "1000x-by-virtuals",
+    "cmc_symbol": "1000X",
+    "match_type": "exact"
+  },
+  "1000XEC": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "1INCH": {
+    "cmc_id": 8104,
+    "cmc_slug": "1inch",
+    "cmc_symbol": "1INCH",
+    "match_type": "exact"
+  },
+  "1MBABYDOGE": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "2Z": {
+    "cmc_id": 38515,
+    "cmc_slug": "doublezero",
+    "cmc_symbol": "2Z",
+    "match_type": "exact"
+  },
+  "4": {
+    "cmc_id": 38557,
+    "cmc_slug": "4four",
+    "cmc_symbol": "4",
+    "match_type": "exact"
+  },
+  "42": {
+    "cmc_id": 38771,
+    "cmc_slug": "semantic-layer",
+    "cmc_symbol": "42",
+    "match_type": "exact"
+  },
+  "A": {
+    "cmc_id": 36462,
+    "cmc_slug": "vaulta",
+    "cmc_symbol": "A",
+    "match_type": "exact"
+  },
+  "A2Z": {
+    "cmc_id": 37357,
+    "cmc_slug": "arena-z",
+    "cmc_symbol": "A2Z",
+    "match_type": "exact"
+  },
+  "AAVE": {
+    "cmc_id": 7278,
+    "cmc_slug": "aave",
+    "cmc_symbol": "AAVE",
+    "match_type": "exact"
+  },
+  "ACA": {
+    "cmc_id": 6756,
+    "cmc_slug": "acala",
+    "cmc_symbol": "ACA",
+    "match_type": "exact"
+  },
+  "ACE": {
+    "cmc_id": 28674,
+    "cmc_slug": "fusionist",
+    "cmc_symbol": "ACE",
+    "match_type": "exact"
+  },
+  "ACH": {
+    "cmc_id": 6958,
+    "cmc_slug": "alchemy-pay",
+    "cmc_symbol": "ACH",
+    "match_type": "exact"
+  },
+  "ACM": {
+    "cmc_id": 8538,
+    "cmc_slug": "ac-milan-fan-token",
+    "cmc_symbol": "ACM",
+    "match_type": "exact"
+  },
+  "ACT": {
+    "cmc_id": 33566,
+    "cmc_slug": "act-i-the-ai-prophecy",
+    "cmc_symbol": "ACT",
+    "match_type": "exact"
+  },
+  "ACX": {
+    "cmc_id": 22620,
+    "cmc_slug": "across-protocol",
+    "cmc_symbol": "ACX",
+    "match_type": "exact"
+  },
+  "ADA": {
+    "cmc_id": 2010,
+    "cmc_slug": "cardano",
+    "cmc_symbol": "ADA",
+    "match_type": "exact"
+  },
+  "ADX": {
+    "cmc_id": 1768,
+    "cmc_slug": "adx-net",
+    "cmc_symbol": "ADX",
+    "match_type": "exact"
+  },
+  "AERGO": {
+    "cmc_id": 3637,
+    "cmc_slug": "aergo",
+    "cmc_symbol": "AERGO",
+    "match_type": "exact"
+  },
+  "AERO": {
+    "cmc_id": 29270,
+    "cmc_slug": "aerodrome-finance",
+    "cmc_symbol": "AERO",
+    "match_type": "exact"
+  },
+  "AEUR": {
+    "cmc_id": 28596,
+    "cmc_slug": "anchored-coins-aeur",
+    "cmc_symbol": "AEUR",
+    "match_type": "exact"
+  },
+  "AEVO": {
+    "cmc_id": 29676,
+    "cmc_slug": "aevo",
+    "cmc_symbol": "AEVO",
+    "match_type": "exact"
+  },
+  "AGLD": {
+    "cmc_id": 11568,
+    "cmc_slug": "adventure-gold",
+    "cmc_symbol": "AGLD",
+    "match_type": "exact"
+  },
+  "AGT": {
+    "cmc_id": 36195,
+    "cmc_slug": "alaya-ai",
+    "cmc_symbol": "AGT",
+    "match_type": "exact"
+  },
+  "AI": {
+    "cmc_id": 28846,
+    "cmc_slug": "sleepless-ai",
+    "cmc_symbol": "AI",
+    "match_type": "exact"
+  },
+  "AIA": {
+    "cmc_id": 38430,
+    "cmc_slug": "deagentai",
+    "cmc_symbol": "AIA",
+    "match_type": "exact"
+  },
+  "AIN": {
+    "cmc_id": 36770,
+    "cmc_slug": "infinity-ground",
+    "cmc_symbol": "AIN",
+    "match_type": "exact"
+  },
+  "AIO": {
+    "cmc_id": 37562,
+    "cmc_slug": "olaxbt",
+    "cmc_symbol": "AIO",
+    "match_type": "exact"
+  },
+  "AIOT": {
+    "cmc_id": 36319,
+    "cmc_slug": "okzoo",
+    "cmc_symbol": "AIOT",
+    "match_type": "exact"
+  },
+  "AIXBT": {
+    "cmc_id": 34103,
+    "cmc_slug": "aixbt",
+    "cmc_symbol": "AIXBT",
+    "match_type": "exact"
+  },
+  "AKE": {
+    "cmc_id": 38127,
+    "cmc_slug": "akedo",
+    "cmc_symbol": "AKE",
+    "match_type": "exact"
+  },
+  "AKT": {
+    "cmc_id": 7431,
+    "cmc_slug": "akash-network",
+    "cmc_symbol": "AKT",
+    "match_type": "exact"
+  },
+  "ALCH": {
+    "cmc_id": 34880,
+    "cmc_slug": "alchemist-ai",
+    "cmc_symbol": "ALCH",
+    "match_type": "exact"
+  },
+  "ALCX": {
+    "cmc_id": 8613,
+    "cmc_slug": "alchemix",
+    "cmc_symbol": "ALCX",
+    "match_type": "exact"
+  },
+  "ALGO": {
+    "cmc_id": 4030,
+    "cmc_slug": "algorand",
+    "cmc_symbol": "ALGO",
+    "match_type": "exact"
+  },
+  "ALICE": {
+    "cmc_id": 8766,
+    "cmc_slug": "myneighboralice",
+    "cmc_symbol": "ALICE",
+    "match_type": "exact"
+  },
+  "ALL": {
+    "cmc_id": 33963,
+    "cmc_slug": "sallar",
+    "cmc_symbol": "ALL",
+    "match_type": "exact"
+  },
+  "ALPINE": {
+    "cmc_id": 18112,
+    "cmc_slug": "alpine-f1-team-fan-token",
+    "cmc_symbol": "ALPINE",
+    "match_type": "exact"
+  },
+  "ALT": {
+    "cmc_id": 29073,
+    "cmc_slug": "altlayer",
+    "cmc_symbol": "ALT",
+    "match_type": "exact"
+  },
+  "AMP": {
+    "cmc_id": 6945,
+    "cmc_slug": "amp",
+    "cmc_symbol": "AMP",
+    "match_type": "exact"
+  },
+  "ANIME": {
+    "cmc_id": 35319,
+    "cmc_slug": "anime",
+    "cmc_symbol": "ANIME",
+    "match_type": "exact"
+  },
+  "ANKR": {
+    "cmc_id": 3783,
+    "cmc_slug": "ankr",
+    "cmc_symbol": "ANKR",
+    "match_type": "exact"
+  },
+  "APE": {
+    "cmc_id": 18876,
+    "cmc_slug": "apecoin-ape",
+    "cmc_symbol": "APE",
+    "match_type": "exact"
+  },
+  "API3": {
+    "cmc_id": 7737,
+    "cmc_slug": "api3",
+    "cmc_symbol": "API3",
+    "match_type": "exact"
+  },
+  "APR": {
+    "cmc_id": 38569,
+    "cmc_slug": "apriori",
+    "cmc_symbol": "APR",
+    "match_type": "exact"
+  },
+  "APT": {
+    "cmc_id": 21794,
+    "cmc_slug": "aptos",
+    "cmc_symbol": "APT",
+    "match_type": "exact"
+  },
+  "AR": {
+    "cmc_id": 5632,
+    "cmc_slug": "arweave",
+    "cmc_symbol": "AR",
+    "match_type": "exact"
+  },
+  "ARB": {
+    "cmc_id": 11841,
+    "cmc_slug": "arbitrum",
+    "cmc_symbol": "ARB",
+    "match_type": "exact"
+  },
+  "ARC": {
+    "cmc_id": 34926,
+    "cmc_slug": "ai-rig-complex",
+    "cmc_symbol": "ARC",
+    "match_type": "exact"
+  },
+  "ARDR": {
+    "cmc_id": 1320,
+    "cmc_slug": "ardor",
+    "cmc_symbol": "ARDR",
+    "match_type": "exact"
+  },
+  "ARIA": {
+    "cmc_id": 38102,
+    "cmc_slug": "aria-ai",
+    "cmc_symbol": "ARIA",
+    "match_type": "exact"
+  },
+  "ARK": {
+    "cmc_id": 1586,
+    "cmc_slug": "ark",
+    "cmc_symbol": "ARK",
+    "match_type": "exact"
+  },
+  "ARKM": {
+    "cmc_id": 27565,
+    "cmc_slug": "arkham",
+    "cmc_symbol": "ARKM",
+    "match_type": "exact"
+  },
+  "ARPA": {
+    "cmc_id": 4039,
+    "cmc_slug": "arpa-chain",
+    "cmc_symbol": "ARPA",
+    "match_type": "exact"
+  },
+  "ASR": {
+    "cmc_id": 5229,
+    "cmc_slug": "as-roma-fan-token",
+    "cmc_symbol": "ASR",
+    "match_type": "exact"
+  },
+  "ASTER": {
+    "cmc_id": 36341,
+    "cmc_slug": "aster",
+    "cmc_symbol": "ASTER",
+    "match_type": "exact"
+  },
+  "ASTR": {
+    "cmc_id": 12885,
+    "cmc_slug": "astar",
+    "cmc_symbol": "ASTR",
+    "match_type": "exact"
+  },
+  "AT": {
+    "cmc_id": 38757,
+    "cmc_slug": "apro",
+    "cmc_symbol": "AT",
+    "match_type": "exact"
+  },
+  "ATA": {
+    "cmc_id": 10188,
+    "cmc_slug": "automata-network",
+    "cmc_symbol": "ATA",
+    "match_type": "exact"
+  },
+  "ATH": {
+    "cmc_id": 30083,
+    "cmc_slug": "aethir",
+    "cmc_symbol": "ATH",
+    "match_type": "exact"
+  },
+  "ATM": {
+    "cmc_id": 5227,
+    "cmc_slug": "atletico-de-madrid-fan-token",
+    "cmc_symbol": "ATM",
+    "match_type": "exact"
+  },
+  "ATOM": {
+    "cmc_id": 3794,
+    "cmc_slug": "cosmos",
+    "cmc_symbol": "ATOM",
+    "match_type": "exact"
+  },
+  "AUCTION": {
+    "cmc_id": 8602,
+    "cmc_slug": "bounce-token",
+    "cmc_symbol": "AUCTION",
+    "match_type": "exact"
+  },
+  "AUDIO": {
+    "cmc_id": 7455,
+    "cmc_slug": "audius",
+    "cmc_symbol": "AUDIO",
+    "match_type": "exact"
+  },
+  "AVA": {
+    "cmc_id": 2776,
+    "cmc_slug": "ava",
+    "cmc_symbol": "AVA",
+    "match_type": "exact"
+  },
+  "AVAAI": {
+    "cmc_id": 35156,
+    "cmc_slug": "ava-ai-top",
+    "cmc_symbol": "AVAAI",
+    "match_type": "auto"
+  },
+  "AVAX": {
+    "cmc_id": 5805,
+    "cmc_slug": "avalanche",
+    "cmc_symbol": "AVAX",
+    "match_type": "exact"
+  },
+  "AVNT": {
+    "cmc_id": 38299,
+    "cmc_slug": "avantis",
+    "cmc_symbol": "AVNT",
+    "match_type": "exact"
+  },
+  "AWE": {
+    "cmc_id": 4006,
+    "cmc_slug": "awe-network",
+    "cmc_symbol": "AWE",
+    "match_type": "exact"
+  },
+  "AXL": {
+    "cmc_id": 17799,
+    "cmc_slug": "axelar",
+    "cmc_symbol": "AXL",
+    "match_type": "exact"
+  },
+  "AXS": {
+    "cmc_id": 6783,
+    "cmc_slug": "axie-infinity",
+    "cmc_symbol": "AXS",
+    "match_type": "exact"
+  },
+  "B": {
+    "cmc_id": 36532,
+    "cmc_slug": "buildon",
+    "cmc_symbol": "B",
+    "match_type": "exact"
+  },
+  "B2": {
+    "cmc_id": 36352,
+    "cmc_slug": "bsquared-network",
+    "cmc_symbol": "B2",
+    "match_type": "exact"
+  },
+  "B3": {
+    "cmc_id": 35690,
+    "cmc_slug": "b3",
+    "cmc_symbol": "B3",
+    "match_type": "exact"
+  },
+  "BABY": {
+    "cmc_id": 32198,
+    "cmc_slug": "babylon",
+    "cmc_symbol": "BABY",
+    "match_type": "exact"
+  },
+  "BAN": {
+    "cmc_id": 33881,
+    "cmc_slug": "comedian",
+    "cmc_symbol": "BAN",
+    "match_type": "exact"
+  },
+  "BANANA": {
+    "cmc_id": 28066,
+    "cmc_slug": "banana-gun",
+    "cmc_symbol": "BANANA",
+    "match_type": "exact"
+  },
+  "BANANAS31": {
+    "cmc_id": 34118,
+    "cmc_slug": "banana-for-scale",
+    "cmc_symbol": "BANANAS31",
+    "match_type": "exact"
+  },
+  "BAND": {
+    "cmc_id": 4679,
+    "cmc_slug": "band-protocol",
+    "cmc_symbol": "BAND",
+    "match_type": "exact"
+  },
+  "BANK": {
+    "cmc_id": 36296,
+    "cmc_slug": "lorenzo-protocol",
+    "cmc_symbol": "BANK",
+    "match_type": "exact"
+  },
+  "BAR": {
+    "cmc_id": 5225,
+    "cmc_slug": "fc-barcelona-fan-token",
+    "cmc_symbol": "BAR",
+    "match_type": "exact"
+  },
+  "BARD": {
+    "cmc_id": 38408,
+    "cmc_slug": "lombard",
+    "cmc_symbol": "BARD",
+    "match_type": "exact"
+  },
+  "BAS": {
+    "cmc_id": 37387,
+    "cmc_slug": "bnb-attestation-service",
+    "cmc_symbol": "BAS",
+    "match_type": "exact"
+  },
+  "BAT": {
+    "cmc_id": 1697,
+    "cmc_slug": "basic-attention-token",
+    "cmc_symbol": "BAT",
+    "match_type": "exact"
+  },
+  "BB": {
+    "cmc_id": 30746,
+    "cmc_slug": "bouncebit",
+    "cmc_symbol": "BB",
+    "match_type": "exact"
+  },
+  "BCH": {
+    "cmc_id": 1831,
+    "cmc_slug": "bitcoin-cash",
+    "cmc_symbol": "BCH",
+    "match_type": "exact"
+  },
+  "BDXN": {
+    "cmc_id": 26198,
+    "cmc_slug": "bondex",
+    "cmc_symbol": "BDXN",
+    "match_type": "exact"
+  },
+  "BEAMX": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "BEL": {
+    "cmc_id": 6928,
+    "cmc_slug": "bella-protocol",
+    "cmc_symbol": "BEL",
+    "match_type": "exact"
+  },
+  "BERA": {
+    "cmc_id": 24647,
+    "cmc_slug": "berachain",
+    "cmc_symbol": "BERA",
+    "match_type": "exact"
+  },
+  "BFUSD": {
+    "cmc_id": 37760,
+    "cmc_slug": "bfusd",
+    "cmc_symbol": "BFUSD",
+    "match_type": "exact"
+  },
+  "BICO": {
+    "cmc_id": 9543,
+    "cmc_slug": "biconomy",
+    "cmc_symbol": "BICO",
+    "match_type": "exact"
+  },
+  "BID": {
+    "cmc_id": 35430,
+    "cmc_slug": "creatorbid",
+    "cmc_symbol": "BID",
+    "match_type": "exact"
+  },
+  "BIFI": {
+    "cmc_id": 7311,
+    "cmc_slug": "beefy-finance",
+    "cmc_symbol": "BIFI",
+    "match_type": "exact"
+  },
+  "BIGTIME": {
+    "cmc_id": 28230,
+    "cmc_slug": "big-time",
+    "cmc_symbol": "BIGTIME",
+    "match_type": "exact"
+  },
+  "BIO": {
+    "cmc_id": 34812,
+    "cmc_slug": "bio",
+    "cmc_symbol": "BIO",
+    "match_type": "exact"
+  },
+  "BLESS": {
+    "cmc_id": 38466,
+    "cmc_slug": "bless",
+    "cmc_symbol": "BLESS",
+    "match_type": "exact"
+  },
+  "BLUAI": {
+    "cmc_id": 38717,
+    "cmc_slug": "bluwhale",
+    "cmc_symbol": "BLUAI",
+    "match_type": "exact"
+  },
+  "BLUR": {
+    "cmc_id": 23121,
+    "cmc_slug": "blur-token",
+    "cmc_symbol": "BLUR",
+    "match_type": "exact"
+  },
+  "BMT": {
+    "cmc_id": 35214,
+    "cmc_slug": "bubblemaps",
+    "cmc_symbol": "BMT",
+    "match_type": "exact"
+  },
+  "BNB": {
+    "cmc_id": 1839,
+    "cmc_slug": "bnb",
+    "cmc_symbol": "BNB",
+    "match_type": "exact"
+  },
+  "BNSOL": {
+    "cmc_id": 32882,
+    "cmc_slug": "binance-staked-sol",
+    "cmc_symbol": "BNSOL",
+    "match_type": "exact"
+  },
+  "BNT": {
+    "cmc_id": 1727,
+    "cmc_slug": "bancor",
+    "cmc_symbol": "BNT",
+    "match_type": "exact"
+  },
+  "BOME": {
+    "cmc_id": 29870,
+    "cmc_slug": "book-of-meme",
+    "cmc_symbol": "BOME",
+    "match_type": "exact"
+  },
+  "BONK": {
+    "cmc_id": 23095,
+    "cmc_slug": "bonk1",
+    "cmc_symbol": "BONK",
+    "match_type": "exact"
+  },
+  "BR": {
+    "cmc_id": 36063,
+    "cmc_slug": "bedrock-dao",
+    "cmc_symbol": "BR",
+    "match_type": "exact"
+  },
+  "BRETT": {
+    "cmc_id": 29743,
+    "cmc_slug": "based-brett",
+    "cmc_symbol": "BRETT",
+    "match_type": "exact"
+  },
+  "BROCCOLI714": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "BROCCOLIF3B": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "BSV": {
+    "cmc_id": 3602,
+    "cmc_slug": "bitcoin-sv",
+    "cmc_symbol": "BSV",
+    "match_type": "exact"
+  },
+  "BTC": {
+    "cmc_id": 1,
+    "cmc_slug": "bitcoin",
+    "cmc_symbol": "BTC",
+    "match_type": "exact"
+  },
+  "BTCDOM": {
+    "cmc_id": 10634,
+    "cmc_slug": "binance-btcdom-index",
+    "cmc_symbol": "BTCDOM",
+    "match_type": "auto"
+  },
+  "BTR": {
+    "cmc_id": 36277,
+    "cmc_slug": "bitlayer",
+    "cmc_symbol": "BTR",
+    "match_type": "exact"
+  },
+  "BTTC": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "BULLA": {
+    "cmc_id": 36769,
+    "cmc_slug": "bulla-mascot",
+    "cmc_symbol": "BULLA",
+    "match_type": "exact"
+  },
+  "C": {
+    "cmc_id": 37340,
+    "cmc_slug": "chainbase",
+    "cmc_symbol": "C",
+    "match_type": "exact"
+  },
+  "C98": {
+    "cmc_id": 10903,
+    "cmc_slug": "coin98",
+    "cmc_symbol": "C98",
+    "match_type": "exact"
+  },
+  "CAKE": {
+    "cmc_id": 7186,
+    "cmc_slug": "pancakeswap",
+    "cmc_symbol": "CAKE",
+    "match_type": "exact"
+  },
+  "CARV": {
+    "cmc_id": 33372,
+    "cmc_slug": "carv",
+    "cmc_symbol": "CARV",
+    "match_type": "exact"
+  },
+  "CATI": {
+    "cmc_id": 32966,
+    "cmc_slug": "catizen",
+    "cmc_symbol": "CATI",
+    "match_type": "exact"
+  },
+  "CC": {
+    "cmc_id": 37263,
+    "cmc_slug": "canton-network",
+    "cmc_symbol": "CC",
+    "match_type": "exact"
+  },
+  "CELO": {
+    "cmc_id": 5567,
+    "cmc_slug": "celo",
+    "cmc_symbol": "CELO",
+    "match_type": "exact"
+  },
+  "CELR": {
+    "cmc_id": 3814,
+    "cmc_slug": "celer-network",
+    "cmc_symbol": "CELR",
+    "match_type": "exact"
+  },
+  "CETUS": {
+    "cmc_id": 25114,
+    "cmc_slug": "cetus-protocol",
+    "cmc_symbol": "CETUS",
+    "match_type": "exact"
+  },
+  "CFX": {
+    "cmc_id": 7334,
+    "cmc_slug": "conflux-network",
+    "cmc_symbol": "CFX",
+    "match_type": "exact"
+  },
+  "CGPT": {
+    "cmc_id": 23756,
+    "cmc_slug": "chaingpt",
+    "cmc_symbol": "CGPT",
+    "match_type": "exact"
+  },
+  "CHESS": {
+    "cmc_id": 10974,
+    "cmc_slug": "tranchess",
+    "cmc_symbol": "CHESS",
+    "match_type": "exact"
+  },
+  "CHILLGUY": {
+    "cmc_id": 34125,
+    "cmc_slug": "just-a-chill-guy",
+    "cmc_symbol": "CHILLGUY",
+    "match_type": "exact"
+  },
+  "CHR": {
+    "cmc_id": 3978,
+    "cmc_slug": "chromia",
+    "cmc_symbol": "CHR",
+    "match_type": "exact"
+  },
+  "CHZ": {
+    "cmc_id": 4066,
+    "cmc_slug": "chiliz",
+    "cmc_symbol": "CHZ",
+    "match_type": "exact"
+  },
+  "CITY": {
+    "cmc_id": 10049,
+    "cmc_slug": "manchester-city-fan-token",
+    "cmc_symbol": "CITY",
+    "match_type": "exact"
+  },
+  "CKB": {
+    "cmc_id": 4948,
+    "cmc_slug": "nervos-network",
+    "cmc_symbol": "CKB",
+    "match_type": "exact"
+  },
+  "CLO": {
+    "cmc_id": 38634,
+    "cmc_slug": "clovis",
+    "cmc_symbol": "CLO",
+    "match_type": "exact"
+  },
+  "COAI": {
+    "cmc_id": 38489,
+    "cmc_slug": "chainopera-ai",
+    "cmc_symbol": "COAI",
+    "match_type": "exact"
+  },
+  "COMMON": {
+    "cmc_id": 38775,
+    "cmc_slug": "common",
+    "cmc_symbol": "COMMON",
+    "match_type": "exact"
+  },
+  "COMP": {
+    "cmc_id": 5692,
+    "cmc_slug": "compound",
+    "cmc_symbol": "COMP",
+    "match_type": "exact"
+  },
+  "COOKIE": {
+    "cmc_id": 31838,
+    "cmc_slug": "cookie",
+    "cmc_symbol": "COOKIE",
+    "match_type": "exact"
+  },
+  "COS": {
+    "cmc_id": 4036,
+    "cmc_slug": "contentos",
+    "cmc_symbol": "COS",
+    "match_type": "exact"
+  },
+  "COTI": {
+    "cmc_id": 3992,
+    "cmc_slug": "coti",
+    "cmc_symbol": "COTI",
+    "match_type": "exact"
+  },
+  "COW": {
+    "cmc_id": 19269,
+    "cmc_slug": "cow-protocol",
+    "cmc_symbol": "COW",
+    "match_type": "exact"
+  },
+  "CROSS": {
+    "cmc_id": 37166,
+    "cmc_slug": "cross",
+    "cmc_symbol": "CROSS",
+    "match_type": "exact"
+  },
+  "CRV": {
+    "cmc_id": 6538,
+    "cmc_slug": "curve-dao-token",
+    "cmc_symbol": "CRV",
+    "match_type": "exact"
+  },
+  "CTK": {
+    "cmc_id": 4807,
+    "cmc_slug": "shentu",
+    "cmc_symbol": "CTK",
+    "match_type": "exact"
+  },
+  "CTSI": {
+    "cmc_id": 5444,
+    "cmc_slug": "cartesi",
+    "cmc_symbol": "CTSI",
+    "match_type": "exact"
+  },
+  "CUDIS": {
+    "cmc_id": 36396,
+    "cmc_slug": "cudis",
+    "cmc_symbol": "CUDIS",
+    "match_type": "exact"
+  },
+  "CVC": {
+    "cmc_id": 1816,
+    "cmc_slug": "civic",
+    "cmc_symbol": "CVC",
+    "match_type": "exact"
+  },
+  "CVX": {
+    "cmc_id": 9903,
+    "cmc_slug": "convex-finance",
+    "cmc_symbol": "CVX",
+    "match_type": "exact"
+  },
+  "CYBER": {
+    "cmc_id": 24781,
+    "cmc_slug": "cyberconnect",
+    "cmc_symbol": "CYBER",
+    "match_type": "exact"
+  },
+  "D": {
+    "cmc_id": 11374,
+    "cmc_slug": "mines-of-dalarnia",
+    "cmc_symbol": "D",
+    "match_type": "exact"
+  },
+  "DAM": {
+    "cmc_id": 37638,
+    "cmc_slug": "reservoir",
+    "cmc_symbol": "DAM",
+    "match_type": "exact"
+  },
+  "DASH": {
+    "cmc_id": 131,
+    "cmc_slug": "dash",
+    "cmc_symbol": "DASH",
+    "match_type": "exact"
+  },
+  "DATA": {
+    "cmc_id": 2143,
+    "cmc_slug": "streamr",
+    "cmc_symbol": "DATA",
+    "match_type": "exact"
+  },
+  "DCR": {
+    "cmc_id": 1168,
+    "cmc_slug": "decred",
+    "cmc_symbol": "DCR",
+    "match_type": "exact"
+  },
+  "DEEP": {
+    "cmc_id": 33391,
+    "cmc_slug": "deepbook-protocol",
+    "cmc_symbol": "DEEP",
+    "match_type": "exact"
+  },
+  "DEGEN": {
+    "cmc_id": 30096,
+    "cmc_slug": "degen-base",
+    "cmc_symbol": "DEGEN",
+    "match_type": "exact"
+  },
+  "DEGO": {
+    "cmc_id": 7087,
+    "cmc_slug": "dego-finance",
+    "cmc_symbol": "DEGO",
+    "match_type": "exact"
+  },
+  "DENT": {
+    "cmc_id": 1886,
+    "cmc_slug": "dent",
+    "cmc_symbol": "DENT",
+    "match_type": "exact"
+  },
+  "DEXE": {
+    "cmc_id": 7326,
+    "cmc_slug": "dexe",
+    "cmc_symbol": "DEXE",
+    "match_type": "exact"
+  },
+  "DF": {
+    "cmc_id": 4758,
+    "cmc_slug": "dforce",
+    "cmc_symbol": "DF",
+    "match_type": "exact"
+  },
+  "DGB": {
+    "cmc_id": 109,
+    "cmc_slug": "digibyte",
+    "cmc_symbol": "DGB",
+    "match_type": "exact"
+  },
+  "DIA": {
+    "cmc_id": 6138,
+    "cmc_slug": "dia",
+    "cmc_symbol": "DIA",
+    "match_type": "exact"
+  },
+  "DMC": {
+    "cmc_id": 36920,
+    "cmc_slug": "delorean",
+    "cmc_symbol": "DMC",
+    "match_type": "exact"
+  },
+  "DODO": {
+    "cmc_id": 7224,
+    "cmc_slug": "dodo",
+    "cmc_symbol": "DODO",
+    "match_type": "exact"
+  },
+  "DODOX": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "DOGE": {
+    "cmc_id": 74,
+    "cmc_slug": "dogecoin",
+    "cmc_symbol": "DOGE",
+    "match_type": "exact"
+  },
+  "DOGS": {
+    "cmc_id": 32698,
+    "cmc_slug": "dogs",
+    "cmc_symbol": "DOGS",
+    "match_type": "exact"
+  },
+  "DOLO": {
+    "cmc_id": 35929,
+    "cmc_slug": "dolomite",
+    "cmc_symbol": "DOLO",
+    "match_type": "exact"
+  },
+  "DOOD": {
+    "cmc_id": 35747,
+    "cmc_slug": "doodles",
+    "cmc_symbol": "DOOD",
+    "match_type": "exact"
+  },
+  "DOT": {
+    "cmc_id": 6636,
+    "cmc_slug": "polkadot-new",
+    "cmc_symbol": "DOT",
+    "match_type": "exact"
+  },
+  "DRIFT": {
+    "cmc_id": 31278,
+    "cmc_slug": "drift",
+    "cmc_symbol": "DRIFT",
+    "match_type": "exact"
+  },
+  "DUSK": {
+    "cmc_id": 4092,
+    "cmc_slug": "dusk",
+    "cmc_symbol": "DUSK",
+    "match_type": "exact"
+  },
+  "DYDX": {
+    "cmc_id": 28324,
+    "cmc_slug": "dydx-chain",
+    "cmc_symbol": "DYDX",
+    "match_type": "exact"
+  },
+  "DYM": {
+    "cmc_id": 28932,
+    "cmc_slug": "dymension",
+    "cmc_symbol": "DYM",
+    "match_type": "exact"
+  },
+  "EDEN": {
+    "cmc_id": 38513,
+    "cmc_slug": "openeden",
+    "cmc_symbol": "EDEN",
+    "match_type": "exact"
+  },
+  "EDU": {
+    "cmc_id": 24613,
+    "cmc_slug": "open-campus",
+    "cmc_symbol": "EDU",
+    "match_type": "exact"
+  },
+  "EGLD": {
+    "cmc_id": 6892,
+    "cmc_slug": "multiversx-egld",
+    "cmc_symbol": "EGLD",
+    "match_type": "exact"
+  },
+  "EIGEN": {
+    "cmc_id": 30494,
+    "cmc_slug": "eigenlayer",
+    "cmc_symbol": "EIGEN",
+    "match_type": "exact"
+  },
+  "ENA": {
+    "cmc_id": 30171,
+    "cmc_slug": "ethena",
+    "cmc_symbol": "ENA",
+    "match_type": "exact"
+  },
+  "ENJ": {
+    "cmc_id": 2130,
+    "cmc_slug": "enjin-coin",
+    "cmc_symbol": "ENJ",
+    "match_type": "exact"
+  },
+  "ENS": {
+    "cmc_id": 13855,
+    "cmc_slug": "ethereum-name-service",
+    "cmc_symbol": "ENS",
+    "match_type": "exact"
+  },
+  "ENSO": {
+    "cmc_id": 38668,
+    "cmc_slug": "enso",
+    "cmc_symbol": "ENSO",
+    "match_type": "exact"
+  },
+  "EPIC": {
+    "cmc_id": 8615,
+    "cmc_slug": "epic-chain",
+    "cmc_symbol": "EPIC",
+    "match_type": "exact"
+  },
+  "EPT": {
+    "cmc_id": 35671,
+    "cmc_slug": "balance",
+    "cmc_symbol": "EPT",
+    "match_type": "exact"
+  },
+  "ERA": {
+    "cmc_id": 37374,
+    "cmc_slug": "caldera",
+    "cmc_symbol": "ERA",
+    "match_type": "exact"
+  },
+  "ESPORTS": {
+    "cmc_id": 37414,
+    "cmc_slug": "yooldo",
+    "cmc_symbol": "ESPORTS",
+    "match_type": "exact"
+  },
+  "ETC": {
+    "cmc_id": 1321,
+    "cmc_slug": "ethereum-classic",
+    "cmc_symbol": "ETC",
+    "match_type": "exact"
+  },
+  "ETH": {
+    "cmc_id": 1027,
+    "cmc_slug": "ethereum",
+    "cmc_symbol": "ETH",
+    "match_type": "exact"
+  },
+  "ETHFI": {
+    "cmc_id": 29814,
+    "cmc_slug": "ether-fi-ethfi",
+    "cmc_symbol": "ETHFI",
+    "match_type": "exact"
+  },
+  "ETHW": {
+    "cmc_id": 21296,
+    "cmc_slug": "ethereum-pow",
+    "cmc_symbol": "ETHW",
+    "match_type": "exact"
+  },
+  "EUL": {
+    "cmc_id": 14280,
+    "cmc_slug": "euler-finance",
+    "cmc_symbol": "EUL",
+    "match_type": "exact"
+  },
+  "EUR": {
+    "cmc_id": 2790,
+    "cmc_slug": "euro",
+    "cmc_symbol": "EUR",
+    "match_type": "auto"
+  },
+  "EURI": {
+    "cmc_id": 32644,
+    "cmc_slug": "eurite",
+    "cmc_symbol": "EURI",
+    "match_type": "exact"
+  },
+  "EVAA": {
+    "cmc_id": 38376,
+    "cmc_slug": "evaa-protocol",
+    "cmc_symbol": "EVAA",
+    "match_type": "exact"
+  },
+  "F": {
+    "cmc_id": 34297,
+    "cmc_slug": "synfutures",
+    "cmc_symbol": "F",
+    "match_type": "exact"
+  },
+  "FARM": {
+    "cmc_id": 6859,
+    "cmc_slug": "harvest-finance",
+    "cmc_symbol": "FARM",
+    "match_type": "exact"
+  },
+  "FARTCOIN": {
+    "cmc_id": 33597,
+    "cmc_slug": "fartcoin",
+    "cmc_symbol": "FARTCOIN",
+    "match_type": "exact"
+  },
+  "FDUSD": {
+    "cmc_id": 26081,
+    "cmc_slug": "first-digital-usd",
+    "cmc_symbol": "FDUSD",
+    "match_type": "exact"
+  },
+  "FET": {
+    "cmc_id": 3773,
+    "cmc_slug": "artificial-superintelligence-alliance",
+    "cmc_symbol": "FET",
+    "match_type": "exact"
+  },
+  "FF": {
+    "cmc_id": 38482,
+    "cmc_slug": "falcon-finance-ff",
+    "cmc_symbol": "FF",
+    "match_type": "exact"
+  },
+  "FHE": {
+    "cmc_id": 36153,
+    "cmc_slug": "mind-network",
+    "cmc_symbol": "FHE",
+    "match_type": "exact"
+  },
+  "FIDA": {
+    "cmc_id": 7978,
+    "cmc_slug": "bonfida-sns",
+    "cmc_symbol": "FIDA",
+    "match_type": "exact"
+  },
+  "FIL": {
+    "cmc_id": 2280,
+    "cmc_slug": "filecoin",
+    "cmc_symbol": "FIL",
+    "match_type": "exact"
+  },
+  "FIO": {
+    "cmc_id": 5865,
+    "cmc_slug": "fio-protocol",
+    "cmc_symbol": "FIO",
+    "match_type": "exact"
+  },
+  "FIS": {
+    "cmc_id": 5882,
+    "cmc_slug": "stafi",
+    "cmc_symbol": "FIS",
+    "match_type": "exact"
+  },
+  "FLM": {
+    "cmc_id": 7150,
+    "cmc_slug": "flamingo",
+    "cmc_symbol": "FLM",
+    "match_type": "exact"
+  },
+  "FLOCK": {
+    "cmc_id": 34987,
+    "cmc_slug": "flock-io",
+    "cmc_symbol": "FLOCK",
+    "match_type": "exact"
+  },
+  "FLOKI": {
+    "cmc_id": 10804,
+    "cmc_slug": "floki-inu",
+    "cmc_symbol": "FLOKI",
+    "match_type": "exact"
+  },
+  "FLOW": {
+    "cmc_id": 4558,
+    "cmc_slug": "flow",
+    "cmc_symbol": "FLOW",
+    "match_type": "exact"
+  },
+  "FLUID": {
+    "cmc_id": 10508,
+    "cmc_slug": "instadapp",
+    "cmc_symbol": "FLUID",
+    "match_type": "exact"
+  },
+  "FLUX": {
+    "cmc_id": 3029,
+    "cmc_slug": "zel",
+    "cmc_symbol": "FLUX",
+    "match_type": "exact"
+  },
+  "FOLKS": {
+    "cmc_id": 38864,
+    "cmc_slug": "folks-finance",
+    "cmc_symbol": "FOLKS",
+    "match_type": "exact"
+  },
+  "FORM": {
+    "cmc_id": 23635,
+    "cmc_slug": "binaryx-new",
+    "cmc_symbol": "FORM",
+    "match_type": "exact"
+  },
+  "FORTH": {
+    "cmc_id": 9421,
+    "cmc_slug": "ampleforth-governance-token",
+    "cmc_symbol": "FORTH",
+    "match_type": "exact"
+  },
+  "FTT": {
+    "cmc_id": 4195,
+    "cmc_slug": "ftx-token",
+    "cmc_symbol": "FTT",
+    "match_type": "exact"
+  },
+  "FUN": {
+    "cmc_id": 1757,
+    "cmc_slug": "funtoken",
+    "cmc_symbol": "FUN",
+    "match_type": "exact"
+  },
+  "FXS": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "G": {
+    "cmc_id": 32120,
+    "cmc_slug": "gravity-token",
+    "cmc_symbol": "G",
+    "match_type": "exact"
+  },
+  "GALA": {
+    "cmc_id": 7080,
+    "cmc_slug": "gala",
+    "cmc_symbol": "GALA",
+    "match_type": "exact"
+  },
+  "GAS": {
+    "cmc_id": 1785,
+    "cmc_slug": "gas",
+    "cmc_symbol": "GAS",
+    "match_type": "exact"
+  },
+  "GHST": {
+    "cmc_id": 7046,
+    "cmc_slug": "aavegotchi",
+    "cmc_symbol": "GHST",
+    "match_type": "exact"
+  },
+  "GIGGLE": {
+    "cmc_id": 38470,
+    "cmc_slug": "giggle-fund",
+    "cmc_symbol": "GIGGLE",
+    "match_type": "exact"
+  },
+  "GLM": {
+    "cmc_id": 1455,
+    "cmc_slug": "golem-network-tokens",
+    "cmc_symbol": "GLM",
+    "match_type": "exact"
+  },
+  "GLMR": {
+    "cmc_id": 6836,
+    "cmc_slug": "moonbeam",
+    "cmc_symbol": "GLMR",
+    "match_type": "exact"
+  },
+  "GMT": {
+    "cmc_id": 18069,
+    "cmc_slug": "green-metaverse-token",
+    "cmc_symbol": "GMT",
+    "match_type": "exact"
+  },
+  "GMX": {
+    "cmc_id": 11857,
+    "cmc_slug": "gmx",
+    "cmc_symbol": "GMX",
+    "match_type": "exact"
+  },
+  "GNO": {
+    "cmc_id": 1659,
+    "cmc_slug": "gnosis-gno",
+    "cmc_symbol": "GNO",
+    "match_type": "exact"
+  },
+  "GNS": {
+    "cmc_id": 13663,
+    "cmc_slug": "gains-network",
+    "cmc_symbol": "GNS",
+    "match_type": "exact"
+  },
+  "GOAT": {
+    "cmc_id": 33440,
+    "cmc_slug": "goatseus-maximus",
+    "cmc_symbol": "GOAT",
+    "match_type": "exact"
+  },
+  "GPS": {
+    "cmc_id": 35268,
+    "cmc_slug": "goplus-security",
+    "cmc_symbol": "GPS",
+    "match_type": "exact"
+  },
+  "GRASS": {
+    "cmc_id": 32956,
+    "cmc_slug": "grass",
+    "cmc_symbol": "GRASS",
+    "match_type": "exact"
+  },
+  "GRIFFAIN": {
+    "cmc_id": 34792,
+    "cmc_slug": "griffain",
+    "cmc_symbol": "GRIFFAIN",
+    "match_type": "exact"
+  },
+  "GRT": {
+    "cmc_id": 6719,
+    "cmc_slug": "the-graph",
+    "cmc_symbol": "GRT",
+    "match_type": "exact"
+  },
+  "GTC": {
+    "cmc_id": 10052,
+    "cmc_slug": "gitcoin",
+    "cmc_symbol": "GTC",
+    "match_type": "exact"
+  },
+  "GUN": {
+    "cmc_id": 36156,
+    "cmc_slug": "gunz",
+    "cmc_symbol": "GUN",
+    "match_type": "exact"
+  },
+  "H": {
+    "cmc_id": 36922,
+    "cmc_slug": "humanity-protocol",
+    "cmc_symbol": "H",
+    "match_type": "exact"
+  },
+  "HAEDAL": {
+    "cmc_id": 36369,
+    "cmc_slug": "haedal-protocol",
+    "cmc_symbol": "HAEDAL",
+    "match_type": "exact"
+  },
+  "HANA": {
+    "cmc_id": 38468,
+    "cmc_slug": "hana-network",
+    "cmc_symbol": "HANA",
+    "match_type": "exact"
+  },
+  "HBAR": {
+    "cmc_id": 4642,
+    "cmc_slug": "hedera",
+    "cmc_symbol": "HBAR",
+    "match_type": "exact"
+  },
+  "HEI": {
+    "cmc_id": 35724,
+    "cmc_slug": "heima",
+    "cmc_symbol": "HEI",
+    "match_type": "exact"
+  },
+  "HEMI": {
+    "cmc_id": 38159,
+    "cmc_slug": "hemi",
+    "cmc_symbol": "HEMI",
+    "match_type": "exact"
+  },
+  "HFT": {
+    "cmc_id": 22461,
+    "cmc_slug": "hashflow",
+    "cmc_symbol": "HFT",
+    "match_type": "exact"
+  },
+  "HIGH": {
+    "cmc_id": 11232,
+    "cmc_slug": "highstreet",
+    "cmc_symbol": "HIGH",
+    "match_type": "exact"
+  },
+  "HIPPO": {
+    "cmc_id": 33258,
+    "cmc_slug": "sudeng",
+    "cmc_symbol": "HIPPO",
+    "match_type": "exact"
+  },
+  "HIVE": {
+    "cmc_id": 5370,
+    "cmc_slug": "hive-blockchain",
+    "cmc_symbol": "HIVE",
+    "match_type": "exact"
+  },
+  "HMSTR": {
+    "cmc_id": 32195,
+    "cmc_slug": "hamster-kombat",
+    "cmc_symbol": "HMSTR",
+    "match_type": "exact"
+  },
+  "HOLO": {
+    "cmc_id": 38309,
+    "cmc_slug": "holoworld-ai",
+    "cmc_symbol": "HOLO",
+    "match_type": "exact"
+  },
+  "HOME": {
+    "cmc_id": 36133,
+    "cmc_slug": "defi-app",
+    "cmc_symbol": "HOME",
+    "match_type": "exact"
+  },
+  "HOOK": {
+    "cmc_id": 22764,
+    "cmc_slug": "hooked-protocol",
+    "cmc_symbol": "HOOK",
+    "match_type": "exact"
+  },
+  "HOT": {
+    "cmc_id": 2682,
+    "cmc_slug": "holo",
+    "cmc_symbol": "HOT",
+    "match_type": "exact"
+  },
+  "HUMA": {
+    "cmc_id": 36576,
+    "cmc_slug": "huma-finance",
+    "cmc_symbol": "HUMA",
+    "match_type": "exact"
+  },
+  "HYPE": {
+    "cmc_id": 32196,
+    "cmc_slug": "hyperliquid",
+    "cmc_symbol": "HYPE",
+    "match_type": "exact"
+  },
+  "HYPER": {
+    "cmc_id": 36281,
+    "cmc_slug": "hyperlane",
+    "cmc_symbol": "HYPER",
+    "match_type": "exact"
+  },
+  "ICNT": {
+    "cmc_id": 37070,
+    "cmc_slug": "impossible-cloud-network",
+    "cmc_symbol": "ICNT",
+    "match_type": "exact"
+  },
+  "ICP": {
+    "cmc_id": 8916,
+    "cmc_slug": "internet-computer",
+    "cmc_symbol": "ICP",
+    "match_type": "exact"
+  },
+  "ICX": {
+    "cmc_id": 2099,
+    "cmc_slug": "icon",
+    "cmc_symbol": "ICX",
+    "match_type": "exact"
+  },
+  "ID": {
+    "cmc_id": 21846,
+    "cmc_slug": "space-id",
+    "cmc_symbol": "ID",
+    "match_type": "exact"
+  },
+  "IDEX": {
+    "cmc_id": 3928,
+    "cmc_slug": "idex",
+    "cmc_symbol": "IDEX",
+    "match_type": "exact"
+  },
+  "IDOL": {
+    "cmc_id": 36775,
+    "cmc_slug": "meet48",
+    "cmc_symbol": "IDOL",
+    "match_type": "exact"
+  },
+  "ILV": {
+    "cmc_id": 8719,
+    "cmc_slug": "illuvium",
+    "cmc_symbol": "ILV",
+    "match_type": "exact"
+  },
+  "IMX": {
+    "cmc_id": 10603,
+    "cmc_slug": "immutable-x",
+    "cmc_symbol": "IMX",
+    "match_type": "exact"
+  },
+  "IN": {
+    "cmc_id": 37609,
+    "cmc_slug": "infinit",
+    "cmc_symbol": "IN",
+    "match_type": "exact"
+  },
+  "INIT": {
+    "cmc_id": 33120,
+    "cmc_slug": "initia",
+    "cmc_symbol": "INIT",
+    "match_type": "exact"
+  },
+  "INJ": {
+    "cmc_id": 7226,
+    "cmc_slug": "injective",
+    "cmc_symbol": "INJ",
+    "match_type": "exact"
+  },
+  "IO": {
+    "cmc_id": 29835,
+    "cmc_slug": "io-net",
+    "cmc_symbol": "IO",
+    "match_type": "exact"
+  },
+  "IOST": {
+    "cmc_id": 2405,
+    "cmc_slug": "iostoken",
+    "cmc_symbol": "IOST",
+    "match_type": "exact"
+  },
+  "IOTA": {
+    "cmc_id": 1720,
+    "cmc_slug": "iota",
+    "cmc_symbol": "IOTA",
+    "match_type": "exact"
+  },
+  "IOTX": {
+    "cmc_id": 2777,
+    "cmc_slug": "iotex",
+    "cmc_symbol": "IOTX",
+    "match_type": "exact"
+  },
+  "IP": {
+    "cmc_id": 35626,
+    "cmc_slug": "story-protocol",
+    "cmc_symbol": "IP",
+    "match_type": "exact"
+  },
+  "IQ": {
+    "cmc_id": 2930,
+    "cmc_slug": "iq",
+    "cmc_symbol": "IQ",
+    "match_type": "exact"
+  },
+  "JASMY": {
+    "cmc_id": 8425,
+    "cmc_slug": "jasmy",
+    "cmc_symbol": "JASMY",
+    "match_type": "exact"
+  },
+  "JCT": {
+    "cmc_id": 38909,
+    "cmc_slug": "janction",
+    "cmc_symbol": "JCT",
+    "match_type": "exact"
+  },
+  "JELLYJELLY": {
+    "cmc_id": 35537,
+    "cmc_slug": "jelly-my-jelly",
+    "cmc_symbol": "JELLYJELLY",
+    "match_type": "exact"
+  },
+  "JOE": {
+    "cmc_id": 11396,
+    "cmc_slug": "joe",
+    "cmc_symbol": "JOE",
+    "match_type": "exact"
+  },
+  "JST": {
+    "cmc_id": 5488,
+    "cmc_slug": "just",
+    "cmc_symbol": "JST",
+    "match_type": "exact"
+  },
+  "JTO": {
+    "cmc_id": 28541,
+    "cmc_slug": "jito",
+    "cmc_symbol": "JTO",
+    "match_type": "exact"
+  },
+  "JUP": {
+    "cmc_id": 29210,
+    "cmc_slug": "jupiter-ag",
+    "cmc_symbol": "JUP",
+    "match_type": "exact"
+  },
+  "JUV": {
+    "cmc_id": 5224,
+    "cmc_slug": "juventus-fan-token",
+    "cmc_symbol": "JUV",
+    "match_type": "exact"
+  },
+  "KAIA": {
+    "cmc_id": 32880,
+    "cmc_slug": "kaia",
+    "cmc_symbol": "KAIA",
+    "match_type": "exact"
+  },
+  "KAITO": {
+    "cmc_id": 35763,
+    "cmc_slug": "kaito",
+    "cmc_symbol": "KAITO",
+    "match_type": "exact"
+  },
+  "KAS": {
+    "cmc_id": 20396,
+    "cmc_slug": "kaspa",
+    "cmc_symbol": "KAS",
+    "match_type": "exact"
+  },
+  "KAVA": {
+    "cmc_id": 4846,
+    "cmc_slug": "kava",
+    "cmc_symbol": "KAVA",
+    "match_type": "exact"
+  },
+  "KDA": {
+    "cmc_id": 5647,
+    "cmc_slug": "kadena",
+    "cmc_symbol": "KDA",
+    "match_type": "exact"
+  },
+  "KERNEL": {
+    "cmc_id": 36180,
+    "cmc_slug": "kerneldao",
+    "cmc_symbol": "KERNEL",
+    "match_type": "exact"
+  },
+  "KGEN": {
+    "cmc_id": 38554,
+    "cmc_slug": "kgen",
+    "cmc_symbol": "KGEN",
+    "match_type": "exact"
+  },
+  "KITE": {
+    "cmc_id": 38828,
+    "cmc_slug": "kite",
+    "cmc_symbol": "KITE",
+    "match_type": "exact"
+  },
+  "KMNO": {
+    "cmc_id": 30986,
+    "cmc_slug": "kamino-finance",
+    "cmc_symbol": "KMNO",
+    "match_type": "exact"
+  },
+  "KNC": {
+    "cmc_id": 9444,
+    "cmc_slug": "kyber-network-crystal-v2",
+    "cmc_symbol": "KNC",
+    "match_type": "exact"
+  },
+  "KOMA": {
+    "cmc_id": 33405,
+    "cmc_slug": "koma-inu",
+    "cmc_symbol": "KOMA",
+    "match_type": "exact"
+  },
+  "KSM": {
+    "cmc_id": 5034,
+    "cmc_slug": "kusama",
+    "cmc_symbol": "KSM",
+    "match_type": "exact"
+  },
+  "LA": {
+    "cmc_id": 36510,
+    "cmc_slug": "lagrange",
+    "cmc_symbol": "LA",
+    "match_type": "exact"
+  },
+  "LAB": {
+    "cmc_id": 33223,
+    "cmc_slug": "lab",
+    "cmc_symbol": "LAB",
+    "match_type": "exact"
+  },
+  "LAYER": {
+    "cmc_id": 35429,
+    "cmc_slug": "solayer",
+    "cmc_symbol": "LAYER",
+    "match_type": "exact"
+  },
+  "LAZIO": {
+    "cmc_id": 12687,
+    "cmc_slug": "lazio-fan-token",
+    "cmc_symbol": "LAZIO",
+    "match_type": "exact"
+  },
+  "LDO": {
+    "cmc_id": 8000,
+    "cmc_slug": "lido-dao",
+    "cmc_symbol": "LDO",
+    "match_type": "exact"
+  },
+  "LIGHT": {
+    "cmc_id": 38506,
+    "cmc_slug": "bitlight",
+    "cmc_symbol": "LIGHT",
+    "match_type": "exact"
+  },
+  "LINEA": {
+    "cmc_id": 27657,
+    "cmc_slug": "linea",
+    "cmc_symbol": "LINEA",
+    "match_type": "exact"
+  },
+  "LINK": {
+    "cmc_id": 1975,
+    "cmc_slug": "chainlink",
+    "cmc_symbol": "LINK",
+    "match_type": "exact"
+  },
+  "LISTA": {
+    "cmc_id": 21533,
+    "cmc_slug": "lista-dao",
+    "cmc_symbol": "LISTA",
+    "match_type": "exact"
+  },
+  "LPT": {
+    "cmc_id": 3640,
+    "cmc_slug": "livepeer",
+    "cmc_symbol": "LPT",
+    "match_type": "exact"
+  },
+  "LQTY": {
+    "cmc_id": 7429,
+    "cmc_slug": "liquity",
+    "cmc_symbol": "LQTY",
+    "match_type": "exact"
+  },
+  "LRC": {
+    "cmc_id": 1934,
+    "cmc_slug": "loopring",
+    "cmc_symbol": "LRC",
+    "match_type": "exact"
+  },
+  "LSK": {
+    "cmc_id": 1214,
+    "cmc_slug": "lisk",
+    "cmc_symbol": "LSK",
+    "match_type": "exact"
+  },
+  "LTC": {
+    "cmc_id": 2,
+    "cmc_slug": "litecoin",
+    "cmc_symbol": "LTC",
+    "match_type": "exact"
+  },
+  "LUMIA": {
+    "cmc_id": 33439,
+    "cmc_slug": "lumia",
+    "cmc_symbol": "LUMIA",
+    "match_type": "exact"
+  },
+  "LUNA": {
+    "cmc_id": 20314,
+    "cmc_slug": "terra-luna-v2",
+    "cmc_symbol": "LUNA",
+    "match_type": "exact"
+  },
+  "LUNA2": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "LUNC": {
+    "cmc_id": 4172,
+    "cmc_slug": "terra-luna",
+    "cmc_symbol": "LUNC",
+    "match_type": "exact"
+  },
+  "LYN": {
+    "cmc_id": 38561,
+    "cmc_slug": "everlyn",
+    "cmc_symbol": "LYN",
+    "match_type": "exact"
+  },
+  "M": {
+    "cmc_id": 35491,
+    "cmc_slug": "memecore",
+    "cmc_symbol": "M",
+    "match_type": "exact"
+  },
+  "MAGIC": {
+    "cmc_id": 14783,
+    "cmc_slug": "magic-token",
+    "cmc_symbol": "MAGIC",
+    "match_type": "exact"
+  },
+  "MANA": {
+    "cmc_id": 1966,
+    "cmc_slug": "decentraland",
+    "cmc_symbol": "MANA",
+    "match_type": "exact"
+  },
+  "MANTA": {
+    "cmc_id": 13631,
+    "cmc_slug": "manta-network",
+    "cmc_symbol": "MANTA",
+    "match_type": "exact"
+  },
+  "MASK": {
+    "cmc_id": 8536,
+    "cmc_slug": "mask-network",
+    "cmc_symbol": "MASK",
+    "match_type": "exact"
+  },
+  "MAV": {
+    "cmc_id": 18037,
+    "cmc_slug": "maverick-protocol",
+    "cmc_symbol": "MAV",
+    "match_type": "exact"
+  },
+  "MAVIA": {
+    "cmc_id": 28829,
+    "cmc_slug": "heroes-of-mavia",
+    "cmc_symbol": "MAVIA",
+    "match_type": "exact"
+  },
+  "MBL": {
+    "cmc_id": 4038,
+    "cmc_slug": "moviebloc",
+    "cmc_symbol": "MBL",
+    "match_type": "exact"
+  },
+  "MBOX": {
+    "cmc_id": 9175,
+    "cmc_slug": "mobox",
+    "cmc_symbol": "MBOX",
+    "match_type": "exact"
+  },
+  "MDT": {
+    "cmc_id": 2348,
+    "cmc_slug": "measurable-data-token",
+    "cmc_symbol": "MDT",
+    "match_type": "exact"
+  },
+  "ME": {
+    "cmc_id": 32197,
+    "cmc_slug": "magiceden",
+    "cmc_symbol": "ME",
+    "match_type": "exact"
+  },
+  "MELANIA": {
+    "cmc_id": 35347,
+    "cmc_slug": "melania-meme",
+    "cmc_symbol": "MELANIA",
+    "match_type": "exact"
+  },
+  "MEME": {
+    "cmc_id": 28301,
+    "cmc_slug": "meme",
+    "cmc_symbol": "MEME",
+    "match_type": "exact"
+  },
+  "MERL": {
+    "cmc_id": 30712,
+    "cmc_slug": "merlin-chain",
+    "cmc_symbol": "MERL",
+    "match_type": "exact"
+  },
+  "MET": {
+    "cmc_id": 38353,
+    "cmc_slug": "meteora",
+    "cmc_symbol": "MET",
+    "match_type": "exact"
+  },
+  "METIS": {
+    "cmc_id": 9640,
+    "cmc_slug": "metisdao",
+    "cmc_symbol": "METIS",
+    "match_type": "exact"
+  },
+  "MEW": {
+    "cmc_id": 30126,
+    "cmc_slug": "mew",
+    "cmc_symbol": "MEW",
+    "match_type": "exact"
+  },
+  "MILK": {
+    "cmc_id": 20874,
+    "cmc_slug": "milkyway",
+    "cmc_symbol": "MILK",
+    "match_type": "exact"
+  },
+  "MINA": {
+    "cmc_id": 8646,
+    "cmc_slug": "mina",
+    "cmc_symbol": "MINA",
+    "match_type": "exact"
+  },
+  "MIRA": {
+    "cmc_id": 38495,
+    "cmc_slug": "mira-network",
+    "cmc_symbol": "MIRA",
+    "match_type": "exact"
+  },
+  "MITO": {
+    "cmc_id": 38204,
+    "cmc_slug": "mitosis",
+    "cmc_symbol": "MITO",
+    "match_type": "exact"
+  },
+  "MLN": {
+    "cmc_id": 1552,
+    "cmc_slug": "enzyme",
+    "cmc_symbol": "MLN",
+    "match_type": "exact"
+  },
+  "MMT": {
+    "cmc_id": 38231,
+    "cmc_slug": "momentum-token",
+    "cmc_symbol": "MMT",
+    "match_type": "exact"
+  },
+  "MOCA": {
+    "cmc_id": 31526,
+    "cmc_slug": "mocaverse",
+    "cmc_symbol": "MOCA",
+    "match_type": "exact"
+  },
+  "MON": {
+    "cmc_id": 30950,
+    "cmc_slug": "mon",
+    "cmc_symbol": "MON",
+    "match_type": "exact"
+  },
+  "MOODENG": {
+    "cmc_id": 33093,
+    "cmc_slug": "moo-deng-solana",
+    "cmc_symbol": "MOODENG",
+    "match_type": "exact"
+  },
+  "MORPHO": {
+    "cmc_id": 34104,
+    "cmc_slug": "morpho",
+    "cmc_symbol": "MORPHO",
+    "match_type": "exact"
+  },
+  "MOVE": {
+    "cmc_id": 32452,
+    "cmc_slug": "movement",
+    "cmc_symbol": "MOVE",
+    "match_type": "exact"
+  },
+  "MOVR": {
+    "cmc_id": 9285,
+    "cmc_slug": "moonriver",
+    "cmc_symbol": "MOVR",
+    "match_type": "exact"
+  },
+  "MTL": {
+    "cmc_id": 1788,
+    "cmc_slug": "metal",
+    "cmc_symbol": "MTL",
+    "match_type": "exact"
+  },
+  "MUBARAK": {
+    "cmc_id": 36041,
+    "cmc_slug": "mubarak",
+    "cmc_symbol": "MUBARAK",
+    "match_type": "exact"
+  },
+  "MYRO": {
+    "cmc_id": 28382,
+    "cmc_slug": "myro",
+    "cmc_symbol": "MYRO",
+    "match_type": "exact"
+  },
+  "MYX": {
+    "cmc_id": 36410,
+    "cmc_slug": "myx-finance",
+    "cmc_symbol": "MYX",
+    "match_type": "exact"
+  },
+  "NAORIS": {
+    "cmc_id": 35114,
+    "cmc_slug": "naoris-protocol",
+    "cmc_symbol": "NAORIS",
+    "match_type": "exact"
+  },
+  "NEAR": {
+    "cmc_id": 6535,
+    "cmc_slug": "near-protocol",
+    "cmc_symbol": "NEAR",
+    "match_type": "exact"
+  },
+  "NEIRO": {
+    "cmc_id": 32521,
+    "cmc_slug": "neiro",
+    "cmc_symbol": "NEIRO",
+    "match_type": "exact"
+  },
+  "NEO": {
+    "cmc_id": 1376,
+    "cmc_slug": "neo",
+    "cmc_symbol": "NEO",
+    "match_type": "exact"
+  },
+  "NEWT": {
+    "cmc_id": 36861,
+    "cmc_slug": "newton-protocol",
+    "cmc_symbol": "NEWT",
+    "match_type": "exact"
+  },
+  "NEXO": {
+    "cmc_id": 2694,
+    "cmc_slug": "nexo",
+    "cmc_symbol": "NEXO",
+    "match_type": "exact"
+  },
+  "NFP": {
+    "cmc_id": 28778,
+    "cmc_slug": "nfprompt",
+    "cmc_symbol": "NFP",
+    "match_type": "exact"
+  },
+  "NIL": {
+    "cmc_id": 35702,
+    "cmc_slug": "nillion",
+    "cmc_symbol": "NIL",
+    "match_type": "exact"
+  },
+  "NKN": {
+    "cmc_id": 2780,
+    "cmc_slug": "nkn",
+    "cmc_symbol": "NKN",
+    "match_type": "exact"
+  },
+  "NMR": {
+    "cmc_id": 1732,
+    "cmc_slug": "numeraire",
+    "cmc_symbol": "NMR",
+    "match_type": "exact"
+  },
+  "NOM": {
+    "cmc_id": 38464,
+    "cmc_slug": "nomina",
+    "cmc_symbol": "NOM",
+    "match_type": "exact"
+  },
+  "NOT": {
+    "cmc_id": 28850,
+    "cmc_slug": "notcoin",
+    "cmc_symbol": "NOT",
+    "match_type": "exact"
+  },
+  "NTRN": {
+    "cmc_id": 26680,
+    "cmc_slug": "neutron-ntrn",
+    "cmc_symbol": "NTRN",
+    "match_type": "exact"
+  },
+  "NXPC": {
+    "cmc_id": 36044,
+    "cmc_slug": "maplestory-universe",
+    "cmc_symbol": "NXPC",
+    "match_type": "exact"
+  },
+  "OBOL": {
+    "cmc_id": 36278,
+    "cmc_slug": "obol",
+    "cmc_symbol": "OBOL",
+    "match_type": "exact"
+  },
+  "OG": {
+    "cmc_id": 5309,
+    "cmc_slug": "og-fan-token",
+    "cmc_symbol": "OG",
+    "match_type": "exact"
+  },
+  "OGN": {
+    "cmc_id": 5117,
+    "cmc_slug": "origin-protocol",
+    "cmc_symbol": "OGN",
+    "match_type": "exact"
+  },
+  "OL": {
+    "cmc_id": 34034,
+    "cmc_slug": "open-loot",
+    "cmc_symbol": "OL",
+    "match_type": "exact"
+  },
+  "OM": {
+    "cmc_id": 6536,
+    "cmc_slug": "mantra",
+    "cmc_symbol": "OM",
+    "match_type": "exact"
+  },
+  "ON": {
+    "cmc_id": 38750,
+    "cmc_slug": "orochi-network",
+    "cmc_symbol": "ON",
+    "match_type": "exact"
+  },
+  "ONDO": {
+    "cmc_id": 21159,
+    "cmc_slug": "ondo-finance",
+    "cmc_symbol": "ONDO",
+    "match_type": "exact"
+  },
+  "ONE": {
+    "cmc_id": 3945,
+    "cmc_slug": "harmony",
+    "cmc_symbol": "ONE",
+    "match_type": "exact"
+  },
+  "ONG": {
+    "cmc_id": 3217,
+    "cmc_slug": "ontology-gas",
+    "cmc_symbol": "ONG",
+    "match_type": "exact"
+  },
+  "ONT": {
+    "cmc_id": 2566,
+    "cmc_slug": "ontology",
+    "cmc_symbol": "ONT",
+    "match_type": "exact"
+  },
+  "OP": {
+    "cmc_id": 11840,
+    "cmc_slug": "optimism-ethereum",
+    "cmc_symbol": "OP",
+    "match_type": "exact"
+  },
+  "OPEN": {
+    "cmc_id": 37456,
+    "cmc_slug": "openledger",
+    "cmc_symbol": "OPEN",
+    "match_type": "exact"
+  },
+  "ORCA": {
+    "cmc_id": 11165,
+    "cmc_slug": "orca",
+    "cmc_symbol": "ORCA",
+    "match_type": "exact"
+  },
+  "ORDER": {
+    "cmc_id": 32809,
+    "cmc_slug": "orderly-network",
+    "cmc_symbol": "ORDER",
+    "match_type": "exact"
+  },
+  "ORDI": {
+    "cmc_id": 25028,
+    "cmc_slug": "ordi",
+    "cmc_symbol": "ORDI",
+    "match_type": "exact"
+  },
+  "OSMO": {
+    "cmc_id": 12220,
+    "cmc_slug": "osmosis",
+    "cmc_symbol": "OSMO",
+    "match_type": "exact"
+  },
+  "OXT": {
+    "cmc_id": 5026,
+    "cmc_slug": "orchid",
+    "cmc_symbol": "OXT",
+    "match_type": "exact"
+  },
+  "PARTI": {
+    "cmc_id": 36102,
+    "cmc_slug": "particle-network",
+    "cmc_symbol": "PARTI",
+    "match_type": "exact"
+  },
+  "PAXG": {
+    "cmc_id": 4705,
+    "cmc_slug": "pax-gold",
+    "cmc_symbol": "PAXG",
+    "match_type": "exact"
+  },
+  "PENDLE": {
+    "cmc_id": 9481,
+    "cmc_slug": "pendle",
+    "cmc_symbol": "PENDLE",
+    "match_type": "exact"
+  },
+  "PENGU": {
+    "cmc_id": 34466,
+    "cmc_slug": "pudgy-penguins",
+    "cmc_symbol": "PENGU",
+    "match_type": "exact"
+  },
+  "PEOPLE": {
+    "cmc_id": 14806,
+    "cmc_slug": "constitutiondao",
+    "cmc_symbol": "PEOPLE",
+    "match_type": "exact"
+  },
+  "PEPE": {
+    "cmc_id": 24478,
+    "cmc_slug": "pepe",
+    "cmc_symbol": "PEPE",
+    "match_type": "exact"
+  },
+  "PERP": {
+    "cmc_id": 6950,
+    "cmc_slug": "perpetual-protocol",
+    "cmc_symbol": "PERP",
+    "match_type": "exact"
+  },
+  "PHA": {
+    "cmc_id": 6841,
+    "cmc_slug": "phala-network",
+    "cmc_symbol": "PHA",
+    "match_type": "exact"
+  },
+  "PHB": {
+    "cmc_id": 13969,
+    "cmc_slug": "phoenix-global-new",
+    "cmc_symbol": "PHB",
+    "match_type": "exact"
+  },
+  "PIPPIN": {
+    "cmc_id": 35053,
+    "cmc_slug": "pippin",
+    "cmc_symbol": "PIPPIN",
+    "match_type": "exact"
+  },
+  "PIVX": {
+    "cmc_id": 1169,
+    "cmc_slug": "pivx",
+    "cmc_symbol": "PIVX",
+    "match_type": "exact"
+  },
+  "PIXEL": {
+    "cmc_id": 29335,
+    "cmc_slug": "pixels",
+    "cmc_symbol": "PIXEL",
+    "match_type": "exact"
+  },
+  "PLAY": {
+    "cmc_id": 37534,
+    "cmc_slug": "playsout",
+    "cmc_symbol": "PLAY",
+    "match_type": "exact"
+  },
+  "PLUME": {
+    "cmc_id": 35364,
+    "cmc_slug": "plume",
+    "cmc_symbol": "PLUME",
+    "match_type": "exact"
+  },
+  "PNUT": {
+    "cmc_id": 33788,
+    "cmc_slug": "peanut-the-squirrel",
+    "cmc_symbol": "PNUT",
+    "match_type": "exact"
+  },
+  "POL": {
+    "cmc_id": 28321,
+    "cmc_slug": "polygon-ecosystem-token",
+    "cmc_symbol": "POL",
+    "match_type": "exact"
+  },
+  "POLYX": {
+    "cmc_id": 20362,
+    "cmc_slug": "polymesh",
+    "cmc_symbol": "POLYX",
+    "match_type": "exact"
+  },
+  "POND": {
+    "cmc_id": 7497,
+    "cmc_slug": "marlin",
+    "cmc_symbol": "POND",
+    "match_type": "exact"
+  },
+  "PONKE": {
+    "cmc_id": 29150,
+    "cmc_slug": "ponke",
+    "cmc_symbol": "PONKE",
+    "match_type": "exact"
+  },
+  "POPCAT": {
+    "cmc_id": 28782,
+    "cmc_slug": "popcat-sol",
+    "cmc_symbol": "POPCAT",
+    "match_type": "exact"
+  },
+  "PORT3": {
+    "cmc_id": 29030,
+    "cmc_slug": "port3-network",
+    "cmc_symbol": "PORT3",
+    "match_type": "exact"
+  },
+  "PORTAL": {
+    "cmc_id": 29555,
+    "cmc_slug": "portal-gaming",
+    "cmc_symbol": "PORTAL",
+    "match_type": "exact"
+  },
+  "PORTO": {
+    "cmc_id": 14052,
+    "cmc_slug": "fc-porto",
+    "cmc_symbol": "PORTO",
+    "match_type": "exact"
+  },
+  "POWR": {
+    "cmc_id": 2132,
+    "cmc_slug": "power-ledger",
+    "cmc_symbol": "POWR",
+    "match_type": "exact"
+  },
+  "PROM": {
+    "cmc_id": 4120,
+    "cmc_slug": "prom",
+    "cmc_symbol": "PROM",
+    "match_type": "exact"
+  },
+  "PROMPT": {
+    "cmc_id": 36223,
+    "cmc_slug": "wayfinder",
+    "cmc_symbol": "PROMPT",
+    "match_type": "exact"
+  },
+  "PROVE": {
+    "cmc_id": 37593,
+    "cmc_slug": "succinct",
+    "cmc_symbol": "PROVE",
+    "match_type": "exact"
+  },
+  "PSG": {
+    "cmc_id": 5226,
+    "cmc_slug": "paris-saint-germain-fan-token",
+    "cmc_symbol": "PSG",
+    "match_type": "exact"
+  },
+  "PTB": {
+    "cmc_id": 37372,
+    "cmc_slug": "portaltobitcoin",
+    "cmc_symbol": "PTB",
+    "match_type": "exact"
+  },
+  "PUFFER": {
+    "cmc_id": 32325,
+    "cmc_slug": "puffer",
+    "cmc_symbol": "PUFFER",
+    "match_type": "exact"
+  },
+  "PUMP": {
+    "cmc_id": 36507,
+    "cmc_slug": "pump-fun",
+    "cmc_symbol": "PUMP",
+    "match_type": "exact"
+  },
+  "PUMPBTC": {
+    "cmc_id": 32272,
+    "cmc_slug": "pumpbtc-btc",
+    "cmc_symbol": "PUMPBTC",
+    "match_type": "exact"
+  },
+  "PUNDIX": {
+    "cmc_id": 9040,
+    "cmc_slug": "pundix-new",
+    "cmc_symbol": "PUNDIX",
+    "match_type": "exact"
+  },
+  "PYR": {
+    "cmc_id": 9308,
+    "cmc_slug": "vulcan-forged-pyr",
+    "cmc_symbol": "PYR",
+    "match_type": "exact"
+  },
+  "PYTH": {
+    "cmc_id": 28177,
+    "cmc_slug": "pyth-network",
+    "cmc_symbol": "PYTH",
+    "match_type": "exact"
+  },
+  "Q": {
+    "cmc_id": 38236,
+    "cmc_slug": "quack-ai",
+    "cmc_symbol": "Q",
+    "match_type": "exact"
+  },
+  "QI": {
+    "cmc_id": 9288,
+    "cmc_slug": "benqi",
+    "cmc_symbol": "QI",
+    "match_type": "exact"
+  },
+  "QKC": {
+    "cmc_id": 2840,
+    "cmc_slug": "quarkchain",
+    "cmc_symbol": "QKC",
+    "match_type": "exact"
+  },
+  "QNT": {
+    "cmc_id": 3155,
+    "cmc_slug": "quant",
+    "cmc_symbol": "QNT",
+    "match_type": "exact"
+  },
+  "QTUM": {
+    "cmc_id": 1684,
+    "cmc_slug": "qtum",
+    "cmc_symbol": "QTUM",
+    "match_type": "exact"
+  },
+  "QUICK": {
+    "cmc_id": 8206,
+    "cmc_slug": "quickswap",
+    "cmc_symbol": "QUICK",
+    "match_type": "exact"
+  },
+  "RAD": {
+    "cmc_id": 6843,
+    "cmc_slug": "radworks",
+    "cmc_symbol": "RAD",
+    "match_type": "exact"
+  },
+  "RARE": {
+    "cmc_id": 11294,
+    "cmc_slug": "superrare",
+    "cmc_symbol": "RARE",
+    "match_type": "exact"
+  },
+  "RAY": {
+    "cmc_id": 8526,
+    "cmc_slug": "raydium",
+    "cmc_symbol": "RAY",
+    "match_type": "exact"
+  },
+  "RAYSOL": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "RDNT": {
+    "cmc_id": 21106,
+    "cmc_slug": "radiant-capital",
+    "cmc_symbol": "RDNT",
+    "match_type": "exact"
+  },
+  "RECALL": {
+    "cmc_id": 38669,
+    "cmc_slug": "recall-network",
+    "cmc_symbol": "RECALL",
+    "match_type": "exact"
+  },
+  "RED": {
+    "cmc_id": 21707,
+    "cmc_slug": "redstone",
+    "cmc_symbol": "RED",
+    "match_type": "exact"
+  },
+  "REI": {
+    "cmc_id": 19819,
+    "cmc_slug": "rei-network",
+    "cmc_symbol": "REI",
+    "match_type": "exact"
+  },
+  "RENDER": {
+    "cmc_id": 5690,
+    "cmc_slug": "render",
+    "cmc_symbol": "RENDER",
+    "match_type": "exact"
+  },
+  "REQ": {
+    "cmc_id": 2071,
+    "cmc_slug": "request",
+    "cmc_symbol": "REQ",
+    "match_type": "exact"
+  },
+  "RESOLV": {
+    "cmc_id": 36713,
+    "cmc_slug": "resolv",
+    "cmc_symbol": "RESOLV",
+    "match_type": "exact"
+  },
+  "REZ": {
+    "cmc_id": 30843,
+    "cmc_slug": "renzo",
+    "cmc_symbol": "REZ",
+    "match_type": "exact"
+  },
+  "RIF": {
+    "cmc_id": 3701,
+    "cmc_slug": "rsk-infrastructure-framework",
+    "cmc_symbol": "RIF",
+    "match_type": "exact"
+  },
+  "RIVER": {
+    "cmc_id": 38417,
+    "cmc_slug": "river",
+    "cmc_symbol": "RIVER",
+    "match_type": "exact"
+  },
+  "RLC": {
+    "cmc_id": 1637,
+    "cmc_slug": "rlc",
+    "cmc_symbol": "RLC",
+    "match_type": "exact"
+  },
+  "RONIN": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "ROSE": {
+    "cmc_id": 7653,
+    "cmc_slug": "oasis-network",
+    "cmc_symbol": "ROSE",
+    "match_type": "exact"
+  },
+  "RPL": {
+    "cmc_id": 2943,
+    "cmc_slug": "rocket-pool",
+    "cmc_symbol": "RPL",
+    "match_type": "exact"
+  },
+  "RSR": {
+    "cmc_id": 3964,
+    "cmc_slug": "reserve-rights",
+    "cmc_symbol": "RSR",
+    "match_type": "exact"
+  },
+  "RUNE": {
+    "cmc_id": 4157,
+    "cmc_slug": "thorchain",
+    "cmc_symbol": "RUNE",
+    "match_type": "exact"
+  },
+  "RVN": {
+    "cmc_id": 2577,
+    "cmc_slug": "ravencoin",
+    "cmc_symbol": "RVN",
+    "match_type": "exact"
+  },
+  "RVV": {
+    "cmc_id": 38707,
+    "cmc_slug": "astra-nova",
+    "cmc_symbol": "RVV",
+    "match_type": "exact"
+  },
+  "S": {
+    "cmc_id": 32684,
+    "cmc_slug": "sonic",
+    "cmc_symbol": "S",
+    "match_type": "exact"
+  },
+  "SAFE": {
+    "cmc_id": 21585,
+    "cmc_slug": "safe1",
+    "cmc_symbol": "SAFE",
+    "match_type": "exact"
+  },
+  "SAGA": {
+    "cmc_id": 30372,
+    "cmc_slug": "saga",
+    "cmc_symbol": "SAGA",
+    "match_type": "exact"
+  },
+  "SAHARA": {
+    "cmc_id": 36671,
+    "cmc_slug": "sahara-ai",
+    "cmc_symbol": "SAHARA",
+    "match_type": "exact"
+  },
+  "SAND": {
+    "cmc_id": 6210,
+    "cmc_slug": "the-sandbox",
+    "cmc_symbol": "SAND",
+    "match_type": "exact"
+  },
+  "SANTOS": {
+    "cmc_id": 15248,
+    "cmc_slug": "santos-fc-fan-token",
+    "cmc_symbol": "SANTOS",
+    "match_type": "exact"
+  },
+  "SAPIEN": {
+    "cmc_id": 38117,
+    "cmc_slug": "sapien-io",
+    "cmc_symbol": "SAPIEN",
+    "match_type": "exact"
+  },
+  "SC": {
+    "cmc_id": 1042,
+    "cmc_slug": "siacoin",
+    "cmc_symbol": "SC",
+    "match_type": "exact"
+  },
+  "SCR": {
+    "cmc_id": 26998,
+    "cmc_slug": "scroll",
+    "cmc_symbol": "SCR",
+    "match_type": "exact"
+  },
+  "SCRT": {
+    "cmc_id": 5604,
+    "cmc_slug": "secret",
+    "cmc_symbol": "SCRT",
+    "match_type": "exact"
+  },
+  "SEI": {
+    "cmc_id": 23149,
+    "cmc_slug": "sei",
+    "cmc_symbol": "SEI",
+    "match_type": "exact"
+  },
+  "SFP": {
+    "cmc_id": 8119,
+    "cmc_slug": "safepal",
+    "cmc_symbol": "SFP",
+    "match_type": "exact"
+  },
+  "SHELL": {
+    "cmc_id": 35710,
+    "cmc_slug": "myshell",
+    "cmc_symbol": "SHELL",
+    "match_type": "exact"
+  },
+  "SHIB": {
+    "cmc_id": 5994,
+    "cmc_slug": "shiba-inu",
+    "cmc_symbol": "SHIB",
+    "match_type": "exact"
+  },
+  "SIGN": {
+    "cmc_id": 35600,
+    "cmc_slug": "sign",
+    "cmc_symbol": "SIGN",
+    "match_type": "exact"
+  },
+  "SIREN": {
+    "cmc_id": 35766,
+    "cmc_slug": "siren-bsc",
+    "cmc_symbol": "SIREN",
+    "match_type": "exact"
+  },
+  "SKATE": {
+    "cmc_id": 36747,
+    "cmc_slug": "skate",
+    "cmc_symbol": "SKATE",
+    "match_type": "exact"
+  },
+  "SKL": {
+    "cmc_id": 5691,
+    "cmc_slug": "skale-network",
+    "cmc_symbol": "SKL",
+    "match_type": "exact"
+  },
+  "SKY": {
+    "cmc_id": 33038,
+    "cmc_slug": "sky",
+    "cmc_symbol": "SKY",
+    "match_type": "exact"
+  },
+  "SKYAI": {
+    "cmc_id": 36300,
+    "cmc_slug": "skyai",
+    "cmc_symbol": "SKYAI",
+    "match_type": "exact"
+  },
+  "SLP": {
+    "cmc_id": 5824,
+    "cmc_slug": "smooth-love-potion",
+    "cmc_symbol": "SLP",
+    "match_type": "exact"
+  },
+  "SNX": {
+    "cmc_id": 2586,
+    "cmc_slug": "synthetix",
+    "cmc_symbol": "SNX",
+    "match_type": "exact"
+  },
+  "SOL": {
+    "cmc_id": 5426,
+    "cmc_slug": "solana",
+    "cmc_symbol": "SOL",
+    "match_type": "exact"
+  },
+  "SOLV": {
+    "cmc_id": 12165,
+    "cmc_slug": "solv-protocol",
+    "cmc_symbol": "SOLV",
+    "match_type": "exact"
+  },
+  "SOMI": {
+    "cmc_id": 37637,
+    "cmc_slug": "somnia",
+    "cmc_symbol": "SOMI",
+    "match_type": "exact"
+  },
+  "SONIC": {
+    "cmc_id": 35051,
+    "cmc_slug": "sonic-svm",
+    "cmc_symbol": "SONIC",
+    "match_type": "exact"
+  },
+  "SOON": {
+    "cmc_id": 36542,
+    "cmc_slug": "soon",
+    "cmc_symbol": "SOON",
+    "match_type": "exact"
+  },
+  "SOPH": {
+    "cmc_id": 32087,
+    "cmc_slug": "sophon",
+    "cmc_symbol": "SOPH",
+    "match_type": "exact"
+  },
+  "SPELL": {
+    "cmc_id": 11289,
+    "cmc_slug": "spell-token",
+    "cmc_symbol": "SPELL",
+    "match_type": "exact"
+  },
+  "SPK": {
+    "cmc_id": 36569,
+    "cmc_slug": "spark",
+    "cmc_symbol": "SPK",
+    "match_type": "exact"
+  },
+  "SPX": {
+    "cmc_id": 28081,
+    "cmc_slug": "spx6900",
+    "cmc_symbol": "SPX",
+    "match_type": "exact"
+  },
+  "SQD": {
+    "cmc_id": 12894,
+    "cmc_slug": "subsquid",
+    "cmc_symbol": "SQD",
+    "match_type": "exact"
+  },
+  "SSV": {
+    "cmc_id": 12999,
+    "cmc_slug": "ssv-network",
+    "cmc_symbol": "SSV",
+    "match_type": "exact"
+  },
+  "STABLE": {
+    "cmc_id": 38892,
+    "cmc_slug": "stable",
+    "cmc_symbol": "STABLE",
+    "match_type": "auto"
+  },
+  "STBL": {
+    "cmc_id": 38359,
+    "cmc_slug": "stbl",
+    "cmc_symbol": "STBL",
+    "match_type": "exact"
+  },
+  "STEEM": {
+    "cmc_id": 1230,
+    "cmc_slug": "steem",
+    "cmc_symbol": "STEEM",
+    "match_type": "exact"
+  },
+  "STG": {
+    "cmc_id": 18934,
+    "cmc_slug": "stargate-finance",
+    "cmc_symbol": "STG",
+    "match_type": "exact"
+  },
+  "STO": {
+    "cmc_id": 32194,
+    "cmc_slug": "stakestone",
+    "cmc_symbol": "STO",
+    "match_type": "exact"
+  },
+  "STORJ": {
+    "cmc_id": 1772,
+    "cmc_slug": "storj",
+    "cmc_symbol": "STORJ",
+    "match_type": "exact"
+  },
+  "STRAX": {
+    "cmc_id": 30168,
+    "cmc_slug": "stratis-new",
+    "cmc_symbol": "STRAX",
+    "match_type": "exact"
+  },
+  "STRK": {
+    "cmc_id": 22691,
+    "cmc_slug": "starknet-token",
+    "cmc_symbol": "STRK",
+    "match_type": "exact"
+  },
+  "STX": {
+    "cmc_id": 4847,
+    "cmc_slug": "stacks",
+    "cmc_symbol": "STX",
+    "match_type": "exact"
+  },
+  "SUI": {
+    "cmc_id": 20947,
+    "cmc_slug": "sui",
+    "cmc_symbol": "SUI",
+    "match_type": "exact"
+  },
+  "SUN": {
+    "cmc_id": 10529,
+    "cmc_slug": "sun-token",
+    "cmc_symbol": "SUN",
+    "match_type": "exact"
+  },
+  "SUPER": {
+    "cmc_id": 8290,
+    "cmc_slug": "superverse",
+    "cmc_symbol": "SUPER",
+    "match_type": "exact"
+  },
+  "SUSHI": {
+    "cmc_id": 6758,
+    "cmc_slug": "sushiswap",
+    "cmc_symbol": "SUSHI",
+    "match_type": "exact"
+  },
+  "SWARMS": {
+    "cmc_id": 34993,
+    "cmc_slug": "swarms",
+    "cmc_symbol": "SWARMS",
+    "match_type": "exact"
+  },
+  "SWELL": {
+    "cmc_id": 24924,
+    "cmc_slug": "swell-network",
+    "cmc_symbol": "SWELL",
+    "match_type": "exact"
+  },
+  "SXP": {
+    "cmc_id": 4279,
+    "cmc_slug": "sxp",
+    "cmc_symbol": "SXP",
+    "match_type": "exact"
+  },
+  "SXT": {
+    "cmc_id": 36405,
+    "cmc_slug": "space-and-time",
+    "cmc_symbol": "SXT",
+    "match_type": "exact"
+  },
+  "SYN": {
+    "cmc_id": 12147,
+    "cmc_slug": "synapse-2",
+    "cmc_symbol": "SYN",
+    "match_type": "exact"
+  },
+  "SYRUP": {
+    "cmc_id": 33824,
+    "cmc_slug": "maple-finance",
+    "cmc_symbol": "SYRUP",
+    "match_type": "exact"
+  },
+  "SYS": {
+    "cmc_id": 541,
+    "cmc_slug": "syscoin",
+    "cmc_symbol": "SYS",
+    "match_type": "exact"
+  },
+  "T": {
+    "cmc_id": 17751,
+    "cmc_slug": "threshold",
+    "cmc_symbol": "T",
+    "match_type": "exact"
+  },
+  "TA": {
+    "cmc_id": 37430,
+    "cmc_slug": "trusta-ai",
+    "cmc_symbol": "TA",
+    "match_type": "exact"
+  },
+  "TAC": {
+    "cmc_id": 37338,
+    "cmc_slug": "tac-protocol",
+    "cmc_symbol": "TAC",
+    "match_type": "exact"
+  },
+  "TAG": {
+    "cmc_id": 34958,
+    "cmc_slug": "tagger",
+    "cmc_symbol": "TAG",
+    "match_type": "exact"
+  },
+  "TAIKO": {
+    "cmc_id": 31525,
+    "cmc_slug": "taiko",
+    "cmc_symbol": "TAIKO",
+    "match_type": "exact"
+  },
+  "TAKE": {
+    "cmc_id": 38175,
+    "cmc_slug": "overtake",
+    "cmc_symbol": "TAKE",
+    "match_type": "exact"
+  },
+  "TANSSI": {
+    "cmc_id": 37297,
+    "cmc_slug": "tanssi",
+    "cmc_symbol": "TANSSI",
+    "match_type": "exact"
+  },
+  "TAO": {
+    "cmc_id": 22974,
+    "cmc_slug": "bittensor",
+    "cmc_symbol": "TAO",
+    "match_type": "exact"
+  },
+  "TFUEL": {
+    "cmc_id": 3822,
+    "cmc_slug": "theta-fuel",
+    "cmc_symbol": "TFUEL",
+    "match_type": "exact"
+  },
+  "THE": {
+    "cmc_id": 23335,
+    "cmc_slug": "thena",
+    "cmc_symbol": "THE",
+    "match_type": "exact"
+  },
+  "THETA": {
+    "cmc_id": 2416,
+    "cmc_slug": "theta-network",
+    "cmc_symbol": "THETA",
+    "match_type": "exact"
+  },
+  "TIA": {
+    "cmc_id": 22861,
+    "cmc_slug": "celestia",
+    "cmc_symbol": "TIA",
+    "match_type": "exact"
+  },
+  "TKO": {
+    "cmc_id": 9020,
+    "cmc_slug": "tokocrypto",
+    "cmc_symbol": "TKO",
+    "match_type": "exact"
+  },
+  "TLM": {
+    "cmc_id": 9119,
+    "cmc_slug": "alien-worlds",
+    "cmc_symbol": "TLM",
+    "match_type": "exact"
+  },
+  "TNSR": {
+    "cmc_id": 30449,
+    "cmc_slug": "tensor",
+    "cmc_symbol": "TNSR",
+    "match_type": "exact"
+  },
+  "TOKEN": {
+    "cmc_id": 28299,
+    "cmc_slug": "tokenfi",
+    "cmc_symbol": "TOKEN",
+    "match_type": "exact"
+  },
+  "TON": {
+    "cmc_id": 11419,
+    "cmc_slug": "toncoin",
+    "cmc_symbol": "TON",
+    "match_type": "exact"
+  },
+  "TOSHI": {
+    "cmc_id": 27750,
+    "cmc_slug": "toshithecat",
+    "cmc_symbol": "TOSHI",
+    "match_type": "exact"
+  },
+  "TOWNS": {
+    "cmc_id": 37571,
+    "cmc_slug": "towns",
+    "cmc_symbol": "TOWNS",
+    "match_type": "exact"
+  },
+  "TRADOOR": {
+    "cmc_id": 36737,
+    "cmc_slug": "tradoor",
+    "cmc_symbol": "TRADOOR",
+    "match_type": "exact"
+  },
+  "TRB": {
+    "cmc_id": 4944,
+    "cmc_slug": "tellor",
+    "cmc_symbol": "TRB",
+    "match_type": "exact"
+  },
+  "TREE": {
+    "cmc_id": 37495,
+    "cmc_slug": "treehouse",
+    "cmc_symbol": "TREE",
+    "match_type": "exact"
+  },
+  "TRU": {
+    "cmc_id": 7725,
+    "cmc_slug": "truefi-token",
+    "cmc_symbol": "TRU",
+    "match_type": "exact"
+  },
+  "TRUMP": {
+    "cmc_id": 35336,
+    "cmc_slug": "official-trump",
+    "cmc_symbol": "TRUMP",
+    "match_type": "exact"
+  },
+  "TRUST": {
+    "cmc_id": 38863,
+    "cmc_slug": "intuition",
+    "cmc_symbol": "TRUST",
+    "match_type": "exact"
+  },
+  "TRUTH": {
+    "cmc_id": 38178,
+    "cmc_slug": "swarm-network-ai",
+    "cmc_symbol": "TRUTH",
+    "match_type": "exact"
+  },
+  "TRX": {
+    "cmc_id": 1958,
+    "cmc_slug": "tron",
+    "cmc_symbol": "TRX",
+    "match_type": "exact"
+  },
+  "TST": {
+    "cmc_id": 35647,
+    "cmc_slug": "test-token-bsc",
+    "cmc_symbol": "TST",
+    "match_type": "exact"
+  },
+  "TURBO": {
+    "cmc_id": 24911,
+    "cmc_slug": "turbo",
+    "cmc_symbol": "TURBO",
+    "match_type": "exact"
+  },
+  "TURTLE": {
+    "cmc_id": 38671,
+    "cmc_slug": "turtle-xyz",
+    "cmc_symbol": "TURTLE",
+    "match_type": "exact"
+  },
+  "TUSD": {
+    "cmc_id": 2563,
+    "cmc_slug": "trueusd",
+    "cmc_symbol": "TUSD",
+    "match_type": "exact"
+  },
+  "TUT": {
+    "cmc_id": 35892,
+    "cmc_slug": "tutorial",
+    "cmc_symbol": "TUT",
+    "match_type": "exact"
+  },
+  "TWT": {
+    "cmc_id": 5964,
+    "cmc_slug": "trust-wallet-token",
+    "cmc_symbol": "TWT",
+    "match_type": "exact"
+  },
+  "UAI": {
+    "cmc_id": 38841,
+    "cmc_slug": "unifai-network",
+    "cmc_symbol": "UAI",
+    "match_type": "exact"
+  },
+  "UB": {
+    "cmc_id": 38339,
+    "cmc_slug": "unibase",
+    "cmc_symbol": "UB",
+    "match_type": "exact"
+  },
+  "UMA": {
+    "cmc_id": 5617,
+    "cmc_slug": "uma",
+    "cmc_symbol": "UMA",
+    "match_type": "exact"
+  },
+  "UNI": {
+    "cmc_id": 7083,
+    "cmc_slug": "uniswap",
+    "cmc_symbol": "UNI",
+    "match_type": "exact"
+  },
+  "USD1": {
+    "cmc_id": 36148,
+    "cmc_slug": "usd1",
+    "cmc_symbol": "USD1",
+    "match_type": "exact"
+  },
+  "USDC": {
+    "cmc_id": 3408,
+    "cmc_slug": "usd-coin",
+    "cmc_symbol": "USDC",
+    "match_type": "exact"
+  },
+  "USDE": {
+    "cmc_id": 29470,
+    "cmc_slug": "ethena-usde",
+    "cmc_symbol": "USDe",
+    "match_type": "exact"
+  },
+  "USDP": {
+    "cmc_id": 3330,
+    "cmc_slug": "paxos-standard",
+    "cmc_symbol": "USDP",
+    "match_type": "exact"
+  },
+  "USELESS": {
+    "cmc_id": 36828,
+    "cmc_slug": "theuselesscoin",
+    "cmc_symbol": "USELESS",
+    "match_type": "exact"
+  },
+  "USTC": {
+    "cmc_id": 7129,
+    "cmc_slug": "terrausd",
+    "cmc_symbol": "USTC",
+    "match_type": "exact"
+  },
+  "USUAL": {
+    "cmc_id": 33979,
+    "cmc_slug": "usual",
+    "cmc_symbol": "USUAL",
+    "match_type": "exact"
+  },
+  "UTK": {
+    "cmc_id": 2320,
+    "cmc_slug": "utrust",
+    "cmc_symbol": "UTK",
+    "match_type": "exact"
+  },
+  "VANA": {
+    "cmc_id": 34619,
+    "cmc_slug": "vana",
+    "cmc_symbol": "VANA",
+    "match_type": "exact"
+  },
+  "VANRY": {
+    "cmc_id": 8037,
+    "cmc_slug": "vanar",
+    "cmc_symbol": "VANRY",
+    "match_type": "exact"
+  },
+  "VELODROME": {
+    "cmc_id": null,
+    "cmc_slug": null,
+    "cmc_symbol": null,
+    "match_type": "none"
+  },
+  "VELVET": {
+    "cmc_id": 37298,
+    "cmc_slug": "velvet",
+    "cmc_symbol": "VELVET",
+    "match_type": "exact"
+  },
+  "VET": {
+    "cmc_id": 3077,
+    "cmc_slug": "vechain",
+    "cmc_symbol": "VET",
+    "match_type": "exact"
+  },
+  "VFY": {
+    "cmc_id": 38436,
+    "cmc_slug": "zkverify",
+    "cmc_symbol": "VFY",
+    "match_type": "exact"
+  },
+  "VIC": {
+    "cmc_id": 2570,
+    "cmc_slug": "viction",
+    "cmc_symbol": "VIC",
+    "match_type": "exact"
+  },
+  "VINE": {
+    "cmc_id": 35421,
+    "cmc_slug": "vine-coin",
+    "cmc_symbol": "VINE",
+    "match_type": "exact"
+  },
+  "VIRTUAL": {
+    "cmc_id": 29420,
+    "cmc_slug": "virtual-protocol",
+    "cmc_symbol": "VIRTUAL",
+    "match_type": "exact"
+  },
+  "VOXEL": {
+    "cmc_id": 15678,
+    "cmc_slug": "voxies",
+    "cmc_symbol": "VOXEL",
+    "match_type": "exact"
+  },
+  "VTHO": {
+    "cmc_id": 3012,
+    "cmc_slug": "vethor-token",
+    "cmc_symbol": "VTHO",
+    "match_type": "exact"
+  },
+  "VVV": {
+    "cmc_id": 35509,
+    "cmc_slug": "venice-token",
+    "cmc_symbol": "VVV",
+    "match_type": "exact"
+  },
+  "W": {
+    "cmc_id": 29587,
+    "cmc_slug": "wormhole",
+    "cmc_symbol": "W",
+    "match_type": "exact"
+  },
+  "WAL": {
+    "cmc_id": 36119,
+    "cmc_slug": "walrus-xyz",
+    "cmc_symbol": "WAL",
+    "match_type": "exact"
+  },
+  "WAN": {
+    "cmc_id": 2606,
+    "cmc_slug": "wanchain",
+    "cmc_symbol": "WAN",
+    "match_type": "exact"
+  },
+  "WAXP": {
+    "cmc_id": 2300,
+    "cmc_slug": "wax",
+    "cmc_symbol": "WAXP",
+    "match_type": "exact"
+  },
+  "WBETH": {
+    "cmc_id": 24760,
+    "cmc_slug": "wrapped-beacon-eth",
+    "cmc_symbol": "WBETH",
+    "match_type": "exact"
+  },
+  "WBTC": {
+    "cmc_id": 3717,
+    "cmc_slug": "wrapped-bitcoin",
+    "cmc_symbol": "WBTC",
+    "match_type": "exact"
+  },
+  "WCT": {
+    "cmc_id": 33152,
+    "cmc_slug": "walletconnect-token",
+    "cmc_symbol": "WCT",
+    "match_type": "exact"
+  },
+  "WIF": {
+    "cmc_id": 28752,
+    "cmc_slug": "dogwifhat",
+    "cmc_symbol": "WIF",
+    "match_type": "exact"
+  },
+  "WIN": {
+    "cmc_id": 4206,
+    "cmc_slug": "wink",
+    "cmc_symbol": "WIN",
+    "match_type": "exact"
+  },
+  "WLD": {
+    "cmc_id": 13502,
+    "cmc_slug": "worldcoin-org",
+    "cmc_symbol": "WLD",
+    "match_type": "exact"
+  },
+  "WLFI": {
+    "cmc_id": 33251,
+    "cmc_slug": "world-liberty-financial-wlfi",
+    "cmc_symbol": "WLFI",
+    "match_type": "exact"
+  },
+  "WOO": {
+    "cmc_id": 7501,
+    "cmc_slug": "wootrade",
+    "cmc_symbol": "WOO",
+    "match_type": "exact"
+  },
+  "XAI": {
+    "cmc_id": 28933,
+    "cmc_slug": "xai-games",
+    "cmc_symbol": "XAI",
+    "match_type": "exact"
+  },
+  "XAN": {
+    "cmc_id": 38481,
+    "cmc_slug": "anoma",
+    "cmc_symbol": "XAN",
+    "match_type": "exact"
+  },
+  "XCN": {
+    "cmc_id": 18679,
+    "cmc_slug": "onyxcoin",
+    "cmc_symbol": "XCN",
+    "match_type": "exact"
+  },
+  "XEC": {
+    "cmc_id": 10791,
+    "cmc_slug": "ecash",
+    "cmc_symbol": "XEC",
+    "match_type": "exact"
+  },
+  "XLM": {
+    "cmc_id": 512,
+    "cmc_slug": "stellar",
+    "cmc_symbol": "XLM",
+    "match_type": "exact"
+  },
+  "XMR": {
+    "cmc_id": 328,
+    "cmc_slug": "monero",
+    "cmc_symbol": "XMR",
+    "match_type": "exact"
+  },
+  "XNO": {
+    "cmc_id": 1567,
+    "cmc_slug": "nano",
+    "cmc_symbol": "XNO",
+    "match_type": "exact"
+  },
+  "XNY": {
+    "cmc_id": 36933,
+    "cmc_slug": "codatta",
+    "cmc_symbol": "XNY",
+    "match_type": "exact"
+  },
+  "XPIN": {
+    "cmc_id": 36238,
+    "cmc_slug": "xpin-network",
+    "cmc_symbol": "XPIN",
+    "match_type": "exact"
+  },
+  "XPL": {
+    "cmc_id": 36645,
+    "cmc_slug": "plasma-xpl",
+    "cmc_symbol": "XPL",
+    "match_type": "exact"
+  },
+  "XRP": {
+    "cmc_id": 52,
+    "cmc_slug": "xrp",
+    "cmc_symbol": "XRP",
+    "match_type": "exact"
+  },
+  "XTZ": {
+    "cmc_id": 2011,
+    "cmc_slug": "tezos",
+    "cmc_symbol": "XTZ",
+    "match_type": "exact"
+  },
+  "XUSD": {
+    "cmc_id": 32372,
+    "cmc_slug": "straitsx-xusd",
+    "cmc_symbol": "XUSD",
+    "match_type": "exact"
+  },
+  "XVG": {
+    "cmc_id": 693,
+    "cmc_slug": "verge",
+    "cmc_symbol": "XVG",
+    "match_type": "exact"
+  },
+  "XVS": {
+    "cmc_id": 7288,
+    "cmc_slug": "venus",
+    "cmc_symbol": "XVS",
+    "match_type": "exact"
+  },
+  "YALA": {
+    "cmc_id": 35877,
+    "cmc_slug": "yala",
+    "cmc_symbol": "YALA",
+    "match_type": "exact"
+  },
+  "YB": {
+    "cmc_id": 38651,
+    "cmc_slug": "yieldbasis",
+    "cmc_symbol": "YB",
+    "match_type": "exact"
+  },
+  "YFI": {
+    "cmc_id": 5864,
+    "cmc_slug": "yearn-finance",
+    "cmc_symbol": "YFI",
+    "match_type": "exact"
+  },
+  "YGG": {
+    "cmc_id": 10688,
+    "cmc_slug": "yield-guild-games",
+    "cmc_symbol": "YGG",
+    "match_type": "exact"
+  },
+  "ZBT": {
+    "cmc_id": 38427,
+    "cmc_slug": "zerobase",
+    "cmc_symbol": "ZBT",
+    "match_type": "exact"
+  },
+  "ZEC": {
+    "cmc_id": 1437,
+    "cmc_slug": "zcash",
+    "cmc_symbol": "ZEC",
+    "match_type": "exact"
+  },
+  "ZEN": {
+    "cmc_id": 1698,
+    "cmc_slug": "horizen",
+    "cmc_symbol": "ZEN",
+    "match_type": "exact"
+  },
+  "ZEREBRO": {
+    "cmc_id": 34083,
+    "cmc_slug": "zerebro",
+    "cmc_symbol": "ZEREBRO",
+    "match_type": "exact"
+  },
+  "ZETA": {
+    "cmc_id": 21259,
+    "cmc_slug": "zetachain",
+    "cmc_symbol": "ZETA",
+    "match_type": "exact"
+  },
+  "ZIL": {
+    "cmc_id": 2469,
+    "cmc_slug": "zilliqa",
+    "cmc_symbol": "ZIL",
+    "match_type": "exact"
+  },
+  "ZK": {
+    "cmc_id": 24091,
+    "cmc_slug": "zksync",
+    "cmc_symbol": "ZK",
+    "match_type": "exact"
+  },
+  "ZKC": {
+    "cmc_id": 38371,
+    "cmc_slug": "boundless",
+    "cmc_symbol": "ZKC",
+    "match_type": "exact"
+  },
+  "ZKJ": {
+    "cmc_id": 29779,
+    "cmc_slug": "polyhedra-network",
+    "cmc_symbol": "ZKJ",
+    "match_type": "exact"
+  },
+  "ZORA": {
+    "cmc_id": 35931,
+    "cmc_slug": "zora",
+    "cmc_symbol": "ZORA",
+    "match_type": "exact"
+  },
+  "ZRC": {
+    "cmc_id": 29711,
+    "cmc_slug": "zircuit",
+    "cmc_symbol": "ZRC",
+    "match_type": "exact"
+  },
+  "ZRO": {
+    "cmc_id": 26997,
+    "cmc_slug": "layerzero",
+    "cmc_symbol": "ZRO",
+    "match_type": "exact"
+  },
+  "ZRX": {
+    "cmc_id": 1896,
+    "cmc_slug": "0x",
+    "cmc_symbol": "ZRX",
+    "match_type": "exact"
+  },
+  "币安人生": {
+    "cmc_id": 38590,
+    "cmc_slug": "bianrensheng",
+    "cmc_symbol": "币安人生",
+    "match_type": "exact"
+  },
+  "ALLO": {
+    "cmc_id": 38908,
+    "cmc_slug": "allora",
+    "cmc_symbol": "ALLO",
+    "match_type": "auto"
+  },
+  "BEAT": {
+    "cmc_id": 38837,
+    "cmc_slug": "audiera",
+    "cmc_symbol": "BEAT",
+    "match_type": "auto"
+  },
+  "CLANKER": {
+    "cmc_id": 34285,
+    "cmc_slug": "tokenbot-2",
+    "cmc_symbol": "CLANKER",
+    "match_type": "auto"
+  },
+  "PIEVERSE": {
+    "cmc_id": 38849,
+    "cmc_slug": "pieverse",
+    "cmc_symbol": "PIEVERSE",
+    "match_type": "auto"
+  },
+  "SENT": {
+    "cmc_id": 38868,
+    "cmc_slug": "sentient",
+    "cmc_symbol": "SENT",
+    "match_type": "auto"
+  },
+  "BOB": {
+    "cmc_id": 38970,
+    "cmc_slug": "bob-build-on-bitcoin",
+    "cmc_symbol": "BOB",
+    "match_type": "auto"
+  },
+  "IRYS": {
+    "cmc_id": 38978,
+    "cmc_slug": "irys",
+    "cmc_symbol": "IRYS",
+    "match_type": "auto"
+  },
+  "RLS": {
+    "cmc_id": 38701,
+    "cmc_slug": "rayls",
+    "cmc_symbol": "RLS",
+    "match_type": "auto"
+  },
+  "POWER": {
+    "cmc_id": 39042,
+    "cmc_slug": "powerprotocol",
+    "cmc_symbol": "POWER",
+    "match_type": "auto"
+  },
+  "NIGHT": {
+    "cmc_id": 39064,
+    "cmc_slug": "midnight-network",
+    "cmc_symbol": "NIGHT",
+    "match_type": "auto"
+  },
+  "WET": {
+    "cmc_id": 39049,
+    "cmc_slug": "humidifi",
+    "cmc_symbol": "WET",
+    "match_type": "auto"
+  },
+  "XAU": {
+    "cmc_id": 37470,
+    "cmc_slug": "xau9999-meme",
+    "cmc_symbol": "XAU",
+    "match_type": "auto"
+  },
+  "CYS": {
+    "cmc_id": 39071,
+    "cmc_slug": "cysic",
+    "cmc_symbol": "CYS",
+    "match_type": "auto"
+  },
+  "US": {
+    "cmc_id": 38869,
+    "cmc_slug": "talus-network",
+    "cmc_symbol": "US",
+    "match_type": "auto"
+  },
+  "RAVE": {
+    "cmc_id": 38967,
+    "cmc_slug": "ravedao",
+    "cmc_symbol": "RAVE",
+    "match_type": "auto"
   }
 }

@@ -47,7 +47,7 @@ def load_config():
     return config
 
 
-def get_all_symbols_from_notion(notion_token: str, database_id: str) -> List[Dict]:
+def get_all_symbols_from_notion(notion_token: str, database_id: str) -> tuple:
     """从主数据库读取所有币种数据"""
     print("📥 正在读取主数据库...")
     
@@ -115,8 +115,9 @@ def get_all_symbols_from_notion(notion_token: str, database_id: str) -> List[Dic
         print("建议检查：Notion token、网络/VPN/系统代理设置，或将 session.trust_env 设置为 True 以使用环境代理。")
         raise
 
-    print(f"✅ 读取到 {len(all_pages)} 个币种")
-    return all_pages
+    fetch_time = datetime.now()
+    print(f"✅ 读取到 {len(all_pages)} 个币种 (fetch_time={fetch_time.isoformat()})")
+    return all_pages, fetch_time
 
 
 def extract_symbol_data(pages: List[Dict]) -> List[Dict]:
@@ -181,7 +182,7 @@ def get_top_movers(symbols_data: List[Dict], top_n: int = 5) -> Dict:
     }
 
 
-def create_daily_summary(config, top_gainers, top_losers):
+def create_daily_summary(config, top_gainers, top_losers, header_time: datetime = None):
     """创建每日总结到 Notion（一条记录包含所有信息）"""
     
     notion_token = config['notion']['api_key']
@@ -193,9 +194,10 @@ def create_daily_summary(config, top_gainers, top_losers):
         "Notion-Version": "2022-06-28"
     }
     
-    # 获取当前时间
-    now = datetime.now()
-    date_str = now.strftime("%Y-%m-%d %H:%M")
+    # 使用传入的获取数据时间作为表头时间（fallback 到当前时间）
+    if header_time is None:
+        header_time = datetime.now()
+    date_str = header_time.strftime("%Y-%m-%d %H:%M")
     
     print(f"\n📊 {date_str} 行情总结")
     print("=" * 70)
@@ -285,11 +287,21 @@ def main():
         print("❌ 未配置每日行情数据库ID！")
         sys.exit(1)
     
-    # 读取主数据库
-    all_pages = get_all_symbols_from_notion(notion_token, main_db_id)
-    
-    # 提取数据
-    symbols_data = extract_symbol_data(all_pages)
+    # 读取主数据库，并获取读取时的时间
+    all_pages, fetch_time = get_all_symbols_from_notion(notion_token, main_db_id)
+
+    # 仅保留在 fetch_time 当天有更新的页面（根据 last_edited_time / created_time）
+    fetch_date_iso = fetch_time.date().isoformat()
+    pages_today = []
+    for p in all_pages:
+        last_ts = p.get('last_edited_time') or p.get('created_time')
+        if last_ts and last_ts.startswith(fetch_date_iso):
+            pages_today.append(p)
+
+    print(f"📥 共读取 {len(all_pages)} 个页面，{fetch_date_iso} 有更新的页面: {len(pages_today)} 个")
+
+    # 提取数据（只从今天有更新的页面）
+    symbols_data = extract_symbol_data(pages_today)
     print(f"📊 有效数据：{len(symbols_data)} 个币种")
     
     if len(symbols_data) == 0:
@@ -299,8 +311,8 @@ def main():
     # 获取涨跌幅前5名
     top_movers = get_top_movers(symbols_data, top_n=5)
     
-    # 创建每日总结
-    create_daily_summary(config, top_movers['gainers'], top_movers['losers'])
+    # 创建每日总结，使用 fetch_time 作为表头时间
+    create_daily_summary(config, top_movers['gainers'], top_movers['losers'], header_time=fetch_time)
 
 
 if __name__ == '__main__':
