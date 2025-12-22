@@ -59,13 +59,13 @@ def save_config(data, path):
         json.dump(data, f, indent=4)
 
 def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
-    """为新币种获取并组装CMC元数据。"""
+    """为新币种获取CMC元数据。使用现有的build_properties函数来组装属性。"""
     if not cmc_id:
         return None, None
 
     try:
         # 加入短暂延时，避免在连续添加多个新币时请求过快
-        time.sleep(1.5) # 增加延时以更安全
+        time.sleep(1.5)
         print(f"    - 正在为 CMC ID: {cmc_id} 获取元数据...")
         
         token_data = cmc_client.get_token_data(cmc_id)
@@ -73,45 +73,21 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
             print(f"    - ⚠️ CMC API 未返回 ID: {cmc_id} 的数据")
             return None, None
 
-        metadata = token_data.get('metadata', {})
-        quote_data = token_data.get('quote', {})
-
-        properties = {}
+        # 使用现有的build_properties函数来组装属性
+        # 这样可以确保使用正确的Notion字段
+        from scripts.update_binance_trading_data import build_properties
         
-        # 静态元数据
-        if metadata.get('name'):
-            properties['Name'] = {"rich_text": [{"text": {"content": metadata['name']}}]}
-        
-        # URL字段 - 安全地获取非空URL
-        urls = metadata.get('urls', {})
-        
-        websites = urls.get('website', [])
-        if websites and len(websites) > 0 and websites[0]:
-            properties['Website'] = {"url": websites[0]}
-            
-        explorer = urls.get('explorer', [])
-        if explorer and len(explorer) > 0 and explorer[0]:
-            properties['Explorer'] = {"url": explorer[0]}
-
-        # CMC使用technical_doc而不是whitepaper
-        technical_doc = urls.get('technical_doc', [])
-        if technical_doc and len(technical_doc) > 0 and technical_doc[0]:
-            properties['Whitepaper'] = {"url": technical_doc[0]}
-
-        if metadata.get('date_added'):
-            date_str = metadata['date_added'][:10]
-            properties['Genesis Date'] = {"date": {"start": date_str}}
-
-        # 动态元数据（初始值）
-        if quote_data.get('circulating_supply'):
-            properties['Circulating Supply'] = {"number": float(quote_data['circulating_supply'])}
-        if quote_data.get('total_supply'):
-            properties['Total Supply'] = {"number": float(quote_data['total_supply'])}
-        if quote_data.get('max_supply'):
-            properties['Max Supply'] = {"number": float(quote_data['max_supply'])}
-        
-        # Logo (作为页面图标)
-        icon_url = metadata.get('logo')
+        properties, icon_url = build_properties(
+            symbol=None,  # Symbol会在外部单独添加
+            cmc_data=token_data,  # 传入完整的CMC数据
+            cmc_full_data=token_data,
+            spot_data=None,
+            perp_data=None,
+            existing_page=None,
+            is_new_page=True,
+            update_metadata=True,
+            update_static_fields=True  # 需要静态字段（Website等）
+        )
 
         return properties, icon_url
 
