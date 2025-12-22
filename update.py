@@ -141,7 +141,13 @@ def main():
     print(f"    - 币安返回 {len(all_binance_symbols)} 个USDT永续合约。")
 
     print("  - 从Notion获取现有交易对...")
-    existing_notion_symbols = notion_client.get_all_symbols_from_db()
+    all_pages = notion_client.query_database()
+    existing_notion_symbols = []
+    for page in all_pages:
+        symbol_prop = page.get('properties', {}).get('Symbol', {}).get('title', [])
+        if symbol_prop:
+            symbol = symbol_prop[0]['text']['content']
+            existing_notion_symbols.append(symbol)
     print(f"    - Notion中存在 {len(existing_notion_symbols)} 个交易对。")
 
     # --- 4. 找出新交易对并创建页面 ---
