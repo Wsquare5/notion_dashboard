@@ -68,7 +68,7 @@ def get_cmc_metadata_for_new_coin(cmc_client, cmc_id):
         time.sleep(1.5) # 增加延时以更安全
         print(f"    - 正在为 CMC ID: {cmc_id} 获取元数据...")
         
-        token_data = cmc_client.get_token_metadata(cmc_id)
+        token_data = cmc_client.get_token_data(cmc_id)
         if not token_data:
             print(f"    - ⚠️ CMC API 未返回 ID: {cmc_id} 的数据")
             return None, None
