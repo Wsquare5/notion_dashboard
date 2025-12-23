@@ -635,6 +635,17 @@ def build_trading_properties(symbol: str, spot_data: Dict, perp_data: Dict, cmc_
     # For 1000X symbols (1000PEPE, 1000BONK, etc.), we need to divide by the multiplier
     # because the price is multiplied but supply is for the base token
     multiplier = 1
+    
+    # Auto-detect multiplier from symbol name
+    if symbol:
+        if symbol.startswith('1000000'):
+            multiplier = 1000000
+        elif symbol.startswith('1000') and symbol != '1000X':
+            multiplier = 1000
+        elif symbol.startswith('1M'):
+            multiplier = 1000000
+    
+    # Allow manual override from cmc_data
     if cmc_data and cmc_data.get('multiplier'):
         multiplier = cmc_data['multiplier']
     
@@ -1097,6 +1108,28 @@ Examples:
                     skipped_symbols.append(symbol)
                     continue
                 
+                # For 1000X series, try to find base symbol's CMC data
+                if not cmc_data.get('cmc_id'):
+                    # Check if this is a 1000X symbol
+                    base_symbol = None
+                    if symbol.startswith('1000000'):
+                        base_symbol = symbol[7:]
+                    elif symbol.startswith('1000') and symbol != '1000X':
+                        base_symbol = symbol[4:]
+                    elif symbol.startswith('1M'):
+                        base_symbol = symbol[2:]
+                    
+                    # Try to use base symbol's CMC ID
+                    if base_symbol and base_symbol in cmc_mapping:
+                        base_cmc_data = cmc_mapping[base_symbol]
+                        if base_cmc_data.get('cmc_id'):
+                            print(f"[Using {base_symbol} CMC]", end=" ")
+                            cmc_data = {
+                                'cmc_id': base_cmc_data['cmc_id'],
+                                'cmc_slug': base_cmc_data.get('cmc_slug'),
+                                'cmc_symbol': base_symbol
+                            }
+                
                 # Fetch full CMC data if client is available and cmc_id exists
                 cmc_full_data = None
                 if cmc_client and cmc_data.get('cmc_id'):
@@ -1105,7 +1138,8 @@ Examples:
                         if cmc_full_data:
                             print(f"[+CMC]", end=" ")
                     except Exception as e:
-                        print(f"[CMC err]", end=" ")
+                        print(f"[CMC err: {str(e)[:30]}]", end=" ")
+
                 
                 # Build properties with both trading data and CMC metadata
                 # New pages always get full metadata (supply + funding cycle)
