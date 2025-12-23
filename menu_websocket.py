@@ -170,7 +170,7 @@ def main():
                 input("\n按 Enter 键继续...")
                 continue
             
-            cmd = f"cd {script_dir} && python3 daily_summary.py"
+            cmd = f"cd {script_dir} && python3 scripts/daily_market_summary.py"
             run_command(cmd, "生成每日行情总结...")
 
         elif choice == '7':
