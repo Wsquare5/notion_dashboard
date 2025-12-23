@@ -12,45 +12,50 @@ from pathlib import Path
 def print_menu():
     """Print the main menu"""
     print("\n" + "="*80)
-    print("🚀 Binance Trading Data Update Menu (WebSocket版)")
+    print("🚀 Binance Trading Data Update Menu")
     print("="*80)
     print("\n请选择更新模式：\n")
-    print("  [1] ⚡️ 快速更新（推荐日常使用）")
-    print("      • 使用已有的 WebSocket 数据更新 Notion")
-    print("      • 适用于刚收集完数据后的更新")
+    print("  [1] ⚡️ 快速更新（使用已有数据）")
+    print("      • 使用本地 WebSocket 数据更新 Notion")
+    print("      • 适用于刚收集完数据后的快速更新")
+    print("      • 更新：价格、成交量、资金费率、MC、FDV")
     print("      • 耗时：~1分钟")
     print()
-    print("  [2] 🔄 同步新币种并完整更新（推荐每周一次）")
-    print("      • 从币安获取最新上市的币种")
-    print("      • 收集所有币种的实时数据（WebSocket）")
-    print("      • 自动更新到 Notion")
+    print("  [2] 🔄 同步新币种（推荐每周一次）")
+    print("      • 从币安发现并创建新上市的币种")
+    print("      • 自动匹配 CMC ID 并获取元数据")
+    print("      • 收集实时数据并完整更新")
     print("      • 耗时：~10分钟")
     print()
-    print("  [3] 🌐 收集数据并更新（不含新币）")
-    print("      • 收集当前列表内所有币种的实时数据（WebSocket）")
-    print("      • 自动更新到 Notion")
+    print("  [3] 🌐 WebSocket 完整更新")
+    print("      • 收集所有币种的实时数据（WebSocket）")
+    print("      • 更新：价格、成交量、资金费率、MC、FDV")
+    print("      • 无封禁风险，可随时运行")
     print("      • 耗时：~6分钟")
     print()
-    print("  [4] 🎯 指定币种更新")
-    print("      • 输入币种符号，更新指定币种")
-    print("      • 先收集数据，再更新 Notion")
+    print("  [4] 🔧 REST API 完整更新（包含 OI/Index Composition）")
+    print("      • 使用 Binance REST API 获取完整数据")
+    print("      • 更新：价格、成交量、OI、资金费率、Basis、Index Composition")
+    print("      • 自动计算 MC、FDV")
+    print("      • VPS 环境相对安全，推荐每日运行一次")
+    print("      • 耗时：~8-10分钟")
     print()
-    print("  [5] 📊 仅收集 WebSocket 数据（不更新Notion）")
-    print("      • 收集所有币种的实时数据")
-    print("      • 保存到 data/websocket_collected_data.json")
+    print("  [5] 🎯 指定币种更新")
+    print("      • 输入币种符号，更新指定币种")
+    print("      • 使用 WebSocket 收集数据")
     print()
     print("  [6] 📈 每日行情总结")
     print("      • 生成涨跌幅前5名总结并写入 Notion")
     print("      • 需要先收集 WebSocket 数据")
     print()
-    print("  [7] 🪙 更新流通供应量 (低频)")
+    print("  [7] 🪙 更新流通供应量（低频）")
     print("      • 从 CoinMarketCap 安全地更新所有币种的流通量")
     print("      • 内置延迟，无封禁风险，推荐每周运行一次")
     print("      • 耗时: ~15-20分钟")
     print()
     print("  [0] 退出")
     print("\n" + "="*80)
-    print("💡 提示：WebSocket方式无速率限制，可以随时运行！")
+    print("💡 提示：选项 [3] 使用 WebSocket 无速率限制；选项 [4] 获取更完整数据但有速率限制")
     print("="*80)
 
 def run_command(command, description):
@@ -129,7 +134,7 @@ def main():
             run_command(cmd3, "步骤 3/3: 将所有数据更新到 Notion...")
 
         elif choice == '3':
-            # 收集数据并更新（不含新币）
+            # WebSocket 完整更新
             # 1. 运行 collect_websocket_data.py 收集数据
             cmd1 = f"cd {script_dir} && python3 collect_websocket_data.py"
             if not run_command(cmd1, "步骤 1/2: 收集所有币种的 WebSocket 数据..."):
@@ -141,6 +146,11 @@ def main():
             run_command(cmd2, "步骤 2/2: 将所有数据更新到 Notion...")
 
         elif choice == '4':
+            # REST API 完整更新
+            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields"
+            run_command(cmd, "使用 REST API 获取完整数据并更新 Notion...")
+
+        elif choice == '5':
             # 指定币种更新
             symbols = get_symbols_input()
             if not symbols:
@@ -157,16 +167,11 @@ def main():
             cmd2 = f"cd {script_dir} && python3 update_from_websocket.py --symbols {symbols}"
             run_command(cmd2, f"步骤 2/2: 更新 {symbols} 到 Notion...")
 
-        elif choice == '5':
-            # 仅收集数据
-            cmd = f"cd {script_dir} && python3 collect_websocket_data.py"
-            run_command(cmd, "仅收集所有币种的 WebSocket 数据...")
-
         elif choice == '6':
             # 每日行情总结
             if not check_websocket_data_exists(script_dir):
                 print("\n⚠️  未找到 WebSocket 数据文件")
-                print("请先选择选项 [2], [3] 或 [5] 收集数据")
+                print("请先选择选项 [2] 或 [3] 收集数据")
                 input("\n按 Enter 键继续...")
                 continue
             
