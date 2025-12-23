@@ -70,28 +70,33 @@ class NotionUpdater:
         return pages
     
     def get_cmc_metadata(self, symbol: str) -> dict:
-        """从 CMC API 获取元数据"""
+        """从 CMC API 获取元数据（包含supply数据用于MC/FDV计算）"""
         
         if symbol not in self.cmc_mapping:
             return {}
         
-        cmc_id = self.cmc_mapping[symbol]['cmc_id']
+        cmc_id = self.cmc_mapping[symbol].get('cmc_id')
+        if not cmc_id:
+            return {}
         
-        url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/info'
+        # 获取基本信息（info接口）
+        info_url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/info'
         headers = {
             'X-CMC_PRO_API_KEY': self.cmc_api_key,
             'Accept': 'application/json'
         }
         params = {'id': cmc_id}
         
+        metadata = {}
+        
         try:
-            response = requests.get(url, headers=headers, params=params, timeout=10)
+            response = requests.get(info_url, headers=headers, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
             
             if 'data' in data and str(cmc_id) in data['data']:
                 coin_data = data['data'][str(cmc_id)]
-                return {
+                metadata = {
                     'name': coin_data.get('name', ''),
                     'symbol': coin_data.get('symbol', ''),
                     'logo': coin_data.get('logo', ''),
@@ -100,9 +105,24 @@ class NotionUpdater:
                     'cmc_slug': coin_data.get('slug', '')
                 }
         except Exception as e:
-            print(f"⚠️  {symbol} CMC API 出错: {e}")
+            print(f"⚠️  {symbol} CMC info API 出错: {e}")
         
-        return {}
+        # 获取supply数据（quotes接口）用于MC/FDV计算
+        try:
+            quote_url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest'
+            response = requests.get(quote_url, headers=headers, params=params, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+            
+            if 'data' in data and str(cmc_id) in data['data']:
+                quote_data = data['data'][str(cmc_id)].get('quote', {}).get('USD', {})
+                metadata['circulating_supply'] = quote_data.get('circulating_supply')
+                metadata['total_supply'] = quote_data.get('total_supply')
+                metadata['max_supply'] = quote_data.get('max_supply')
+        except Exception as e:
+            print(f"⚠️  {symbol} CMC quotes API 出错: {e}")
+        
+        return metadata
     
     def build_page_properties(self, symbol: str, ws_data: dict, metadata: dict) -> dict:
         """构建页面属性"""
@@ -128,17 +148,40 @@ class NotionUpdater:
             properties["Website"] = {"url": metadata['website']}
         
         # WebSocket 交易数据 - 使用数据库中实际存在的属性
-        if 'price' in ws_data:
-            properties["Perp Price"] = {"number": ws_data['price']}
+        price = ws_data.get('price')
+        if price:
+            properties["Perp Price"] = {"number": price}
         
         if 'price_change_percent_24h' in ws_data:
-            properties["Price change"] = {"number": ws_data['price_change_percent_24h']}
+            # Binance WebSocket返回百分比数字(如 5.0 = 5%)，需要除以100转为小数给Notion百分比字段
+            properties["Price change"] = {"number": ws_data['price_change_percent_24h'] / 100.0}
         
         if 'volume_24h' in ws_data:
             properties["Perp vol 24h"] = {"number": ws_data['volume_24h']}
         
         if 'funding_rate' in ws_data:
             properties["Funding"] = {"number": ws_data['funding_rate']}
+        
+        # 计算MC和FDV（如果有价格和供应量数据）
+        if price and metadata:
+            try:
+                # 计算MC = Circulating Supply × Price
+                circ_supply = metadata.get('circulating_supply')
+                if circ_supply and circ_supply > 0:
+                    mc = circ_supply * price
+                    properties["MC"] = {"number": round(mc, 2)}
+                
+                # 计算FDV = (Total Supply or Max Supply) × Price
+                total_supply = metadata.get('total_supply')
+                if not total_supply:
+                    total_supply = metadata.get('max_supply')
+                
+                if total_supply and total_supply > 0:
+                    fdv = total_supply * price
+                    properties["FDV"] = {"number": round(fdv, 2)}
+                    
+            except Exception as e:
+                print(f"  ⚠️  计算MC/FDV时出错: {e}")
         
         return properties
     
@@ -155,23 +198,53 @@ class NotionUpdater:
             print(f"❌ 创建 {symbol} 失败: {e}")
             return False
     
-    def update_page(self, page_id: str, symbol: str, ws_data: dict, metadata: dict, update_metadata: bool = True) -> bool:
+    def update_page(self, page_id: str, symbol: str, ws_data: dict, metadata: dict, existing_page: dict = None, update_metadata: bool = True) -> bool:
         """更新现有页面"""
         
         properties = {}
         
         # 总是更新交易数据
+        price = None
         if 'price' in ws_data:
-            properties["Perp Price"] = {"number": ws_data['price']}
+            price = ws_data['price']
+            properties["Perp Price"] = {"number": price}
         
         if 'price_change_percent_24h' in ws_data:
-            properties["Price change"] = {"number": ws_data['price_change_percent_24h']}
+            # Binance WebSocket返回百分比数字(如 5.0 = 5%)，需要除以100转为小数给Notion百分比字段
+            properties["Price change"] = {"number": ws_data['price_change_percent_24h'] / 100.0}
         
         if 'volume_24h' in ws_data:
             properties["Perp vol 24h"] = {"number": ws_data['volume_24h']}
         
         if 'funding_rate' in ws_data:
             properties["Funding"] = {"number": ws_data['funding_rate']}
+        
+        # 计算MC和FDV（如果有价格和供应量数据）
+        if price and existing_page:
+            try:
+                page_props = existing_page.get('properties', {})
+                
+                # 计算MC = Circulating Supply × Price
+                circ_supply_prop = page_props.get('Circulating Supply', {})
+                circ_supply = circ_supply_prop.get('number')
+                if circ_supply and circ_supply > 0:
+                    mc = circ_supply * price
+                    properties["MC"] = {"number": round(mc, 2)}
+                
+                # 计算FDV = (Total Supply or Max Supply) × Price
+                total_supply_prop = page_props.get('Total Supply', {})
+                total_supply = total_supply_prop.get('number')
+                
+                if not total_supply:
+                    max_supply_prop = page_props.get('Max Supply', {})
+                    total_supply = max_supply_prop.get('number')
+                
+                if total_supply and total_supply > 0:
+                    fdv = total_supply * price
+                    properties["FDV"] = {"number": round(fdv, 2)}
+                    
+            except Exception as e:
+                print(f"  ⚠️  计算MC/FDV时出错: {e}")
         
         # 可选：更新元数据
         if update_metadata:
@@ -214,7 +287,8 @@ class NotionUpdater:
         if symbol in existing_pages:
             # 更新现有页面
             page_id = existing_pages[symbol]['id']
-            success = self.update_page(page_id, symbol, ws_data, metadata, update_metadata)
+            existing_page = existing_pages[symbol]  # 传入完整页面数据用于MC/FDV计算
+            success = self.update_page(page_id, symbol, ws_data, metadata, existing_page, update_metadata)
             
             result['success'] = success
             result['action'] = 'update'

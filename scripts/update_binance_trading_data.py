@@ -585,7 +585,8 @@ def build_trading_properties(symbol: str, spot_data: Dict, perp_data: Dict, cmc_
         
         if spot_data.get("spot_volume_24h") is not None:
             properties["Spot vol 24h"] = {"number": spot_data["spot_volume_24h"]}
-        # Spot 24h percent change -> store in DB's `Price change` (as fraction)
+        # Spot 24h percent change -> Binance API already returns percentage format (e.g., 2.11 = 2.11%)
+        # Notion database field is configured as percentage, so divide by 100 to get decimal
         if spot_data.get("spot_24h_change") is not None:
             try:
                 properties["Price change"] = {"number": round(spot_data["spot_24h_change"] / 100.0, 6)}
@@ -623,6 +624,7 @@ def build_trading_properties(symbol: str, spot_data: Dict, perp_data: Dict, cmc_
                 "rich_text": [{"text": {"content": perp_data["index_composition_summary"]}}]
             }
         # Perp 24h percent change -> fallback to `Price change` if spot wasn't set
+        # Binance API returns percentage format, divide by 100 for Notion percentage field
         if perp_data.get("perp_24h_change") is not None and "Price change" not in properties:
             try:
                 properties["Price change"] = {"number": round(perp_data["perp_24h_change"] / 100.0, 6)}
