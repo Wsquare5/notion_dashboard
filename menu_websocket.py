@@ -147,7 +147,7 @@ def main():
 
         elif choice == '4':
             # REST API 完整更新
-            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields"
+            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields --skip-new-pages"
             run_command(cmd, "使用 REST API 获取完整数据并更新 Notion...")
 
         elif choice == '5':

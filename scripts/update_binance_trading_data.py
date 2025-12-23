@@ -887,6 +887,10 @@ Examples:
                        help='Update all metadata: Supply (Circ/Total/Max) + Static Fields (slower, calls CMC API)')
     parser.add_argument('--update-static-fields', action='store_true',
                        help='Update static fields: Funding Cycle, Categories, Index Composition (no CMC API call)')
+    parser.add_argument('--auto-match-cmc', action='store_true',
+                       help='Automatically match new symbols to CoinMarketCap (calls CMC API)')
+    parser.add_argument('--skip-new-pages', action='store_true',
+                       help='Skip creating new pages, only update existing ones (avoids CMC API calls)')
     # Keep for backward compatibility
     parser.add_argument('--update-funding-cycle', action='store_true',
                        help='(Deprecated: use --update-static-fields) Update Funding Cycle only')
@@ -962,12 +966,15 @@ Examples:
     else:
         print("⚠️  CMC mapping file not found, will skip CMC data")
     
-    # Auto-match new Binance symbols to CMC
-    if cmc_client and cmc_mapping is not None:
+    # Auto-match new Binance symbols to CMC (only if explicitly requested)
+    if args.auto_match_cmc and cmc_client and cmc_mapping is not None:
         try:
+            print("\n🔍 自动匹配新币种到 CoinMarketCap...")
             cmc_mapping = auto_match_new_symbols(cmc_mapping, cmc_client.api_key)
         except Exception as e:
             print(f"⚠️  Auto-matching failed: {e}")
+    elif cmc_client and cmc_mapping is not None:
+        print("💡 提示: 使用 --auto-match-cmc 参数可自动匹配新币种到CMC")
 
     # Load perp-only cache if exists
     perp_only_cache = set()
@@ -1099,8 +1106,14 @@ Examples:
                 skipped_symbols.append(symbol)
                 continue
             
-            # If page doesn't exist, create it with CMC data
+            # If page doesn't exist, create it with CMC data (unless --skip-new-pages)
             if not page:
+                if args.skip_new_pages:
+                    print(f"⏭️  Skipped: Page doesn't exist (--skip-new-pages enabled)")
+                    skipped_count += 1
+                    skipped_symbols.append(symbol)
+                    continue
+                
                 cmc_data = cmc_mapping.get(symbol)
                 if not cmc_data:
                     print(f"⚠️  Skipped: No Notion page and no CMC mapping")
