@@ -42,7 +42,7 @@ def print_menu():
     print()
     print("  [5] 🎯 指定币种更新")
     print("      • 输入币种符号，更新指定币种")
-    print("      • 使用 WebSocket 收集数据")
+    print("      • 使用 REST API 获取数据")
     print()
     print("  [6] 📈 每日行情总结")
     print("      • 生成涨跌幅前5名总结并写入 Notion")
@@ -151,21 +151,15 @@ def main():
             run_command(cmd, "使用 REST API 获取完整数据并更新 Notion...")
 
         elif choice == '5':
-            # 指定币种更新
+            # 指定币种更新 - 使用 REST API
             symbols = get_symbols_input()
             if not symbols:
                 input("\n按 Enter 键继续...")
                 continue
             
-            # 1. 收集指定币种数据
-            cmd1 = f"cd {script_dir} && python3 collect_websocket_data.py {symbols}"
-            if not run_command(cmd1, f"步骤 1/2: 收集 {symbols} 的 WebSocket 数据..."):
-                input("\n按 Enter 键继续...")
-                continue
-
-            # 2. 更新 Notion
-            cmd2 = f"cd {script_dir} && python3 update_from_websocket.py --symbols {symbols}"
-            run_command(cmd2, f"步骤 2/2: 更新 {symbols} 到 Notion...")
+            # 使用 REST API 更新指定币种
+            cmd = f"cd {script_dir} && python3 scripts/update_binance_trading_data.py --update-static-fields {symbols}"
+            run_command(cmd, f"使用 REST API 更新 {symbols}...")
 
         elif choice == '6':
             # 每日行情总结
